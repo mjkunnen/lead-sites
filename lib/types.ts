@@ -9,7 +9,7 @@ export interface SiteContent {
     subheadline: string;
     cta_primary: string;
     cta_secondary: string;
-    image_query: string;
+    image_url: string;
   };
   services: Array<{
     title: string;
@@ -28,7 +28,7 @@ export interface SiteContent {
   contact: {
     phone: string;
     city: string;
-    maps_query: string;
+    maps_url: string;
   };
   metadata: {
     generated_at: string;

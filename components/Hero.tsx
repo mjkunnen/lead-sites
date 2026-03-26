@@ -1,16 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { SiteContent } from "@/lib/types";
 
 export default function Hero({ content }: { content: SiteContent }) {
-  const imageUrl = `https://source.unsplash.com/1600x900/?${encodeURIComponent(content.hero.image_query)}`;
-
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${imageUrl})` }}
+      <Image
+        src={content.hero.image_url}
+        alt={content.business_name}
+        fill
+        className="object-cover"
+        priority
+        unoptimized
       />
       {/* Dark overlay with gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-gray-950" />

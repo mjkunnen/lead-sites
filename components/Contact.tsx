@@ -8,14 +8,17 @@ export default function Contact({ content }: { content: SiteContent }) {
   return (
     <section id="contact" className="bg-gray-900/30 py-24">
       <div className="mx-auto max-w-4xl px-6 text-center">
-        <motion.h2
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl font-extrabold sm:text-4xl"
+          className="text-center"
         >
-          Neem contact op
-        </motion.h2>
+          <span className="text-sm font-semibold uppercase tracking-wider text-blue-400">Contact</span>
+          <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl">
+            Neem contact op
+          </h2>
+        </motion.div>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,15 +55,19 @@ export default function Contact({ content }: { content: SiteContent }) {
             </svg>
             WhatsApp
           </a>
+          <a
+            href={content.contact.maps_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-full border border-gray-600 px-8 py-4 text-lg font-semibold transition hover:border-gray-400 hover:bg-white/5"
+          >
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            Route plannen
+          </a>
         </motion.div>
-        <div className="mt-12">
-          <iframe
-            src={`https://maps.google.com/maps?q=${encodeURIComponent(content.contact.maps_query)}&output=embed`}
-            className="h-64 w-full rounded-2xl border border-gray-800"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
       </div>
     </section>
   );

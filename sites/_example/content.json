@@ -9,7 +9,7 @@
     "subheadline": "Al 15 jaar de vaste loodgieter voor meer dan 200 tevreden klanten in Amsterdam en omgeving.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Bekijk diensten",
-    "image_query": "plumber professional working pipes"
+    "image_url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80"
   },
   "services": [
     { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand.", "icon": "wrench" },
@@ -30,7 +30,7 @@
   "contact": {
     "phone": "020-1234567",
     "city": "Amsterdam",
-    "maps_query": "Van den Berg Loodgieters Amsterdam"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Loodgieter+Amsterdam"
   },
   "metadata": {
     "generated_at": "2026-03-26T10:00:00Z",
