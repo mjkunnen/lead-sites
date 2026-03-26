@@ -9,10 +9,12 @@ export interface SiteContent {
     subheadline: string;
     cta_primary: string;
     cta_secondary: string;
+    image_query: string;
   };
   services: Array<{
     title: string;
     text: string;
+    icon: string;
   }>;
   reviews: Array<{
     name: string;

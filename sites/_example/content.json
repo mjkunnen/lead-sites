@@ -8,13 +8,14 @@
     "headline": "Betrouwbare loodgieter in Amsterdam",
     "subheadline": "Al 15 jaar de vaste loodgieter voor meer dan 200 tevreden klanten in Amsterdam en omgeving.",
     "cta_primary": "Bel direct",
-    "cta_secondary": "Bekijk diensten"
+    "cta_secondary": "Bekijk diensten",
+    "image_query": "plumber professional working pipes"
   },
   "services": [
-    { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand." },
-    { "title": "CV-ketel onderhoud", "text": "Jaarlijks onderhoud en storing verhelpen voor alle merken CV-ketels." },
-    { "title": "Badkamer renovatie", "text": "Complete badkamerrenovaties van ontwerp tot oplevering." },
-    { "title": "Riool ontstopping", "text": "24/7 beschikbaar voor rioolverstopping en afvoerproblemen." }
+    { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand.", "icon": "wrench" },
+    { "title": "CV-ketel onderhoud", "text": "Jaarlijks onderhoud en storing verhelpen voor alle merken CV-ketels.", "icon": "fire" },
+    { "title": "Badkamer renovatie", "text": "Complete badkamerrenovaties van ontwerp tot oplevering.", "icon": "home" },
+    { "title": "Riool ontstopping", "text": "24/7 beschikbaar voor rioolverstopping en afvoerproblemen.", "icon": "shield" }
   ],
   "reviews": [
     { "name": "Jan de Vries", "text": "Snelle service, eerlijke prijs. Lekkage was binnen een uur verholpen.", "stars": 5 },
