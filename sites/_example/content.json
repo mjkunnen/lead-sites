@@ -1,0 +1,39 @@
+{
+  "slug": "_example",
+  "business_name": "Van den Berg Loodgieters",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "blue-neutral",
+  "hero": {
+    "headline": "Betrouwbare loodgieter in Amsterdam",
+    "subheadline": "Al 15 jaar de vaste loodgieter voor meer dan 200 tevreden klanten in Amsterdam en omgeving.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Bekijk diensten"
+  },
+  "services": [
+    { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand." },
+    { "title": "CV-ketel onderhoud", "text": "Jaarlijks onderhoud en storing verhelpen voor alle merken CV-ketels." },
+    { "title": "Badkamer renovatie", "text": "Complete badkamerrenovaties van ontwerp tot oplevering." },
+    { "title": "Riool ontstopping", "text": "24/7 beschikbaar voor rioolverstopping en afvoerproblemen." }
+  ],
+  "reviews": [
+    { "name": "Jan de Vries", "text": "Snelle service, eerlijke prijs. Lekkage was binnen een uur verholpen.", "stars": 5 },
+    { "name": "Maria Jansen", "text": "Heel netjes gewerkt aan onze badkamer. Aanrader!", "stars": 5 },
+    { "name": "Peter Bakker", "text": "Goede communicatie en vakkundig werk. Komt afspraken na.", "stars": 4 }
+  ],
+  "faq": [
+    { "question": "Hoe snel kunnen jullie er zijn?", "answer": "Bij spoed zijn we binnen 1-2 uur ter plaatse in Amsterdam en omgeving." },
+    { "question": "Wat kost een loodgieter per uur?", "answer": "Onze tarieven beginnen bij €55 per uur, inclusief voorrijkosten binnen Amsterdam." },
+    { "question": "Werken jullie ook in het weekend?", "answer": "Ja, wij zijn 7 dagen per week bereikbaar voor spoedgevallen." }
+  ],
+  "contact": {
+    "phone": "020-1234567",
+    "city": "Amsterdam",
+    "maps_query": "Van den Berg Loodgieters Amsterdam"
+  },
+  "metadata": {
+    "generated_at": "2026-03-26T10:00:00Z",
+    "lead_id": "example",
+    "version": 1
+  }
+}
