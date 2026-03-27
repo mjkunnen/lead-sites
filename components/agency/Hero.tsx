@@ -1,16 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
 import { heroContent } from "@/lib/agency-data";
 import ShimmerButton from "./ui/ShimmerButton";
-
-const Spline = dynamic(() => import("@splinetool/react-spline"), {
-  ssr: false,
-  loading: () => (
-    <div className="h-full w-full animate-pulse rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(99,102,241,0.2),_transparent_70%)]" />
-  ),
-});
+import HeroOrb from "./HeroOrb";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 30 },
@@ -87,14 +80,14 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right 3D (2 cols, desktop only) */}
+        {/* Right animated orb (2 cols, desktop only) */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.5, ease: [0.25, 1, 0.5, 1] }}
+          transition={{ duration: 1, delay: 0.5, ease: [0.25, 1, 0.5, 1] as const }}
           className="hidden h-[500px] lg:col-span-2 lg:block"
         >
-          <Spline scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" />
+          <HeroOrb />
         </motion.div>
       </div>
 
