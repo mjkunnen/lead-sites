@@ -23,32 +23,47 @@ const icons = {
 
 export default function ProblemSection() {
   return (
-    <section className="py-20 lg:py-28">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl">
+    <section className="relative py-20 lg:py-28">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white via-red-50/30 to-white" />
+
+      <div className="relative mx-auto max-w-6xl px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="mx-auto max-w-2xl text-center"
+        >
+          <span className="inline-block rounded-full bg-red-50 px-4 py-1.5 text-sm font-medium text-red-600">
+            Het probleem
+          </span>
+          <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl">
             Herkenbaar?
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             Dit zijn de problemen die we dagelijks oplossen voor MKB-bedrijven.
           </p>
-        </div>
+        </motion.div>
 
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {problemCards.map((card, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="rounded-xl border border-gray-100 bg-white p-8 shadow-sm transition-shadow hover:shadow-md"
+              transition={{ duration: 0.5, delay: i * 0.15 }}
+              whileHover={{ y: -6, transition: { duration: 0.25 } }}
+              className="group cursor-pointer rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-shadow duration-300 hover:shadow-xl hover:shadow-red-100/50"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-red-50 text-red-500">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-red-50 to-red-100 text-red-500 transition-all duration-300 group-hover:scale-110 group-hover:from-red-500 group-hover:to-red-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-red-200">
                 {icons[card.icon]}
               </div>
               <h3 className="mt-5 text-lg font-semibold text-gray-900">{card.title}</h3>
               <p className="mt-2 leading-relaxed text-gray-600">{card.text}</p>
+              {/* Decorative bottom gradient line */}
+              <div className="mt-6 h-0.5 w-12 rounded-full bg-gradient-to-r from-red-300 to-transparent transition-all duration-300 group-hover:w-full group-hover:from-red-400" />
             </motion.div>
           ))}
         </div>

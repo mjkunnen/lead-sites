@@ -1,6 +1,7 @@
 import Navbar from "@/components/agency/Navbar";
 import Hero from "@/components/agency/Hero";
 import ProblemSection from "@/components/agency/ProblemSection";
+import StatsBar from "@/components/agency/StatsBar";
 import USPSection from "@/components/agency/USPSection";
 import ProcessTimeline from "@/components/agency/ProcessTimeline";
 import Portfolio from "@/components/agency/Portfolio";
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <ProblemSection />
+        <StatsBar />
         <USPSection />
         <ProcessTimeline />
         <Portfolio />

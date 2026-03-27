@@ -2,8 +2,11 @@ import { siteConfig, navLinks } from "@/lib/agency-data";
 
 export default function AgencyFooter() {
   return (
-    <footer className="border-t border-gray-100 bg-white py-16">
-      <div className="mx-auto max-w-6xl px-6">
+    <footer className="relative border-t border-gray-100 bg-white">
+      {/* Gradient accent line */}
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-400 to-transparent" />
+
+      <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <span className="font-[family-name:var(--font-playfair)] text-xl font-bold text-gray-900">
@@ -12,6 +15,20 @@ export default function AgencyFooter() {
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-gray-500">
               Professionele websites voor MKB-bedrijven. Van ontwerp tot oplevering in 5 werkdagen.
             </p>
+            {/* Social proof micro-badge */}
+            <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-gray-50 px-4 py-2 text-sm text-gray-500">
+              <div className="flex -space-x-1.5">
+                {["J", "S", "M"].map((letter, i) => (
+                  <div
+                    key={i}
+                    className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-gradient-to-br from-blue-500 to-indigo-600 text-[10px] font-semibold text-white"
+                  >
+                    {letter}
+                  </div>
+                ))}
+              </div>
+              <span>50+ tevreden klanten</span>
+            </div>
           </div>
 
           <div>
@@ -21,7 +38,7 @@ export default function AgencyFooter() {
             <ul className="flex flex-col gap-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} className="text-sm text-gray-500 transition-colors hover:text-gray-900">
+                  <a href={link.href} className="text-sm text-gray-500 transition-colors hover:text-blue-600">
                     {link.label}
                   </a>
                 </li>
@@ -35,12 +52,12 @@ export default function AgencyFooter() {
             </h4>
             <ul className="flex flex-col gap-2 text-sm text-gray-500">
               <li>
-                <a href={`tel:${siteConfig.phone}`} className="hover:text-gray-900 transition-colors">
+                <a href={`tel:${siteConfig.phone}`} className="transition-colors hover:text-blue-600">
                   {siteConfig.phone}
                 </a>
               </li>
               <li>
-                <a href={`mailto:${siteConfig.email}`} className="hover:text-gray-900 transition-colors">
+                <a href={`mailto:${siteConfig.email}`} className="transition-colors hover:text-blue-600">
                   {siteConfig.email}
                 </a>
               </li>
