@@ -11,25 +11,28 @@ import Pricing from "@/components/agency/Pricing";
 import FAQ from "@/components/agency/FAQ";
 import ContactSection from "@/components/agency/ContactSection";
 import AgencyFooter from "@/components/agency/AgencyFooter";
+import SmoothScroll from "@/components/agency/SmoothScroll";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
-        <Hero />
-        <AboutSection />
-        <ProblemSection />
-        <StatsBar />
-        <USPSection />
-        <ProcessTimeline />
-        <Portfolio />
-        <ReviewsMarquee />
-        <Pricing />
-        <FAQ />
-        <ContactSection />
-      </main>
-      <AgencyFooter />
+      <SmoothScroll>
+        <main>
+          <Hero />
+          <AboutSection />
+          <ProblemSection />
+          <StatsBar />
+          <USPSection />
+          <ProcessTimeline />
+          <Portfolio />
+          <ReviewsMarquee />
+          <Pricing />
+          <FAQ />
+          <ContactSection />
+        </main>
+        <AgencyFooter />
+      </SmoothScroll>
     </>
   );
 }
