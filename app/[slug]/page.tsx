@@ -12,7 +12,6 @@ import LeadFAQ from "@/components/lead/LeadFAQ";
 import LeadContact from "@/components/lead/LeadContact";
 import LeadFooter from "@/components/lead/LeadFooter";
 import MobileCTA from "@/components/lead/MobileCTA";
-import ConceptBadge from "@/components/ConceptBadge";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -35,7 +34,6 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
 
   return (
     <>
-      <ConceptBadge />
       <LeadCursor />
       <MobileCTA content={content} />
       <LeadNavbar content={content} />
