@@ -1,5 +1,3 @@
-import Preloader from "@/components/agency/Preloader";
-import CustomCursor from "@/components/agency/CustomCursor";
 import Navbar from "@/components/agency/Navbar";
 import Hero from "@/components/agency/Hero";
 import ProblemSection from "@/components/agency/ProblemSection";
@@ -15,8 +13,6 @@ import AgencyFooter from "@/components/agency/AgencyFooter";
 export default function Home() {
   return (
     <>
-      <Preloader />
-      <CustomCursor />
       <Navbar />
       <main>
         <Hero />

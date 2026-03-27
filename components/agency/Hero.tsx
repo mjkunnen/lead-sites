@@ -2,110 +2,80 @@
 
 import { motion } from "framer-motion";
 import { heroContent } from "@/lib/agency-data";
-import ShimmerButton from "./ui/ShimmerButton";
-import HeroOrb from "./HeroOrb";
-
-const fadeUp = (delay: number) => ({
-  initial: { opacity: 0, y: 30 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.7, delay, ease: [0.25, 1, 0.5, 1] as const },
-});
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden pt-24">
-      {/* Background gradients */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(99,102,241,0.15),_transparent_60%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(6,182,212,0.08),_transparent_60%)]" />
-
-      {/* Particle dots (CSS-only, lightweight) */}
-      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-        {Array.from({ length: 30 }).map((_, i) => (
-          <div
-            key={i}
-            className="absolute h-1 w-1 rounded-full bg-white/20"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animation: `glow-pulse ${3 + Math.random() * 4}s ease-in-out infinite`,
-            }}
-          />
-        ))}
-      </div>
-
-      <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-5">
-        {/* Left content (3 cols) */}
-        <div className="lg:col-span-3">
-          <motion.p
-            {...fadeUp(0)}
-            className="mb-4 font-[family-name:var(--font-mono)] text-sm font-medium uppercase tracking-[0.2em] text-[#6366F1]"
+    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white pt-32 pb-20 lg:pt-40 lg:pb-32">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="mx-auto max-w-3xl text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-6 inline-flex items-center gap-2 rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-700"
           >
+            <span className="h-1.5 w-1.5 rounded-full bg-blue-600" />
             {heroContent.subtitle}
-          </motion.p>
+          </motion.div>
 
           <motion.h1
-            {...fadeUp(0.15)}
-            className="font-[family-name:var(--font-playfair)] text-5xl font-bold leading-[1.1] tracking-[-0.02em] text-[#F1F5F9] sm:text-6xl lg:text-7xl"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="font-[family-name:var(--font-playfair)] text-4xl font-bold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
           >
             {heroContent.headline}
           </motion.h1>
 
           <motion.p
-            {...fadeUp(0.3)}
-            className="mt-6 max-w-lg text-lg leading-relaxed text-[#94A3B8]"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mt-6 text-lg leading-relaxed text-gray-600 sm:text-xl"
           >
             {heroContent.description}
           </motion.p>
 
-          <motion.div {...fadeUp(0.45)} className="mt-10">
-            <ShimmerButton href="#diensten">
-              {heroContent.cta}
-            </ShimmerButton>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center"
+          >
+            <a
+              href="#contact"
+              className="rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-md shadow-blue-600/20 transition-all hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-600/25"
+            >
+              Gratis adviesgesprek
+            </a>
+            <a
+              href="#werkwijze"
+              className="flex items-center gap-2 rounded-lg px-8 py-4 text-lg font-semibold text-gray-700 transition-colors hover:text-blue-600"
+            >
+              Bekijk werkwijze
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
           </motion.div>
 
           <motion.div
-            {...fadeUp(0.6)}
-            className="mt-8 flex flex-wrap items-center gap-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="mt-12 flex flex-wrap items-center justify-center gap-8"
           >
             {heroContent.badges.map((badge, i) => (
-              <span
-                key={i}
-                className="flex items-center gap-2 text-sm text-[#94A3B8]"
-              >
-                <span className="h-1.5 w-1.5 rounded-full bg-[#6366F1]" />
+              <div key={i} className="flex items-center gap-2 text-sm text-gray-500">
+                <svg className="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
                 {badge}
-              </span>
+              </div>
             ))}
           </motion.div>
         </div>
-
-        {/* Right animated orb (2 cols, desktop only) */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.5, ease: [0.25, 1, 0.5, 1] as const }}
-          className="hidden h-[500px] lg:col-span-2 lg:block"
-        >
-          <HeroOrb />
-        </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <div className="flex h-10 w-6 items-start justify-center rounded-full border-2 border-[rgba(255,255,255,0.2)] p-1.5">
-          <motion.div
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="h-2 w-1 rounded-full bg-[#6366F1]"
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }
