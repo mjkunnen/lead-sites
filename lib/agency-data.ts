@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "NetjesOnline",
   tagline: "Webdesign Bureau",
-  phone: "+31 6 12345678",
+  phone: "+31 6 21803896",
   email: "info@netjesonline.com",
-  whatsapp: "https://wa.me/31612345678",
+  whatsapp: "https://wa.me/31621803896",
   city: "Nederland",
 };
 
