@@ -1,12 +1,15 @@
 import { notFound } from "next/navigation";
 import { getAllSlugs, getSiteContent } from "@/lib/content";
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Reviews from "@/components/Reviews";
-import FAQ from "@/components/FAQ";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import StickyCTA from "@/components/StickyCTA";
+import SmoothScroll from "@/components/agency/SmoothScroll";
+import LeadNavbar from "@/components/lead/LeadNavbar";
+import LeadHero from "@/components/lead/LeadHero";
+import LeadAbout from "@/components/lead/LeadAbout";
+import LeadServices from "@/components/lead/LeadServices";
+import LeadGallery from "@/components/lead/LeadGallery";
+import LeadReviews from "@/components/lead/LeadReviews";
+import LeadFAQ from "@/components/lead/LeadFAQ";
+import LeadContact from "@/components/lead/LeadContact";
+import LeadFooter from "@/components/lead/LeadFooter";
 import ConceptBadge from "@/components/ConceptBadge";
 
 export function generateStaticParams() {
@@ -31,15 +34,19 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <ConceptBadge />
-      <main className="pb-20 sm:pb-0">
-        <Hero content={content} />
-        <Services content={content} />
-        <Reviews content={content} />
-        <FAQ content={content} />
-        <Contact content={content} />
-        <Footer content={content} />
-      </main>
-      <StickyCTA content={content} />
+      <LeadNavbar content={content} />
+      <SmoothScroll>
+        <main>
+          <LeadHero content={content} />
+          {content.about && <LeadAbout content={content} />}
+          <LeadServices content={content} />
+          {content.gallery && content.gallery.length > 0 && <LeadGallery content={content} />}
+          <LeadReviews content={content} />
+          <LeadFAQ content={content} />
+          <LeadContact content={content} />
+        </main>
+        <LeadFooter content={content} />
+      </SmoothScroll>
     </>
   );
 }
