@@ -40,7 +40,7 @@ export default function ContactSection() {
             </span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Benieuwd wat ik voor jouw bedrijf kan betekenen? Stuur me een bericht — ik, Max Kunnen, reageer persoonlijk.
+            Benieuwd wat ik voor jouw bedrijf kan betekenen? Stuur een berichtje — ik reageer altijd persoonlijk.
           </p>
         </motion.div>
 

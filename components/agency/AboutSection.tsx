@@ -52,7 +52,7 @@ export default function AboutSection() {
                 href="#contact"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-200 transition-all hover:bg-blue-700 hover:shadow-xl"
               >
-                Plan een gesprek met Max Kunnen
+                Plan een gesprek
               </a>
               <a
                 href={siteConfig.whatsapp}
@@ -89,7 +89,7 @@ export default function AboutSection() {
                   M
                 </div>
                 <div>
-                  <p className="font-semibold">Max Kunnen</p>
+                  <p className="font-semibold">Max</p>
                   <p className="text-sm text-blue-200">Oprichter NetjesOnline</p>
                 </div>
               </div>

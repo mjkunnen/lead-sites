@@ -22,15 +22,15 @@ export const heroContent = {
 };
 
 export const aboutContent = {
-  tagline: "Over Max Kunnen",
-  title: "De mens achter NetjesOnline",
+  tagline: "Even voorstellen",
+  title: "Hé, ik ben Max",
   story: [
     "Ik zag het keer op keer: hardwerkende ondernemers — loodgieters, schilders, aannemers — die fantastisch werk leveren, maar online compleet onzichtbaar zijn. Hun concurrent met een mooie website pikt de klanten weg, terwijl zij het beste werk leveren.",
     "Dat frustreerde me. Niet iedereen heeft duizenden euro's of maanden de tijd voor een website. Daarom ben ik NetjesOnline gestart: professionele websites, snel opgeleverd, voor een eerlijke prijs. Geen wollig verhaal, geen eindeloze vergaderingen — gewoon resultaat.",
-    "Ik doe alles persoonlijk. Jij hebt één aanspreekpunt: mij, Max Kunnen. Van het eerste gesprek tot de dag dat je website live gaat. En daarna ben ik er nog steeds als je iets nodig hebt.",
+    "Jij hebt één aanspreekpunt: mij. Van het eerste gesprek tot de dag dat je website live gaat. En daarna ben ik er nog steeds als je iets nodig hebt.",
   ],
   values: [
-    { title: "Persoonlijk", text: "Geen callcenter of ticket-systeem. Je belt of appt met mij, Max Kunnen." },
+    { title: "Persoonlijk", text: "Geen callcenter of ticket-systeem. Je belt of appt gewoon met mij." },
     { title: "Eerlijk", text: "Vaste prijzen, geen verborgen kosten. Wat ik zeg, dat doe ik." },
     { title: "Resultaatgericht", text: "Een mooie website is leuk, maar het gaat om klanten binnenhalen." },
   ],
@@ -39,17 +39,17 @@ export const aboutContent = {
 export const problemCards = [
   {
     title: "Onzichtbaar online",
-    text: "Potentiële klanten zoeken op Google, maar vinden uw concurrent.",
+    text: "Klanten zoeken op Google, maar vinden jouw concurrent in plaats van jou.",
     icon: "globe" as const,
   },
   {
     title: "Verouderde website",
-    text: "Uw huidige site schrikt klanten af in plaats van ze aan te trekken.",
+    text: "Je huidige site schrikt klanten af in plaats van ze aan te trekken.",
     icon: "broken" as const,
   },
   {
     title: "Geen tijd",
-    text: "U runt een bedrijf. Wie heeft er tijd om ook nog een website te bouwen?",
+    text: "Je runt een bedrijf. Wie heeft er tijd om ook nog een website te regelen?",
     icon: "clock" as const,
   },
 ];
@@ -62,12 +62,12 @@ export const uspItems = [
   },
   {
     title: "Professioneel design",
-    text: "Uniek ontwerp dat past bij uw bedrijf. Geen standaard templates.",
+    text: "Uniek ontwerp dat past bij jouw bedrijf. Geen standaard templates.",
     icon: "palette" as const,
   },
   {
     title: "Alles geregeld",
-    text: "Hosting, onderhoud, updates — wij nemen het volledig uit handen.",
+    text: "Hosting, onderhoud, updates — ik neem het volledig uit handen.",
     icon: "shield" as const,
   },
 ];
