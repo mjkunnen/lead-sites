@@ -2,8 +2,8 @@ import { SiteContent } from "@/lib/types";
 
 export default function LeadFooter({ content }: { content: SiteContent }) {
   return (
-    <footer className="border-t border-stone-800 bg-stone-950 py-16">
-      <div className="mx-auto max-w-6xl px-6">
+    <footer className="border-t border-stone-800 bg-stone-950 py-12 sm:py-16 pb-28 sm:pb-16">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center gap-6 text-center">
           <a href="#" className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-white">
             {content.business_name}

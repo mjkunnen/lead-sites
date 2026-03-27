@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { SiteContent } from "@/lib/types";
@@ -7,14 +7,21 @@ import { SiteContent } from "@/lib/types";
 export default function LeadHero({ content }: { content: SiteContent }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  // Reduced parallax on mobile for performance
   const imgY = useTransform(scrollYProgress, [0, 1], [0, 150]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, -60]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
+  // Disable parallax on touch devices
+  const [isTouch, setIsTouch] = useState(false);
+  useEffect(() => {
+    setIsTouch(window.matchMedia("(pointer: coarse)").matches);
+  }, []);
+
   return (
     <section ref={ref} className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Parallax background image */}
-      <motion.div className="absolute inset-0" style={{ y: imgY }}>
+      {/* Parallax background image — disabled on touch */}
+      <motion.div className="absolute inset-0" style={isTouch ? undefined : { y: imgY }}>
         <Image
           src={content.hero.image_url}
           alt={content.business_name}
@@ -35,7 +42,7 @@ export default function LeadHero({ content }: { content: SiteContent }) {
         <div className="absolute bottom-0 -left-1/4 w-[500px] h-[500px] rounded-full bg-rose-500/8 blur-[120px] gradient-mesh-blob" />
       </div>
 
-      <motion.div style={{ y: textY, opacity }} className="relative z-10 mx-auto max-w-6xl px-6 py-32 w-full">
+      <motion.div style={isTouch ? { opacity } : { y: textY, opacity }} className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 py-24 sm:py-32 w-full">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -51,7 +58,7 @@ export default function LeadHero({ content }: { content: SiteContent }) {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.15 }}
-            className="font-[family-name:var(--font-playfair)] text-5xl font-bold leading-[1.05] text-white sm:text-7xl lg:text-8xl"
+            className="font-[family-name:var(--font-playfair)] text-4xl font-bold leading-[1.05] text-white sm:text-6xl lg:text-8xl"
           >
             {content.hero.headline.split(" ").map((word, i) => (
               <motion.span
@@ -85,7 +92,7 @@ export default function LeadHero({ content }: { content: SiteContent }) {
               href={content.contact.booking_url || `tel:${content.contact.phone}`}
               target={content.contact.booking_url ? "_blank" : undefined}
               rel={content.contact.booking_url ? "noopener noreferrer" : undefined}
-              className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-full bg-amber-100 px-8 py-4 text-lg font-semibold text-stone-900 transition-all hover:bg-amber-50 hover:scale-[1.03] active:scale-[0.97]"
+              className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-full bg-amber-100 px-8 py-4 text-base sm:text-lg font-semibold text-stone-900 transition-all hover:bg-amber-50 hover:scale-[1.03] active:scale-[0.97]"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-[200%] group-hover:translate-x-[200%] transition-transform duration-700" />
               <span className="relative">{content.hero.cta_primary}</span>

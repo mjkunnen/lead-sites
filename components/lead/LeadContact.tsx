@@ -6,15 +6,15 @@ export default function LeadContact({ content }: { content: SiteContent }) {
   const whatsappUrl = `https://wa.me/${content.contact.phone.replace(/[^0-9+]/g, "")}`;
 
   return (
-    <section id="contact" className="relative bg-stone-900 py-32 overflow-hidden">
+    <section id="contact" className="relative bg-stone-900 py-20 sm:py-32 overflow-hidden">
       {/* Warm ambient glow */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/3 w-[600px] h-[600px] rounded-full bg-amber-700/8 blur-[150px]" />
         <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] rounded-full bg-rose-600/5 blur-[120px]" />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-6">
-        <div className="grid gap-16 lg:grid-cols-5 items-start">
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="grid gap-10 sm:gap-16 lg:grid-cols-5 items-start">
           {/* Left text */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -26,7 +26,7 @@ export default function LeadContact({ content }: { content: SiteContent }) {
               <span className="h-px w-8 bg-amber-400/30" />
               Contact
             </div>
-            <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-white sm:text-5xl leading-tight">
+            <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white sm:text-5xl leading-tight">
               We kijken<br />ernaar uit
             </h2>
             <p className="mt-6 text-lg text-stone-400 leading-relaxed">

@@ -4,7 +4,7 @@ import { SiteContent } from "@/lib/types";
 
 function ReviewCard({ review }: { review: SiteContent["reviews"][0] }) {
   return (
-    <div className="w-[380px] shrink-0 rounded-3xl bg-white p-8 shadow-sm mx-3 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+    <div className="w-[300px] sm:w-[380px] shrink-0 rounded-2xl sm:rounded-3xl bg-white p-6 sm:p-8 shadow-sm mx-2 sm:mx-3 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       <div className="flex gap-0.5 mb-5">
         {[...Array(5)].map((_, i) => (
           <svg key={i} className={`h-4 w-4 ${i < review.stars ? "text-amber-400" : "text-stone-200"}`} fill="currentColor" viewBox="0 0 20 20">
@@ -30,8 +30,8 @@ export default function LeadReviews({ content }: { content: SiteContent }) {
   const doubled = [...content.reviews, ...content.reviews];
 
   return (
-    <section id="reviews" className="bg-stone-100 py-32 overflow-hidden">
-      <div className="mx-auto max-w-6xl px-6 mb-16">
+    <section id="reviews" className="bg-stone-100 py-20 sm:py-32 overflow-hidden">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 mb-12 sm:mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ export default function LeadReviews({ content }: { content: SiteContent }) {
               <span className="h-px w-8 bg-amber-600/30" />
               Reviews
             </div>
-            <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-stone-900 sm:text-5xl">
+            <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-5xl">
               Wat onze klanten<br />ervaren
             </h2>
           </div>

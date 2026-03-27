@@ -85,6 +85,18 @@ html.lenis, html.lenis body {
   animation-duration: 22s;
 }
 
+/* === Mobile Optimizations === */
+@media (max-width: 767px) {
+  .animate-marquee {
+    animation-duration: 20s;
+  }
+
+  /* Ensure tap targets are at least 44px */
+  a, button {
+    min-height: 44px;
+  }
+}
+
 /* === Reduced Motion === */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

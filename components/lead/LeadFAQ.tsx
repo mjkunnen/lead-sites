@@ -17,9 +17,9 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
     >
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between px-8 py-6 text-left"
+        className="flex w-full items-center justify-between px-5 sm:px-8 py-5 sm:py-6 text-left"
       >
-        <span className="text-lg font-semibold text-stone-900 pr-4">{question}</span>
+        <span className="text-base sm:text-lg font-semibold text-stone-900 pr-4">{question}</span>
         <div className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition-all duration-300 ${
           open ? "bg-amber-800 text-white rotate-180" : "bg-stone-100 text-stone-400"
         }`}>
@@ -37,7 +37,7 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <p className="px-8 pb-6 text-stone-500 leading-relaxed">{answer}</p>
+            <p className="px-5 sm:px-8 pb-5 sm:pb-6 text-sm sm:text-base text-stone-500 leading-relaxed">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -47,8 +47,8 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 
 export default function LeadFAQ({ content }: { content: SiteContent }) {
   return (
-    <section className="bg-stone-50 py-32">
-      <div className="mx-auto max-w-3xl px-6">
+    <section className="bg-stone-50 py-20 sm:py-32">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ export default function LeadFAQ({ content }: { content: SiteContent }) {
             FAQ
             <span className="h-px w-8 bg-amber-600/30" />
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-stone-900 sm:text-5xl">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-5xl">
             Veelgestelde vragen
           </h2>
         </motion.div>

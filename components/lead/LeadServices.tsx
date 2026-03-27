@@ -25,7 +25,7 @@ function ServiceCard({ service, index }: { service: SiteContent["services"][0]; 
         const rect = e.currentTarget.getBoundingClientRect();
         setMouse({ x: (e.clientX - rect.left) / rect.width, y: (e.clientY - rect.top) / rect.height });
       }}
-      className="group relative overflow-hidden rounded-3xl bg-white p-10 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-amber-900/10"
+      className="group relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white p-6 sm:p-10 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-amber-900/10"
     >
       {/* Mouse-following gradient */}
       <div
@@ -60,14 +60,14 @@ export default function LeadServices({ content }: { content: SiteContent }) {
   const orbY = useTransform(scrollYProgress, [0, 1], [-100, 100]);
 
   return (
-    <section id="diensten" ref={ref} className="relative bg-stone-100 py-32 overflow-hidden">
+    <section id="diensten" ref={ref} className="relative bg-stone-100 py-20 sm:py-32 overflow-hidden">
       {/* Parallax warm orbs */}
       <motion.div style={{ y: orbY }} className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-amber-200/30 blur-[100px]" />
         <div className="absolute bottom-1/4 -right-32 w-80 h-80 rounded-full bg-rose-200/20 blur-[100px]" />
       </motion.div>
 
-      <div className="relative mx-auto max-w-6xl px-6">
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -78,7 +78,7 @@ export default function LeadServices({ content }: { content: SiteContent }) {
             <span className="h-px w-8 bg-amber-600/30" />
             Diensten
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-stone-900 sm:text-5xl">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-5xl">
             Wat wij voor u<br />kunnen doen
           </h2>
         </motion.div>
