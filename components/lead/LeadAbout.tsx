@@ -2,9 +2,11 @@
 import { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 import TiltImage from "./TiltImage";
 
 export default function LeadAbout({ content }: { content: SiteContent }) {
+  const i = t(content.lang);
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
   const imgY = useTransform(scrollYProgress, [0, 1], [60, -60]);
@@ -59,18 +61,18 @@ export default function LeadAbout({ content }: { content: SiteContent }) {
           >
             <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-amber-700/60 uppercase mb-6">
               <span className="h-px w-8 bg-amber-600/30" />
-              Over ons
+              {i.about.label}
             </div>
             <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-4xl lg:text-5xl leading-tight">
-              Een salon met<br />
-              <span className="text-amber-800">karakter</span>
+              {i.about.heading1}<br />
+              <span className="text-amber-800">{i.about.heading2}</span>
             </h2>
             <p className="mt-8 text-lg text-stone-500 leading-relaxed">
               {content.about}
             </p>
 
             {/* Stats */}
-            <div className="mt-8 sm:mt-12 grid grid-cols-3 gap-4 sm:gap-8 border-t border-stone-200 pt-8 sm:pt-10">
+            <div className="mt-8 sm:mt-12 grid grid-cols-2 gap-4 sm:gap-8 border-t border-stone-200 pt-8 sm:pt-10">
               <div>
                 <motion.div
                   initial={{ opacity: 0, scale: 0.5 }}
@@ -80,7 +82,7 @@ export default function LeadAbout({ content }: { content: SiteContent }) {
                 >
                   {content.reviews.length}+
                 </motion.div>
-                <p className="mt-1 text-sm text-stone-400">Reviews</p>
+                <p className="mt-1 text-xs sm:text-sm text-stone-400">{i.about.reviews}</p>
               </div>
               <div>
                 <motion.div
@@ -92,19 +94,7 @@ export default function LeadAbout({ content }: { content: SiteContent }) {
                 >
                   5.0
                 </motion.div>
-                <p className="mt-1 text-xs sm:text-sm text-stone-400">Gemiddeld</p>
-              </div>
-              <div>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2 }}
-                  className="font-[family-name:var(--font-playfair)] text-2xl sm:text-4xl font-bold text-amber-800"
-                >
-                  Oribe
-                </motion.div>
-                <p className="mt-1 text-sm text-stone-400">Ambassadeur</p>
+                <p className="mt-1 text-xs sm:text-sm text-stone-400">{i.about.average}</p>
               </div>
             </div>
           </motion.div>

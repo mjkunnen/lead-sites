@@ -2,8 +2,10 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 
 export default function LeadNavbar({ content }: { content: SiteContent }) {
+  const i = t(content.lang);
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [lastY, setLastY] = useState(0);
@@ -21,11 +23,11 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
   }, [lastY]);
 
   const links = [
-    { label: "Over ons", href: "#over" },
-    { label: "Diensten", href: "#diensten" },
-    { label: "Gallerij", href: "#gallerij" },
-    { label: "Reviews", href: "#reviews" },
-    { label: "Contact", href: "#contact" },
+    { label: i.nav.about, href: "#over" },
+    { label: i.nav.services, href: "#diensten" },
+    { label: i.nav.gallery, href: "#gallerij" },
+    { label: i.nav.reviews, href: "#reviews" },
+    { label: i.nav.contact, href: "#contact" },
   ];
 
   return (
@@ -67,7 +69,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
                   : "bg-white/15 text-white backdrop-blur-sm border border-white/20 hover:bg-white/25"
               }`}
             >
-              Boek nu
+              {i.nav.book}
             </a>
           </div>
 
@@ -114,7 +116,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
               onClick={() => setMenuOpen(false)}
               className="mt-4 rounded-full bg-stone-900 px-8 py-4 text-lg font-semibold text-white"
             >
-              Boek een afspraak
+              {i.nav.bookMobile}
             </a>
           </motion.div>
         )}

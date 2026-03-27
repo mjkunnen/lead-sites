@@ -1,6 +1,16 @@
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 
 export default function LeadFooter({ content }: { content: SiteContent }) {
+  const i = t(content.lang);
+  const links = [
+    { label: i.footer.about, href: "#over" },
+    { label: i.footer.services, href: "#diensten" },
+    { label: i.footer.gallery, href: "#gallerij" },
+    { label: i.footer.reviews, href: "#reviews" },
+    { label: i.footer.contact, href: "#contact" },
+  ];
+
   return (
     <footer className="border-t border-stone-800 bg-stone-950 py-12 sm:py-16 pb-28 sm:pb-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -9,13 +19,13 @@ export default function LeadFooter({ content }: { content: SiteContent }) {
             {content.business_name}
           </a>
           <div className="flex flex-wrap items-center justify-center gap-8">
-            {["Over ons", "Diensten", "Gallerij", "Reviews", "Contact"].map((label) => (
+            {links.map((link) => (
               <a
-                key={label}
-                href={`#${label.toLowerCase().replace(/\s/g, "")}`}
+                key={link.label}
+                href={link.href}
                 className="text-sm text-stone-500 transition-colors hover:text-amber-200"
               >
-                {label}
+                {link.label}
               </a>
             ))}
           </div>

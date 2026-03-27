@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
   const [open, setOpen] = useState(false);
@@ -46,6 +47,7 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 }
 
 export default function LeadFAQ({ content }: { content: SiteContent }) {
+  const i = t(content.lang);
   return (
     <section className="bg-stone-50 py-20 sm:py-32">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
@@ -57,11 +59,11 @@ export default function LeadFAQ({ content }: { content: SiteContent }) {
         >
           <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-amber-700/60 uppercase mb-6">
             <span className="h-px w-8 bg-amber-600/30" />
-            FAQ
+            {i.faq.label}
             <span className="h-px w-8 bg-amber-600/30" />
           </div>
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-5xl">
-            Veelgestelde vragen
+            {i.faq.heading}
           </h2>
         </motion.div>
         <div className="flex flex-col gap-3">

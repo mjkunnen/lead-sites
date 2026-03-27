@@ -2,6 +2,7 @@
 import { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 import TiltImage from "./TiltImage";
 
 export default function LeadGallery({ content }: { content: SiteContent }) {
@@ -12,6 +13,7 @@ export default function LeadGallery({ content }: { content: SiteContent }) {
   const col1Y = useTransform(scrollYProgress, [0, 1], [80, -80]);
   const col2Y = useTransform(scrollYProgress, [0, 1], [-40, 40]);
   const col3Y = useTransform(scrollYProgress, [0, 1], [60, -60]);
+  const i = t(content.lang);
   const [isTouch, setIsTouch] = useState(false);
   useEffect(() => { setIsTouch(window.matchMedia("(pointer: coarse)").matches); }, []);
 
@@ -35,11 +37,11 @@ export default function LeadGallery({ content }: { content: SiteContent }) {
         >
           <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-amber-700/60 uppercase mb-6">
             <span className="h-px w-8 bg-amber-600/30" />
-            Gallerij
+            {i.gallery.label}
             <span className="h-px w-8 bg-amber-600/30" />
           </div>
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-5xl">
-            Stap binnen in<br />onze wereld
+            {i.gallery.heading1}<br />{i.gallery.heading2}
           </h2>
         </motion.div>
 

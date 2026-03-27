@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 
 function ReviewCard({ review }: { review: SiteContent["reviews"][0] }) {
   return (
@@ -27,6 +28,7 @@ function ReviewCard({ review }: { review: SiteContent["reviews"][0] }) {
 }
 
 export default function LeadReviews({ content }: { content: SiteContent }) {
+  const i = t(content.lang);
   const doubled = [...content.reviews, ...content.reviews];
 
   return (
@@ -41,10 +43,10 @@ export default function LeadReviews({ content }: { content: SiteContent }) {
           <div>
             <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-amber-700/60 uppercase mb-6">
               <span className="h-px w-8 bg-amber-600/30" />
-              Reviews
+              {i.reviews.label}
             </div>
             <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-stone-900 sm:text-5xl">
-              Wat onze klanten<br />ervaren
+              {i.reviews.heading1}<br />{i.reviews.heading2}
             </h2>
           </div>
           <div className="flex items-center gap-4">
@@ -57,7 +59,7 @@ export default function LeadReviews({ content }: { content: SiteContent }) {
                   </svg>
                 ))}
               </div>
-              <p className="mt-1 text-sm text-stone-400">{content.reviews.length}+ beoordelingen</p>
+              <p className="mt-1 text-sm text-stone-400">{content.reviews.length}+ {i.reviews.count}</p>
             </div>
           </div>
         </motion.div>

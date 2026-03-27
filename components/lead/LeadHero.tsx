@@ -51,7 +51,7 @@ export default function LeadHero({ content }: { content: SiteContent }) {
             className="mb-8 inline-flex items-center gap-3 text-sm font-medium tracking-widest text-amber-200/70 uppercase"
           >
             <span className="h-px w-8 bg-amber-400/50" />
-            Oribe Ambassadeur &middot; {content.contact.city}
+            {content.tagline ? `${content.tagline} · ${content.contact.city}` : content.contact.city}
           </motion.div>
 
           <motion.h1

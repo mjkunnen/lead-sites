@@ -1,5 +1,6 @@
 export interface SiteContent {
   slug: string;
+  lang?: "en" | "nl";
   business_name: string;
   niche: string;
   theme: "bold";

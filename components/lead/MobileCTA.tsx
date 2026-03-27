@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import { t } from "@/lib/i18n";
 
 export default function MobileCTA({ content }: { content: SiteContent }) {
   const [visible, setVisible] = useState(false);
@@ -19,8 +20,9 @@ export default function MobileCTA({ content }: { content: SiteContent }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const i = t(content.lang);
   const href = content.contact.booking_url || `tel:${content.contact.phone}`;
-  const label = content.contact.booking_url ? "Boek een afspraak" : "Bel nu";
+  const label = content.contact.booking_url ? i.mobileCta.book : i.mobileCta.call;
 
   return (
     <AnimatePresence>
