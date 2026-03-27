@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAllSlugs, getSiteContent } from "@/lib/content";
 import SmoothScroll from "@/components/agency/SmoothScroll";
+import LeadCursor from "@/components/lead/LeadCursor";
 import LeadNavbar from "@/components/lead/LeadNavbar";
 import LeadHero from "@/components/lead/LeadHero";
 import LeadAbout from "@/components/lead/LeadAbout";
@@ -34,6 +35,7 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <ConceptBadge />
+      <LeadCursor />
       <LeadNavbar content={content} />
       <SmoothScroll>
         <main>

@@ -3,46 +3,46 @@
   "business_name": "Haarwerk Amsterdam",
   "niche": "kapper",
   "theme": "bold",
-  "palette": "warm-neutral",
+  "palette": "warm-luxury",
   "tagline": "Luxury meets Hair Care",
-  "about": "Welkom bij de beste kapsalon van Amsterdam, trots Oribe ambassadeur. Geniet van luxe haarverzorging met onze signature cuts en behandelingen. Wij zijn gespecialiseerd in prachtige kleurtechnieken voor zowel mannen als vrouwen en experts in hair extensions. Onze luxe salon bevindt zich in een prachtig historisch pand in Amsterdam West.",
+  "about": "In een prachtig historisch pand aan de Haarlemmerdijk combineren wij vakmanschap met luxe. Als officieel Oribe ambassadeur werken wij uitsluitend met de beste producten. Of het nu gaat om een signature cut, een perfecte kleurbehandeling of onzichtbare extensions — bij ons bent u in de handen van top stylisten die hun vak verstaan.",
   "hero": {
-    "headline": "Luxury meets Hair Care",
-    "subheadline": "De beste kapsalon van Amsterdam. Oribe ambassadeur, specialist in kleuren, extensions en luxe behandelingen. Benoemd door Harper's Bazaar en Vogue.",
+    "headline": "Waar vakmanschap luxe ontmoet",
+    "subheadline": "Signature cuts, perfecte kleuren en luxe behandelingen met Oribe. In het hart van Amsterdam, door stylisten die hun vak verstaan.",
     "cta_primary": "Boek een afspraak",
-    "cta_secondary": "Bekijk ons werk",
+    "cta_secondary": "Ontdek onze salon",
     "image_url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.04.00-1-1.jpeg?fit=1024%2C683&ssl=1"
   },
   "services": [
     {
       "title": "Knippen & Stylen",
-      "text": "Signature cuts door top stylisten. Van klassiek tot trendy, altijd een knipbeurt die bij u past.",
+      "text": "Een knipbeurt die écht bij u past. Onze stylisten nemen de tijd om uw haartype en wensen te begrijpen, voor een resultaat waar u elke dag blij mee bent.",
       "icon": "scissors"
     },
     {
-      "title": "Kleuren & Highlights",
-      "text": "Specialist in prachtige kleurtechnieken. Van subtiele balayage tot volledige kleurveranderingen met premium Oribe producten.",
+      "title": "Kleuren & Balayage",
+      "text": "Van subtiele highlights tot volledige transformaties. Wij werken met Oribe kleurproducten voor een rijke, natuurlijke kleur die lang mooi blijft.",
       "icon": "palette"
     },
     {
       "title": "Hair Extensions",
-      "text": "Expert in natuurlijke hair extensions. Meer volume, meer lengte — onzichtbaar en comfortabel.",
+      "text": "Meer volume, meer lengte — onzichtbaar en comfortabel. Onze specialisten plaatsen extensions die naadloos aansluiten bij uw eigen haar.",
       "icon": "sparkles"
     },
     {
       "title": "Luxe Behandelingen",
-      "text": "Oribe hair treatments, keratine en deep conditioning. Breng beschadigd haar weer tot leven.",
+      "text": "Deep conditioning, keratine of een Oribe hair treatment. Wij brengen beschadigd haar weer tot leven en geven het de verzorging die het verdient.",
       "icon": "heart"
     }
   ],
   "gallery": [
     {
       "url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.04.00-1-1.jpeg?fit=1024%2C683&ssl=1",
-      "alt": "Haarwerk Amsterdam salon interieur"
+      "alt": "Salon interieur met historisch karakter"
     },
     {
       "url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.03.59-2.jpeg?fit=1024%2C683&ssl=1",
-      "alt": "Luxe salon ruimte"
+      "alt": "Luxe wasruimte"
     },
     {
       "url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.04.01-1.jpeg?fit=1024%2C683&ssl=1",
@@ -50,51 +50,51 @@
     },
     {
       "url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.04.00-2.jpeg?fit=1024%2C683&ssl=1",
-      "alt": "Salon details"
+      "alt": "Salon sfeer en details"
     },
     {
       "url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.03.58-2.jpeg?fit=1024%2C683&ssl=1",
-      "alt": "Haarbehandeling"
+      "alt": "Kleurbehandeling"
     },
     {
       "url": "https://i0.wp.com/www.haarwerkamsterdam.nl/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-08-at-12.03.59-1.jpeg?fit=1024%2C683&ssl=1",
-      "alt": "Kleurbehandeling resultaat"
+      "alt": "Resultaat kleurbehandeling"
     }
   ],
   "reviews": [
     {
       "name": "Nada",
-      "text": "I have been coming to Haarwerk, specifically Mierijn for over 2 years now. Best salon I've been to in the Netherlands. Super friendly, precision, nice environment and vibes.",
+      "text": "Al 2 jaar vaste klant bij Mierijn. Beste salon waar ik in Nederland ben geweest. Super vriendelijk, precies en een fijne sfeer.",
       "stars": 5,
       "date": "9 dagen geleden"
     },
     {
       "name": "Theodosia",
-      "text": "I loved the salon and Chloe is so sweet and kind and professional. She did an amazing massage while shampooing and top products.",
+      "text": "Chloe is zo lief, professioneel en kundig. De massage bij het wassen was heerlijk, en ze gebruiken echt top producten.",
       "stars": 5,
       "date": "2 weken geleden"
     },
     {
       "name": "Mariateresa",
-      "text": "Klim is the best, highly recommend!",
+      "text": "Klim is the best. Absolute aanrader!",
       "stars": 5,
       "date": "4 weken geleden"
     },
     {
       "name": "Aleksandra",
-      "text": "Klim is wonderful and I highly recommend him as always :)",
+      "text": "Klim is geweldig, ik raad hem altijd aan. Elke keer weer blij met het resultaat.",
       "stars": 5,
       "date": "1 maand geleden"
     },
     {
       "name": "Halca",
-      "text": "Top stylist Klim was the hairdresser. Thanks for the lovely wash treatment, and of course for the lovely fit... bangs it is! You made my day!",
+      "text": "Heerlijke wasbehandeling en een prachtig resultaat. Bangs it is! Klim, you made my day!",
       "stars": 5,
       "date": "2 maanden geleden"
     },
     {
       "name": "Gigi",
-      "text": "Knipt geweldig model wat bij je past! Suzanne, dank je wel :)",
+      "text": "Knipt geweldig model wat bij je past! Suzanne, dank je wel.",
       "stars": 5,
       "date": "2 maanden geleden"
     },
@@ -106,32 +106,27 @@
     },
     {
       "name": "Simone",
-      "text": "Hele fijne kapster (Mierijn). Super vriendelijk en werd echt goed geholpen.",
+      "text": "Hele fijne kapster, Mierijn. Super vriendelijk en werd echt goed geholpen.",
       "stars": 5,
       "date": "3 maanden geleden"
     }
   ],
-  "awards": [
-    "Beste kapsalon van Amsterdam — Harper's Bazaar",
-    "Beste kapsalon van Amsterdam — Vogue",
-    "Officieel Oribe Ambassadeur"
-  ],
   "faq": [
     {
       "question": "Moet ik een afspraak maken?",
-      "answer": "Ja, wij werken uitsluitend op afspraak. U kunt online boeken via ons reserveringssysteem of bellen naar (020) 247 5558."
+      "answer": "Ja, wij werken op afspraak zodat we alle tijd en aandacht voor u hebben. Boek eenvoudig online of bel ons op (020) 247 5558."
     },
     {
       "question": "Welke producten gebruiken jullie?",
-      "answer": "Wij zijn officieel Oribe ambassadeur en werken uitsluitend met Oribe producten — de absolute top in luxe haarverzorging."
+      "answer": "Wij zijn officieel Oribe ambassadeur en werken uitsluitend met hun producten — de absolute top in luxe haarverzorging. U kunt deze ook in onze salon kopen."
     },
     {
       "question": "Doen jullie ook hair extensions?",
-      "answer": "Ja, wij zijn experts in natuurlijke hair extensions. Meer volume, meer lengte — onzichtbaar en comfortabel. Boek een consultatie voor advies op maat."
+      "answer": "Ja, wij zijn gespecialiseerd in natuurlijke hair extensions. Boek een consultatie en we adviseren u over de beste optie voor uw haar."
     },
     {
-      "question": "Waar is de salon?",
-      "answer": "Onze salon bevindt zich op de Haarlemmerdijk 156 in Amsterdam West, in een prachtig historisch pand."
+      "question": "Waar zit de salon?",
+      "answer": "Op de Haarlemmerdijk 156 in Amsterdam West, in een prachtig historisch pand. Makkelijk bereikbaar met OV en er is parkeergelegenheid in de buurt."
     }
   ],
   "contact": {
@@ -151,6 +146,6 @@
   "metadata": {
     "generated_at": "2026-03-27T12:30:00Z",
     "lead_id": "row-3",
-    "version": 2
+    "version": 3
   }
 }

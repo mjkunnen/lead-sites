@@ -1,68 +1,66 @@
 "use client";
-import { motion } from "framer-motion";
-import Image from "next/image";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { SiteContent } from "@/lib/types";
+import TiltImage from "./TiltImage";
 
 export default function LeadGallery({ content }: { content: SiteContent }) {
-  if (!content.gallery || content.gallery.length === 0) return null;
+  if (!content.gallery || content.gallery.length < 3) return null;
 
-  // Bento-style layout: first image large, rest smaller
-  const [main, ...rest] = content.gallery;
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
+  const col1Y = useTransform(scrollYProgress, [0, 1], [80, -80]);
+  const col2Y = useTransform(scrollYProgress, [0, 1], [-40, 40]);
+  const col3Y = useTransform(scrollYProgress, [0, 1], [60, -60]);
+
+  // Split images into 3 columns
+  const cols = [
+    content.gallery.filter((_, i) => i % 3 === 0),
+    content.gallery.filter((_, i) => i % 3 === 1),
+    content.gallery.filter((_, i) => i % 3 === 2),
+  ];
 
   return (
-    <section id="gallerij" className="bg-white py-28">
+    <section id="gallerij" ref={ref} className="bg-white py-32 overflow-hidden">
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center"
+          className="text-center mb-20"
         >
-          <span className="text-sm font-semibold uppercase tracking-widest text-slate-400">Gallerij</span>
-          <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-4xl font-bold text-slate-900 sm:text-5xl">
-            Een kijkje in onze salon
+          <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-amber-700/60 uppercase mb-6">
+            <span className="h-px w-8 bg-amber-600/30" />
+            Gallerij
+            <span className="h-px w-8 bg-amber-600/30" />
+          </div>
+          <h2 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-stone-900 sm:text-5xl">
+            Stap binnen in<br />onze wereld
           </h2>
         </motion.div>
 
-        <div className="mt-16 grid gap-4 md:grid-cols-3 md:grid-rows-2">
-          {/* Main large image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="group relative overflow-hidden rounded-3xl md:col-span-2 md:row-span-2 cursor-pointer"
-          >
-            <Image
-              src={main.url}
-              alt={main.alt}
-              width={800}
-              height={600}
-              className="object-cover w-full h-full min-h-[300px] md:min-h-[500px] transition-transform duration-700 group-hover:scale-105"
-              unoptimized
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-          </motion.div>
-
-          {/* Smaller images */}
-          {rest.slice(0, 4).map((img, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 * (i + 1) }}
-              className="group relative overflow-hidden rounded-3xl cursor-pointer"
-            >
-              <Image
-                src={img.url}
-                alt={img.alt}
-                width={400}
-                height={300}
-                className="object-cover w-full h-full min-h-[200px] transition-transform duration-700 group-hover:scale-110"
-                unoptimized
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+        {/* 3-column masonry with parallax */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {[col1Y, col2Y, col3Y].map((y, colIdx) => (
+            <motion.div key={colIdx} style={{ y }} className="flex flex-col gap-4">
+              {cols[colIdx].map((img, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: i * 0.1 }}
+                >
+                  <TiltImage
+                    src={img.url}
+                    alt={img.alt}
+                    className={`w-full rounded-3xl ${
+                      (colIdx + i) % 2 === 0 ? "aspect-[3/4]" : "aspect-square"
+                    }`}
+                    intensity={8}
+                  />
+                </motion.div>
+              ))}
             </motion.div>
           ))}
         </div>
