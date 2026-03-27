@@ -35,7 +35,7 @@ export interface SiteContent {
     answer: string;
   }>;
   contact: {
-    phone: string;
+    phone?: string;
     email?: string;
     city: string;
     address?: string;

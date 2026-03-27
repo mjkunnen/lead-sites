@@ -1,0 +1,143 @@
+{
+  "slug": "nlm-keukenmontage-eindhoven",
+  "lang": "nl",
+  "business_name": "NLM Keukenmontage",
+  "niche": "keukenmontage",
+  "theme": "bold",
+  "palette": "cool-professional",
+  "tagline": "Vakmanschap in elke keuken",
+  "about": "NLM Keukenmontage staat voor nauwkeurig vakmanschap en strakke afwerking. Eigenaar Nermin plaatst uw keuken met oog voor detail, van het eerste kastje tot de laatste kitrand. Met jarenlange ervaring in keukenmontage en interieurafbouw levert hij werk af waar u jarenlang plezier van heeft.",
+  "hero": {
+    "headline": "Uw droomkeuken, vakkundig geplaatst",
+    "subheadline": "Professionele keukenmontage in Eindhoven en omgeving. Strakke afwerking, nauwkeurig vakwerk en persoonlijke aandacht van A tot Z.",
+    "cta_primary": "Neem contact op",
+    "cta_secondary": "Bekijk ons werk",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerp2XE97PKq8Nw0NE7pBpNzJPcnUQ9xZ6x8BYTNeFGrXzOrXcJJicvu391gFpOI7GHxEC3kpQL15GgevR9kWCvsnuoMdQLIH1FJ4UqbGqbjR_gE_FBMuLngmDztiU8i7rJOGd4i=w800-h500-k-no"
+  },
+  "services": [
+    {
+      "title": "Keukenmontage",
+      "text": "Complete plaatsing van uw nieuwe keuken. Van bovenkastjes tot inbouwapparatuur, alles wordt strak en nauwkeurig gemonteerd.",
+      "icon": "default"
+    },
+    {
+      "title": "Kitwerk & Afwerking",
+      "text": "Strakke kitrandjes en een perfecte afwerking tot in het kleinste detail. Het verschil zit in de details.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "Apparatuur Installatie",
+      "text": "Professionele installatie van al uw keukenapparatuur. Inclusief duidelijke uitleg over de bediening.",
+      "icon": "default"
+    },
+    {
+      "title": "Interieurafbouw",
+      "text": "Naast keukens ook maatwerk interieurafbouw. Van inbouwkasten tot op maat gemaakte meubels.",
+      "icon": "palette"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerp2XE97PKq8Nw0NE7pBpNzJPcnUQ9xZ6x8BYTNeFGrXzOrXcJJicvu391gFpOI7GHxEC3kpQL15GgevR9kWCvsnuoMdQLIH1FJ4UqbGqbjR_gE_FBMuLngmDztiU8i7rJOGd4i=w800-h500-k-no",
+      "alt": "Moderne witte keuken met donkere achterwand"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps9NqHYjE5Nk3-byx-WsT_PM_yKUXhLtviQw1hD8nQxhTSD47mcRXFUr9Y2dVV4TDE8lIQmN0_nLI7HU7Sh_V83GDUMvpc0Wq0xwAqQr3bSeB6XM_5KPnOmdqebmKUXbQrNaA",
+      "alt": "Stijlvolle groene keuken met houten vloer"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptJlSU2cGYswHsJv2uLlqrh-nl-GcjauyYjcl8NHqmsGchkBtF2eX9rHiTquSkzrBdfc4_QF5YQGJlEegqdx4nQcK5-EwJ16L_sJG8PHxiPw8lWuesrEyvYRSJG5ZXVLdD213yD",
+      "alt": "Strakke zwarte keuken met marmeren werkblad"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Patrick",
+      "text": "Nermin is 2 dagen bij ons bezig geweest om de keuken te plaatsen! Super netjes en zeer veel geduld! Echt een top monteur die je zeker wilt hebben als je een keuken wilt laten plaatsen!",
+      "stars": 5,
+      "date": "10 maanden geleden"
+    },
+    {
+      "name": "R",
+      "text": "Nermin van NLM Keukenmontage heeft onze keuken in twee dagen keurig geplaatst. Een echte vakman die ik graag voor elke interieurbouw of keukenbouw zou willen inhuren.",
+      "stars": 5,
+      "date": "7 maanden geleden"
+    },
+    {
+      "name": "Theo",
+      "text": "Nermin heeft bij ons een nieuwe keuken geplaatst, moet zeggen op en top een vakman. Zeer nauwkeurig, rustig, resultaat mag gezien worden. Echt een aanrader, top!",
+      "stars": 5,
+      "date": "1 maand geleden"
+    },
+    {
+      "name": "Seppe",
+      "text": "Nermin heeft bij ons de keuken geplaatst. Erg netjes gewerkt, correcte nette man en dit zie je ook terug in zijn werk. Kitrandjes super strak. Zeker een aanrader!",
+      "stars": 5,
+      "date": "12 maanden geleden"
+    },
+    {
+      "name": "Geri",
+      "text": "Nermin heeft bij ons een keuken geplaatst in 1,5 dag. Hij werkt zeer netjes en laat geen rommel achter. De kitrandjes zien er super uit. Bij de volgende keuken vragen we hem weer.",
+      "stars": 5,
+      "date": "10 maanden geleden"
+    },
+    {
+      "name": "Dick",
+      "text": "Nermin is een vakkundige monteur die rustig onze keuken heeft gemonteerd. Levert uitstekend werk af, houdt zijn werkplek altijd opgeruimd. Een echte vakman.",
+      "stars": 5,
+      "date": "8 maanden geleden"
+    },
+    {
+      "name": "Rachel",
+      "text": "Nermin heeft vakwerk geleverd!! Nette rustige harde werker. Wij gaan genieten van onze nieuwe keuken. Bedankt!",
+      "stars": 5,
+      "date": "9 maanden geleden"
+    },
+    {
+      "name": "Joelle",
+      "text": "Het werk is tot in detail afgewerkt en het eindresultaat ziet er echt top uit. Alles is precies geworden zoals we het voor ogen hadden. Kortom: een vakman die wij zeker aanraden!",
+      "stars": 5,
+      "date": "2 weken geleden"
+    },
+    {
+      "name": "Larissa",
+      "text": "Nermin heeft bij ons afgelopen week in 1,5 dag de keuken gemonteerd. Nermin is een aardige en nette man. Werkt secuur en zie je ook terug in de keuken.",
+      "stars": 5,
+      "date": "1 week geleden"
+    },
+    {
+      "name": "Jonas",
+      "text": "Goede montage, nette afwerking en een vriendelijke man.",
+      "stars": 5,
+      "date": "1 maand geleden"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe lang duurt een keukenmontage?",
+      "answer": "De meeste keukens worden in 1,5 tot 2 dagen volledig geplaatst, afhankelijk van de grootte en complexiteit. Na afloop wordt alles netjes opgeruimd."
+    },
+    {
+      "question": "In welk gebied is NLM actief?",
+      "answer": "NLM Keukenmontage is gevestigd in Eindhoven en werkt in de regio Eindhoven en omstreken."
+    },
+    {
+      "question": "Wat houdt de montage precies in?",
+      "answer": "De volledige plaatsing van uw keuken: bovenkastjes, onderkastjes, werkblad, inbouwapparatuur, kitwerk en afwerking. Inclusief uitleg over de apparatuur."
+    },
+    {
+      "question": "Wanneer is NLM bereikbaar?",
+      "answer": "NLM Keukenmontage is bereikbaar van dinsdag tot en met zaterdag, van 8:30 tot 17:00 uur."
+    }
+  ],
+  "contact": {
+    "city": "Eindhoven",
+    "address": "Bolognalaan 23, Eindhoven",
+    "maps_url": "https://www.google.com/maps/place/NLM+Keukenmontage/@51.482893499999996,5.5028652,14z"
+  },
+  "metadata": {
+    "generated_at": "2026-03-27T14:35:00Z",
+    "lead_id": "outscraper-nlm-001",
+    "version": 1
+  }
+}
