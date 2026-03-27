@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { navLinks, siteConfig } from "@/lib/agency-data";
+import ScrollIndicator from "./ScrollIndicator";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,15 +29,7 @@ export default function Navbar() {
           </a>
 
           <div className="hidden items-center gap-8 md:flex">
-            {navLinks.slice(1).map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-gray-600 transition-colors hover:text-gray-900"
-              >
-                {link.label}
-              </a>
-            ))}
+            <ScrollIndicator />
             <a
               href="#contact"
               className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
