@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { processSteps } from "@/lib/agency-data";
+import StaggerReveal from "./StaggerReveal";
 
 export default function ProcessTimeline() {
   return (
@@ -40,16 +41,9 @@ export default function ProcessTimeline() {
             />
           </div>
 
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <StaggerReveal className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {processSteps.map((step, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.5, delay: 0.2 + i * 0.15 }}
-                className="group relative"
-              >
+              <div key={i} className="group relative">
                 <div className="relative rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:shadow-blue-100/50">
                   {/* Step number */}
                   <div className="relative">
@@ -62,9 +56,9 @@ export default function ProcessTimeline() {
                   <h3 className="mt-5 text-lg font-semibold text-gray-900">{step.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-gray-600">{step.text}</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
-          </div>
+          </StaggerReveal>
         </div>
       </div>
     </section>

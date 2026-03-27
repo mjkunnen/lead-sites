@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { pricingPlans } from "@/lib/agency-data";
 import TiltCard from "./ui/TiltCard";
+import WordReveal from "./WordReveal";
+import StaggerReveal from "./StaggerReveal";
 
 export default function Pricing() {
   return (
@@ -22,30 +24,22 @@ export default function Pricing() {
           <span className="inline-block rounded-full bg-blue-50 px-4 py-1.5 text-sm font-medium text-blue-600">
             Prijzen
           </span>
-          <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl">
-            Transparante prijzen
-          </h2>
+          <WordReveal text="Transparante prijzen" className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl" />
           <p className="mt-4 text-lg text-gray-600">
             Geen verborgen kosten. U weet precies waar u aan toe bent.
           </p>
         </motion.div>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <StaggerReveal className="mt-16 grid gap-8 lg:grid-cols-3">
           {pricingPlans.map((plan, i) => (
-            <motion.div
+            <TiltCard
               key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: i * 0.15 }}
+              className={`relative flex h-full flex-col rounded-2xl p-8 transition-shadow duration-300 ${
+                plan.highlighted
+                  ? "bg-gradient-to-b from-blue-600 to-indigo-700 shadow-xl shadow-blue-200"
+                  : "border border-gray-100 bg-white shadow-sm hover:shadow-lg"
+              }`}
             >
-              <TiltCard
-                className={`relative flex h-full flex-col rounded-2xl p-8 transition-shadow duration-300 ${
-                  plan.highlighted
-                    ? "bg-gradient-to-b from-blue-600 to-indigo-700 shadow-xl shadow-blue-200"
-                    : "border border-gray-100 bg-white shadow-sm hover:shadow-lg"
-                }`}
-              >
                 {plan.highlighted && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                     <span className="rounded-full bg-yellow-400 px-4 py-1 text-xs font-bold text-yellow-900 shadow-lg">
@@ -101,9 +95,8 @@ export default function Pricing() {
                   <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
                 </a>
               </TiltCard>
-            </motion.div>
           ))}
-        </div>
+        </StaggerReveal>
 
         <motion.p
           initial={{ opacity: 0 }}

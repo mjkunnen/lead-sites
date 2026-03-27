@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { uspItems } from "@/lib/agency-data";
 import TiltCard from "./ui/TiltCard";
+import WordReveal from "./WordReveal";
+import StaggerReveal from "./StaggerReveal";
 
 const icons = {
   zap: (
@@ -46,40 +48,30 @@ export default function USPSection() {
           <span className="inline-block rounded-full bg-blue-50 px-4 py-1.5 text-sm font-medium text-blue-600">
             Waarom NetjesOnline
           </span>
-          <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl">
-            Wat ons anders maakt
-          </h2>
+          <WordReveal text="Wat ons anders maakt" className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl" />
           <p className="mt-4 text-lg text-gray-600">
             Wij maken het makkelijk. Geen gedoe, geen verrassingen.
           </p>
         </motion.div>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <StaggerReveal className="mt-16 grid gap-8 lg:grid-cols-3">
           {uspItems.map((item, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: i * 0.15 }}
-            >
-              <TiltCard className="group h-full rounded-2xl bg-white p-8 shadow-sm transition-shadow duration-300 hover:shadow-xl">
-                <div className={`flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br ${gradientBgs[i]} text-white shadow-lg`}>
-                  {icons[item.icon]}
-                </div>
-                <h3 className="mt-6 text-xl font-semibold text-gray-900">{item.title}</h3>
-                <p className="mt-3 leading-relaxed text-gray-600">{item.text}</p>
-                {/* Hover reveal arrow */}
-                <div className="mt-6 flex items-center gap-2 text-sm font-medium text-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  Meer info
-                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </TiltCard>
-            </motion.div>
+            <TiltCard key={i} className="group h-full rounded-2xl bg-white p-8 shadow-sm transition-shadow duration-300 hover:shadow-xl">
+              <div className={`flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br ${gradientBgs[i]} text-white shadow-lg`}>
+                {icons[item.icon]}
+              </div>
+              <h3 className="mt-6 text-xl font-semibold text-gray-900">{item.title}</h3>
+              <p className="mt-3 leading-relaxed text-gray-600">{item.text}</p>
+              {/* Hover reveal arrow */}
+              <div className="mt-6 flex items-center gap-2 text-sm font-medium text-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Meer info
+                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </TiltCard>
           ))}
-        </div>
+        </StaggerReveal>
       </div>
     </section>
   );
