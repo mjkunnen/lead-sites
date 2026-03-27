@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { portfolioItems } from "@/lib/agency-data";
 import TiltCard from "./ui/TiltCard";
 
@@ -12,11 +13,19 @@ const gradients = [
 ];
 
 export default function Portfolio() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start end", "end start"],
+  });
+  const blobY1 = useTransform(scrollYProgress, [0, 1], [40, -40]);
+  const blobY2 = useTransform(scrollYProgress, [0, 1], [-30, 30]);
+
   return (
-    <section id="portfolio" className="relative overflow-hidden bg-gray-50 py-20 lg:py-28">
+    <section ref={sectionRef} id="portfolio" className="relative overflow-hidden bg-gray-50 py-20 lg:py-28">
       {/* Background blobs */}
-      <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-100/30 blur-3xl" />
-      <div className="absolute bottom-0 left-0 h-96 w-96 rounded-full bg-indigo-100/20 blur-3xl" />
+      <motion.div style={{ y: blobY1 }} className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-100/30 blur-3xl" />
+      <motion.div style={{ y: blobY2 }} className="absolute bottom-0 left-0 h-96 w-96 rounded-full bg-indigo-100/20 blur-3xl" />
 
       <div className="relative mx-auto max-w-6xl px-6">
         <motion.div
