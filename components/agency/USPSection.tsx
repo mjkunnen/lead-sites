@@ -5,6 +5,7 @@ import { uspItems } from "@/lib/agency-data";
 import TiltCard from "./ui/TiltCard";
 import WordReveal from "./WordReveal";
 import StaggerReveal from "./StaggerReveal";
+import GradientMesh from "./GradientMesh";
 
 const icons = {
   zap: (
@@ -33,9 +34,7 @@ const gradientBgs = [
 export default function USPSection() {
   return (
     <section id="diensten" className="relative overflow-hidden bg-gray-50 py-20 lg:py-28">
-      {/* Background decoration */}
-      <div className="absolute -right-20 top-20 h-72 w-72 rounded-full bg-blue-100/40 blur-3xl" />
-      <div className="absolute -left-20 bottom-20 h-72 w-72 rounded-full bg-indigo-100/30 blur-3xl" />
+      <GradientMesh />
 
       <div className="relative mx-auto max-w-6xl px-6">
         <motion.div

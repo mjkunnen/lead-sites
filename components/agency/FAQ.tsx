@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { faqItems } from "@/lib/agency-data";
+import GradientMesh from "./GradientMesh";
 
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   const [open, setOpen] = useState(false);
@@ -42,7 +43,8 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 
 export default function FAQ() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="relative overflow-hidden py-20 lg:py-28">
+      <GradientMesh />
       <div className="mx-auto max-w-3xl px-6">
         <div className="text-center">
           <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl">
