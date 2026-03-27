@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "NetjesOnline",
   tagline: "Webdesign Bureau",
+  owner: "Max Kunnen",
   phone: "+31 6 21803896",
-  email: "info@netjesonline.com",
+  email: "max@netjesonline.com",
   whatsapp: "https://wa.me/31621803896",
   city: "Nederland",
 };
@@ -11,12 +12,27 @@ export const heroContent = {
   subtitle: "Webdesign Bureau",
   headline: "Websites die klanten opleveren",
   description:
-    "Professionele websites voor MKB-bedrijven. Van ontwerp tot oplevering in 5 werkdagen.",
+    "Ik ben Max Kunnen, en ik help MKB-ondernemers aan een professionele website die écht klanten oplevert. Geen maandenlang wachten — binnen 5 werkdagen staat jouw site live.",
   cta: "Bekijk wat wij voor u kunnen doen",
   badges: [
     "50+ tevreden klanten",
     "4.9 gemiddeld",
     "5 dagen oplevering",
+  ],
+};
+
+export const aboutContent = {
+  tagline: "Over Max Kunnen",
+  title: "De mens achter NetjesOnline",
+  story: [
+    "Ik zag het keer op keer: hardwerkende ondernemers — loodgieters, schilders, aannemers — die fantastisch werk leveren, maar online compleet onzichtbaar zijn. Hun concurrent met een mooie website pikt de klanten weg, terwijl zij het beste werk leveren.",
+    "Dat frustreerde me. Niet iedereen heeft duizenden euro's of maanden de tijd voor een website. Daarom ben ik NetjesOnline gestart: professionele websites, snel opgeleverd, voor een eerlijke prijs. Geen wollig verhaal, geen eindeloze vergaderingen — gewoon resultaat.",
+    "Ik doe alles persoonlijk. Jij hebt één aanspreekpunt: mij, Max Kunnen. Van het eerste gesprek tot de dag dat je website live gaat. En daarna ben ik er nog steeds als je iets nodig hebt.",
+  ],
+  values: [
+    { title: "Persoonlijk", text: "Geen callcenter of ticket-systeem. Je belt of appt met mij, Max Kunnen." },
+    { title: "Eerlijk", text: "Vaste prijzen, geen verborgen kosten. Wat ik zeg, dat doe ik." },
+    { title: "Resultaatgericht", text: "Een mooie website is leuk, maar het gaat om klanten binnenhalen." },
   ],
 };
 
@@ -60,22 +76,22 @@ export const processSteps = [
   {
     number: "01",
     title: "Kennismaking",
-    text: "Gratis adviesgesprek. We bespreken uw wensen, doelgroep en doelen.",
+    text: "Even bellen of appen. Ik luister naar wat je nodig hebt en geef direct eerlijk advies.",
   },
   {
     number: "02",
     title: "Ontwerp",
-    text: "We maken een op maat gemaakt design. U geeft feedback, wij passen aan.",
+    text: "Ik maak een design op maat. Jij geeft feedback, ik pas het aan tot het perfect is.",
   },
   {
     number: "03",
     title: "Bouw & Review",
-    text: "Uw website wordt gebouwd en getest. U ziet het resultaat vóór livegang.",
+    text: "Ik bouw je website en laat het je zien vóór livegang. Pas als jij tevreden bent, gaan we door.",
   },
   {
     number: "04",
     title: "Live",
-    text: "Uw website gaat live. Wij regelen hosting, domein en onderhoud.",
+    text: "Je website gaat live. Ik regel hosting, domein en blijf beschikbaar voor vragen.",
   },
 ];
 
@@ -202,32 +218,33 @@ export const faqItems = [
   {
     question: "Hoe lang duurt het om een website te maken?",
     answer:
-      "Gemiddeld 5 werkdagen vanaf het moment dat we alle content hebben. Voor complexere projecten kan het iets langer duren, maar we communiceren altijd een duidelijke deadline vooraf.",
+      "Gemiddeld 5 werkdagen vanaf het moment dat ik alle content heb. Bij complexere projecten kan het iets langer duren, maar ik geef altijd vooraf een duidelijke deadline.",
   },
   {
     question: "Wat heb ik nodig om te starten?",
     answer:
-      "Alleen een logo en wat tekst over uw bedrijf. Heeft u dat nog niet? Geen probleem — wij helpen u met content en kunnen ook een logo laten ontwerpen.",
+      "Alleen een logo en wat tekst over je bedrijf. Heb je dat nog niet? Geen probleem — ik help je met content en kan ook een logo laten ontwerpen.",
   },
   {
     question: "Kan ik de website zelf aanpassen?",
     answer:
-      "Ja, we leveren een eenvoudig beheersysteem mee waarmee u zelf teksten en afbeeldingen kunt wijzigen. Voor grotere aanpassingen kunt u altijd bij ons terecht.",
+      "Ja, ik lever een eenvoudig beheersysteem mee waarmee je zelf teksten en afbeeldingen kunt wijzigen. Voor grotere aanpassingen kun je altijd bij mij terecht.",
   },
   {
     question: "Wat als ik niet tevreden ben?",
     answer:
-      "We werken net zo lang door tot u 100% tevreden bent. Bij ons Professional en Premium pakket heeft u meerdere revisierondes inbegrepen.",
+      "Ik werk net zo lang door tot je 100% tevreden bent. Bij het Professional en Premium pakket heb je meerdere revisierondes inbegrepen.",
   },
   {
     question: "Is hosting inbegrepen?",
     answer:
-      "Bij al onze pakketten kunt u hosting afnemen voor €29 per maand. Dit is inclusief SSL-certificaat, dagelijkse backups en technisch onderhoud.",
+      "Bij al mijn pakketten kun je hosting afnemen voor €29 per maand. Dit is inclusief SSL-certificaat, dagelijkse backups en technisch onderhoud.",
   },
 ];
 
 export const navLinks = [
   { label: "Home", href: "#" },
+  { label: "Over mij", href: "#over" },
   { label: "Diensten", href: "#diensten" },
   { label: "Werkwijze", href: "#werkwijze" },
   { label: "Portfolio", href: "#portfolio" },

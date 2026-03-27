@@ -13,7 +13,7 @@ export default function AgencyFooter() {
               Netjes<span className="text-blue-600">Online</span>
             </span>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-gray-500">
-              Professionele websites voor MKB-bedrijven. Van ontwerp tot oplevering in 5 werkdagen.
+              Ik ben Max Kunnen. Ik maak professionele websites voor MKB-bedrijven. Persoonlijk, snel en resultaatgericht.
             </p>
             {/* Social proof micro-badge */}
             <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-gray-50 px-4 py-2 text-sm text-gray-500">
