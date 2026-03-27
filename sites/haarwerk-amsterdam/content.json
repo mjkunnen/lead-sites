@@ -1,0 +1,77 @@
+{
+  "slug": "haarwerk-amsterdam",
+  "business_name": "Haarwerk Amsterdam",
+  "niche": "kapper",
+  "theme": "bold",
+  "palette": "warm-neutral",
+  "hero": {
+    "headline": "Uw haar, onze passie",
+    "subheadline": "Al jaren de vertrouwde kapper voor meer dan 400 tevreden klanten in Amsterdam. Van knipbeurt tot kleurbehandeling — vakmanschap dat u ziet en voelt.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Bekijk behandelingen",
+    "image_url": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80"
+  },
+  "services": [
+    {
+      "title": "Knippen & Stylen",
+      "text": "Trendy of klassiek — we knippen en stylen uw haar precies zoals u het wilt. Voor dames en heren.",
+      "icon": "scissors"
+    },
+    {
+      "title": "Kleuren & Highlights",
+      "text": "Van subtiele highlights tot een complete kleurverandering. Altijd met de beste producten.",
+      "icon": "palette"
+    },
+    {
+      "title": "Behandelingen",
+      "text": "Keratine, haarbotox of een voedend masker. We brengen beschadigd haar weer tot leven.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "Bruidskapsels",
+      "text": "Maak uw grote dag compleet met een prachtig bruidskapsel, inclusief proefafspraak.",
+      "icon": "heart"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Sophie van Dijk",
+      "text": "Al jaren vaste klant. Ze luisteren echt naar wat je wilt en het resultaat is altijd perfect.",
+      "stars": 5
+    },
+    {
+      "name": "Mark Hendriks",
+      "text": "Eindelijk een kapper die weet hoe je krullen moet knippen. Heel blij mee!",
+      "stars": 5
+    },
+    {
+      "name": "Lisa de Boer",
+      "text": "Geweldige kleurbehandeling gehad. Ziet er heel natuurlijk uit. Absolute aanrader.",
+      "stars": 5
+    }
+  ],
+  "faq": [
+    {
+      "question": "Moet ik een afspraak maken?",
+      "answer": "We werken op afspraak, maar inloop is welkom als er ruimte is. Bel gerust even om te checken."
+    },
+    {
+      "question": "Wat kosten jullie behandelingen?",
+      "answer": "Knippen begint bij €35 voor dames en €25 voor heren. Kleuren en behandelingen op aanvraag."
+    },
+    {
+      "question": "Welke producten gebruiken jullie?",
+      "answer": "We werken uitsluitend met professionele producten van topmerken voor het beste resultaat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 20 247 5558",
+    "city": "Amsterdam",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Haarwerk+Amsterdam"
+  },
+  "metadata": {
+    "generated_at": "2026-03-27T12:00:00Z",
+    "lead_id": "row-3",
+    "version": 1
+  }
+}
