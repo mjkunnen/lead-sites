@@ -6,21 +6,20 @@ import { motion, useInView } from "framer-motion";
 function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true });
+  const inView = useInView(ref, { once: true, amount: 0.5 });
 
   useEffect(() => {
     if (!inView) return;
-    let start = 0;
     const duration = 2000;
     const startTime = performance.now();
 
     function tick(now: number) {
       const elapsed = now - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      // Ease out cubic
-      const eased = 1 - Math.pow(1 - progress, 3);
-      start = Math.floor(eased * target);
-      setCount(start);
+      const eased = progress === 1
+        ? 1
+        : 1 - Math.pow(2, -10 * progress) * Math.cos((progress * 10 - 0.75) * ((2 * Math.PI) / 3));
+      setCount(Math.round(eased * target));
       if (progress < 1) requestAnimationFrame(tick);
     }
 
