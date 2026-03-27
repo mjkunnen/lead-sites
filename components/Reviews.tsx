@@ -4,11 +4,11 @@ import { SiteContent } from "@/lib/types";
 
 function Stars({ count }: { count: number }) {
   return (
-    <div className="flex gap-1">
+    <div className="flex gap-0.5">
       {Array.from({ length: 5 }).map((_, i) => (
         <svg
           key={i}
-          className={`h-5 w-5 ${i < count ? "text-amber-400" : "text-gray-700"}`}
+          className={`h-5 w-5 ${i < count ? "text-amber-400" : "text-slate-200"}`}
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -21,12 +21,20 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews({ content }: { content: SiteContent }) {
   return (
-    <section className="bg-gray-900/30 py-24">
+    <section className="bg-slate-50 py-24">
       <div className="mx-auto max-w-6xl px-6">
-        <h2 className="text-center text-3xl font-extrabold sm:text-4xl">
-          Wat klanten zeggen
-        </h2>
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center"
+        >
+          <span className="text-sm font-semibold uppercase tracking-widest text-slate-400">Reviews</span>
+          <h2 className="mt-3 font-[family-name:var(--font-playfair)] text-3xl font-bold text-slate-900 sm:text-4xl">
+            Wat klanten zeggen
+          </h2>
+        </motion.div>
+        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {content.reviews.map((review, i) => (
             <motion.div
               key={i}
@@ -34,15 +42,18 @@ export default function Reviews({ content }: { content: SiteContent }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="rounded-2xl border border-gray-800 bg-gray-950 p-8"
+              className="rounded-2xl border border-slate-100 bg-white p-8 shadow-sm"
             >
               <Stars count={review.stars} />
-              <p className="mt-4 text-gray-300 leading-relaxed">
+              <p className="mt-5 text-slate-600 leading-relaxed italic">
                 &ldquo;{review.text}&rdquo;
               </p>
-              <p className="mt-4 font-semibold text-gray-400">
-                — {review.name}
-              </p>
+              <div className="mt-6 flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-sm font-bold text-white">
+                  {review.name.charAt(0)}
+                </div>
+                <span className="font-semibold text-slate-900">{review.name}</span>
+              </div>
             </motion.div>
           ))}
         </div>

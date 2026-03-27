@@ -10,12 +10,13 @@ const iconMap: Record<string, React.ReactNode> = {
   sparkles: <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />,
   heart: <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />,
   shield: <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />,
+  palette: <path strokeLinecap="round" strokeLinejoin="round" d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />,
   default: <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />,
 };
 
 export default function Services({ content }: { content: SiteContent }) {
   return (
-    <section id="diensten" className="bg-gray-950 py-24">
+    <section id="diensten" className="bg-white py-24">
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -23,12 +24,12 @@ export default function Services({ content }: { content: SiteContent }) {
           viewport={{ once: true }}
           className="text-center"
         >
-          <span className="text-sm font-semibold uppercase tracking-wider text-blue-400">Wat wij doen</span>
-          <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl">
+          <span className="text-sm font-semibold uppercase tracking-widest text-slate-400">Wat wij doen</span>
+          <h2 className="mt-3 font-[family-name:var(--font-playfair)] text-3xl font-bold text-slate-900 sm:text-4xl">
             Onze diensten
           </h2>
         </motion.div>
-        <div className="mt-16 grid gap-6 sm:grid-cols-2">
+        <div className="mt-16 grid gap-8 sm:grid-cols-2">
           {content.services.map((service, i) => {
             const icon = iconMap[service.icon] || iconMap.default;
             return (
@@ -38,15 +39,15 @@ export default function Services({ content }: { content: SiteContent }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="group rounded-2xl border border-gray-800 bg-gray-900/50 p-8 transition-all hover:border-blue-600/50 hover:bg-gray-900 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-600/5"
+                className="group rounded-2xl border border-slate-100 bg-slate-50/50 p-8 transition-all duration-300 hover:border-slate-200 hover:bg-white hover:-translate-y-1 hover:shadow-lg hover:shadow-slate-200/50"
               >
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/10 text-blue-400 transition group-hover:bg-blue-600/20">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white transition-transform duration-300 group-hover:scale-110">
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                     {icon}
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold">{service.title}</h3>
-                <p className="mt-3 text-gray-400 leading-relaxed">
+                <h3 className="text-xl font-bold text-slate-900">{service.title}</h3>
+                <p className="mt-3 text-slate-500 leading-relaxed">
                   {service.text}
                 </p>
               </motion.div>
