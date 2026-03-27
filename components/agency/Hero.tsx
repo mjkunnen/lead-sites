@@ -1,12 +1,22 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { heroContent } from "@/lib/agency-data";
 import FloatingMockup from "./FloatingMockup";
+import ParticleField from "./ParticleField";
 
 export default function Hero() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+  const blobY1 = useTransform(scrollYProgress, [0, 1], [0, -100]);
+  const blobY2 = useTransform(scrollYProgress, [0, 1], [0, -60]);
+
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50/80 via-white to-white pt-28 pb-20 lg:pt-36 lg:pb-28">
+    <section ref={sectionRef} className="relative overflow-hidden bg-gradient-to-b from-blue-50/80 via-white to-white pt-28 pb-20 lg:pt-36 lg:pb-28">
       {/* Subtle grid pattern */}
       <div
         className="absolute inset-0 opacity-[0.03]"
@@ -16,9 +26,12 @@ export default function Hero() {
         }}
       />
 
+      {/* Particle field */}
+      <ParticleField />
+
       {/* Gradient blobs */}
-      <div className="absolute -top-40 right-0 h-80 w-80 rounded-full bg-blue-200/30 blur-3xl" />
-      <div className="absolute -bottom-20 left-0 h-60 w-60 rounded-full bg-indigo-200/20 blur-3xl" />
+      <motion.div style={{ y: blobY1 }} className="absolute -top-40 right-0 h-80 w-80 rounded-full bg-blue-200/30 blur-3xl" />
+      <motion.div style={{ y: blobY2 }} className="absolute -bottom-20 left-0 h-60 w-60 rounded-full bg-indigo-200/20 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
