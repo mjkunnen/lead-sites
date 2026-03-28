@@ -12,7 +12,6 @@ import LeadContact from "@/components/lead/LeadContact";
 import LeadFooter from "@/components/lead/LeadFooter";
 import MobileCTA from "@/components/lead/MobileCTA";
 import VakmanHero from "@/components/vakman/VakmanHero";
-import VakmanHeroImage from "@/components/vakman/VakmanHeroImage";
 import VakmanTrustStrip from "@/components/vakman/VakmanTrustStrip";
 import VakmanAbout from "@/components/vakman/VakmanAbout";
 import VakmanServices from "@/components/vakman/VakmanServices";
@@ -52,7 +51,6 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
         <VakmanMobileCTA content={content} />
         <main>
           <VakmanHero content={content} />
-          <VakmanHeroImage content={content} />
           <VakmanTrustStrip content={content} />
           <VakmanAbout content={content} />
           <VakmanServices content={content} />

@@ -1,5 +1,6 @@
 "use client";
 import { useRef } from "react";
+import Image from "next/image";
 import {
   motion,
   useMotionValue,
@@ -60,46 +61,41 @@ export default function VakmanHero({
 
   const phone = content.contact.phone ?? "";
   const whatsappHref = `https://wa.me/${phone.replace(/[^0-9]/g, "")}`;
+  const stats = content.stats;
 
   return (
-    <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-white pt-20">
-      {/* ── Background gradient mesh blobs ──────────────────────── */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
-        <motion.div
-          className="absolute -top-32 -left-32 h-[500px] w-[500px] rounded-full bg-blue-100/60 blur-3xl"
-          animate={{ x: [0, 40, 0], y: [0, 30, 0] }}
-          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
-        />
-        <motion.div
-          className="absolute -bottom-40 right-0 h-[400px] w-[400px] rounded-full bg-indigo-100/40 blur-3xl"
-          animate={{ x: [0, -30, 0], y: [0, -25, 0] }}
-          transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
-        />
-        <motion.div
-          className="absolute top-1/3 left-1/2 h-[350px] w-[350px] -translate-x-1/2 rounded-full bg-sky-100/50 blur-3xl"
-          animate={{ x: [0, 25, 0], y: [0, -20, 0] }}
-          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
-        />
-      </div>
+    <section className="relative min-h-screen overflow-hidden">
+      {/* ── Background image ──────────────────────────────────── */}
+      <Image
+        src={content.hero.image_url}
+        alt={`${content.business_name} project`}
+        fill
+        className="object-cover"
+        priority
+      />
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-4 sm:px-6 py-16 sm:py-24">
-        <div className="max-w-3xl">
+      {/* ── Gradient overlay ──────────────────────────────────── */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20" />
+
+      {/* ── Content — anchored to bottom ──────────────────────── */}
+      <div className="absolute inset-0 flex items-end">
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pb-16 md:pb-20 w-full">
           {/* ── Availability badge ────────────────────────────── */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-4 py-1.5 text-sm font-medium text-green-700"
+            className="mb-6 inline-flex items-center gap-2 rounded-full border border-green-400/30 bg-green-500/15 backdrop-blur-sm px-4 py-1.5 text-sm font-medium text-green-300"
           >
             <span className="relative flex h-2.5 w-2.5">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
+              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-400" />
             </span>
             Beschikbaar voor nieuwe projecten
           </motion.div>
 
           {/* ── Headline with word stagger ────────────────────── */}
-          <h1 className="font-heading text-[32px] leading-[1.1] text-slate-900 md:text-[42px] lg:text-[48px]">
+          <h1 className="font-heading text-[32px] leading-[1.1] text-white sm:text-[40px] md:text-[48px] lg:text-[56px]">
             {words.map((word, idx) => {
               const isAccent = idx >= accentStart;
               const isLast = idx === totalWords - 1;
@@ -115,14 +111,13 @@ export default function VakmanHero({
                     delay: 0.15 + idx * 0.08,
                   }}
                   className={`inline-block mr-[0.3em] ${
-                    isAccent ? "text-[#2563eb]" : ""
+                    isAccent ? "text-[#60a5fa]" : ""
                   }`}
                 >
                   {word}
-                  {/* Animated underline after the very last word */}
                   {isLast && (
                     <motion.span
-                      className="block h-[3px] bg-[#2563eb] rounded-full mt-1"
+                      className="block h-[3px] bg-[#60a5fa] rounded-full mt-1"
                       initial={{ scaleX: 0 }}
                       animate={{ scaleX: 1 }}
                       transition={{
@@ -143,10 +138,49 @@ export default function VakmanHero({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
-            className="font-body mt-6 max-w-xl text-[15px] leading-relaxed text-slate-500"
+            className="font-body mt-6 max-w-xl text-base leading-relaxed text-white/70"
           >
             {content.hero.subheadline}
           </motion.p>
+
+          {/* ── Stats row ─────────────────────────────────────── */}
+          {stats && (
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="flex items-center gap-6 text-white/80 text-sm font-subheading mt-6"
+            >
+              {stats.years && (
+                <span className="font-semibold">
+                  {stats.years}+{" "}
+                  <span className="font-normal text-white/60">
+                    jaar ervaring
+                  </span>
+                </span>
+              )}
+              {stats.years && stats.projects && (
+                <span className="w-px h-4 bg-white/20" />
+              )}
+              {stats.projects && (
+                <span className="font-semibold">
+                  {stats.projects}+{" "}
+                  <span className="font-normal text-white/60">projecten</span>
+                </span>
+              )}
+              {stats.projects && stats.reviews_count && (
+                <span className="w-px h-4 bg-white/20" />
+              )}
+              {stats.reviews_count && (
+                <span className="font-semibold">
+                  4.9★{" "}
+                  <span className="font-normal text-white/60">
+                    {stats.reviews_count} reviews
+                  </span>
+                </span>
+              )}
+            </motion.div>
+          )}
 
           {/* ── CTA cluster ───────────────────────────────────── */}
           <motion.div
@@ -155,10 +189,10 @@ export default function VakmanHero({
             transition={{ duration: 0.7, delay: 0.7 }}
             className="mt-10 flex flex-col gap-4 sm:flex-row"
           >
-            {/* Primary — dark button with shimmer + magnetic */}
+            {/* Primary — blue solid with shimmer + magnetic */}
             <MagneticButton
               href={whatsappHref}
-              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-slate-900 px-8 py-4 text-base font-semibold text-white transition-shadow hover:shadow-xl hover:shadow-slate-900/20"
+              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-[#2563eb] px-8 py-4 text-base font-semibold text-white transition-shadow hover:shadow-xl hover:shadow-blue-600/30"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-[200%] group-hover:translate-x-[200%] transition-transform duration-700" />
               <span className="relative">{content.hero.cta_primary}</span>
@@ -177,10 +211,10 @@ export default function VakmanHero({
               </svg>
             </MagneticButton>
 
-            {/* Secondary — outlined */}
+            {/* Secondary — white/20 backdrop-blur outlined */}
             <a
               href="#projecten"
-              className="inline-flex items-center justify-center rounded-full border border-slate-200 px-8 py-4 text-base font-semibold text-slate-600 transition-all hover:border-slate-300 hover:text-slate-900 hover:bg-slate-50"
+              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-8 py-4 text-base font-semibold text-white transition-all hover:border-white/40 hover:bg-white/15"
             >
               {content.hero.cta_secondary}
             </a>
@@ -197,10 +231,10 @@ export default function VakmanHero({
               {content.trust_badges.map((badge, idx) => (
                 <span
                   key={idx}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3.5 py-1.5 text-sm text-slate-600"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-white/10 backdrop-blur-sm px-3.5 py-1.5 text-sm text-white/90"
                 >
                   <svg
-                    className="h-4 w-4 text-[#2563eb]"
+                    className="h-4 w-4 text-white/60"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
