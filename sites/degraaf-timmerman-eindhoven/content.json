@@ -18,7 +18,7 @@
     "subheadline": "Vakkundig timmerwerk op maat. Van kozijnvervanging tot complete verbouwingen — wij leveren kwaliteit die blijft.",
     "cta_primary": "Offerte aanvragen",
     "cta_secondary": "Bekijk projecten",
-    "image_url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&q=80"
+    "image_url": "https://images.unsplash.com/photo-1541123603104-512919d6a96c?w=1200&q=80"
   },
   "services": [
     {
@@ -44,16 +44,20 @@
   ],
   "gallery": [
     {
-      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
       "alt": "Maatwerk houten kozijnen"
     },
     {
-      "url": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=600&q=80",
+      "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80",
       "alt": "Dakkapel renovatie"
     },
     {
-      "url": "https://images.unsplash.com/photo-1564540586988-aa4e53ab3394?w=600&q=80",
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80",
       "alt": "Timmerwerk detail afwerking"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+      "alt": "Interieur verbouwing"
     }
   ],
   "reviews": [
