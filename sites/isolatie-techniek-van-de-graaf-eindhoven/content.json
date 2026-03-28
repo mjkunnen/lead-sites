@@ -1,0 +1,93 @@
+{
+  "slug": "isolatie-techniek-van-de-graaf-eindhoven",
+  "lang": "nl",
+  "business_name": "Isolatie-Techniek van de Graaf",
+  "niche": "aannemer",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Isolatie op maat",
+  "about": "Isolatie-Techniek van de Graaf is uw betrouwbare aannemer in Eindhoven, gespecialiseerd in isolatieoplossingen. Met een focus op kwaliteit en klanttevredenheid, zorgen wij ervoor dat uw woning optimaal geïsoleerd is.",
+  "trust_badges": [
+    "4.6★ Google Reviews",
+    "Gratis offerte",
+    "Regio Eindhoven"
+  ],
+  "stats": {
+    "years": 9,
+    "projects": 80,
+    "reviews_count": 10
+  },
+  "hero": {
+    "headline": "Uw aannemer voor isolatie in Eindhoven",
+    "subheadline": "Kies voor kwaliteit en comfort in uw woning.",
+    "cta_primary": "Offerte aanvragen",
+    "cta_secondary": "Bekijk projecten",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoyKNCgdDXuWatD_CKjTBax3Oz32x18Rv3fZ41IHW0DNJPOmBerB_cqENHuPHXJHyqjhTrvxc3ZqowVPl1UFObKdT1r1gEAeJJQIrVib-1mXEGr-v9OIdSG1r6rRKkBL6698Srz=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Isolatieadvies",
+      "text": "Onze experts geven advies over de beste isolatieoplossingen voor uw woning.",
+      "icon": "ruler"
+    },
+    {
+      "title": "Professionele isolatie",
+      "text": "Wij voeren isolatiewerkzaamheden uit met oog voor detail en kwaliteit.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Duurzame oplossingen",
+      "text": "Kies voor duurzame isolatiematerialen die uw energiekosten verlagen.",
+      "icon": "sparkles"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoyKNCgdDXuWatD_CKjTBax3Oz32x18Rv3fZ41IHW0DNJPOmBerB_cqENHuPHXJHyqjhTrvxc3ZqowVPl1UFObKdT1r1gEAeJJQIrVib-1mXEGr-v9OIdSG1r6rRKkBL6698Srz=w800-h600-k-no",
+      "alt": "Isolatie-Techniek van de Graaf project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RZow4-uaJ8QvG7lmor6xKg&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=273.8823&pitch=0&thumbfov=100",
+      "alt": "Isolatie-Techniek van de Graaf project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Tamás Pupos",
+      "text": "Dolgozni kell.   😉😎\nWerk harder.  😌🤓",
+      "stars": 5,
+      "date": "december 2021"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Wat is de gemiddelde doorlooptijd voor isolatiewerkzaamheden?",
+      "answer": "De doorlooptijd hangt af van de grootte van het project, maar we streven ernaar om efficiënt te werken."
+    },
+    {
+      "question": "Bieden jullie gratis offertes aan?",
+      "answer": "Ja, wij bieden gratis en vrijblijvende offertes voor al onze isolatiediensten."
+    },
+    {
+      "question": "Zijn jullie toegankelijk voor rolstoelgebruikers?",
+      "answer": "Ja, onze ingang en parkeerplaatsen zijn volledig rolstoeltoegankelijk."
+    },
+    {
+      "question": "Wat zijn de voordelen van goede isolatie?",
+      "answer": "Goede isolatie zorgt voor een comfortabeler binnenklimaat en verlaagt uw energiekosten."
+    }
+  ],
+  "contact": {
+    "phone": "+31 40 293 2886",
+    "city": "Eindhoven",
+    "address": "Verdunplein 7, 5627 SZ Eindhoven",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOcjFVarexkcRIntUwdcmaE8"
+  },
+  "metadata": {
+    "generated_at": "2026-03-28T03:59:40.445Z",
+    "lead_id": "isolatie-techniek-van-de-graaf-eindhoven-001",
+    "source": "outscraper",
+    "place_id": "ChIJOcjFVarexkcRIntUwdcmaE8",
+    "version": 1
+  }
+}

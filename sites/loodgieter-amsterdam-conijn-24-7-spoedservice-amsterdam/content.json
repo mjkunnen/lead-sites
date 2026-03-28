@@ -1,0 +1,131 @@
+{
+  "slug": "loodgieter-amsterdam-conijn-24-7-spoedservice-amsterdam",
+  "lang": "nl",
+  "business_name": "Loodgieter Amsterdam Conijn - 24/7 spoedservice",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "cool-professional",
+  "tagline": "Altijd snel en betrouwbaar",
+  "about": "Loodgieter Amsterdam Conijn biedt professionele loodgietersdiensten met een focus op snelheid en klanttevredenheid. Onze 24/7 spoedservice zorgt ervoor dat we altijd voor u klaarstaan, ongeacht het probleem.",
+  "trust_badges": [
+    "5★ Google Reviews",
+    "Gratis offerte",
+    "Regio Amsterdam"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 1624,
+    "reviews_count": 203
+  },
+  "hero": {
+    "headline": "Uw loodgieter in Amsterdam",
+    "subheadline": "24/7 spoedservice voor al uw loodgietersproblemen.",
+    "cta_primary": "Offerte aanvragen",
+    "cta_secondary": "Bekijk projecten",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerPK3qGJ5T4xydmGwg7wSI8G5-kXleCI3D6epXVPBreJDrXX2mjn0I4VbJSbhg3le8-Xn4ARyENxnDEFf21St7cBaEvQp3BmtOyJ866Dtohuscn3cFhDep3I1WVGciEgdVomVMQB-NqFpED=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Reparatieservice",
+      "text": "Wij bieden snelle en professionele reparaties van lekkages en andere loodgietersproblemen.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Online prijsopgaven",
+      "text": "Vraag eenvoudig online een prijsopgave aan voor onze diensten, zodat u nooit voor verrassingen komt te staan.",
+      "icon": "palette"
+    },
+    {
+      "title": "Contactloos betalen",
+      "text": "Betaal gemakkelijk en veilig met contactloze mobiele betalingen of creditcards.",
+      "icon": "scissors"
+    },
+    {
+      "title": "LGBTQ+ vriendelijk",
+      "text": "Wij creëren een veilige en inclusieve omgeving voor iedereen, ongeacht hun achtergrond.",
+      "icon": "sparkles"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerPK3qGJ5T4xydmGwg7wSI8G5-kXleCI3D6epXVPBreJDrXX2mjn0I4VbJSbhg3le8-Xn4ARyENxnDEFf21St7cBaEvQp3BmtOyJ866Dtohuscn3cFhDep3I1WVGciEgdVomVMQB-NqFpED=w800-h600-k-no",
+      "alt": "Loodgieter Amsterdam Conijn - 24/7 spoedservice project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VI_yYoQNMBal0Ly9XoRYSg&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=301.01624&pitch=0&thumbfov=100",
+      "alt": "Loodgieter Amsterdam Conijn - 24/7 spoedservice project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Jort Braams",
+      "text": "Snel, professioneel, goed opgelost! Niks op aan te merken.",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Daniel Rokoszak",
+      "text": "Had a leak due to broken carbon monoxide pipe, along that our boiler had to be replaced. The job was carried out with care and utmost professionalism.\nThe customer service and delivery was simply excellent!\n\nWe will definitely come back again and recommend Conijn to anyone who is in need of professional plumber services for a reasonable price.",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Alex Goumans",
+      "text": "Doorbrander van de verwarming. Zelfs met alle drukte tussendoor geholpen kunnen worden. Super!",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "Bullet Plewf",
+      "text": "Very professional and quick. Took less than 4 hours to go from the first call to fixing my boiler.",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "Anisa",
+      "text": "Really the best plumber there is in Amsterdam. I texted the number at 10 PM on a Monday night and the plumber came at 11 PM same day. He also managed to fix the problem and the rate is not the most expensive in Amsterdam. Highly recommended !!!",
+      "stars": 5,
+      "date": "december 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kan ik een loodgieter verwachten?",
+      "answer": "Onze loodgieters zijn vaak binnen een uur ter plaatse, vooral bij spoedklussen."
+    },
+    {
+      "question": "Bieden jullie ook online prijsopgaven aan?",
+      "answer": "Ja, u kunt eenvoudig online een prijsopgave aanvragen voor onze diensten."
+    },
+    {
+      "question": "Kan ik contactloos betalen?",
+      "answer": "Ja, wij accepteren contactloze betalingen en creditcards voor uw gemak."
+    },
+    {
+      "question": "Zijn jullie diensten beschikbaar voor iedereen?",
+      "answer": "Zeker! Wij zijn een LGBTQ+ vriendelijke organisatie en verwelkomen iedereen."
+    }
+  ],
+  "contact": {
+    "phone": "+31 20 716 5306",
+    "city": "Amsterdam",
+    "address": "Talbotstraat 67, 1087 DE Amsterdam",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKb3S9xYJxkcREh-V-TKdW5g"
+  },
+  "working_hours": {
+    "Di": "24 uur geopend",
+    "Do": "24 uur geopend",
+    "Ma": "24 uur geopend",
+    "Vr": "24 uur geopend",
+    "Wo": "24 uur geopend",
+    "Za": "24 uur geopend",
+    "Zo": "24 uur geopend"
+  },
+  "metadata": {
+    "generated_at": "2026-03-28T04:16:45.888Z",
+    "lead_id": "loodgieter-amsterdam-conijn-24-7-spoedservice-amsterdam-001",
+    "source": "outscraper",
+    "place_id": "ChIJKb3S9xYJxkcREh-V-TKdW5g",
+    "version": 1
+  }
+}
