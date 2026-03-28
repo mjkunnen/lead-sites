@@ -12,11 +12,16 @@ import LeadContact from "@/components/lead/LeadContact";
 import LeadFooter from "@/components/lead/LeadFooter";
 import MobileCTA from "@/components/lead/MobileCTA";
 import VakmanHero from "@/components/vakman/VakmanHero";
-import VakmanStats from "@/components/vakman/VakmanStats";
+import VakmanHeroImage from "@/components/vakman/VakmanHeroImage";
+import VakmanTrustStrip from "@/components/vakman/VakmanTrustStrip";
+import VakmanAbout from "@/components/vakman/VakmanAbout";
 import VakmanServices from "@/components/vakman/VakmanServices";
 import VakmanProjects from "@/components/vakman/VakmanProjects";
 import VakmanReviews from "@/components/vakman/VakmanReviews";
+import VakmanFAQ from "@/components/vakman/VakmanFAQ";
 import VakmanContact from "@/components/vakman/VakmanContact";
+import VakmanMobileCTA from "@/components/vakman/VakmanMobileCTA";
+import ScrollProgress from "@/components/vakman/ScrollProgress";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -37,22 +42,23 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
   const content = getSiteContent(slug);
   if (!content) notFound();
 
-  const paletteClass = `palette-${content.palette || "warm-luxury"}`;
   const isVakman = content.palette === "vakman";
 
   if (isVakman) {
     return (
-      <div className={paletteClass}>
-        <LeadCursor />
-        <MobileCTA content={content} />
+      <div className={`palette-${content.palette}`}>
         <LeadNavbar content={content} />
+        <ScrollProgress />
+        <VakmanMobileCTA content={content} />
         <main>
           <VakmanHero content={content} />
-          <VakmanStats content={content} />
+          <VakmanHeroImage content={content} />
+          <VakmanTrustStrip content={content} />
+          <VakmanAbout content={content} />
           <VakmanServices content={content} />
           <VakmanProjects content={content} />
           <VakmanReviews content={content} />
-          <LeadFAQ content={content} />
+          <VakmanFAQ content={content} />
           <VakmanContact content={content} />
         </main>
         <LeadFooter content={content} />
@@ -61,7 +67,7 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <div className={paletteClass}>
+    <div className={`palette-${content.palette || "warm-luxury"}`}>
       <LeadCursor />
       <MobileCTA content={content} />
       <LeadNavbar content={content} />
