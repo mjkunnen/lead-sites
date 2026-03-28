@@ -26,7 +26,7 @@ function ContactCard({
 export default function VakmanContact({ content }: { content: SiteContent }) {
   const i = t(content.lang);
   const phone = content.contact.phone;
-  const cleanPhone = phone?.replace(/[^0-9+]/g, "");
+  const cleanPhone = phone?.replace(/[^0-9]/g, "");
   const whatsappUrl = phone ? `https://wa.me/${cleanPhone}` : null;
 
   return (
@@ -49,8 +49,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
             <span className="h-px w-8 bg-blue-500/20" />
           </div>
           <h2
-            className="text-3xl font-bold text-white sm:text-5xl"
-            style={{ fontFamily: "var(--p-font-heading)" }}
+            className="font-heading text-3xl font-bold text-white sm:text-5xl"
           >
             {i.contact.heading1}{" "}
             <span className="text-[#2563eb]">{i.contact.heading2}</span>

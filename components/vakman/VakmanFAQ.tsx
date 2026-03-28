@@ -24,8 +24,7 @@ export default function VakmanFAQ({ content }: { content: SiteContent }) {
             <span className="h-px w-8 bg-[#2563eb]/20" />
           </div>
           <h2
-            className="text-3xl font-bold text-slate-900 sm:text-5xl"
-            style={{ fontFamily: "var(--p-font-heading)" }}
+            className="font-heading text-3xl font-bold text-slate-900 sm:text-5xl"
           >
             {i.faq.heading}
           </h2>

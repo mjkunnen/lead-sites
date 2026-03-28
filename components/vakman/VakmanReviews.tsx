@@ -58,8 +58,7 @@ export default function VakmanReviews({ content }: { content: SiteContent }) {
               {i.reviews.label}
             </div>
             <h2
-              className="text-3xl font-bold text-slate-900 sm:text-5xl"
-              style={{ fontFamily: "var(--p-font-heading)" }}
+              className="font-heading text-3xl font-bold text-slate-900 sm:text-5xl"
             >
               {i.reviews.heading1}
               <br />
@@ -68,8 +67,7 @@ export default function VakmanReviews({ content }: { content: SiteContent }) {
           </div>
           <div className="flex items-center gap-4">
             <span
-              className="text-5xl font-bold text-slate-900"
-              style={{ fontFamily: "var(--p-font-heading)" }}
+              className="font-heading text-5xl font-bold text-slate-900"
             >
               {average}
             </span>

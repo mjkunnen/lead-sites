@@ -59,7 +59,7 @@ export default function VakmanHero({
   const totalWords = words.length;
 
   const phone = content.contact.phone ?? "";
-  const whatsappHref = `https://wa.me/${phone.replace("+", "")}`;
+  const whatsappHref = `https://wa.me/${phone.replace(/[^0-9]/g, "")}`;
 
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-white pt-20">
