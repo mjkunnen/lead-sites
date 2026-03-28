@@ -90,8 +90,8 @@ export default function VakmanStats({ content }: { content: SiteContent }) {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-blue-400/50 uppercase mb-6">
-                <span className="h-px w-8 bg-blue-500/20" />
+              <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-amber-500/50 uppercase mb-6">
+                <span className="h-px w-8 bg-amber-600/20" />
                 {i.about.label}
               </div>
               <h2
@@ -99,7 +99,7 @@ export default function VakmanStats({ content }: { content: SiteContent }) {
               >
                 {content.lang === "nl" ? "Vakwerk met" : "Craftsmanship with"}
                 <br />
-                <span className="text-blue-400">{content.lang === "nl" ? "aandacht voor detail" : "attention to detail"}</span>
+                <span className="text-amber-500">{content.lang === "nl" ? "aandacht voor detail" : "attention to detail"}</span>
               </h2>
               <p className="mt-8 text-lg text-zinc-400 leading-relaxed">
                 {content.about}

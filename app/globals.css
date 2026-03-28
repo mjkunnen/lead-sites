@@ -43,10 +43,10 @@
   --p-bg-dark-card: #1e293b;
 
   /* Accent */
-  --p-accent: #2563eb;
-  --p-accent-hover: #1d4ed8;
-  --p-accent-subtle: #eff6ff;
-  --p-accent-glow: rgba(37, 99, 235, 0.08);
+  --p-accent: #b45309;
+  --p-accent-hover: #92400e;
+  --p-accent-subtle: #fef3c7;
+  --p-accent-glow: rgba(180, 83, 9, 0.08);
 
   /* Text */
   --p-text-primary: #0f172a;
@@ -87,8 +87,8 @@
   100% { transform: translateX(100%); }
 }
 @keyframes cta-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(37, 99, 235, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(37, 99, 235, 0.5); }
+  0%, 100% { box-shadow: 0 0 20px rgba(180, 83, 9, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(180, 83, 9, 0.5); }
 }
 
 html {

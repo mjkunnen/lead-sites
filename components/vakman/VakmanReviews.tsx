@@ -20,7 +20,7 @@ function ReviewCard({ review }: { review: SiteContent["reviews"][0] }) {
       </div>
       <p className="text-slate-600 leading-relaxed text-sm">&ldquo;{review.text}&rdquo;</p>
       <div className="mt-5 flex items-center gap-3 border-t border-slate-100 pt-4">
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#eff6ff] text-xs font-bold text-[#2563eb]">
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#fef3c7] text-xs font-bold text-[#b45309]">
           {review.name.charAt(0)}
         </div>
         <span className="font-semibold text-slate-900 text-sm">{review.name}</span>
@@ -53,8 +53,8 @@ export default function VakmanReviews({ content }: { content: SiteContent }) {
           className="flex flex-col md:flex-row md:items-end md:justify-between gap-8"
         >
           <div>
-            <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-[#2563eb]/50 uppercase mb-6">
-              <span className="h-px w-8 bg-[#2563eb]/20" />
+            <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-[#b45309]/50 uppercase mb-6">
+              <span className="h-px w-8 bg-[#b45309]/20" />
               {i.reviews.label}
             </div>
             <h2

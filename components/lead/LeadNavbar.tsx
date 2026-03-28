@@ -103,7 +103,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
               rel={ctaExternal ? "noopener noreferrer" : undefined}
               className={`relative overflow-hidden rounded-full px-6 py-2.5 text-sm font-semibold transition-all duration-300 hover:scale-105 active:scale-95 ${
                 isVakman
-                  ? `font-subheading ${scrolled ? "bg-[#2563eb] text-white hover:bg-[#1d4ed8]" : "bg-white/15 text-white backdrop-blur-sm border border-white/20 hover:bg-white/25"}`
+                  ? `font-subheading ${scrolled ? "bg-[#b45309] text-white hover:bg-[#92400e]" : "bg-white/15 text-white backdrop-blur-sm border border-white/20 hover:bg-white/25"}`
                   : scrolled
                     ? "bg-stone-900 text-white hover:bg-amber-800"
                     : "bg-white/15 text-white backdrop-blur-sm border border-white/20 hover:bg-white/25"
@@ -182,7 +182,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
               onClick={() => setMenuOpen(false)}
               className={`relative overflow-hidden mt-4 rounded-full px-8 py-4 text-lg font-semibold ${
                 isVakman
-                  ? "bg-[#2563eb] text-white font-subheading"
+                  ? "bg-[#b45309] text-white font-subheading"
                   : "bg-stone-900 text-white"
               }`}
             >

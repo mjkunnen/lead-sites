@@ -112,13 +112,13 @@ export default function VakmanHero({
                     delay: 0.15 + idx * 0.08,
                   }}
                   className={`inline-block mr-[0.3em] ${
-                    isAccent ? "text-[#60a5fa]" : ""
+                    isAccent ? "text-[#d97706]" : ""
                   }`}
                 >
                   {word}
                   {isLast && (
                     <motion.span
-                      className="block h-[3px] bg-[#60a5fa] rounded-full mt-1"
+                      className="block h-[3px] bg-[#d97706] rounded-full mt-1"
                       initial={{ scaleX: 0 }}
                       animate={{ scaleX: 1 }}
                       transition={{
@@ -193,7 +193,7 @@ export default function VakmanHero({
             {/* Primary — blue solid with shimmer + magnetic */}
             <MagneticButton
               href={whatsappHref}
-              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-[#2563eb] px-8 py-4 text-base font-semibold text-white transition-shadow hover:shadow-xl hover:shadow-blue-600/30"
+              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-[#b45309] px-8 py-4 text-base font-semibold text-white transition-shadow hover:shadow-xl hover:shadow-amber-700/30"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-[200%] group-hover:translate-x-[200%] transition-transform duration-700" />
               <span className="relative">{content.hero.cta_primary}</span>

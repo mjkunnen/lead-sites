@@ -31,14 +31,14 @@ function ServiceCard({ service, index, featured }: {
         onMouseMove={handleMouseMove}
         className="relative col-span-full rounded-2xl bg-[#0f172a] p-8 md:p-10 overflow-hidden group cursor-default"
       >
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ background: 'radial-gradient(400px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(37,99,235,0.12), transparent 60%)' }} />
-        <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-blue-500/10 blur-3xl" />
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ background: 'radial-gradient(400px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(180,83,9,0.12), transparent 60%)' }} />
+        <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-amber-600/10 blur-3xl" />
         <div className="relative z-10">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-xl bg-[#2563eb]/20 flex items-center justify-center text-[#60a5fa]">
+            <div className="w-12 h-12 rounded-xl bg-[#b45309]/20 flex items-center justify-center text-[#d97706]">
               <VakmanIcon name={service.icon} className="w-6 h-6" />
             </div>
-            <span className="px-3 py-1 rounded-full bg-[#2563eb] text-white text-xs font-subheading font-semibold">Populair</span>
+            <span className="px-3 py-1 rounded-full bg-[#b45309] text-white text-xs font-subheading font-semibold">Populair</span>
           </div>
           <h3 className="font-subheading font-bold text-xl text-white mb-3">{service.title}</h3>
           <p className="font-body text-sm text-slate-400 leading-relaxed max-w-md">{service.text}</p>
@@ -58,9 +58,9 @@ function ServiceCard({ service, index, featured }: {
       whileHover={{ y: -4 }}
       className="relative rounded-2xl bg-[#fafafa] border border-slate-100 p-6 md:p-8 overflow-hidden group cursor-default hover:shadow-lg hover:border-slate-200 transition-all duration-300"
     >
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ background: 'radial-gradient(300px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(37,99,235,0.06), transparent 60%)' }} />
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ background: 'radial-gradient(300px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(180,83,9,0.06), transparent 60%)' }} />
       <div className="relative z-10">
-        <div className="w-11 h-11 rounded-xl bg-[#eff6ff] flex items-center justify-center text-[#2563eb] mb-4 group-hover:bg-[#2563eb] group-hover:text-white transition-colors duration-300">
+        <div className="w-11 h-11 rounded-xl bg-[#fef3c7] flex items-center justify-center text-[#b45309] mb-4 group-hover:bg-[#b45309] group-hover:text-white transition-colors duration-300">
           <VakmanIcon name={service.icon} className="w-5 h-5" />
         </div>
         <h3 className="font-subheading font-bold text-lg text-slate-900 mb-2">{service.title}</h3>
@@ -78,7 +78,7 @@ export default function VakmanServices({ content }: { content: SiteContent }) {
     <section id="diensten" className="py-20 px-4 bg-white">
       <div className="max-w-5xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-12">
-          <span className="font-subheading text-xs font-semibold text-[#2563eb] uppercase tracking-wider mb-3 block">Diensten</span>
+          <span className="font-subheading text-xs font-semibold text-[#b45309] uppercase tracking-wider mb-3 block">Diensten</span>
           <h2 className="font-heading text-3xl md:text-4xl text-slate-900">Wat wij voor u doen</h2>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">

@@ -18,10 +18,10 @@ export default function VakmanFAQ({ content }: { content: SiteContent }) {
           viewport={{ once: true }}
           className="text-center mb-12 sm:mb-16"
         >
-          <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-[#2563eb]/50 uppercase mb-6">
-            <span className="h-px w-8 bg-[#2563eb]/20" />
+          <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-[#b45309]/50 uppercase mb-6">
+            <span className="h-px w-8 bg-[#b45309]/20" />
             {i.faq.label}
-            <span className="h-px w-8 bg-[#2563eb]/20" />
+            <span className="h-px w-8 bg-[#b45309]/20" />
           </div>
           <h2
             className="font-heading text-3xl font-bold text-slate-900 sm:text-5xl"
@@ -64,7 +64,7 @@ export default function VakmanFAQ({ content }: { content: SiteContent }) {
                     transition={{ duration: 0.2 }}
                     className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg transition-colors duration-300 ${
                       isOpen
-                        ? "bg-[#2563eb] text-white"
+                        ? "bg-[#b45309] text-white"
                         : "bg-slate-200 text-slate-500"
                     }`}
                   >

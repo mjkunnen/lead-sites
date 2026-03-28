@@ -32,8 +32,8 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
   return (
     <section id="contact" className="relative bg-[#0f172a] py-20 sm:py-32 overflow-hidden">
       {/* Subtle gradient blobs */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-600/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-amber-600/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         {/* Heading */}
@@ -43,16 +43,16 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
           viewport={{ once: true }}
           className="text-center mb-12 sm:mb-16"
         >
-          <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-blue-400/50 uppercase mb-6">
-            <span className="h-px w-8 bg-blue-500/20" />
+          <div className="flex items-center justify-center gap-3 text-sm font-medium tracking-widest text-amber-500/50 uppercase mb-6">
+            <span className="h-px w-8 bg-amber-600/20" />
             {i.contact.label}
-            <span className="h-px w-8 bg-blue-500/20" />
+            <span className="h-px w-8 bg-amber-600/20" />
           </div>
           <h2
             className="font-heading text-3xl font-bold text-white sm:text-5xl"
           >
             {i.contact.heading1}{" "}
-            <span className="text-[#2563eb]">{i.contact.heading2}</span>
+            <span className="text-[#b45309]">{i.contact.heading2}</span>
           </h2>
           <p className="mt-4 text-lg text-slate-400 max-w-xl mx-auto">
             {i.contact.subtext}
@@ -69,14 +69,14 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="group sm:col-span-2 lg:col-span-3 relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] p-8 transition-all duration-300 hover:scale-[1.01] active:scale-[0.99] cursor-pointer shadow-[0_0_30px_rgba(37,99,235,0.3)] animate-[cta-glow_3s_ease-in-out_infinite]"
+            className="group sm:col-span-2 lg:col-span-3 relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#b45309] to-[#92400e] p-8 transition-all duration-300 hover:scale-[1.01] active:scale-[0.99] cursor-pointer shadow-[0_0_30px_rgba(180,83,9,0.3)] animate-[cta-glow_3s_ease-in-out_infinite]"
           >
             {/* Shimmer */}
             <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-[200%] group-hover:translate-x-[200%] transition-transform duration-700" />
             <div className="relative flex items-center justify-between">
               <div>
                 <h3 className="text-xl font-bold text-white">{i.vakman.ctaQuote}</h3>
-                <p className="mt-1 text-blue-100/60">{i.contact.subtext}</p>
+                <p className="mt-1 text-amber-100/60">{i.contact.subtext}</p>
               </div>
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white/15 text-white transition-transform group-hover:scale-110 group-hover:translate-x-1">
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -90,7 +90,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
           {phone && (
             <ContactCard delay={0.05}>
               <a href={`tel:${cleanPhone}`} className="group block">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400 mb-4 transition-all group-hover:scale-110">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-600/10 text-amber-500 mb-4 transition-all group-hover:scale-110">
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                   </svg>
@@ -127,7 +127,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
           {content.contact.email && (
             <ContactCard delay={0.15}>
               <a href={`mailto:${content.contact.email}`} className="group block">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400 mb-4 transition-all group-hover:scale-110">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-600/10 text-amber-500 mb-4 transition-all group-hover:scale-110">
                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
@@ -146,7 +146,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
               rel="noopener noreferrer"
               className="group block"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400 mb-4 transition-all group-hover:scale-110">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-600/10 text-amber-500 mb-4 transition-all group-hover:scale-110">
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
@@ -162,7 +162,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
           {/* Working hours */}
           {content.working_hours && Object.keys(content.working_hours).length > 0 && (
             <ContactCard delay={0.25}>
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400 mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-600/10 text-amber-500 mb-4">
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
