@@ -16,6 +16,40 @@
   --color-border-light: #F1F5F9;
 }
 
+/* === Palette: warm-luxury (salon) === */
+.palette-warm-luxury {
+  --p-bg-primary: #1c1917;
+  --p-bg-secondary: #292524;
+  --p-bg-card: rgba(255,255,255,0.05);
+  --p-border-card: rgba(255,255,255,0.1);
+  --p-accent: #d97706;
+  --p-accent-hover: #b45309;
+  --p-accent-subtle: rgba(217,119,6,0.1);
+  --p-text-primary: #fafaf9;
+  --p-text-secondary: #e7e5e4;
+  --p-text-muted: #a8a29e;
+  --p-success: #22c55e;
+  --p-font-heading: 'Playfair Display', serif;
+  --p-font-body: 'Inter', sans-serif;
+}
+
+/* === Palette: vakman (trades/construction) === */
+.palette-vakman {
+  --p-bg-primary: #09090b;
+  --p-bg-secondary: #111113;
+  --p-bg-card: rgba(255,255,255,0.03);
+  --p-border-card: rgba(255,255,255,0.06);
+  --p-accent: #3b82f6;
+  --p-accent-hover: #2563eb;
+  --p-accent-subtle: rgba(59,130,246,0.08);
+  --p-text-primary: #fafafa;
+  --p-text-secondary: #a1a1aa;
+  --p-text-muted: #52525b;
+  --p-success: #22c55e;
+  --p-font-heading: 'Inter', sans-serif;
+  --p-font-body: 'Inter', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,23 +77,6 @@ body {
 
 .animate-marquee:hover {
   animation-play-state: paused;
-}
-
-/* === Lenis Smooth Scroll === */
-html.lenis, html.lenis body {
-  height: auto;
-}
-
-.lenis.lenis-smooth {
-  scroll-behavior: auto !important;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
 }
 
 /* === Gradient Mesh === */

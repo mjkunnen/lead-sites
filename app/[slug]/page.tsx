@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import { getAllSlugs, getSiteContent } from "@/lib/content";
-import SmoothScroll from "@/components/agency/SmoothScroll";
 import LeadCursor from "@/components/lead/LeadCursor";
 import LeadNavbar from "@/components/lead/LeadNavbar";
 import LeadHero from "@/components/lead/LeadHero";
@@ -12,6 +11,12 @@ import LeadFAQ from "@/components/lead/LeadFAQ";
 import LeadContact from "@/components/lead/LeadContact";
 import LeadFooter from "@/components/lead/LeadFooter";
 import MobileCTA from "@/components/lead/MobileCTA";
+import VakmanHero from "@/components/vakman/VakmanHero";
+import VakmanStats from "@/components/vakman/VakmanStats";
+import VakmanServices from "@/components/vakman/VakmanServices";
+import VakmanProjects from "@/components/vakman/VakmanProjects";
+import VakmanReviews from "@/components/vakman/VakmanReviews";
+import VakmanContact from "@/components/vakman/VakmanContact";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -32,23 +37,44 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
   const content = getSiteContent(slug);
   if (!content) notFound();
 
+  const paletteClass = `palette-${content.palette || "warm-luxury"}`;
+  const isVakman = content.palette === "vakman";
+
+  if (isVakman) {
+    return (
+      <div className={paletteClass}>
+        <LeadCursor />
+        <MobileCTA content={content} />
+        <LeadNavbar content={content} />
+        <main>
+          <VakmanHero content={content} />
+          <VakmanStats content={content} />
+          <VakmanServices content={content} />
+          <VakmanProjects content={content} />
+          <VakmanReviews content={content} />
+          <LeadFAQ content={content} />
+          <VakmanContact content={content} />
+        </main>
+        <LeadFooter content={content} />
+      </div>
+    );
+  }
+
   return (
-    <>
+    <div className={paletteClass}>
       <LeadCursor />
       <MobileCTA content={content} />
       <LeadNavbar content={content} />
-      <SmoothScroll>
-        <main>
-          <LeadHero content={content} />
-          {content.about && <LeadAbout content={content} />}
-          <LeadServices content={content} />
-          {content.gallery && content.gallery.length > 0 && <LeadGallery content={content} />}
-          <LeadReviews content={content} />
-          <LeadFAQ content={content} />
-          <LeadContact content={content} />
-        </main>
-        <LeadFooter content={content} />
-      </SmoothScroll>
-    </>
+      <main>
+        <LeadHero content={content} />
+        {content.about && <LeadAbout content={content} />}
+        <LeadServices content={content} />
+        {content.gallery && content.gallery.length > 0 && <LeadGallery content={content} />}
+        <LeadReviews content={content} />
+        <LeadFAQ content={content} />
+        <LeadContact content={content} />
+      </main>
+      <LeadFooter content={content} />
+    </div>
   );
 }
