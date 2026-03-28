@@ -35,19 +35,60 @@
 
 /* === Palette: vakman (trades/construction) === */
 .palette-vakman {
-  --p-bg-primary: #09090b;
-  --p-bg-secondary: #111113;
-  --p-bg-card: rgba(255,255,255,0.03);
-  --p-border-card: rgba(255,255,255,0.06);
-  --p-accent: #3b82f6;
-  --p-accent-hover: #2563eb;
-  --p-accent-subtle: rgba(59,130,246,0.08);
-  --p-text-primary: #fafafa;
-  --p-text-secondary: #a1a1aa;
-  --p-text-muted: #52525b;
+  /* Backgrounds */
+  --p-bg-primary: #ffffff;
+  --p-bg-secondary: #f8fafc;
+  --p-bg-card: #fafafa;
+  --p-bg-dark: #0f172a;
+  --p-bg-dark-card: #1e293b;
+
+  /* Accent */
+  --p-accent: #2563eb;
+  --p-accent-hover: #1d4ed8;
+  --p-accent-subtle: #eff6ff;
+  --p-accent-glow: rgba(37, 99, 235, 0.08);
+
+  /* Text */
+  --p-text-primary: #0f172a;
+  --p-text-secondary: #64748b;
+  --p-text-muted: #94a3b8;
+
+  /* Borders */
+  --p-border: #f1f5f9;
+  --p-border-dark: #334155;
+
+  /* Semantic */
   --p-success: #22c55e;
-  --p-font-heading: 'Inter', sans-serif;
-  --p-font-body: 'Inter', sans-serif;
+  --p-stars: #f59e0b;
+  --p-danger: #ef4444;
+
+  /* Fonts */
+  --p-font-heading: 'DM Serif Display', Georgia, serif;
+  --p-font-subheading: 'Plus Jakarta Sans', sans-serif;
+  --p-font-body: 'DM Sans', sans-serif;
+}
+
+/* Vakman v5 typography utilities */
+.font-heading {
+  font-family: var(--font-dm-serif, 'DM Serif Display', Georgia, serif);
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+.font-subheading {
+  font-family: var(--font-jakarta, 'Plus Jakarta Sans', sans-serif);
+  letter-spacing: -0.3px;
+}
+.font-body {
+  font-family: var(--font-dm-sans, 'DM Sans', sans-serif);
+  line-height: 1.7;
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+@keyframes cta-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(37, 99, 235, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(37, 99, 235, 0.5); }
 }
 
 html {
@@ -63,12 +104,12 @@ body {
 
 /* === Marquee Animation === */
 @keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 
 .animate-marquee {
