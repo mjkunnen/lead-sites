@@ -1,3 +1,8 @@
+export type IconName =
+  | "hammer" | "saw" | "ruler" | "drill" | "bricks" | "trowel" | "wall"
+  | "tiles" | "level" | "bathroom" | "floor" | "kitchen" | "wrench"
+  | "scissors" | "palette" | "sparkles" | "heart" | "default";
+
 export interface SiteContent {
   slug: string;
   lang?: "en" | "nl";
@@ -7,6 +12,12 @@ export interface SiteContent {
   palette: string;
   tagline?: string;
   about?: string;
+  trust_badges?: string[];
+  stats?: {
+    years?: number;
+    projects?: number;
+    reviews_count?: number;
+  };
   hero: {
     headline: string;
     subheadline: string;
@@ -22,6 +33,11 @@ export interface SiteContent {
   gallery?: Array<{
     url: string;
     alt: string;
+  }>;
+  before_after?: Array<{
+    before_url: string;
+    after_url: string;
+    label: string;
   }>;
   reviews: Array<{
     name: string;
@@ -42,6 +58,7 @@ export interface SiteContent {
     maps_url: string;
     booking_url?: string;
   };
+  working_hours?: Record<string, string>;
   socials?: {
     facebook?: string;
     instagram?: string;

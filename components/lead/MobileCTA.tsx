@@ -21,8 +21,14 @@ export default function MobileCTA({ content }: { content: SiteContent }) {
   }, []);
 
   const i = t(content.lang);
-  const href = content.contact.booking_url || (content.contact.phone ? `tel:${content.contact.phone}` : content.contact.maps_url);
-  const label = content.contact.booking_url ? i.mobileCta.book : (content.contact.phone ? i.mobileCta.call : i.contact.location);
+  const isVakman = content.palette === "vakman";
+
+  const href = isVakman
+    ? (content.contact.phone ? `https://wa.me/${content.contact.phone.replace(/[^0-9+]/g, "")}` : content.contact.maps_url)
+    : (content.contact.booking_url || (content.contact.phone ? `tel:${content.contact.phone}` : content.contact.maps_url));
+  const label = isVakman
+    ? i.mobileCta.quote
+    : (content.contact.booking_url ? i.mobileCta.book : (content.contact.phone ? i.mobileCta.call : i.contact.location));
   const hasWhatsapp = !!content.contact.phone;
 
   return (
@@ -33,21 +39,29 @@ export default function MobileCTA({ content }: { content: SiteContent }) {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed bottom-0 left-0 right-0 z-50 p-3 bg-gradient-to-t from-stone-950/95 via-stone-950/80 to-transparent backdrop-blur-sm md:hidden"
+          className={`fixed bottom-0 left-0 right-0 z-50 p-3 backdrop-blur-sm md:hidden ${
+            isVakman
+              ? "bg-gradient-to-t from-[var(--p-bg-primary)]/95 via-[var(--p-bg-primary)]/80 to-transparent"
+              : "bg-gradient-to-t from-stone-950/95 via-stone-950/80 to-transparent"
+          }`}
         >
           <div className="flex gap-2">
             <a
               href={href}
-              target={content.contact.booking_url || !content.contact.phone ? "_blank" : undefined}
-              rel={content.contact.booking_url || !content.contact.phone ? "noopener noreferrer" : undefined}
-              className="flex-1 flex items-center justify-center gap-2 rounded-2xl bg-amber-100 py-4 text-base font-semibold text-stone-900 active:scale-[0.97] transition-transform"
+              target={isVakman || content.contact.booking_url || !content.contact.phone ? "_blank" : undefined}
+              rel={isVakman || content.contact.booking_url || !content.contact.phone ? "noopener noreferrer" : undefined}
+              className={`flex-1 flex items-center justify-center gap-2 rounded-2xl py-4 text-base font-semibold active:scale-[0.97] transition-transform ${
+                isVakman
+                  ? "bg-[var(--p-accent)] text-white"
+                  : "bg-amber-100 text-stone-900"
+              }`}
             >
               {label}
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            {hasWhatsapp && (
+            {hasWhatsapp && !isVakman && (
               <a
                 href={`https://wa.me/${content.contact.phone!.replace(/[^0-9+]/g, "")}`}
                 target="_blank"

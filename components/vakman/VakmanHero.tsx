@@ -72,6 +72,7 @@ export default function VakmanHero({
         fill
         className="object-cover"
         priority
+        unoptimized
       />
 
       {/* ── Gradient overlay ──────────────────────────────────── */}

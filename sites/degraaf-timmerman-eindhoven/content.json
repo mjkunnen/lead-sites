@@ -1,0 +1,120 @@
+{
+  "slug": "degraaf-timmerman-eindhoven",
+  "lang": "nl",
+  "business_name": "De Graaf Timmerwerken",
+  "niche": "timmerman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Vakmanschap in hout",
+  "about": "De Graaf Timmerwerken is gespecialiseerd in maatwerk houtbewerking en renovatie. Met meer dan 15 jaar ervaring in de regio Eindhoven leveren wij kwalitatief hoogstaand timmerwerk voor zowel particulieren als bedrijven. Van kozijnen tot complete dakkapellen — alles op maat gemaakt.",
+  "trust_badges": ["15+ jaar ervaring", "Gratis offerte", "Regio Eindhoven"],
+  "stats": {
+    "years": 15,
+    "projects": 380,
+    "reviews_count": 47
+  },
+  "hero": {
+    "headline": "Uw timmerman in Eindhoven",
+    "subheadline": "Vakkundig timmerwerk op maat. Van kozijnvervanging tot complete verbouwingen — wij leveren kwaliteit die blijft.",
+    "cta_primary": "Offerte aanvragen",
+    "cta_secondary": "Bekijk projecten",
+    "image_url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&q=80"
+  },
+  "services": [
+    {
+      "title": "Kozijnen & ramen",
+      "text": "Vervanging en renovatie van houten kozijnen. Inclusief beglazing en afwerking. Alle gangbare maten en stijlen.",
+      "icon": "ruler"
+    },
+    {
+      "title": "Dakkapellen",
+      "text": "Complete dakkapellen op maat. Van ontwerp tot oplevering, inclusief vergunningsaanvraag en isolatie.",
+      "icon": "hammer"
+    },
+    {
+      "title": "Verbouwingen",
+      "text": "Wanden plaatsen, vloeren leggen en complete interieur-verbouwingen. Wij denken mee over de beste oplossing.",
+      "icon": "drill"
+    },
+    {
+      "title": "Maatwerk meubels",
+      "text": "Kasten, stellingkasten, bureaus en keukenbladen op maat. Massief hout of plaatmateriaal naar wens.",
+      "icon": "saw"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Maatwerk houten kozijnen"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=600&q=80",
+      "alt": "Dakkapel renovatie"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1564540586988-aa4e53ab3394?w=600&q=80",
+      "alt": "Timmerwerk detail afwerking"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Jan P.",
+      "text": "Uitstekend werk aan onze kozijnen. Netjes, op tijd en precies zoals afgesproken. Zeer tevreden!",
+      "stars": 5,
+      "date": "3 weken geleden"
+    },
+    {
+      "name": "Maria V.",
+      "text": "De Graaf heeft onze dakkapel geplaatst. Van begin tot eind professioneel. De buren waren ook onder de indruk.",
+      "stars": 5,
+      "date": "1 maand geleden"
+    },
+    {
+      "name": "Kees B.",
+      "text": "Maatwerk kast precies zoals we wilden. Goede communicatie en eerlijke prijs. Aanrader!",
+      "stars": 5,
+      "date": "2 maanden geleden"
+    },
+    {
+      "name": "Linda S.",
+      "text": "Verbouwing keurig afgerond. Schoon opgeleverd en alles netjes afgewerkt. Top vakmanschap.",
+      "stars": 4,
+      "date": "3 maanden geleden"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoeveel kost een vrijblijvende offerte?",
+      "answer": "Een offerte is altijd gratis en vrijblijvend. We komen langs om de situatie te bekijken en maken binnen een week een gedetailleerde offerte."
+    },
+    {
+      "question": "In welke regio zijn jullie actief?",
+      "answer": "Wij werken voornamelijk in Eindhoven en omgeving, inclusief Veldhoven, Nuenen, Son en Breugel, en Best."
+    },
+    {
+      "question": "Hoe lang duurt een kozijnvervanging?",
+      "answer": "Afhankelijk van het aantal kozijnen duurt dit meestal 1 tot 3 werkdagen. We plannen alles zo efficiënt mogelijk."
+    },
+    {
+      "question": "Regelen jullie ook de vergunning voor een dakkapel?",
+      "answer": "Ja, wij verzorgen de volledige vergunningsaanvraag bij de gemeente. U hoeft zich nergens zorgen over te maken."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 12345678",
+    "email": "info@degraaftimmerwerken.nl",
+    "city": "Eindhoven",
+    "address": "Ambachtslaan 42, 5611 AB Eindhoven",
+    "maps_url": "https://www.google.com/maps/place/Eindhoven"
+  },
+  "working_hours": {
+    "Ma - Vr": "07:30 - 17:00",
+    "Za": "09:00 - 13:00",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-03-27T16:00:00Z",
+    "lead_id": "test-vakman-001",
+    "version": 1
+  }
+}
