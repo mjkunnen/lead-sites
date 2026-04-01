@@ -1,0 +1,160 @@
+{
+  "slug": "tegelhandel-da-vinci-arnhem",
+  "lang": "nl",
+  "business_name": "Tegelhandel Da Vinci",
+  "niche": "tegelwinkel",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Tegelwinkel in Arnhem",
+  "about": "Tegelhandel Da Vinci is een professioneel tegelwinkelsbedrijf in Arnhem en omgeving. Vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "89x Google reviews",
+    "1+ jaar ervaring",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 712,
+    "reviews_count": 89
+  },
+  "hero": {
+    "headline": "Uw tegelwinkel in Arnhem",
+    "subheadline": "Professioneel tegelwinkelswerk in Arnhem en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerAmoC9rfiO7y7lMfwmTPO1Oo_FxiUTl9i7halSbWHJMA24DWZgQiVBYcgmLBNpZw0FT3WxYIpzZKjat0MO9fS4rHN6QQX4MzATW_DNgTwbN8vfuWWwA-L5ZSTos-7j8TzSw7A4=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Tegelwinkel",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerAmoC9rfiO7y7lMfwmTPO1Oo_FxiUTl9i7halSbWHJMA24DWZgQiVBYcgmLBNpZw0FT3WxYIpzZKjat0MO9fS4rHN6QQX4MzATW_DNgTwbN8vfuWWwA-L5ZSTos-7j8TzSw7A4=w800-h600-k-no",
+      "alt": "Tegelhandel Da Vinci project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=huB-ygLxygCf-rLYV6pnkA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=240.30885&pitch=0&thumbfov=100",
+      "alt": "Tegelhandel Da Vinci project 2"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pubd8vKNz_ldB0C6-XyBk1FGxS0DYi4ABqUpf9VtPK_7UiIDgJ-64JAwYgaL7MiSCGF5LEZTzaLBIqQMgDMO3qHLp5h-h5QhrHrrAuiJP823FhKBFsaBoVg4o3Pjmus-rb7XB_-Ca26myiP=w800-h600-k-no",
+      "alt": "Tegelhandel Da Vinci project 3"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9putI082D1Icl49SHSXkZhrK9D9p_3W-pO8wpTUJouu19ApvpffNB2OqEXLF4fw4hM7XTZ6_NuTQaUQmpaHX2ne8tyaBACmy-eSVm0hY8nOKKlTK5WN4VuXdRcPs8VcnzurH9UDFtqA2NaTP=w800-h600-k-no",
+      "alt": "Tegelhandel Da Vinci project 4"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv3tJXpZBVOJFlnXSKZi4vLPS5nirVoFxLG3hSMpiQI_9ZWTQKBMNXp9NzArpp5qWwlE_WkC7JV2Z-cHtKPTeuzXZeiY3SSVPc5n3gA5Ctn6WeIBCrDA1Wj8sA3tmAD1nfVf0X2CP8jcG4=w800-h600-k-no",
+      "alt": "Tegelhandel Da Vinci project 5"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu-wFNi88D8Km-08sv8CI9WUbPFr7YhFG_TdJrmVNxUWWPBPVOChy3VEdT6sh-jNqiENb5mNVvCo3oZVige-vxG02HDcPdy3nPWZctn1apNcH5NXMC4cchsW1FyZhrkQ2_9VOUJe7I5uhT4=w800-h600-k-no",
+      "alt": "Tegelhandel Da Vinci project 6"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Cor Focke",
+      "text": "Wij hebben een ontzettend fijne ervaring gehad bij Tegelhandel Da Vinci. Wij werden zeer gastvrij ontvangen door Gino die ons direct op ons gemak stelde. Hij nam alle tijd om goed naar onze wensen te luisteren en gaf daarbij waardevolle en deskundige adviezen. Gino is erg behulpzaam, denk mee en heeft duidelijk verstand van zaken. Kortom: een aanrader voor iedereen die op zoek is naar kwaliteit ,inspiratie en uitstekende service !",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Burhan",
+      "text": "Vandaag ben ik bij deze tegelhandel geweest en ik ben echt super tevreden! Ze hebben niet alleen een hele mooie en grote keuze aan tegels, maar ook prachtige badkamermeubels en eigenlijk alles wat je nodig hebt voor een badkamer.\n\nDe eigenaar is echt een geweldige man: heel vriendelijk, eerlijk en duidelijk iemand met veel kennis van zijn vak. Hij neemt echt de tijd voor je en denkt goed mee zodat je de beste keuze maakt. Zulke service kom je tegenwoordig niet vaak meer tegen.\n\nDe kwaliteit van de producten is top en de service nog beter. Als je tegels, badkamermeubels of andere badkamerbenodigdheden zoekt, dan kan ik deze zaak absoluut aanraden!\n\nBedankt voor de geweldige service!",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Aslı Bayazıt",
+      "text": "“Ik heb mijn badkamer en toilet gerenoveerd. Ik ben erg tevreden over de winkel waar ik de materialen heb gekocht. De producten zijn van hoge kwaliteit en zien er erg mooi uit. Het personeel was ook heel behulpzaam. Mijn bestelling werd precies op tijd geleverd. Toen ik iets wilde ruilen, werd de retour zonder problemen geaccepteerd. Zeker een aanrader!”",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Maurice Visser",
+      "text": "Wand en vloertegels en meubels enz voor in badkamer gekocht . Je wordt door Gino en zijn team goed geholpen. Alles wordt netjes op tijd afgeleverd en niets is teveel. Super geregeld allemaal 🙏👍👍",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Henrik Vermaten",
+      "text": "Top bedrijf met behulpzame mensen, goed geholpen! Tegels en badkamermeubel gehaald van zeer goede kwaliteit. Bedankt Gino.",
+      "stars": 5,
+      "date": "november 2025"
+    },
+    {
+      "name": "Deyan Bakardzhiev",
+      "text": "Absolutely amazing experience! The tile selection is fantastic, and anything you like is probably already in stock, so you won't have to wait! But what really makes this place special is the owner. Gino is friendly, helpful, and genuinely cares about your project.  Highly recommend!",
+      "stars": 5,
+      "date": "oktober 2025"
+    },
+    {
+      "name": "Marc ter Schure",
+      "text": "Materialen gekocht bij Da Vinci in Arnhem. Snelle levering, super vriendelijk personeel, mooie showroom. Wij hebben badkamer zelf verbouwd, maar als wij vragen hadden konden wij altijd bellen met Da Vinci en werden wij geholpen. Zeker een zaak om aan te raden.",
+      "stars": 5,
+      "date": "augustus 2025"
+    },
+    {
+      "name": "Bronwyn Henebury",
+      "text": "Tegels voor de badkamer gekocht; plaatsing moet nog maar de hulp in de winkel was heel fijn; met alle geduld ontvangen en er werd meegedacht. De tegels konden ook nog bezorgd worden. Heel blij dat ik bij jullie besteld heb!",
+      "stars": 5,
+      "date": "juni 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Arnhem en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 26 364 5483",
+    "city": "Arnhem",
+    "address": "Simon Stevinweg 38, 6827 BT Arnhem",
+    "maps_url": "https://www.google.com/maps/place/Tegelhandel+Da+Vinci/@51.9726292,5.943016999999999,14z/data=!4m8!1m2!2m1!1sTegelhandel+Da+Vinci!3m4!1s0x47c7a41162efa90b:0x62a8273aa586b3bb!8m2!3d51.9726292!4d5.943016999999999"
+  },
+  "working_hours": {
+    "Di": "08:30 - 17:30",
+    "Do": "08:30 - 17:30",
+    "Ma": "08:30 - 17:30",
+    "Vr": "08:30 - 17:30",
+    "Wo": "08:30 - 17:30",
+    "Za": "08:30 - 17:00",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T13:28:13.652Z",
+    "lead_id": "tegelhandel-da-vinci-arnhem-001",
+    "version": 1
+  }
+}

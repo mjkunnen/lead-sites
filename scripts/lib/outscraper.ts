@@ -87,6 +87,29 @@ export async function searchBusiness(query: string): Promise<OutscraperBusiness>
   return extractBusiness(result);
 }
 
+/** Search and return multiple results (up to `limit`) for filtering */
+export async function searchMultiple(query: string, limit = 20): Promise<OutscraperBusiness[]> {
+  console.log(`🔍 Zoeken (${limit}x): "${query}"`);
+
+  const result = await apiRequest("/maps/search-v3", {
+    query,
+    limit: String(limit),
+    language: "nl",
+    region: "NL",
+  });
+
+  let data: any;
+  if (result.id) {
+    data = await pollResult(result.id);
+  } else {
+    data = result;
+  }
+
+  const businesses = data.data?.[0];
+  if (!businesses?.length) return [];
+  return businesses;
+}
+
 export async function fetchReviews(placeId: string, limit = 10): Promise<OutscraperReview[]> {
   console.log(`📝 Reviews ophalen (max ${limit})...`);
 

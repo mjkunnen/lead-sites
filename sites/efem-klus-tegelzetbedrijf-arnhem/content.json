@@ -1,0 +1,99 @@
+{
+  "slug": "efem-klus-tegelzetbedrijf-arnhem",
+  "lang": "nl",
+  "business_name": "EFEM Klus & Tegelzetbedrijf",
+  "niche": "tegelwinkel",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Tegelwinkel in Arnhem",
+  "about": "EFEM Klus & Tegelzetbedrijf is een professioneel tegelwinkelsbedrijf in Arnhem en omgeving. Vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "2x Google reviews",
+    "1+ jaar ervaring",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 16,
+    "reviews_count": 2
+  },
+  "hero": {
+    "headline": "Uw tegelwinkel in Arnhem",
+    "subheadline": "Professioneel tegelwinkelswerk in Arnhem en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ISxHmrPyPOP3Mk9h_AE8ww&cb_client=search.gws-prod.gps&w=800&h=500&yaw=305.10483&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Tegelwinkel",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ISxHmrPyPOP3Mk9h_AE8ww&cb_client=search.gws-prod.gps&w=800&h=500&yaw=305.10483&pitch=0&thumbfov=100",
+      "alt": "EFEM Klus & Tegelzetbedrijf project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ISxHmrPyPOP3Mk9h_AE8ww&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=305.10483&pitch=0&thumbfov=100",
+      "alt": "EFEM Klus & Tegelzetbedrijf project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Mahai van der Velden",
+      "text": "Super fijn bedrijf, vriendelijk en professioneel! Heb al jaren ervaring met dit bedrijf en ben zeer tevreden met het eindresultaat. Ik raad dit bedrijf iedereen aan. Echte vakmensen!",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "Roy Meester",
+      "text": "Super ervaring met dit bedrijf. Zeer deskundig en klantvriendelijk. Heeft al meerdere klussen voor mij en bekenden gedaan. Altijd een top resultaat. Zoek je een zeer goede tegelzetter zoek dan niet verder. Echt een aanrader!!",
+      "stars": 5,
+      "date": "januari 2026"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Arnhem en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 48262225",
+    "city": "Arnhem",
+    "address": "Karperstraat 102, 6833 ED Arnhem",
+    "maps_url": "https://www.google.com/maps/place/EFEM+Klus+%26+Tegelzetbedrijf/@51.9667336,5.9142939,14z/data=!4m8!1m2!2m1!1sEFEM+Klus+%26+Tegelzetbedrijf!3m4!1s0x47c7a414b37e357d:0x5b955fb2611ccf34!8m2!3d51.9667336!4d5.9142939"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T13:29:11.072Z",
+    "lead_id": "efem-klus-tegelzetbedrijf-arnhem-001",
+    "version": 1
+  }
+}

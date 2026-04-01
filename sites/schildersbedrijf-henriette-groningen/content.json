@@ -1,0 +1,142 @@
+{
+  "slug": "schildersbedrijf-henriette-groningen",
+  "lang": "nl",
+  "business_name": "Schildersbedrijf Henriette",
+  "niche": "schilder",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Schilder in Groningen",
+  "about": "Schildersbedrijf Henriette is een professioneel schildersbedrijf in Groningen en omgeving. Vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "7x Google reviews",
+    "3+ jaar ervaring",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 3,
+    "projects": 56,
+    "reviews_count": 7
+  },
+  "hero": {
+    "headline": "Uw schilder in Groningen",
+    "subheadline": "Professioneel schilderswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Cq7XL3wH4p6tpVCHZM-olA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=42.925556&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Schilder",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Cq7XL3wH4p6tpVCHZM-olA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=42.925556&pitch=0&thumbfov=100",
+      "alt": "Schildersbedrijf Henriette project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Cq7XL3wH4p6tpVCHZM-olA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=42.925556&pitch=0&thumbfov=100",
+      "alt": "Schildersbedrijf Henriette project 2"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptnOf1dEve8ufkAuz190I1-4iiqP-jHsa6gBYqklcrpWBoWLDyT9g5-d7bYnH5XEbkc0EDscEf8nB7EAZKfQ5mEN8W4YFwKKNE7FeopuCrEWIvLDmCCKxz0IFc92GsR0H2jIxvDWywTDsVn=w800-h600-k-no",
+      "alt": "Schildersbedrijf Henriette project 3"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Robert Witte",
+      "text": "Bij mij in de woonkamer een foto behang keurig behangen. Fijn contact en oog voor detail en kwaliteit. Zou zeker nog een keer vragen in de toekomst",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Benjamin Franklin",
+      "text": "Door dit bedrijf geniet ik zoveel meer van me woonkamer. Leveren ontzettend mooi werk en het zijn onwijs aardige professionele mensen.",
+      "stars": 5,
+      "date": "mei 2025"
+    },
+    {
+      "name": "Johan van Weeren",
+      "text": "Ze bestaan gelukkig nog. Vakmensen die zich aan afspraken en planning houden. Super vriendelijke schilder, pietje precies en denkt mee met de klant. Absolute aanrader. Super bedankt. Zodra we weer toe zijn aan de binnen schilderbeurt weten wie we bellen.",
+      "stars": 5,
+      "date": "januari 2025"
+    },
+    {
+      "name": "Malaica Narjara Wolsink",
+      "text": "Snel, betrouwbaar en vriendelijk. Een professioneel schilder die goed afspraken nakomt en ook meedenkt met de klant. Zeer tevreden over de kwaliteit van het werk dat wordt geleverd.",
+      "stars": 5,
+      "date": "augustus 2024"
+    },
+    {
+      "name": "Rhett van der Voort",
+      "text": "Heel erg goed werk geleverd! Vriendelijk en snel, prachtig resultaat. Thanks Steaven!!",
+      "stars": 5,
+      "date": "september 2023"
+    },
+    {
+      "name": "Harmen Stuit",
+      "text": "Vriendelijke en professionele schilder. Harde werker en levert zeer goede kwaliteit. We vragen hem zeker weer!",
+      "stars": 5,
+      "date": "september 2023"
+    },
+    {
+      "name": "Harry vd Tuin",
+      "text": "Gelukkig bestaan ze nog. Een zeer betrouwbaar bedrijf die perfect werk leverd. Komt goed de afspraken na en denkt mee met de klant. Goede kwaliteit voor een gunstige prijs.",
+      "stars": 5,
+      "date": "juli 2023"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Groningen en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 13600726",
+    "city": "Groningen",
+    "address": "Hoge der A 2311, 9712 AD Groningen",
+    "maps_url": "https://www.google.com/maps/place/Schildersbedrijf+Henriette/@53.218208999999995,6.559270499999999,14z/data=!4m8!1m2!2m1!1sSchildersbedrijf+Henriette!3m4!1s0x47c9cd123b42cbab:0x1c31b41abcaa53da!8m2!3d53.218208999999995!4d6.559270499999999"
+  },
+  "working_hours": {
+    "Di": "07:00 - 21:00",
+    "Do": "07:00 - 21:00",
+    "Ma": "07:00 - 21:00",
+    "Vr": "07:00 - 21:00",
+    "Wo": "07:00 - 21:00",
+    "Za": "Gesloten",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T13:28:53.449Z",
+    "lead_id": "schildersbedrijf-henriette-groningen-001",
+    "version": 1
+  }
+}

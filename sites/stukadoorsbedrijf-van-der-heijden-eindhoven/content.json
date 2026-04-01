@@ -1,0 +1,160 @@
+{
+  "slug": "stukadoorsbedrijf-van-der-heijden-eindhoven",
+  "lang": "nl",
+  "business_name": "Stukadoorsbedrijf Van der Heijden",
+  "niche": "stukadoorsbedrijf",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoorsbedrijf in Eindhoven",
+  "about": "Stukadoorsbedrijf Van der Heijden is een professioneel stukadoorsbedrijfsbedrijf in Eindhoven en omgeving. Vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "35x Google reviews",
+    "2+ jaar ervaring",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 2,
+    "projects": 280,
+    "reviews_count": 35
+  },
+  "hero": {
+    "headline": "Uw stukadoorsbedrijf in Eindhoven",
+    "subheadline": "Professioneel stukadoorsbedrijfswerk in Eindhoven en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweprXkkr5FNt2l-FOuIPw6xCVx_NZIDLNB3qgK0SN7MgjY02pbTpWQfzfjoHAYRG7i3TEFk9fzHxd_ad_pAonZBE3R3s0WtrV2echq29y7oRNXH36vPmNLVO2HEc5k0hwYTQ4Okz=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Stukadoorsbedrijf",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweprXkkr5FNt2l-FOuIPw6xCVx_NZIDLNB3qgK0SN7MgjY02pbTpWQfzfjoHAYRG7i3TEFk9fzHxd_ad_pAonZBE3R3s0WtrV2echq29y7oRNXH36vPmNLVO2HEc5k0hwYTQ4Okz=w800-h600-k-no",
+      "alt": "Stukadoorsbedrijf Van der Heijden project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vb-N8aur_KFDRdXidcx2sg&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=72.5245&pitch=0&thumbfov=100",
+      "alt": "Stukadoorsbedrijf Van der Heijden project 2"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9psYZc9Ie9jPvrpm6UUEufdTKQrQ9e4E1EHm0pMQ7dXZ-8hAjaYHnBl8HOs2Pe-wCGcX-7BdvK4IksKNgD42Zfi0aUe7xIGkX_iKBvK_aVZq6xkUF2pK1K3_k3ngMGsvM4NFPtvLbA=w800-h600-k-no",
+      "alt": "Stukadoorsbedrijf Van der Heijden project 3"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvY_A6jMtwYpza5ac_oo4J8DMQfLrAdVZasMJ2fCCk8UINTdCpJIkjOWk3ndWlrBp1UHz9ZJuU0QIWmttdtoz3vGJrz0Hn0dX87WMYMDT9kJpCVmIiOclLgnTwdF6JBdLb5JKpo=w800-h600-k-no",
+      "alt": "Stukadoorsbedrijf Van der Heijden project 4"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptQbzJ3wW35iTlzlfrMVKd19aCytsd8ndJM85VB5J0jpaX9DqUyMGr3v4eTlRGklfiwROe1F0iSHljWI0aGPpjoBN-3LT6QY4vklfvhRdD096wRQgDLYoALIrxUz92TSkf6PHY=w800-h600-k-no",
+      "alt": "Stukadoorsbedrijf Van der Heijden project 5"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptoaVKHk4iEWIYOjg-RcnnY1gUeIrXlK641BJPddQvEXoFx52jj992pg7NX5_VkbfrV7xqzPFR5p1nFLlY60QCsR2o1SHDdMEbyjzlbTOR-K0rVQJ49EH8cvcdnay4WJY0J_baXOQ=w800-h600-k-no",
+      "alt": "Stukadoorsbedrijf Van der Heijden project 6"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Anne-Marieke Raap",
+      "text": "Richard heeft met zijn team ons nieuwbouwhuis voorzien van dunpleister én een laagje verf (in de kleur van onze wensen). Het ziet er prachtig uit. Hij communiceert goed en houdt zich aan alle afspraken. Zijn team heeft zelfs voorkomen dat en lek uit de badkamer, tot schade zou leiden, door hun oplettendheid. We raden dit bedrijf aan iedereen aan die een goede stucadoor zoekt!",
+      "stars": 5,
+      "date": "februari 2025"
+    },
+    {
+      "name": "Willie Poulussen",
+      "text": "Richard is een echte vakman. Komt zijn afspraken na en levert keurig werk. Ik ben zeer tevreden met het eindresultaat en kan het bedrijf echt aanbevelen.",
+      "stars": 5,
+      "date": "januari 2025"
+    },
+    {
+      "name": "Sebastian Auriville",
+      "text": "We zijn ontzettend blij met de geleverde diensten. Vanaf het eerste contact tot het moment dat alles was opgeruimd, verliep alles precies zoals afgesproken. Op de dag van de afspraak waren ze keurig op tijd. Twee hardwerkende mannen die meteen vertrouwen uitstraalden en daarnaast ook nog eens een goed gevoel voor humor hadden. Het werk verliep daardoor niet alleen professioneel, maar ook in een gezellige sfeer.\n\nHet stucwerk is echt van topkwaliteit. Alles is strak en netjes afgewerkt, precies zoals we hadden gehoopt. Wat ons opviel, was hun werktempo. Ze namen tussendoor een korte pauze, maar daarna gingen ze meteen weer kei hard aan de slag. Geen half werk, alles werd nauwkeurig en met veel aandacht uitgevoerd.\n\nWe waardeerden ook hun behulpzaamheid en vriendelijke houding. Ze luisterden goed naar onze wensen en dachten zelfs met ons mee over een paar slimme oplossingen. Dat gaf ons echt een goed gevoel en maakte het hele proces extra fijn.\n\nToen het werk klaar was, hebben ze alles netjes opgeruimd en het afval afgevoerd. De werkplek was schoner dan toen ze begonnen, wat echt een groot pluspunt is. Het hele proces was prettig en professioneel, en het eindresultaat overtreft onze verwachtingen.\n\nVakmensen zoals zij kom je niet vaak tegen. Strak werk, een hoop humor en een vriendelijke aanpak. Wij zouden deze jongens zonder twijfel aan iedereen aanraden. Bedankt voor de uitstekende service en het prachtige resultaat!",
+      "stars": 5,
+      "date": "januari 2025"
+    },
+    {
+      "name": "Niels Lentjes",
+      "text": "Super strak en netjes afgewerkt , zeker een aanrader 🤩",
+      "stars": 5,
+      "date": "januari 2025"
+    },
+    {
+      "name": "marian smits",
+      "text": "Fijn stucadoor bedrijf. Houd zich netjes aan de afspraken en komt altijd op tijd. Heeft mooi werk geleverd, zeer tevreden.",
+      "stars": 5,
+      "date": "januari 2025"
+    },
+    {
+      "name": "Nick Jansen",
+      "text": "Als je opzoek bent naar een stucadoor die netjes zijn afspraken na komt, heel erg netjes, strak en vlak en met oog voor detail werkt, dan ben je hier aan het goede adres!\n\nRichard heeft meerdere malen wanden en plafonds voor mij voorzien van stucwerk alsmede ook sierlijsten etc. Ik ben zeer tevreden over de complete gang van zaken en eind afwerking! Graag tot een volgende keer👍🏻",
+      "stars": 5,
+      "date": "december 2024"
+    },
+    {
+      "name": "Steven Landman",
+      "text": "Omdat ik bij ons vorige huis al tevreden was heb ik Richard wederom gevraagd ons nieuwe huis te stucken. En wederom geen spijt van. Hij en zn collega's zijn ten eerste super vriendelijk en houden zich aan gemaakte afspraken en zijn zeer flexibel.  Werken zeer professioneel en erg netjes. Resultaat is boven verwachting en alles ziet er super netjes en strak uit. Zeker een aanrader!!!",
+      "stars": 5,
+      "date": "december 2024"
+    },
+    {
+      "name": "eric van deursen",
+      "text": "Super tevreden had geen betere Stucadoor kunnen vinden.al onze zorgen zijn uit handen genomen.zeer professioneel,prachtig werk,zeer nette prijs kwaliteit verhouding.\nEindresultaat top 👍👍\nRichard super bedankt !!!\n\nGr eric en bianca",
+      "stars": 5,
+      "date": "december 2024"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Eindhoven en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 27874546",
+    "city": "Eindhoven",
+    "address": "Creuselaan 40, 5627 VC Eindhoven",
+    "maps_url": "https://www.google.com/maps/place/Stukadoorsbedrijf+Van+der+Heijden/@51.4836142,5.4334549,14z/data=!4m8!1m2!2m1!1sStukadoorsbedrijf+Van+der+Heijden!3m4!1s0x47c6d892c9da92e5:0xe73bdcc25545e03f!8m2!3d51.4836142!4d5.4334549"
+  },
+  "working_hours": {
+    "Di": "07:30 - 19:00",
+    "Do": "07:30 - 19:00",
+    "Ma": "07:30 - 19:00",
+    "Vr": "07:30 - 19:00",
+    "Wo": "07:30 - 19:00",
+    "Za": "07:30 - 17:00",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T13:28:24.684Z",
+    "lead_id": "stukadoorsbedrijf-van-der-heijden-eindhoven-001",
+    "version": 1
+  }
+}

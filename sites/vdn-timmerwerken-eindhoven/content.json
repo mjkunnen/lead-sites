@@ -125,7 +125,7 @@
     "email": null,
     "city": "Eindhoven",
     "address": "Narbonnehof 4, 5627 GX Eindhoven",
-    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh5zDJK_exkcR3pR53Zlt0rU"
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=VDN%20Timmerwerken%20Eindhoven"
   },
   "working_hours": {
     "Ma": "08:00 - 17:00",

@@ -151,7 +151,7 @@ async function main() {
       email: business.email || undefined,
       city: resolvedCity,
       address: business.address || undefined,
-      maps_url: `https://www.google.com/maps/place/?q=place_id:${business.place_id}`,
+      maps_url: business.location_link || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(resolvedName + ' ' + resolvedCity)}`,
     },
     working_hours: workingHours,
     metadata: {
