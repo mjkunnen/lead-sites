@@ -5,13 +5,13 @@
   "niche": "timmerman",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Timmerman in Rotterdam",
-  "about": "Littleyaman is gespecialiseerd in houtrot reparatie en kozijnen in Rotterdam. Vakkundig werk met oog voor detail.",
+  "tagline": "Specialist in houtrot en kozijnen",
+  "about": "Littleyaman, gerund door Hamza, is gespecialiseerd in houtrot reparatie en kozijnwerk in Rotterdam. Met 559 positieve reviews op Werkspot en een 4.9 rating staan vakmanschap en klanttevredenheid voorop. Het team werkt snel, netjes en levert strak resultaat af.",
   "trust_badges": [
     "559x Werkspot reviews",
-    "4.8 rating",
+    "4.9 gemiddelde rating",
     "Gratis offerte",
-    "Binnen 24u reactie"
+    "Snelle reactie"
   ],
   "stats": {
     "years": 5,
@@ -20,7 +20,7 @@
   },
   "hero": {
     "headline": "Uw timmerman in Rotterdam",
-    "subheadline": "Professioneel timmermanswerk in Rotterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "subheadline": "Littleyaman, gerund door Hamza, is gespecialiseerd in houtrot reparatie en kozijnwerk in Rotterdam. Met 559 positieve reviews op Werkspot en een 4.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
     "image_url": "https://images.unsplash.com/photo-1601058272524-0611e132d3c0?w=800&h=1200&fit=crop&q=80"
@@ -28,26 +28,57 @@
   "services": [
     {
       "title": "Houtrot reparatie",
-      "text": "",
-      "icon": "default"
+      "text": "Vakkundige reparatie van houtrot in kozijnen en deuren.",
+      "icon": "hammer"
     },
     {
-      "title": "Kozijnen",
-      "text": "",
-      "icon": "default"
-    },
-    {
-      "title": "Timmerwerk",
-      "text": "",
-      "icon": "default"
+      "title": "Kozijnen vervangen",
+      "text": "Plaatsing en vervanging van raamkozijnen.",
+      "icon": "wall"
     },
     {
       "title": "Schilderwerk",
-      "text": "",
-      "icon": "default"
+      "text": "Binnen- en buitenschilderwerk na reparatie.",
+      "icon": "palette"
+    },
+    {
+      "title": "Kleine klussen",
+      "text": "Diverse reparaties aan deuren en ramen.",
+      "icon": "wrench"
     }
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "name": "Klant R.",
+      "text": "Hamza en zijn team hebben uitstekend werk geleverd bij het repareren van houtrot. De kozijnen staan er als nieuw bij. Ik raad Hamza van harte aan!",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Klant M.",
+      "text": "Hele huis opnieuw geverfd en waar nodig houtrot gerepareerd. Het team is vriendelijk, netjes, op tijd en levert goed werk af.",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Klant S.",
+      "text": "Houtrot in kozijn gerepareerd. Echte vakman: werkt zorgvuldig en vlot. Zou Littleyaman iedereen aanraden.",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Klant J.",
+      "text": "Zeer snelle reactie en goede communicatie. Snel gekomen en in 3 dagen afgerond. Zeer tevreden!",
+      "stars": 5,
+      "date": "september 2025"
+    },
+    {
+      "name": "Klant P.",
+      "text": "Heel fijn contact gehad en super werk geleverd! Aanrader!",
+      "stars": 5,
+      "date": "maart 2026"
+    }
+  ],
   "faq": [
     {
       "question": "In welk gebied zijn jullie actief?",

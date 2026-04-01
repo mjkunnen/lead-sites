@@ -2,52 +2,83 @@
   "slug": "renato-services-vlaardingen",
   "lang": "nl",
   "business_name": "Renato Services",
-  "niche": "stukadoor",
+  "niche": "installateur",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Stukadoor in Vlaardingen",
-  "about": "Renato Services levert professioneel stucwerk en schilderwerk in Vlaardingen en omgeving. Kwaliteit en klanttevredenheid staan voorop.",
+  "tagline": "Allround installateur in Vlaardingen",
+  "about": "Renato Services is een veelzijdig installatiebedrijf in Vlaardingen. Van elektra en verlichting tot deuren en afzuigkappen. Met 545 reviews en een 4.9 rating op Werkspot staat Renato bekend om zijn snelle communicatie, nette werk en eerlijke prijzen.",
   "trust_badges": [
     "545x Werkspot reviews",
     "4.9 rating",
-    "Gratis offerte",
-    "Binnen 24u reactie"
+    "Snelle service",
+    "Eerlijke prijzen"
   ],
   "stats": {
-    "years": 5,
+    "years": 6,
     "projects": 818,
     "reviews_count": 545
   },
   "hero": {
-    "headline": "Uw stukadoor in Vlaardingen",
-    "subheadline": "Professioneel stukadoorswerk in Vlaardingen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "headline": "Uw installateur in Vlaardingen",
+    "subheadline": "Renato Services is een veelzijdig installatiebedrijf in Vlaardingen. Van elektra en verlichting tot deuren en afzuigkappen.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
     "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
   },
   "services": [
     {
-      "title": "Stucwerk",
-      "text": "",
+      "title": "Elektra",
+      "text": "Verlichting, schakelaars en stopcontacten.",
       "icon": "default"
     },
     {
-      "title": "Schilderwerk",
-      "text": "",
+      "title": "Deuren",
+      "text": "Binnendeuren plaatsen en vervangen.",
       "icon": "default"
     },
     {
-      "title": "Behangen",
-      "text": "",
-      "icon": "default"
+      "title": "Installaties",
+      "text": "Afzuigkappen, intercoms en deurbellen.",
+      "icon": "wrench"
     },
     {
-      "title": "Renovatie",
-      "text": "",
-      "icon": "default"
+      "title": "Kleine klussen",
+      "text": "Reparaties en montagewerk.",
+      "icon": "hammer"
     }
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "name": "Klant V.",
+      "text": "Renato werkt ontzettend netjes en nauwkeurig! Oude deur er super netjes ingezet. Heel vriendelijk, denkt mee en houdt zich aan de prijs!",
+      "stars": 5,
+      "date": "mei 2023"
+    },
+    {
+      "name": "Klant K.",
+      "text": "Gisteren contact gehad en vandaag al geinstalleerd! Prettig om mee te communiceren en komt afspraken na.",
+      "stars": 5,
+      "date": "november 2020"
+    },
+    {
+      "name": "Klant L.",
+      "text": "Duidelijke communicatie. Renato denkt goed met je mee zodat het probleem snel opgelost kan worden. Super tevreden!",
+      "stars": 5,
+      "date": "oktober 2020"
+    },
+    {
+      "name": "Klant W.",
+      "text": "Wat een prettig werkende man. Bekijkt de situatie rustig en zorgt dat alles perfect op zijn plek zit.",
+      "stars": 5,
+      "date": "oktober 2020"
+    },
+    {
+      "name": "Klant H.",
+      "text": "Snelle communicatie, duidelijk en goede prijs. Klus snel en heel netjes uitgevoerd. Absoluut een aanrader!",
+      "stars": 5,
+      "date": "oktober 2020"
+    }
+  ],
   "faq": [
     {
       "question": "In welk gebied zijn jullie actief?",

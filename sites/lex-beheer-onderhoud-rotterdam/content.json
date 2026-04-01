@@ -5,49 +5,80 @@
   "niche": "klusjesman",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Klusjesman in Rotterdam",
-  "about": "Lex Beheer en Onderhoud is een allround klussenbedrijf in Rotterdam. Van kleine reparaties tot complete renovaties.",
+  "tagline": "Uw klusjesman in Rotterdam",
+  "about": "Lex Beheer en Onderhoud is een allround klussenbedrijf in Rotterdam, gerund door Lex van der Sluis. Van gordijnrails en plinten tot badkamerwerk en montage. Klanten waarderen zijn vriendelijkheid, meedenken en kwaliteit van werk.",
   "trust_badges": [
-    "521x Werkspot reviews",
-    "4.9 rating",
-    "Gratis offerte",
-    "Binnen 24u reactie"
+    "5.0 perfecte score",
+    "21 Werkspot reviews",
+    "Allround klusjesman",
+    "Rotterdam"
   ],
   "stats": {
-    "years": 5,
-    "projects": 782,
-    "reviews_count": 521
+    "years": 4,
+    "projects": 100,
+    "reviews_count": 21
   },
   "hero": {
     "headline": "Uw klusjesman in Rotterdam",
-    "subheadline": "Professioneel klusjesmanswerk in Rotterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "subheadline": "Lex Beheer en Onderhoud is een allround klussenbedrijf in Rotterdam, gerund door Lex van der Sluis. Van gordijnrails en plinten tot badkamerwerk en montage.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
     "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
   },
   "services": [
     {
-      "title": "Klussen",
-      "text": "",
-      "icon": "default"
+      "title": "Montage",
+      "text": "Gordijnrails, plinten, planken ophangen.",
+      "icon": "hammer"
     },
     {
-      "title": "Onderhoud",
-      "text": "",
-      "icon": "default"
+      "title": "Kleine klussen",
+      "text": "Reparaties, installaties en aanpassingen.",
+      "icon": "wrench"
     },
     {
-      "title": "Renovatie",
-      "text": "",
-      "icon": "default"
+      "title": "Badkamerwerk",
+      "text": "Douche sets, kranen en afwerking.",
+      "icon": "bathroom"
     },
     {
-      "title": "Reparatie",
-      "text": "",
-      "icon": "default"
+      "title": "Schilderwerk",
+      "text": "Binnen schilderwerk en afwerking.",
+      "icon": "palette"
     }
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "name": "Klant T.",
+      "text": "Fijne communicatie over zowel het plannen als over de klussen! Heel erg tevreden. Denkt in oplossingen en levert kwaliteit.",
+      "stars": 5,
+      "date": "maart 2025"
+    },
+    {
+      "name": "Klant G.",
+      "text": "Trapleuning geplaatst. Ziet er goed en degelijk uit. Uiterst prettig contact. Zal niet het laatste contact met Lex zijn.",
+      "stars": 5,
+      "date": "maart 2025"
+    },
+    {
+      "name": "Klant R.",
+      "text": "Gordijnen opgehangen in woonkamer van 4,50m hoog. Lex is heel vriendelijk, werkt gestructureerd. Resultaat erg mooi.",
+      "stars": 5,
+      "date": "februari 2025"
+    },
+    {
+      "name": "Klant M.",
+      "text": "Badkamer douche set opgehangen en geverfd. Koof gerepareerd. Super resultaat. Een vakman.",
+      "stars": 5,
+      "date": "februari 2025"
+    },
+    {
+      "name": "Klant N.",
+      "text": "Lex is een vriendelijke man. Komt op tijd, denkt mee en probeert altijd een oplossing te vinden. Keurig uitgevoerd!",
+      "stars": 5,
+      "date": "januari 2025"
+    }
+  ],
   "faq": [
     {
       "question": "In welk gebied zijn jullie actief?",

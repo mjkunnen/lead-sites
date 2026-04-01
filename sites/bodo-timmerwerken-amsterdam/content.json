@@ -5,49 +5,80 @@
   "niche": "timmerman",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Timmerman in Amsterdam",
-  "about": "Bodo Timmerwerken is gespecialiseerd in maatwerk timmerwerk en renovaties in Amsterdam.",
+  "tagline": "Maatwerk timmerwerk in Amsterdam",
+  "about": "Bodo Timmerwerken, gerund door Andrei, levert vakkundig timmerwerk in Amsterdam. Van binnendeuren en kozijnen tot vlonders en maatwerk meubels. Klanten waarderen de duidelijke communicatie, het strakke werk en de eerlijke prijzen.",
   "trust_badges": [
-    "511x Werkspot reviews",
-    "4.8 rating",
-    "Gratis offerte",
-    "Binnen 24u reactie"
+    "5.0 perfecte score",
+    "11 Werkspot reviews",
+    "Maatwerk specialist",
+    "Amsterdam"
   ],
   "stats": {
-    "years": 5,
-    "projects": 767,
-    "reviews_count": 511
+    "years": 2,
+    "projects": 50,
+    "reviews_count": 11
   },
   "hero": {
     "headline": "Uw timmerman in Amsterdam",
-    "subheadline": "Professioneel timmermanswerk in Amsterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "subheadline": "Bodo Timmerwerken, gerund door Andrei, levert vakkundig timmerwerk in Amsterdam. Van binnendeuren en kozijnen tot vlonders en maatwerk meubels.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
     "image_url": "https://images.unsplash.com/photo-1601058272524-0611e132d3c0?w=800&h=1200&fit=crop&q=80"
   },
   "services": [
     {
-      "title": "Timmerwerk",
-      "text": "",
+      "title": "Binnendeuren",
+      "text": "Plaatsen en vervangen van deuren en kozijnen.",
       "icon": "default"
     },
     {
-      "title": "Interieurbouw",
-      "text": "",
-      "icon": "default"
+      "title": "Binnenwanden",
+      "text": "Scheidingswanden inclusief isolatie.",
+      "icon": "wall"
     },
     {
-      "title": "Renovatie",
-      "text": "",
-      "icon": "default"
+      "title": "Maatwerk meubels",
+      "text": "Op maat gemaakte bureaus en kasten.",
+      "icon": "ruler"
     },
     {
-      "title": "Houtskeletbouw",
-      "text": "",
-      "icon": "default"
+      "title": "Vlonders",
+      "text": "Houten vlonders voor tuin en balkon.",
+      "icon": "floor"
     }
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "name": "Klant A.",
+      "text": "Perfect verzorgd werk door Andrei. Eerlijke offertes. Reageert snel en vriendelijk. Onze woning heeft een fraaie upgrade gekregen!",
+      "stars": 5,
+      "date": "september 2025"
+    },
+    {
+      "name": "Klant B.",
+      "text": "Andrei is kundig, vriendelijk en heeft plezier in zijn werk. Twee wanden tot aan de nok geplaatst in een huis uit 1903. Erg strak geworden.",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Klant C.",
+      "text": "Andre heeft de prijs gewonnen voor kwaliteit en betrouwbaarheid. Werkt keihard en stelt kwaliteit voorop. Aanrader oprecht.",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Klant D.",
+      "text": "5 stompe binnendeuren geplaatst. Goede communicatie. Snel en netjes gewerkt. Heel blij met het resultaat!",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Klant E.",
+      "text": "3 deuren en kozijnen vervangen. Dacht mee over de mooiste uitkomst. Alleen maar aanraden!",
+      "stars": 5,
+      "date": "juli 2025"
+    }
+  ],
   "faq": [
     {
       "question": "In welk gebied zijn jullie actief?",
