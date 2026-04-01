@@ -4,6 +4,7 @@ import { searchBusiness, fetchReviews, getAllPhotos } from "./lib/outscraper";
 import { buildPhotoResult } from "./lib/photos";
 import { generateContent } from "./lib/openai-content";
 import { generateSlug, detectNiche, formatWorkingHours, selectPalette, estimateStats } from "./lib/slug";
+import { getHeroImage } from "../lib/stock-images";
 import type { SiteContent } from "../lib/types";
 
 // ── CLI argument parsing ──────────────────────────────────────────────
@@ -139,7 +140,7 @@ async function main() {
     stats,
     hero: {
       ...generated.hero,
-      image_url: photoResult.hero,
+      image_url: getHeroImage(photoResult.hero, niche),
     },
     services: generated.services,
     gallery: photoResult.gallery.length > 0 ? photoResult.gallery : undefined,

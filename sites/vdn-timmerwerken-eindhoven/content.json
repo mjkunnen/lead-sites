@@ -7,7 +7,11 @@
   "palette": "vakman",
   "tagline": "Vakmanschap op maat",
   "about": "VDN Timmerwerken is gespecialiseerd in het bouwen van op maat gemaakte overkappingen, veranda's en buitenruimtes. Wij combineren ambachtelijk vakmanschap met oog voor detail. Van maatwerk meubels tot complete renovaties — elk project wordt met zorg en precisie uitgevoerd. Wij luisteren naar uw wensen en vertalen deze naar een resultaat waar u dagelijks van geniet.",
-  "trust_badges": ["4.8★ Google Reviews", "Gratis offerte", "Regio Eindhoven"],
+  "trust_badges": [
+    "4.8★ Google Reviews",
+    "Gratis offerte",
+    "Regio Eindhoven"
+  ],
   "stats": {
     "years": 5,
     "projects": 86,
@@ -18,7 +22,7 @@
     "subheadline": "Vakkundig timmerwerk op maat. Van overkappingen tot complete renovaties — wij leveren kwaliteit die blijft.",
     "cta_primary": "Offerte aanvragen",
     "cta_secondary": "Bekijk projecten",
-    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2GNNqQkbMY4o8qeSjNGTICPUIYhwb0R5D2R9AhifKhgWin1JNSsOigJ8cvQFNBUKQf3XUiPpKkGS_4y0IVbs3SM1vth82_XZGiUONrWm0PAW2kMMbyXb6qr-KLMjKqIzizrfZcvglfFg=w1600-h1000-k-no"
+    "image_url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=1600&q=80"
   },
   "services": [
     {

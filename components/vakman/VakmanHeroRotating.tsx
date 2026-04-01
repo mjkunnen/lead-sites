@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { getHeroImage } from '@/lib/stock-images';
 
 const nicheWords: Record<string, string[]> = {
   keuken: ['Strak', 'Vakkundig', 'Op maat'],
@@ -34,7 +35,7 @@ export default function VakmanHeroRotating({ content }: { content: SiteContent }
   return (
     <section className="relative min-h-[85dvh] flex flex-col justify-end overflow-hidden">
       <img
-        src={content.hero.image_url}
+        src={getHeroImage(content.hero.image_url, content.niche)}
         alt={content.business_name}
         className="absolute inset-0 w-full h-full object-cover"
         crossOrigin="anonymous"

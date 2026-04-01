@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { getHeroImage } from '@/lib/stock-images';
 
 export default function VakmanFinalCTA({ content }: { content: SiteContent }) {
   const phone = content.contact?.phone;
@@ -21,7 +22,7 @@ export default function VakmanFinalCTA({ content }: { content: SiteContent }) {
         {hasImage ? (
           <>
             <img
-              src={content.gallery![content.gallery!.length - 1].url}
+              src={getHeroImage(content.gallery![content.gallery!.length - 1].url, content.niche)}
               alt={content.business_name}
               className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
