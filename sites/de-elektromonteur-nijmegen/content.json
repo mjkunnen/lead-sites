@@ -1,0 +1,132 @@
+{
+  "slug": "de-elektromonteur-nijmegen",
+  "lang": "nl",
+  "business_name": "De Elektromonteur",
+  "niche": "elektricien",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Elektricien in Nijmegen",
+  "about": "De Elektromonteur is een professioneel elektriciensbedrijf in Nijmegen en omgeving. Met 1 jaar ervaring leveren wij vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "175x Google reviews",
+    "1+ jaar ervaring",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 1400,
+    "reviews_count": 175
+  },
+  "hero": {
+    "headline": "Uw elektricien in Nijmegen",
+    "subheadline": "Professioneel elektricienswerk in Nijmegen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep66v6E6xoBXG47qZ_yZP8gDCBdH2a2fSV7eKDltqiRQ6YHgc1UoG3eKsOvaBYZPQg-rRLXCEFUg9EcQZefrSOu7Z_TI0z_7Z6MBi_p98P_b3XHOHEu0xI7dhmi4Al2S7wJvBtOy8aLLw=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Elektricien",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep66v6E6xoBXG47qZ_yZP8gDCBdH2a2fSV7eKDltqiRQ6YHgc1UoG3eKsOvaBYZPQg-rRLXCEFUg9EcQZefrSOu7Z_TI0z_7Z6MBi_p98P_b3XHOHEu0xI7dhmi4Al2S7wJvBtOy8aLLw=w800-h600-k-no",
+      "alt": "De Elektromonteur project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VQOLBgk4lANvFNz-eOlmwQ&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=48.721035&pitch=0&thumbfov=100",
+      "alt": "De Elektromonteur project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Bas Konijn",
+      "text": "Duidelijke communicatie, eerlijke prijs en beschikbaar op de korte termijn. Zeer aan te raden!",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Thijs Buisman",
+      "text": "Wij zijn fantastisch geholpen door Bram bij het verleggen van onze elektra voor een nieuwe keuken. Hij dacht goed mee, was punctueel en leverde topwerk af.",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Jo Zelis",
+      "text": "Werkt snel en netjes, goed laadpunt voor aan huis?",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Wynand Hendriks",
+      "text": "Prima, vlotte offerte, vlot geplaatst en heldere communicatie",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Frans Russel",
+      "text": "Na een kortsluiting viel bij ons een hele groep uit en leek de aardlekschakelaar kapot. Omdat daardoor ook de verwarming het niet meer deed, hadden we snel hulp nodig. Bij De Elektromonteur werden we direct vriendelijk geholpen en Bram stond binnen twee uur op de stoep.\n\nBij binnenkomst had hij het probleem razendsnel gevonden. Tot onze schaamte bleek er simpelweg een extra aardlekschakelaar te zijn die we over het hoofd hadden gezien. Hij stelde ons gerust, vertelde dat dit vaker voorkomt en rekende zelfs geen voorrijkosten.\n\nDie klantvriendelijkheid, eerlijkheid en deskundigheid kom je niet vaak meer tegen. Daarom een dikke pluim voor Bram en De Elektromonteur. Wat ons betreft een bedrijf dat je met een gerust hart kunt aanbevelen aan iedereen die op zoek is naar betrouwbare en betrokken service.",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Coby Bentveld",
+      "text": "Aanvraag gedaan voor een nieuwe stoppenkast. De communicatie vooraf was prettig, helder, met duidelijke afspraken en een beloofde prijs zonder extra bijkomende kosten. Hij was op de afgesproken tijd aanwezig en heeft de klus snel, vakkundig en netjes gedaan. Heel tevreden!",
+      "stars": 5,
+      "date": "februari 2026"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Nijmegen en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 24 890 1655",
+    "city": "Nijmegen",
+    "address": "Wedesteinbroek 1426, 6546 RN Nijmegen",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJGaLiILAHx0cR2FqZ2-n66iI"
+  },
+  "working_hours": {
+    "Di": "08:00 - 17:00",
+    "Do": "08:00 - 17:00",
+    "Ma": "08:00 - 17:00",
+    "Vr": "08:00 - 17:00",
+    "Wo": "08:00 - 17:00",
+    "Za": "Gesloten",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T12:36:14.707Z",
+    "lead_id": "de-elektromonteur-nijmegen-001",
+    "version": 1
+  }
+}

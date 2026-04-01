@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Loodgieter Den Haag Riool Ontstoppen Den Haag Lekkage Rioolfix",
+    "city": "Den Haag",
+    "phone": "+31 6 26144204",
+    "rating": 4.9,
+    "reviews": 450,
+    "category": "Loodgieter",
+    "website": null,
+    "place_id": "ChIJmd1O8963xUcRGCalEc8jZOs"
+  },
+  {
+    "name": "De Elektromonteur",
+    "city": "Nijmegen",
+    "phone": "+31 24 890 1655",
+    "rating": 4.9,
+    "reviews": 175,
+    "category": "Elektricien",
+    "website": null,
+    "place_id": "ChIJGaLiILAHx0cR2FqZ2-n66iI"
+  },
+  {
+    "name": "Loodgieter Eindhoven",
+    "city": "Eindhoven",
+    "phone": "+31 40 298 8105",
+    "rating": 4.2,
+    "reviews": 162,
+    "category": "Loodgieter",
+    "website": null,
+    "place_id": "ChIJWfyic9bbxkcRSnSq2gFk1qA"
+  },
+  {
+    "name": "Tolmeijer Dakdekkers",
+    "city": "Haarlem",
+    "phone": "+31 6 10900200",
+    "rating": 4.7,
+    "reviews": 101,
+    "category": "attracties",
+    "website": null,
+    "place_id": "ChIJt0Z-ftPvxUcR8kBkfoOJcI0"
+  },
+  {
+    "name": "Keukenvoorbereiding Almere",
+    "city": "Almere",
+    "phone": "+31 6 51987908",
+    "rating": 4.9,
+    "reviews": 93,
+    "category": "Installatiebedrijf",
+    "website": null,
+    "place_id": "ChIJ6yNsWCh6By4R9lE0QoCcbHM"
+  },
+  {
+    "name": "Mokum-Schilderwerken",
+    "city": "Amsterdam",
+    "phone": "+31 6 16608202",
+    "rating": 4.9,
+    "reviews": 59,
+    "category": "Schilder",
+    "website": null,
+    "place_id": "ChIJMWBHfpMJxkcR-KW6bXaNuME"
+  },
+  {
+    "name": "Glashandel Sloos",
+    "city": "Leiden",
+    "phone": "+31 71 523 3078",
+    "rating": 4.5,
+    "reviews": 48,
+    "category": "Glasreparatieservice",
+    "website": null,
+    "place_id": "ChIJn_tlMVnGxUcRcTEyKOEHRXk"
+  },
+  {
+    "name": "JL schilderwerken",
+    "city": "Zwolle",
+    "phone": "+31 6 53607421",
+    "rating": 4.9,
+    "reviews": 44,
+    "category": "Schilder",
+    "website": null,
+    "place_id": "ChIJ_Xti-kffx0cRtPHzZ2KbKzE"
+  },
+  {
+    "name": "Sam Timmerwerken🔨",
+    "city": "Apeldoorn",
+    "phone": "+31 55 234 0777",
+    "rating": 5,
+    "reviews": 42,
+    "category": "Timmerman",
+    "website": null,
+    "place_id": "ChIJL5BcZnrDUyURMMm4ffotqms"
+  },
+  {
+    "name": "Kamil Klussenbedrijf🛠",
+    "city": "Arnhem",
+    "phone": "+31 6 34458177",
+    "rating": 5,
+    "reviews": 32,
+    "category": "Klusbedrijf",
+    "website": null,
+    "place_id": "ChIJj1lW1KGlx0cR5LP75Pc6eyU"
+  },
+  {
+    "name": "Vloer en Raam Amersfoort",
+    "city": "Amersfoort",
+    "phone": "+31 33 203 5133",
+    "rating": 4.5,
+    "reviews": 28,
+    "category": "Vloerenwinkel",
+    "website": null,
+    "place_id": "ChIJv7s0fuFHxkcRjLTRL6AS_jo"
+  },
+  {
+    "name": "Karst Stukadoors",
+    "city": "Tilburg",
+    "phone": "+31 6 47213785",
+    "rating": 5,
+    "reviews": 18,
+    "category": "Stukadoorsbedrijf",
+    "website": null,
+    "place_id": "ChIJpWT6rzO-xkcRKztUaKE-x9c"
+  },
+  {
+    "name": "Tegelzetter Rotterdam",
+    "city": "Rotterdam",
+    "phone": "+31 10 360 2808",
+    "rating": 4.9,
+    "reviews": 13,
+    "category": "Tile contractor",
+    "website": null,
+    "place_id": "ChIJM4TBsYw1xEcRqWjwA-jTwGE"
+  },
+  {
+    "name": "van den Bogaard Timmerwerken",
+    "city": "Breda",
+    "phone": "+31 6 43204136",
+    "rating": 5,
+    "reviews": 10,
+    "category": "Timmerman",
+    "website": null,
+    "place_id": "ChIJDV-QAlmhxkcRq2s6p-Ok7Vg"
+  },
+  {
+    "name": "Utrecht Schilder",
+    "city": "Utrecht",
+    "phone": "+31 30 369 1704",
+    "rating": 5,
+    "reviews": 6,
+    "category": "Painter",
+    "website": null,
+    "place_id": "ChIJkRyJ9FVpxkcRjlnokBcJf38"
+  }
+]

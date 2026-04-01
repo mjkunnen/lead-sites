@@ -1,0 +1,144 @@
+{
+  "slug": "tolmeijer-dakdekkers-haarlem",
+  "lang": "nl",
+  "business_name": "Tolmeijer Dakdekkers",
+  "niche": "attracties",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Attracties in Haarlem",
+  "about": "Tolmeijer Dakdekkers is een professioneel attractiessbedrijf in Haarlem en omgeving. Met 1 jaar ervaring leveren wij vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "101x Google reviews",
+    "1+ jaar ervaring",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 808,
+    "reviews_count": 101
+  },
+  "hero": {
+    "headline": "Uw attracties in Haarlem",
+    "subheadline": "Professioneel attractiesswerk in Haarlem en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZYuA3HZE_Yr44DLajVqIZgvNk_6iciVR0AmOo4MoC46Xqtg2D6xEXxSo8h3t90j4mImTPkMc8QmExdIVshMAMdUUw7s_s6KqQyJWAGJ8IvyQRpEtZ-mCSbBtWBpHgflukttSpq_jJjws=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Attracties",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZYuA3HZE_Yr44DLajVqIZgvNk_6iciVR0AmOo4MoC46Xqtg2D6xEXxSo8h3t90j4mImTPkMc8QmExdIVshMAMdUUw7s_s6KqQyJWAGJ8IvyQRpEtZ-mCSbBtWBpHgflukttSpq_jJjws=w800-h600-k-no",
+      "alt": "Tolmeijer Dakdekkers project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vS7WuDNMkY4dCZsK_N-8aQ&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=121.0334&pitch=0&thumbfov=100",
+      "alt": "Tolmeijer Dakdekkers project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Annemarie Timmerman",
+      "text": "Naar aanleiding van een lekkage contact opgenomen met een dakdekker die milo aanraadde. Na het eerste contact al een no show.\nNa een aantal weken toch wel weer contact en een offerte laten opmaken. Na nogmaals moeilijk in contact te komen is de lekkage hersteld met veel druk op het zo snel mogelijk betalen van de werkzaamheden. Dit met een belofte dat 'als er nog steeds lekkage is, kom ik weer langs'. Helaas bleek inderdaad dat de lekkage niet hersteld was.\nNa meermaals contact gelegd te hebben en meerdere afspraken gemaakt te hebben om langs te komen is milo nooit meer komen opdagen. Ook telefoontjes worden niet meer opgenomen en appjes worden gelezen maar niet beantwoord.\nErg kinderachtig gedrag.\nZodra milo zijn geld heeft kan het hem niet meer boeien. Beetje jammer.\nKies een ander bedrijf en laat deze ver achter je.",
+      "stars": 1,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Koen Van Marken",
+      "text": "Afgelopen jaar hebben zijn mijn dak overstek gerepareerd.\nin eerste instantie prima, en gelukt. Toch bleef de lekkage. Hiervoor zijn de heren 3x teruggekomen. Nu heb ik er een schade expert van de verzekering naar laten kijken samen met een aannemersbedrijf. voor een deel was de lekkage niet de schuld van hen, het lag aan de omlijsting van het kozijn. een tweede deel van de lekkage had toch echt te maken met het werk van het bedrijf Tolmeijer. Hierbij was de schade expert drie dingen opgevallen:\n1. ze hebben alle randen en hoeken dicht gekit, dat zou je nooit moeten doen als dakdekker. dat is puur luiheid;\n2. een deel van de dakbedekking hebben ze met kit vastgemaakt aan het Keralit van de buren. Als dakdekker kit je nooit je dakbedekking vast, al helemaal niet aan Keralit (ook nog eens aan de buitenkant);\n3. de zinken daklijsten waren vastgeschroefd, dat zorgt niet voor lekkage maar is zeer onprofessioneel.\n\nNa een gesprek zei hij dat ik hem eigenlijk nog 600 Euro moet betalen en dat we die kan kunnen 'kwijtschelden'. Prima voor mij.\noverigens was het telefonisch contact altijd prima verlopen en duidelijk.\n\nAl met al niet nog eens vragen.",
+      "stars": 2,
+      "date": "maart 2026"
+    },
+    {
+      "name": "Renzo Van Veen",
+      "text": "Zeer Fijne ervaring gehad met dit bedrijf. Alles van begin tot einde goed geregeld en uitstekend gecommuniceerd! Milo weet waar hij over praat en heeft de problemen met mogelijke oplossingen uitgelegd zodat wij zelf ook een goed beeld hadden van het probleem.\nZeker aan te raden.",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Ernst Dijkstra",
+      "text": "snelle service net bedrijf beleefd personeel prijstechnisch dik in orde 👌🏼",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "Appie",
+      "text": "Tolmeijer dakdekkers, 1 keer maar nooit meer.\nOnze ervaring is duidelijk anders dan de reviews die we hier gelezen hebben.\nHierbij onze ervaringen.\nTolmeijer dakdekkers, 1 keer maar nooit meer.\nWe zijn voor de renovatie van ons dak in zee gegaan met de firma Tolmeijer. Bij eerste contact, lijken ze vlot, aardig en bekwaam. Hoe we er nu over denken, volgt nu. Het was een nare en stressvolle ervaring.\nDhr. Tolmeijer is trots op zijn algemene voorwaarden. Hij gebruikt en/of verwijst er regelmatig naar. Ook schroomt hij niet om er mee te dreigen. Op zich prima, alleen dhr. Tolmeijer houdt zichzelf nergens aan. Komt niet op de afgesproken data/tijden en ontwijkt stelselmatig vragen. Tevens worden diverse afspraken uit de offerte niet nagekomen. Als dhr. Tolmeijer erop wordt aangesproken, b.v. via app, mail of telefoon, reageert hij of helemaal niet of gepikeerd. Zaken die ten tijde van de offerte al zo waren, zoals een schoorsteen bij de buren of een haardpijp die al jaren op het dak staat, verschijnen opeens op een meerwerk factuur omdat daar ‘iets’ aan moest gebeuren. Ook voor extra grind verwijderen, wat bij werkzaamheden bij de buren op ons dak schijnt te zijn gekomen, moeten we een serieus bedrag ‘meerwerk’ betalen. Aan het feit dat we hem hebben gecontacteerd of we ergens op moesten letten toen ze bij de buren begonnen (niet nodig) en het feit dat, als hij op de afgesproken datum was begonnen, we dit probleem helemaal niet hadden gehad, gaat hij simpelweg voorbij.\nDakranden worden niet opgehoogd zoals afgesproken, onder het mom van ‘esthetiek’. Dat was ook al zo toen de offerte gemaakt werd. In de offerte wordt een container voor afvoeren materiaal en een steiger opgenomen. Hij plaatste/gebruikte ze niet, i.v.m. weinig ruimte en overlast voor de buurt. Vreemd genoeg was die ruimte ook bij het maken van de offerte logischerwijs al zo. Ik denk dat de buurt gekrompen was in de regen.\nAan het feit dat meneer op de afgesproken startdatum/tijd niet kwam opdagen en na 1 ½ uur een appje met een weerkaartje met regen stuurt, ‘we komen niet’, gaat hij gemakshalve even voorbij. Evenals het feit dat ze meer dan 3 maanden na de oorspronkelijke startdatum eindelijk een keer gaan beginnen met het werk. Het heeft echt geen 3 maanden achter elkaar geregend. Een aangetekende email met ingebrekestelling werd niet eens geopend. Het is omdat er al een serieuze som was aanbetaald (algemene voorwaarden), dat we nog zijn doorgegaan. De oude dakbedekking en restmaterialen zijn gewoon vanaf het dak in de voortuin gegooid en opgeruimd. De kleine resten mag je zelf opruimen. De ‘beloofde’ eindoplevering zoals in de offerte staat, heeft bestaan uit ‘het is klaar’ door een werknemer. Dhr Tolmeijer vond het niet de moeite om zelf even te komen. Het zink zat op een paar plaatsen niet naar ons zin, daar was zijn werknemer het ook wel mee eens. Opeens lag dit aan “bouwkundige verschillen”, vreemd genoeg was dit in de oude situatie niet zo. Hij zou de volgende dag terugkomen om het op te lossen en op ons verzoek foto’s van het werk op het dak maken. Nooit meer gezien. Na een weekje kwamen de eind facturen binnen. Deze eerst maar even laten liggen i.v.m met de ontevredenheid over het verloop van alles. Na 2 weken een herinnering, met nog even een forse meerwerk factuur erbij.\nMail/brief geschreven met onze klachten. Meneer weer gepikeerd. 4 pagina’s met verweer. Klachten over het werk hadden schriftelijk moeten worden ingediend en waren te laat. Volgens dhr Tolmeijer zijn er meerdere foto’s gestuurd van het dak toen het “af” was. Op meermaals verzoek om ze nogmaals te sturen kreeg ik de vraag of ik hem wilde bellen. Een paar foto’s doorsturen en een meldcode van de isolatie doorgeven (nodig voor de subsidie aanvraag) blijkt heel moeilijk en zit er niet in. Hij wilde het zink uit ‘coulance’ nog wel komen bekijken en de tuin komen opruimen. Wij waren inmiddels al lang klaar met de firma Tolmeijer. Het dreigen met een deurwaarder als we niet op tijd betaalde en het verlies van de garantie, deden de deur dicht.",
+      "stars": 1,
+      "date": "januari 2026"
+    },
+    {
+      "name": "Rick Van den bosch",
+      "text": "Zeer tevreden met milo hij heeft bij me loods me dak gebrand en extra dak uitloop gemaakt  vanwege een lekkage ze zijn zeker een aanrader en voor een goeie prijs ook",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "Wessel",
+      "text": "We hadden lekkage en Milo kwam direct langs om te kijken wat het probleem was. Samen hebben wij besproken welke oplossingen er mogelijk waren. Milo is kundig, behulpzaam en attent. Hij kan goed uitleggen en neemt de tijd voor zijn klanten.",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "Jeffrey Blommers",
+      "text": "We namen contact op vanwege twijfels over de staat van ons dak. Milo heeft het dak uitgebreid bekeken en duidelijk uitgelegd wat er aan de hand was. Wat wij vooral prettig vonden, is dat hij eerlijk aangaf wat nu nodig was en wat nog prima kon wachten. Dat gaf veel vertrouwen. De werkzaamheden zijn netjes uitgevoerd en de communicatie was helder en prettig. Fijn om met iemand te werken die realistisch en eerlijk meedenkt. Ook de prijs was schappelijk zeker wanneer je de snelheid van acteren en de kwaliteit van het werk mee weegt. Ook bij vragen nadien stond hij altijd paraat om te helpen.",
+      "stars": 5,
+      "date": "januari 2026"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Haarlem en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 10900200",
+    "city": "Haarlem",
+    "address": "Hofmeijerstraat 33, 2033 KC Haarlem",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt0Z-ftPvxUcR8kBkfoOJcI0"
+  },
+  "working_hours": {
+    "Di": "07:00 - 17:00",
+    "Do": "07:00 - 17:00",
+    "Ma": "07:00 - 17:00",
+    "Vr": "07:00 - 17:00",
+    "Wo": "07:00 - 17:00",
+    "Za": "07:00 - 17:00",
+    "Zo": "07:00 - 17:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T12:36:22.459Z",
+    "lead_id": "tolmeijer-dakdekkers-haarlem-001",
+    "version": 1
+  }
+}
