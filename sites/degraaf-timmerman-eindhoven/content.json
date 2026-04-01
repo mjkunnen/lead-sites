@@ -7,7 +7,11 @@
   "palette": "vakman",
   "tagline": "Vakmanschap in hout",
   "about": "De Graaf Timmerwerken is gespecialiseerd in maatwerk houtbewerking en renovatie. Met meer dan 15 jaar ervaring in de regio Eindhoven leveren wij kwalitatief hoogstaand timmerwerk voor zowel particulieren als bedrijven. Van kozijnen tot complete dakkapellen — alles op maat gemaakt.",
-  "trust_badges": ["15+ jaar ervaring", "Gratis offerte", "Regio Eindhoven"],
+  "trust_badges": [
+    "15+ jaar ervaring",
+    "Gratis offerte",
+    "Regio Eindhoven"
+  ],
   "stats": {
     "years": 15,
     "projects": 380,
@@ -18,7 +22,7 @@
     "subheadline": "Vakkundig timmerwerk op maat. Van kozijnvervanging tot complete verbouwingen — wij leveren kwaliteit die blijft.",
     "cta_primary": "Offerte aanvragen",
     "cta_secondary": "Bekijk projecten",
-    "image_url": "https://images.unsplash.com/photo-1541123603104-512919d6a96c?w=1200&q=80"
+    "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80"
   },
   "services": [
     {

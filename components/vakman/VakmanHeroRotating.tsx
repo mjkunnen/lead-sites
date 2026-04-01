@@ -35,11 +35,18 @@ export default function VakmanHeroRotating({ content }: { content: SiteContent }
   return (
     <section className="relative min-h-[85dvh] flex flex-col justify-end overflow-hidden">
       <img
-        src={getHeroImage(content.hero.image_url, content.niche)}
+        src={content.hero.image_url}
         alt={content.business_name}
         className="absolute inset-0 w-full h-full object-cover"
         crossOrigin="anonymous"
         referrerPolicy="no-referrer"
+        onError={(e) => {
+          const img = e.target as HTMLImageElement;
+          if (!img.dataset.fallback) {
+            img.dataset.fallback = '1';
+            img.src = getHeroImage(undefined, content.niche);
+          }
+        }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
 
