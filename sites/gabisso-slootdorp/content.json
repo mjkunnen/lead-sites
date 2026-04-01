@@ -1,0 +1,71 @@
+{
+  "slug": "gabisso-slootdorp",
+  "lang": "nl",
+  "business_name": "Gabisso",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in Slootdorp",
+  "about": "Gabisso levert vakkundig stucwerk in de regio Slootdorp en omgeving.",
+  "trust_badges": [
+    "59x Werkspot reviews",
+    "4.7 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 89,
+    "reviews_count": 59
+  },
+  "hero": {
+    "headline": "Uw stukadoor in Slootdorp",
+    "subheadline": "Professioneel stukadoorswerk in Slootdorp en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stucwerk",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Wanden",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Plafonds",
+      "text": "",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Slootdorp en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Neem contact op via telefoon of WhatsApp. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    }
+  ],
+  "contact": {
+    "city": "Slootdorp",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Gabisso%20Slootdorp"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T14:16:44.460Z",
+    "lead_id": "gabisso-slootdorp-001",
+    "source": "werkspot",
+    "werkspot_url": "https://www.werkspot.nl/profiel/gabisso",
+    "version": 1
+  }
+}

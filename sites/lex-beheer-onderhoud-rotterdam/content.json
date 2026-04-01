@@ -1,0 +1,76 @@
+{
+  "slug": "lex-beheer-onderhoud-rotterdam",
+  "lang": "nl",
+  "business_name": "Lex Beheer en Onderhoud",
+  "niche": "klusjesman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Klusjesman in Rotterdam",
+  "about": "Lex Beheer en Onderhoud is een allround klussenbedrijf in Rotterdam. Van kleine reparaties tot complete renovaties.",
+  "trust_badges": [
+    "521x Werkspot reviews",
+    "4.9 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 782,
+    "reviews_count": 521
+  },
+  "hero": {
+    "headline": "Uw klusjesman in Rotterdam",
+    "subheadline": "Professioneel klusjesmanswerk in Rotterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Klussen",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Renovatie",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Rotterdam en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Neem contact op via telefoon of WhatsApp. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    }
+  ],
+  "contact": {
+    "city": "Rotterdam",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lex%20Beheer%20en%20Onderhoud%20Rotterdam"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T14:16:44.459Z",
+    "lead_id": "lex-beheer-onderhoud-rotterdam-001",
+    "source": "werkspot",
+    "werkspot_url": "https://www.werkspot.nl/profiel/lex-beheer-onderhoud",
+    "version": 1
+  }
+}

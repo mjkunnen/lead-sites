@@ -1,0 +1,76 @@
+{
+  "slug": "el-grande-onderhoudsbedrijf-zoetermeer",
+  "lang": "nl",
+  "business_name": "El Grande Onderhoudsbedrijf",
+  "niche": "klusjesman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Klusjesman in Zoetermeer",
+  "about": "El Grande Onderhoudsbedrijf is een allround onderhoudsbedrijf in Zoetermeer voor particulieren en bedrijven.",
+  "trust_badges": [
+    "57x Werkspot reviews",
+    "4.6 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 86,
+    "reviews_count": 57
+  },
+  "hero": {
+    "headline": "Uw klusjesman in Zoetermeer",
+    "subheadline": "Professioneel klusjesmanswerk in Zoetermeer en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Onderhoud",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Loodgieterswerk",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Schoonmaak",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Klussen",
+      "text": "",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Zoetermeer en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Neem contact op via telefoon of WhatsApp. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    }
+  ],
+  "contact": {
+    "city": "Zoetermeer",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=El%20Grande%20Onderhoudsbedrijf%20Zoetermeer"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T14:16:44.461Z",
+    "lead_id": "el-grande-onderhoudsbedrijf-zoetermeer-001",
+    "source": "werkspot",
+    "werkspot_url": "https://www.werkspot.nl/profiel/el-grande-onderhoudsbedrijf",
+    "version": 1
+  }
+}

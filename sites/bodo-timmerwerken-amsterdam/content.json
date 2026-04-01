@@ -1,0 +1,76 @@
+{
+  "slug": "bodo-timmerwerken-amsterdam",
+  "lang": "nl",
+  "business_name": "Bodo Timmerwerken",
+  "niche": "timmerman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Timmerman in Amsterdam",
+  "about": "Bodo Timmerwerken is gespecialiseerd in maatwerk timmerwerk en renovaties in Amsterdam.",
+  "trust_badges": [
+    "511x Werkspot reviews",
+    "4.8 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 767,
+    "reviews_count": 511
+  },
+  "hero": {
+    "headline": "Uw timmerman in Amsterdam",
+    "subheadline": "Professioneel timmermanswerk in Amsterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1601058272524-0611e132d3c0?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Timmerwerk",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Interieurbouw",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Renovatie",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Houtskeletbouw",
+      "text": "",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Amsterdam en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Neem contact op via telefoon of WhatsApp. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    }
+  ],
+  "contact": {
+    "city": "Amsterdam",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Bodo%20Timmerwerken%20Amsterdam"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T14:16:44.460Z",
+    "lead_id": "bodo-timmerwerken-amsterdam-001",
+    "source": "werkspot",
+    "werkspot_url": "https://www.werkspot.nl/profiel/bodo-timmerwerken",
+    "version": 1
+  }
+}

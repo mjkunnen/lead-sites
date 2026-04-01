@@ -1,0 +1,76 @@
+{
+  "slug": "littleyaman-rotterdam",
+  "lang": "nl",
+  "business_name": "Littleyaman",
+  "niche": "timmerman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Timmerman in Rotterdam",
+  "about": "Littleyaman is gespecialiseerd in houtrot reparatie en kozijnen in Rotterdam. Vakkundig werk met oog voor detail.",
+  "trust_badges": [
+    "559x Werkspot reviews",
+    "4.8 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 839,
+    "reviews_count": 559
+  },
+  "hero": {
+    "headline": "Uw timmerman in Rotterdam",
+    "subheadline": "Professioneel timmermanswerk in Rotterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1601058272524-0611e132d3c0?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Houtrot reparatie",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Kozijnen",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Timmerwerk",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Schilderwerk",
+      "text": "",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Rotterdam en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Neem contact op via telefoon of WhatsApp. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    }
+  ],
+  "contact": {
+    "city": "Rotterdam",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Littleyaman%20Rotterdam"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T14:16:44.456Z",
+    "lead_id": "littleyaman-rotterdam-001",
+    "source": "werkspot",
+    "werkspot_url": "https://www.werkspot.nl/profiel/littleyaman",
+    "version": 1
+  }
+}

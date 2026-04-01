@@ -1,0 +1,76 @@
+{
+  "slug": "renato-services-vlaardingen",
+  "lang": "nl",
+  "business_name": "Renato Services",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in Vlaardingen",
+  "about": "Renato Services levert professioneel stucwerk en schilderwerk in Vlaardingen en omgeving. Kwaliteit en klanttevredenheid staan voorop.",
+  "trust_badges": [
+    "545x Werkspot reviews",
+    "4.9 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 818,
+    "reviews_count": 545
+  },
+  "hero": {
+    "headline": "Uw stukadoor in Vlaardingen",
+    "subheadline": "Professioneel stukadoorswerk in Vlaardingen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stucwerk",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Schilderwerk",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Behangen",
+      "text": "",
+      "icon": "default"
+    },
+    {
+      "title": "Renovatie",
+      "text": "",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Vlaardingen en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Neem contact op via telefoon of WhatsApp. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid. Wij proberen altijd snel te schakelen."
+    }
+  ],
+  "contact": {
+    "city": "Vlaardingen",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Renato%20Services%20Vlaardingen"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T14:16:44.458Z",
+    "lead_id": "renato-services-vlaardingen-001",
+    "source": "werkspot",
+    "werkspot_url": "https://www.werkspot.nl/profiel/renato-services",
+    "version": 1
+  }
+}
