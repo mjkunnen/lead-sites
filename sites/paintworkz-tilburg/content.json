@@ -1,26 +1,26 @@
 {
-  "slug": "schildersbedrijf-henriette-groningen",
+  "slug": "paintworkz-tilburg",
   "lang": "nl",
-  "business_name": "Schildersbedrijf Henriette",
+  "business_name": "PAINTWORKZ.",
   "niche": "schilder",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Schilder in Groningen",
-  "about": "Schildersbedrijf Henriette is een professioneel schildersbedrijf in Groningen en omgeving. Met 7 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "tagline": "Schilder in Tilburg",
+  "about": "PAINTWORKZ. is een professioneel schildersbedrijf in Tilburg en omgeving. Met 35 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
   "trust_badges": [
-    "7x Google reviews",
+    "35x Google reviews",
     "5 rating",
     "Gratis offerte",
     "Binnen 24u reactie"
   ],
   "stats": {
-    "years": 2,
-    "projects": 11,
-    "reviews_count": 7
+    "years": 4,
+    "projects": 53,
+    "reviews_count": 35
   },
   "hero": {
-    "headline": "Uw schilder in Groningen",
-    "subheadline": "Professioneel schilderswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "headline": "Uw schilder in Tilburg",
+    "subheadline": "Professioneel schilderswerk in Tilburg en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
     "image_url": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=1200&fit=crop&q=80"
@@ -51,7 +51,7 @@
   "faq": [
     {
       "question": "In welk gebied zijn jullie actief?",
-      "answer": "Wij werken in Groningen en directe omgeving."
+      "answer": "Wij werken in Tilburg en directe omgeving."
     },
     {
       "question": "Hoe kan ik een offerte aanvragen?",
@@ -63,14 +63,14 @@
     }
   ],
   "contact": {
-    "phone": "+31 6 13600726",
-    "city": "Groningen",
-    "address": "Hoge der A 2311, 9712 AD Groningen",
-    "maps_url": "https://www.google.com/maps/place/Schildersbedrijf+Henriette/@53.218208999999995,6.559270499999999,14z/data=!4m8!1m2!2m1!1sSchildersbedrijf+Henriette!3m4!1s0x47c9cd123b42cbab:0x1c31b41abcaa53da!8m2!3d53.218208999999995!4d6.559270499999999"
+    "phone": "+31 6 34893752",
+    "city": "Tilburg",
+    "address": "Spaubeekstraat 95-18, 5035 JV Tilburg",
+    "maps_url": "https://www.google.com/maps/place/PAINTWORKZ./@51.581053,4.9742356999999995,14z/data=!4m8!1m2!2m1!1sPAINTWORKZ.!3m4!1s0x47c6979650f532fb:0xf1345d793a6fac0c!8m2!3d51.581053!4d4.9742356999999995"
   },
   "metadata": {
-    "generated_at": "2026-04-01T15:12:08.072Z",
-    "lead_id": "schildersbedrijf-henriette-groningen-001",
+    "generated_at": "2026-04-01T15:12:08.048Z",
+    "lead_id": "paintworkz-tilburg-001",
     "source": "outscraper-deep",
     "version": 1
   }

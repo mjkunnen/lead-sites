@@ -1,0 +1,77 @@
+{
+  "slug": "da-costa-stukadoor-onderhoud-de-bilt",
+  "lang": "nl",
+  "business_name": "Da Costa Stukadoor & Onderhoud",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in De Bilt",
+  "about": "Da Costa Stukadoor & Onderhoud is een professioneel stukadoorsbedrijf in De Bilt en omgeving. Met 21 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "21x Google reviews",
+    "4.8 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 3,
+    "projects": 32,
+    "reviews_count": 21
+  },
+  "hero": {
+    "headline": "Uw stukadoor in De Bilt",
+    "subheadline": "Professioneel stukadoorswerk in De Bilt en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stukadoor",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in De Bilt en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 25088070",
+    "city": "De Bilt",
+    "address": "Tuinstraat 35, 3732 VJ De Bilt",
+    "maps_url": "https://www.google.com/maps/place/Da+Costa+Stukadoor+%26+Onderhoud/@52.106058399999995,5.184297,14z/data=!4m8!1m2!2m1!1sDa+Costa+Stukadoor+%26+Onderhoud!3m4!1s0x47c669ae28fe7d3f:0xfc3a1cd2133ee33a!8m2!3d52.106058399999995!4d5.184297"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.054Z",
+    "lead_id": "da-costa-stukadoor-onderhoud-de-bilt-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "v-g-timmerbedrijf-almere",
+  "lang": "nl",
+  "business_name": "V.G. Timmerbedrijf",
+  "niche": "timmerman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Timmerman in Almere",
+  "about": "V.G. Timmerbedrijf is een professioneel timmermansbedrijf in Almere en omgeving. Met 17 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "17x Google reviews",
+    "5 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 2,
+    "projects": 26,
+    "reviews_count": 17
+  },
+  "hero": {
+    "headline": "Uw timmerman in Almere",
+    "subheadline": "Professioneel timmermanswerk in Almere en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1601058272524-0611e132d3c0?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Timmerman",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Almere en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 53555797",
+    "city": "Almere",
+    "address": "Wim Meuldijklaan 56, 1336 CK Almere",
+    "maps_url": "https://www.google.com/maps/place/V.G.+Timmerbedrijf/@52.405882299999995,5.3174169,14z/data=!4m8!1m2!2m1!1sV.G.+Timmerbedrijf!3m4!1s0x47c63d4e6a143bed:0x70fe5a4eaafc6f90!8m2!3d52.405882299999995!4d5.3174169"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.061Z",
+    "lead_id": "v-g-timmerbedrijf-almere-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}

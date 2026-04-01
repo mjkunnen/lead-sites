@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Loodgietersbedrijf C.P. Coster",
+    "city": "Almere",
+    "phone": "+31 6 43569873",
+    "reviews": 67,
+    "rating": 4.6,
+    "slug": "loodgietersbedrijf-c-p-coster-almere",
+    "niche": "loodgieter"
+  },
+  {
+    "name": "Pete Oz Klussenbedrijf / Timmerman / Schilder / Sloop en Renovatie Experts / HoutRot Specialists",
+    "city": "Rotterdam",
+    "phone": "+31 6 84619190",
+    "reviews": 58,
+    "rating": 4.8,
+    "slug": "pete-oz-klussenbedrijf-timmerman-schilder-sloop-en-renovatie-experts-houtrot-specialists-rotterdam",
+    "niche": "klusjesman"
+  },
+  {
+    "name": "PAINTWORKZ.",
+    "city": "Tilburg",
+    "phone": "+31 6 34893752",
+    "reviews": 35,
+    "rating": 5,
+    "slug": "paintworkz-tilburg",
+    "niche": "schilder"
+  },
+  {
+    "name": "Schildersbedrijf A.C van Dijk",
+    "city": "Apeldoorn",
+    "phone": "+31 6 49784322",
+    "reviews": 30,
+    "rating": 5,
+    "slug": "schildersbedrijf-a-c-van-dijk-apeldoorn",
+    "niche": "schilder"
+  },
+  {
+    "name": "Budde schilderwerken",
+    "city": "Enschede",
+    "phone": "+31 6 10544089",
+    "reviews": 24,
+    "rating": 5,
+    "slug": "budde-schilderwerken-enschede",
+    "niche": "schilder"
+  },
+  {
+    "name": "Da Costa Stukadoor & Onderhoud",
+    "city": "De Bilt",
+    "phone": "+31 6 25088070",
+    "reviews": 21,
+    "rating": 4.8,
+    "slug": "da-costa-stukadoor-onderhoud-de-bilt",
+    "niche": "stukadoor"
+  },
+  {
+    "name": "V.G. Timmerbedrijf",
+    "city": "Almere",
+    "phone": "+31 6 53555797",
+    "reviews": 17,
+    "rating": 5,
+    "slug": "v-g-timmerbedrijf-almere",
+    "niche": "timmerman"
+  },
+  {
+    "name": "Accuraat Installaties",
+    "city": "Groningen",
+    "phone": "+31 50 230 5823",
+    "reviews": 12,
+    "rating": 5,
+    "slug": "accuraat-installaties-groningen",
+    "niche": "loodgieter"
+  },
+  {
+    "name": "Alles in Wit",
+    "city": "Amsterdam",
+    "phone": "+31 6 57299590",
+    "reviews": 11,
+    "rating": 4.3,
+    "slug": "alles-in-wit-amsterdam",
+    "niche": "stukadoor"
+  },
+  {
+    "name": "Amsterdam Stukadoor",
+    "city": "Amsterdam",
+    "phone": "+31 20 369 5913",
+    "reviews": 10,
+    "rating": 5,
+    "slug": "amsterdam-stukadoor-amsterdam",
+    "niche": "stukadoor"
+  },
+  {
+    "name": "MijnStucExpert",
+    "city": "Utrecht",
+    "phone": "+31 30 227 1835",
+    "reviews": 8,
+    "rating": 5,
+    "slug": "mijnstucexpert-utrecht",
+    "niche": "stukadoor"
+  },
+  {
+    "name": "Apeldoorn schilderwerken",
+    "city": "Apeldoorn",
+    "phone": "+31 6 17986138",
+    "reviews": 7,
+    "rating": 5,
+    "slug": "apeldoorn-schilderwerken-apeldoorn",
+    "niche": "schilder"
+  },
+  {
+    "name": "Schildersbedrijf Henriette",
+    "city": "Groningen",
+    "phone": "+31 6 13600726",
+    "reviews": 7,
+    "rating": 5,
+    "slug": "schildersbedrijf-henriette-groningen",
+    "niche": "schilder"
+  },
+  {
+    "name": "Atema Installaties",
+    "city": "Groningen",
+    "phone": "+31 50 311 3351",
+    "reviews": 7,
+    "rating": 5,
+    "slug": "atema-installaties-groningen",
+    "niche": "loodgieter"
+  },
+  {
+    "name": "Stoutstuct",
+    "city": "Rotterdam",
+    "phone": "+31 6 16534588",
+    "reviews": 6,
+    "rating": 5,
+    "slug": "stoutstuct-rotterdam",
+    "niche": "stukadoor"
+  }
+]

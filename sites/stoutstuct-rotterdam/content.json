@@ -1,0 +1,77 @@
+{
+  "slug": "stoutstuct-rotterdam",
+  "lang": "nl",
+  "business_name": "Stoutstuct",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in Rotterdam",
+  "about": "Stoutstuct is een professioneel stukadoorsbedrijf in Rotterdam en omgeving. Met 6 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "6x Google reviews",
+    "5 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 2,
+    "projects": 9,
+    "reviews_count": 6
+  },
+  "hero": {
+    "headline": "Uw stukadoor in Rotterdam",
+    "subheadline": "Professioneel stukadoorswerk in Rotterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stukadoor",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Rotterdam en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 16534588",
+    "city": "Rotterdam",
+    "address": "Giessenweg 1a, 3044VP Rotterdam",
+    "maps_url": "https://www.google.com/maps/place/Stoutstuct/@51.927821699999996,4.4290559,14z/data=!4m8!1m2!2m1!1sStoutstuct!3m4!1s0x47c435e0fa97d87d:0x697927b92306b521!8m2!3d51.927821699999996!4d4.4290559"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.074Z",
+    "lead_id": "stoutstuct-rotterdam-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}

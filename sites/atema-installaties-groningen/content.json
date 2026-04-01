@@ -1,12 +1,12 @@
 {
-  "slug": "schildersbedrijf-henriette-groningen",
+  "slug": "atema-installaties-groningen",
   "lang": "nl",
-  "business_name": "Schildersbedrijf Henriette",
-  "niche": "schilder",
+  "business_name": "Atema Installaties",
+  "niche": "loodgieter",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Schilder in Groningen",
-  "about": "Schildersbedrijf Henriette is een professioneel schildersbedrijf in Groningen en omgeving. Met 7 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "tagline": "Loodgieter in Groningen",
+  "about": "Atema Installaties is een professioneel loodgietersbedrijf in Groningen en omgeving. Met 7 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
   "trust_badges": [
     "7x Google reviews",
     "5 rating",
@@ -19,15 +19,15 @@
     "reviews_count": 7
   },
   "hero": {
-    "headline": "Uw schilder in Groningen",
-    "subheadline": "Professioneel schilderswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "headline": "Uw loodgieter in Groningen",
+    "subheadline": "Professioneel loodgieterswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
-    "image_url": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=1200&fit=crop&q=80"
+    "image_url": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&h=1200&fit=crop&q=80"
   },
   "services": [
     {
-      "title": "Schilder",
+      "title": "Loodgieter",
       "text": "Professioneel vakwerk.",
       "icon": "default"
     },
@@ -63,14 +63,14 @@
     }
   ],
   "contact": {
-    "phone": "+31 6 13600726",
+    "phone": "+31 50 311 3351",
     "city": "Groningen",
-    "address": "Hoge der A 2311, 9712 AD Groningen",
-    "maps_url": "https://www.google.com/maps/place/Schildersbedrijf+Henriette/@53.218208999999995,6.559270499999999,14z/data=!4m8!1m2!2m1!1sSchildersbedrijf+Henriette!3m4!1s0x47c9cd123b42cbab:0x1c31b41abcaa53da!8m2!3d53.218208999999995!4d6.559270499999999"
+    "address": "Bekemaheerd 39, 9737 PP Groningen",
+    "maps_url": "https://www.google.com/maps/place/Atema+Installaties/@53.2477952,6.583906799999999,14z/data=!4m8!1m2!2m1!1sAtema+Installaties!3m4!1s0x47c9d281e5cf0af1:0x98cd791a8b57fba4!8m2!3d53.2477952!4d6.583906799999999"
   },
   "metadata": {
-    "generated_at": "2026-04-01T15:12:08.072Z",
-    "lead_id": "schildersbedrijf-henriette-groningen-001",
+    "generated_at": "2026-04-01T15:12:08.073Z",
+    "lead_id": "atema-installaties-groningen-001",
     "source": "outscraper-deep",
     "version": 1
   }

@@ -1,0 +1,77 @@
+{
+  "slug": "mijnstucexpert-utrecht",
+  "lang": "nl",
+  "business_name": "MijnStucExpert",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in Utrecht",
+  "about": "MijnStucExpert is een professioneel stukadoorsbedrijf in Utrecht en omgeving. Met 8 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "8x Google reviews",
+    "5 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 2,
+    "projects": 12,
+    "reviews_count": 8
+  },
+  "hero": {
+    "headline": "Uw stukadoor in Utrecht",
+    "subheadline": "Professioneel stukadoorswerk in Utrecht en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stukadoor",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Utrecht en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 30 227 1835",
+    "city": "Utrecht",
+    "address": "Adenauerlaan 199, 3527 RE Utrecht",
+    "maps_url": "https://www.google.com/maps/place/MijnStucExpert/@52.0760231,5.0863477999999995,14z/data=!4m8!1m2!2m1!1sMijnStucExpert!3m4!1s0x47c66583fb50c393:0x81bdfa0e57847f52!8m2!3d52.0760231!4d5.0863477999999995"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.069Z",
+    "lead_id": "mijnstucexpert-utrecht-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}

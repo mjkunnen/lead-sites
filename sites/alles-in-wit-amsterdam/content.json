@@ -1,0 +1,77 @@
+{
+  "slug": "alles-in-wit-amsterdam",
+  "lang": "nl",
+  "business_name": "Alles in Wit",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in Amsterdam",
+  "about": "Alles in Wit is een professioneel stukadoorsbedrijf in Amsterdam en omgeving. Met 11 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "11x Google reviews",
+    "4.3 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 2,
+    "projects": 17,
+    "reviews_count": 11
+  },
+  "hero": {
+    "headline": "Uw stukadoor in Amsterdam",
+    "subheadline": "Professioneel stukadoorswerk in Amsterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stukadoor",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Amsterdam en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 57299590",
+    "city": "Amsterdam",
+    "address": "Statenjachtstraat 650, 1034 GC Amsterdam",
+    "maps_url": "https://www.google.com/maps/place/Alles+in+Wit/@52.406926299999995,4.91547,14z/data=!4m8!1m2!2m1!1sAlles+in+Wit!3m4!1s0x47c609a4c6592583:0x86e707350b3c65aa!8m2!3d52.406926299999995!4d4.91547"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.065Z",
+    "lead_id": "alles-in-wit-amsterdam-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}

@@ -1,33 +1,33 @@
 {
-  "slug": "schildersbedrijf-henriette-groningen",
+  "slug": "accuraat-installaties-groningen",
   "lang": "nl",
-  "business_name": "Schildersbedrijf Henriette",
-  "niche": "schilder",
+  "business_name": "Accuraat Installaties",
+  "niche": "loodgieter",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Schilder in Groningen",
-  "about": "Schildersbedrijf Henriette is een professioneel schildersbedrijf in Groningen en omgeving. Met 7 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "tagline": "Loodgieter in Groningen",
+  "about": "Accuraat Installaties is een professioneel loodgietersbedrijf in Groningen en omgeving. Met 12 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
   "trust_badges": [
-    "7x Google reviews",
+    "12x Google reviews",
     "5 rating",
     "Gratis offerte",
     "Binnen 24u reactie"
   ],
   "stats": {
     "years": 2,
-    "projects": 11,
-    "reviews_count": 7
+    "projects": 18,
+    "reviews_count": 12
   },
   "hero": {
-    "headline": "Uw schilder in Groningen",
-    "subheadline": "Professioneel schilderswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "headline": "Uw loodgieter in Groningen",
+    "subheadline": "Professioneel loodgieterswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
-    "image_url": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=1200&fit=crop&q=80"
+    "image_url": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&h=1200&fit=crop&q=80"
   },
   "services": [
     {
-      "title": "Schilder",
+      "title": "Loodgieter",
       "text": "Professioneel vakwerk.",
       "icon": "default"
     },
@@ -63,14 +63,14 @@
     }
   ],
   "contact": {
-    "phone": "+31 6 13600726",
+    "phone": "+31 50 230 5823",
     "city": "Groningen",
-    "address": "Hoge der A 2311, 9712 AD Groningen",
-    "maps_url": "https://www.google.com/maps/place/Schildersbedrijf+Henriette/@53.218208999999995,6.559270499999999,14z/data=!4m8!1m2!2m1!1sSchildersbedrijf+Henriette!3m4!1s0x47c9cd123b42cbab:0x1c31b41abcaa53da!8m2!3d53.218208999999995!4d6.559270499999999"
+    "address": "Koldingweg 17-A, 9723 HL Groningen",
+    "maps_url": "https://www.google.com/maps/place/Accuraat+Installaties/@53.2205085,6.6090162999999995,14z/data=!4m8!1m2!2m1!1sAccuraat+Installaties!3m4!1s0x47c9d29913afa20f:0xc49f021476c9fb26!8m2!3d53.2205085!4d6.6090162999999995"
   },
   "metadata": {
-    "generated_at": "2026-04-01T15:12:08.072Z",
-    "lead_id": "schildersbedrijf-henriette-groningen-001",
+    "generated_at": "2026-04-01T15:12:08.063Z",
+    "lead_id": "accuraat-installaties-groningen-001",
     "source": "outscraper-deep",
     "version": 1
   }

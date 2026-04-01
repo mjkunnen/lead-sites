@@ -1,0 +1,77 @@
+{
+  "slug": "loodgietersbedrijf-c-p-coster-almere",
+  "lang": "nl",
+  "business_name": "Loodgietersbedrijf C.P. Coster",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Loodgieter in Almere",
+  "about": "Loodgietersbedrijf C.P. Coster is een professioneel loodgietersbedrijf in Almere en omgeving. Met 67 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "67x Google reviews",
+    "4.6 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 8,
+    "projects": 101,
+    "reviews_count": 67
+  },
+  "hero": {
+    "headline": "Uw loodgieter in Almere",
+    "subheadline": "Professioneel loodgieterswerk in Almere en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Loodgieter",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Almere en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 43569873",
+    "city": "Almere",
+    "address": "Op Koers 22, 1316 VP Almere",
+    "maps_url": "https://www.google.com/maps/place/Loodgietersbedrijf+C.P.+Coster/@52.3912765,5.2103532999999995,14z/data=!4m8!1m2!2m1!1sLoodgietersbedrijf+C.P.+Coster!3m4!1s0x47c61128f7895555:0xd15e3740596733cd!8m2!3d52.3912765!4d5.2103532999999995"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.037Z",
+    "lead_id": "loodgietersbedrijf-c-p-coster-almere-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}

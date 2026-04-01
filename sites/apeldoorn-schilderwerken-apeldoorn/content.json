@@ -1,12 +1,12 @@
 {
-  "slug": "schildersbedrijf-henriette-groningen",
+  "slug": "apeldoorn-schilderwerken-apeldoorn",
   "lang": "nl",
-  "business_name": "Schildersbedrijf Henriette",
+  "business_name": "Apeldoorn schilderwerken",
   "niche": "schilder",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Schilder in Groningen",
-  "about": "Schildersbedrijf Henriette is een professioneel schildersbedrijf in Groningen en omgeving. Met 7 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "tagline": "Schilder in Apeldoorn",
+  "about": "Apeldoorn schilderwerken is een professioneel schildersbedrijf in Apeldoorn en omgeving. Met 7 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
   "trust_badges": [
     "7x Google reviews",
     "5 rating",
@@ -19,8 +19,8 @@
     "reviews_count": 7
   },
   "hero": {
-    "headline": "Uw schilder in Groningen",
-    "subheadline": "Professioneel schilderswerk in Groningen en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "headline": "Uw schilder in Apeldoorn",
+    "subheadline": "Professioneel schilderswerk in Apeldoorn en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
     "cta_primary": "Bel direct",
     "cta_secondary": "Offerte aanvragen",
     "image_url": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=1200&fit=crop&q=80"
@@ -51,7 +51,7 @@
   "faq": [
     {
       "question": "In welk gebied zijn jullie actief?",
-      "answer": "Wij werken in Groningen en directe omgeving."
+      "answer": "Wij werken in Apeldoorn en directe omgeving."
     },
     {
       "question": "Hoe kan ik een offerte aanvragen?",
@@ -63,14 +63,14 @@
     }
   ],
   "contact": {
-    "phone": "+31 6 13600726",
-    "city": "Groningen",
-    "address": "Hoge der A 2311, 9712 AD Groningen",
-    "maps_url": "https://www.google.com/maps/place/Schildersbedrijf+Henriette/@53.218208999999995,6.559270499999999,14z/data=!4m8!1m2!2m1!1sSchildersbedrijf+Henriette!3m4!1s0x47c9cd123b42cbab:0x1c31b41abcaa53da!8m2!3d53.218208999999995!4d6.559270499999999"
+    "phone": "+31 6 17986138",
+    "city": "Apeldoorn",
+    "address": "Germanenlaan, 7312 JC Apeldoorn",
+    "maps_url": "https://www.google.com/maps/place/Apeldoorn+schilderwerken/@52.2048219,5.9349001,14z/data=!4m8!1m2!2m1!1sApeldoorn+schilderwerken!3m4!1s0x47c7b9fd70f49acf:0x6d86f2234746cdb!8m2!3d52.2048219!4d5.9349001"
   },
   "metadata": {
-    "generated_at": "2026-04-01T15:12:08.072Z",
-    "lead_id": "schildersbedrijf-henriette-groningen-001",
+    "generated_at": "2026-04-01T15:12:08.070Z",
+    "lead_id": "apeldoorn-schilderwerken-apeldoorn-001",
     "source": "outscraper-deep",
     "version": 1
   }

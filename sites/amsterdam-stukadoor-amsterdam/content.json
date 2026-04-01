@@ -1,0 +1,77 @@
+{
+  "slug": "amsterdam-stukadoor-amsterdam",
+  "lang": "nl",
+  "business_name": "Amsterdam Stukadoor",
+  "niche": "stukadoor",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Stukadoor in Amsterdam",
+  "about": "Amsterdam Stukadoor is een professioneel stukadoorsbedrijf in Amsterdam en omgeving. Met 10 positieve reviews staat vakmanschap en klanttevredenheid voorop.",
+  "trust_badges": [
+    "10x Google reviews",
+    "5 rating",
+    "Gratis offerte",
+    "Binnen 24u reactie"
+  ],
+  "stats": {
+    "years": 2,
+    "projects": 15,
+    "reviews_count": 10
+  },
+  "hero": {
+    "headline": "Uw stukadoor in Amsterdam",
+    "subheadline": "Professioneel stukadoorswerk in Amsterdam en omgeving. Vakkundig, betrouwbaar en altijd netjes opgeleverd.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=1200&fit=crop&q=80"
+  },
+  "services": [
+    {
+      "title": "Stukadoor",
+      "text": "Professioneel vakwerk.",
+      "icon": "default"
+    },
+    {
+      "title": "Advies",
+      "text": "Eerlijk advies op maat.",
+      "icon": "default"
+    },
+    {
+      "title": "Reparatie",
+      "text": "Snel en vakkundig.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Onderhoud",
+      "text": "Periodiek onderhoud.",
+      "icon": "default"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Amsterdam en directe omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "Bel of WhatsApp ons. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Hoe snel kunnen jullie starten?",
+      "answer": "Neem contact op voor de actuele beschikbaarheid."
+    }
+  ],
+  "contact": {
+    "phone": "+31 20 369 5913",
+    "city": "Amsterdam",
+    "address": "Weerdestein 97, 1083 GG Amsterdam",
+    "maps_url": "https://www.google.com/maps/place/Amsterdam+Stukadoor/@52.3309782,4.8888622,14z/data=!4m8!1m2!2m1!1sAmsterdam+Stukadoor!3m4!1s0x47c60b148362d259:0x617f6e745f8bdecd!8m2!3d52.3309782!4d4.8888622"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T15:12:08.067Z",
+    "lead_id": "amsterdam-stukadoor-amsterdam-001",
+    "source": "outscraper-deep",
+    "version": 1
+  }
+}
