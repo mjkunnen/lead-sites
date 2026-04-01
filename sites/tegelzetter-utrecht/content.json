@@ -1,0 +1,110 @@
+{
+  "slug": "tegelzetter-utrecht",
+  "lang": "nl",
+  "business_name": "Tegelzetter Utrecht",
+  "niche": "tegelzetter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Perfecte afwerking & vakmanschap",
+  "about": "Tegelzetter Utrecht is een professioneel tegelbedrijf dat diensten aanbiedt in Utrecht en omgeving. Ze staan bekend om hun precieze plaatsing van tegels, op maat gemaakte ontwerpen en het gebruik van eersteklas materialen. Betrouwbaarheid en professionaliteit zijn hun kernwaarden.",
+  "trust_badges": [
+    "4.9 Google rating",
+    "Gratis consultatie",
+    "Geen verborgen kosten",
+    "Eersteklas materialen"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 128,
+    "reviews_count": 16
+  },
+  "hero": {
+    "headline": "Uw tegelzetter in Utrecht",
+    "subheadline": "Nauwkeurige tegelplaatsing, op maat gemaakte ontwerpen en eersteklas materialen. Vraag een vrijblijvende offerte aan.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1600&q=80"
+  },
+  "services": [
+    {
+      "title": "Tegelplaatsing",
+      "text": "Exacte tegelplaatsing met focus op elk detail.",
+      "icon": "tiles"
+    },
+    {
+      "title": "Ontwerp op maat",
+      "text": "Unieke ontwerpen die aan uw specifieke wensen voldoen.",
+      "icon": "palette"
+    },
+    {
+      "title": "Badkamer tegels",
+      "text": "Complete badkamer betegeling van vloer tot wand.",
+      "icon": "bathroom"
+    },
+    {
+      "title": "Keuken tegels",
+      "text": "Spatwanden en vloertegels voor uw keuken.",
+      "icon": "kitchen"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "D. Visser",
+      "text": "Zeer tevreden over het resultaat. Prachtige tegels in onze badkamer gelegd, strak en netjes afgewerkt.",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "M. van Leeuwen",
+      "text": "Goed bedrijf, kreeg snel de offerte per mail. Telefonisch meteen een afspraak gemaakt. Resultaat is top.",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "J. de Boer",
+      "text": "Keurig werk geleverd. De tegelzetter dacht goed mee over het patroon en de afwerking is perfect.",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "A. Hendriks",
+      "text": "Snelle service en mooi resultaat. Vloertegels in de hal liggen er strak in. Aanrader!",
+      "stars": 5,
+      "date": "december 2025"
+    },
+    {
+      "name": "S. Mulder",
+      "text": "Heel blij met onze nieuwe badkamer. Netjes gewerkt en alles opgeruimd achtergelaten.",
+      "stars": 5,
+      "date": "november 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welke soorten tegels plaatsen jullie?",
+      "answer": "Wij plaatsen alle soorten tegels: vloertegels, wandtegels, mozaïek, natuursteen en grootformaat tegels."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken in Utrecht en directe omgeving."
+    },
+    {
+      "question": "Geven jullie gratis advies?",
+      "answer": "Ja, wij bieden een gratis eerste consultatie aan om uw wensen te bespreken en een offerte op maat te maken."
+    },
+    {
+      "question": "Hoe lang duurt een tegelproject?",
+      "answer": "Afhankelijk van de omvang duurt een project gemiddeld 2 tot 5 werkdagen."
+    }
+  ],
+  "contact": {
+    "city": "Utrecht",
+    "address": "St Jacobsstraat 123, 3511 BP Utrecht",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tegelzetter+Utrecht"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T17:00:00Z",
+    "lead_id": "tegelzetter-utrecht-001",
+    "version": 1
+  }
+}

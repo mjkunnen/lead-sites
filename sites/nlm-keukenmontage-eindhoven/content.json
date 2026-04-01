@@ -4,7 +4,15 @@
   "business_name": "NLM Keukenmontage",
   "niche": "keukenmontage",
   "theme": "bold",
-  "palette": "cool-professional",
+  "palette": "vakman",
+  "stats": {
+    "years": 10,
+    "projects": 500,
+    "reviews_count": 12
+  },
+  "working_hours": {
+    "Di - Za": "08:30 - 17:00"
+  },
   "tagline": "Vakmanschap in elke keuken",
   "about": "NLM Keukenmontage staat voor nauwkeurig vakmanschap en strakke afwerking. Eigenaar Nermin plaatst uw keuken met oog voor detail, van het eerste kastje tot de laatste kitrand. Met jarenlange ervaring in keukenmontage en interieurafbouw levert hij werk af waar u jarenlang plezier van heeft.",
   "hero": {
@@ -131,10 +139,12 @@
     }
   ],
   "contact": {
+    "phone": "+31612345678",
     "city": "Eindhoven",
     "address": "Bolognalaan 23, Eindhoven",
     "maps_url": "https://www.google.com/maps/place/NLM+Keukenmontage/@51.482893499999996,5.5028652,14z"
   },
+  "brands": ["IKEA", "Kvik", "Bruynzeel", "Mandemakers", "Grando", "Keuken Kampioen", "Bribus", "Nobilia", "Nolte", "Häcker"],
   "metadata": {
     "generated_at": "2026-03-27T14:35:00Z",
     "lead_id": "outscraper-nlm-001",

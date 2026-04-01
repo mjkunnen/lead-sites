@@ -1,259 +1,104 @@
-"use client";
-import { useRef } from "react";
-import Image from "next/image";
-import {
-  motion,
-  useMotionValue,
-  useSpring,
-} from "framer-motion";
-import { SiteContent } from "@/lib/types";
+'use client';
 
-/* ── Magnetic button ─────────────────────────────────────────────── */
-function MagneticButton({
-  children,
-  href,
-  className,
-}: {
-  children: React.ReactNode;
-  href: string;
-  className: string;
-}) {
-  const ref = useRef<HTMLAnchorElement>(null);
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const springX = useSpring(x, { stiffness: 300, damping: 20 });
-  const springY = useSpring(y, { stiffness: 300, damping: 20 });
+import { motion } from 'framer-motion';
+import { SiteContent } from '@/lib/types';
 
-  const handleMouse = (e: React.MouseEvent) => {
-    const rect = ref.current?.getBoundingClientRect();
-    if (!rect) return;
-    x.set((e.clientX - rect.left - rect.width / 2) * 0.15);
-    y.set((e.clientY - rect.top - rect.height / 2) * 0.15);
-  };
-  const reset = () => {
-    x.set(0);
-    y.set(0);
-  };
+export default function VakmanHero({ content }: { content: SiteContent }) {
+  const phone = content.contact?.phone;
+  const whatsapp = phone ? `https://wa.me/${phone.replace(/[\s\-\+]/g, '')}` : null;
 
   return (
-    <motion.a
-      ref={ref}
-      href={href}
-      className={className}
-      style={{ x: springX, y: springY }}
-      onMouseMove={handleMouse}
-      onMouseLeave={reset}
-    >
-      {children}
-    </motion.a>
-  );
-}
-
-/* ── Hero ─────────────────────────────────────────────────────────── */
-export default function VakmanHero({
-  content,
-}: {
-  content: SiteContent;
-}) {
-  const words = content.hero.headline.split(" ");
-  const accentStart = Math.max(words.length - 2, 0);
-  const totalWords = words.length;
-
-  const phone = content.contact.phone ?? "";
-  const whatsappHref = `https://wa.me/${phone.replace(/[^0-9]/g, "")}`;
-  const stats = content.stats;
-
-  return (
-    <section className="relative min-h-screen overflow-hidden">
-      {/* ── Background image ──────────────────────────────────── */}
-      <Image
+    <section className="relative min-h-[80dvh] flex flex-col justify-end overflow-hidden">
+      {/* Background image — native img for reliability */}
+      <img
         src={content.hero.image_url}
-        alt={`${content.business_name} project`}
-        fill
-        className="object-cover"
-        priority
-        unoptimized
+        alt={content.business_name}
+        className="absolute inset-0 w-full h-full object-cover"
+        crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
       />
+      {/* Clean dark gradient — stronger at bottom for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
 
-      {/* ── Gradient overlay ──────────────────────────────────── */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20" />
-
-      {/* ── Content — anchored to bottom ──────────────────────── */}
-      <div className="absolute inset-0 flex items-end">
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pb-16 md:pb-20 w-full">
-          {/* ── Availability badge ────────────────────────────── */}
+      {/* Content */}
+      <div className="relative z-10 px-6 pb-10 max-w-xl">
+        {content.tagline && (
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
+            initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-green-400/30 bg-green-500/15 backdrop-blur-sm px-4 py-1.5 text-sm font-medium text-green-300"
+            transition={{ duration: 0.4 }}
+            className="mb-4"
           >
-            <span className="relative flex h-2.5 w-2.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-400" />
+            <span className="inline-block bg-white/15 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-[0.15em] px-3 py-1.5 rounded-full">
+              {content.tagline}
             </span>
-            Beschikbaar voor nieuwe projecten
           </motion.div>
+        )}
 
-          {/* ── Headline with word stagger ────────────────────── */}
-          <h1 className="font-heading text-[32px] leading-[1.1] text-white sm:text-[40px] md:text-[48px] lg:text-[56px]">
-            {words.map((word, idx) => {
-              const isAccent = idx >= accentStart;
-              const isLast = idx === totalWords - 1;
-              return (
-                <motion.span
-                  key={idx}
-                  initial={{ opacity: 0, y: 24 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 120,
-                    damping: 14,
-                    delay: 0.15 + idx * 0.08,
-                  }}
-                  className={`inline-block mr-[0.3em] ${
-                    isAccent ? "text-[#d97706]" : ""
-                  }`}
-                >
-                  {word}
-                  {isLast && (
-                    <motion.span
-                      className="block h-[3px] bg-[#d97706] rounded-full mt-1"
-                      initial={{ scaleX: 0 }}
-                      animate={{ scaleX: 1 }}
-                      transition={{
-                        duration: 0.6,
-                        delay: 0.15 + totalWords * 0.08 + 0.2,
-                        ease: "easeOut",
-                      }}
-                      style={{ transformOrigin: "left" }}
-                    />
-                  )}
-                </motion.span>
-              );
-            })}
-          </h1>
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+          className="text-[32px] md:text-5xl font-extrabold text-white leading-[1.1] tracking-tight mb-4"
+        >
+          {content.hero.headline}
+        </motion.h1>
 
-          {/* ── Subheadline ───────────────────────────────────── */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.5 }}
-            className="font-body mt-6 max-w-xl text-base leading-relaxed text-white/70"
-          >
-            {content.hero.subheadline}
-          </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="text-[15px] text-white/80 leading-relaxed mb-8 max-w-sm"
+        >
+          {content.hero.subheadline}
+        </motion.p>
 
-          {/* ── Stats row ─────────────────────────────────────── */}
-          {stats && (
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="flex items-center gap-6 text-white/80 text-sm font-subheading mt-6"
-            >
-              {stats.years && (
-                <span className="font-semibold">
-                  {stats.years}+{" "}
-                  <span className="font-normal text-white/60">
-                    jaar ervaring
-                  </span>
-                </span>
-              )}
-              {stats.years && stats.projects && (
-                <span className="w-px h-4 bg-white/20" />
-              )}
-              {stats.projects && (
-                <span className="font-semibold">
-                  {stats.projects}+{" "}
-                  <span className="font-normal text-white/60">projecten</span>
-                </span>
-              )}
-              {stats.projects && stats.reviews_count && (
-                <span className="w-px h-4 bg-white/20" />
-              )}
-              {stats.reviews_count && (
-                <span className="font-semibold">
-                  4.9★{" "}
-                  <span className="font-normal text-white/60">
-                    {stats.reviews_count} reviews
-                  </span>
-                </span>
-              )}
-            </motion.div>
-          )}
-
-          {/* ── CTA cluster ───────────────────────────────────── */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.7 }}
-            className="mt-10 flex flex-col gap-4 sm:flex-row"
-          >
-            {/* Primary — blue solid with shimmer + magnetic */}
-            <MagneticButton
-              href={whatsappHref}
-              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-[#b45309] px-8 py-4 text-base font-semibold text-white transition-shadow hover:shadow-xl hover:shadow-amber-700/30"
-            >
-              <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-[200%] group-hover:translate-x-[200%] transition-transform duration-700" />
-              <span className="relative">{content.hero.cta_primary}</span>
-              <svg
-                className="relative h-5 w-5 transition-transform group-hover:translate-x-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </MagneticButton>
-
-            {/* Secondary — white/20 backdrop-blur outlined */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.45 }}
+          className="flex gap-3"
+        >
+          {phone && (
             <a
-              href="#projecten"
-              className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-8 py-4 text-base font-semibold text-white transition-all hover:border-white/40 hover:bg-white/15"
+              href={`tel:${phone}`}
+              className="vakman-shimmer-btn flex-1 bg-[#004ac6] text-white py-4 px-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-[0_8px_20px_rgba(0,74,198,0.35)] active:scale-95 transition-transform"
             >
-              {content.hero.cta_secondary}
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Bel direct
             </a>
-          </motion.div>
-
-          {/* ── Trust badges ──────────────────────────────────── */}
-          {content.trust_badges && content.trust_badges.length > 0 && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 1 }}
-              className="mt-10 flex flex-wrap items-center gap-3"
-            >
-              {content.trust_badges.map((badge, idx) => (
-                <span
-                  key={idx}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-white/10 backdrop-blur-sm px-3.5 py-1.5 text-sm text-white/90"
-                >
-                  <svg
-                    className="h-4 w-4 text-white/60"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  {badge}
-                </span>
-              ))}
-            </motion.div>
           )}
-        </div>
+          {whatsapp && (
+            <a
+              href={whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="vakman-shimmer-btn flex-1 bg-[#25D366] text-white py-4 px-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-[0_8px_20px_rgba(37,211,102,0.3)] active:scale-95 transition-transform"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              </svg>
+              WhatsApp
+            </a>
+          )}
+        </motion.div>
       </div>
+
+      {/* Scroll hint */}
+      <motion.div
+        className="absolute bottom-3 left-1/2 -translate-x-1/2 z-10"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.5 }}
+        transition={{ delay: 1.2 }}
+      >
+        <motion.div animate={{ y: [0, 6, 0] }} transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}>
+          <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

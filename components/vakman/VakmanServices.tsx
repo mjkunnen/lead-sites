@@ -1,91 +1,70 @@
 'use client';
 
-import { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { SiteContent } from '@/lib/types';
 import { VakmanIcon } from './VakmanIcons';
-import type { SiteContent } from '@/lib/types';
-import type { IconName } from '@/lib/types';
 
-function ServiceCard({ service, index, featured }: {
-  service: { title: string; text: string; icon: IconName };
-  index: number;
-  featured: boolean;
-}) {
-  const ref = useRef<HTMLDivElement>(null);
+const serviceIcons: Record<string, string> = {
+  keukenmontage: 'kitchen',
+  montage: 'kitchen',
+  kitwerk: 'sparkles',
+  afwerking: 'sparkles',
+  apparatuur: 'wrench',
+  installatie: 'wrench',
+  interieurbouw: 'palette',
+  interieur: 'palette',
+  maatwerk: 'ruler',
+};
 
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!ref.current) return;
-    const rect = ref.current.getBoundingClientRect();
-    ref.current.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
-    ref.current.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
-  };
-
-  if (featured) {
-    return (
-      <motion.div
-        ref={ref}
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: index * 0.1 }}
-        onMouseMove={handleMouseMove}
-        className="relative col-span-full rounded-2xl bg-[#0f172a] p-8 md:p-10 overflow-hidden group cursor-default"
-      >
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ background: 'radial-gradient(400px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(180,83,9,0.12), transparent 60%)' }} />
-        <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-amber-600/10 blur-3xl" />
-        <div className="relative z-10">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-xl bg-[#b45309]/20 flex items-center justify-center text-[#d97706]">
-              <VakmanIcon name={service.icon} className="w-6 h-6" />
-            </div>
-            <span className="px-3 py-1 rounded-full bg-[#b45309] text-white text-xs font-subheading font-semibold">Populair</span>
-          </div>
-          <h3 className="font-subheading font-bold text-xl text-white mb-3">{service.title}</h3>
-          <p className="font-body text-sm text-slate-400 leading-relaxed max-w-md">{service.text}</p>
-        </div>
-      </motion.div>
-    );
+function getIconName(title: string, fallback: string): string {
+  const lower = title.toLowerCase();
+  for (const [key, icon] of Object.entries(serviceIcons)) {
+    if (lower.includes(key)) return icon;
   }
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.1 }}
-      onMouseMove={handleMouseMove}
-      whileHover={{ y: -4 }}
-      className="relative rounded-2xl bg-[#fafafa] border border-slate-100 p-6 md:p-8 overflow-hidden group cursor-default hover:shadow-lg hover:border-slate-200 transition-all duration-300"
-    >
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" style={{ background: 'radial-gradient(300px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(180,83,9,0.06), transparent 60%)' }} />
-      <div className="relative z-10">
-        <div className="w-11 h-11 rounded-xl bg-[#fef3c7] flex items-center justify-center text-[#b45309] mb-4 group-hover:bg-[#b45309] group-hover:text-white transition-colors duration-300">
-          <VakmanIcon name={service.icon} className="w-5 h-5" />
-        </div>
-        <h3 className="font-subheading font-bold text-lg text-slate-900 mb-2">{service.title}</h3>
-        <p className="font-body text-sm text-slate-500 leading-relaxed">{service.text}</p>
-      </div>
-    </motion.div>
-  );
+  return fallback;
 }
 
 export default function VakmanServices({ content }: { content: SiteContent }) {
-  const services = content.services;
-  if (!services?.length) return null;
-
   return (
-    <section id="diensten" className="py-20 px-4 bg-white">
-      <div className="max-w-5xl mx-auto">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-12">
-          <span className="font-subheading text-xs font-semibold text-[#b45309] uppercase tracking-wider mb-3 block">Diensten</span>
-          <h2 className="font-heading text-3xl md:text-4xl text-slate-900">Wat wij voor u doen</h2>
-        </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-          {services.map((service, i) => (
-            <ServiceCard key={i} service={service as { title: string; text: string; icon: IconName }} index={i} featured={i === 0} />
-          ))}
-        </div>
+    <section id="diensten" className="mt-20 px-6 scroll-mt-20">
+      <motion.div
+        className="mb-8"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-50px' }}
+        transition={{ duration: 0.5 }}
+      >
+        <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
+          Diensten
+        </span>
+        <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
+          Wat wij doen
+        </h2>
+      </motion.div>
+
+      <div className="grid grid-cols-2 gap-3">
+        {content.services.map((service, i) => (
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-30px' }}
+            transition={{ duration: 0.4, delay: i * 0.08, ease: [0.25, 1, 0.5, 1] }}
+            whileHover={{ y: -3, boxShadow: '0 8px 25px rgba(0,0,0,0.06)' }}
+            className="bg-white p-5 rounded-xl shadow-sm group"
+          >
+            <motion.div
+              className="w-10 h-10 bg-[#004ac6]/5 rounded-lg flex items-center justify-center text-[#004ac6] mb-3"
+              whileHover={{ scale: 1.1, rotate: 5 }}
+              transition={{ type: 'spring', stiffness: 300 }}
+            >
+              <VakmanIcon name={getIconName(service.title, service.icon)} className="h-5 w-5" />
+            </motion.div>
+            <h3 className="font-bold text-slate-900 text-sm group-hover:text-[#004ac6] transition-colors">
+              {service.title}
+            </h3>
+          </motion.div>
+        ))}
       </div>
     </section>
   );

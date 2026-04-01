@@ -1,9 +1,23 @@
 {
   "slug": "_example",
+  "lang": "nl",
   "business_name": "Van den Berg Loodgieters",
   "niche": "loodgieter",
   "theme": "bold",
-  "palette": "blue-neutral",
+  "palette": "vakman",
+  "tagline": "Betrouwbare loodgieter in Amsterdam",
+  "about": "Van den Berg Loodgieters staat al 15 jaar garant voor betrouwbaar en vakkundig loodgieterswerk. We zijn gespecialiseerd in lekkages, CV-onderhoud en complete badkamerrenovaties. Persoonlijke aanpak en strak vakwerk — daar staan wij voor.",
+  "trust_badges": [
+    "200+ tevreden klanten",
+    "15 jaar ervaring",
+    "24/7 spoedservice",
+    "Gratis offerte"
+  ],
+  "stats": {
+    "years": 15,
+    "projects": 200,
+    "reviews_count": 45
+  },
   "hero": {
     "headline": "Betrouwbare loodgieter in Amsterdam",
     "subheadline": "Al 15 jaar de vaste loodgieter voor meer dan 200 tevreden klanten in Amsterdam en omgeving.",
@@ -12,15 +26,15 @@
     "image_url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80"
   },
   "services": [
-    { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand.", "icon": "wrench" },
-    { "title": "CV-ketel onderhoud", "text": "Jaarlijks onderhoud en storing verhelpen voor alle merken CV-ketels.", "icon": "fire" },
-    { "title": "Badkamer renovatie", "text": "Complete badkamerrenovaties van ontwerp tot oplevering.", "icon": "home" },
-    { "title": "Riool ontstopping", "text": "24/7 beschikbaar voor rioolverstopping en afvoerproblemen.", "icon": "shield" }
+    { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages.", "icon": "wrench" },
+    { "title": "CV-ketel onderhoud", "text": "Onderhoud en storingen voor alle merken.", "icon": "default" },
+    { "title": "Badkamer renovatie", "text": "Complete renovaties van ontwerp tot oplevering.", "icon": "bathroom" },
+    { "title": "Riool ontstopping", "text": "24/7 beschikbaar voor rioolproblemen.", "icon": "default" }
   ],
   "reviews": [
-    { "name": "Jan de Vries", "text": "Snelle service, eerlijke prijs. Lekkage was binnen een uur verholpen.", "stars": 5 },
-    { "name": "Maria Jansen", "text": "Heel netjes gewerkt aan onze badkamer. Aanrader!", "stars": 5 },
-    { "name": "Peter Bakker", "text": "Goede communicatie en vakkundig werk. Komt afspraken na.", "stars": 4 }
+    { "name": "Jan de Vries", "text": "Snelle service, eerlijke prijs. Lekkage was binnen een uur verholpen.", "stars": 5, "date": "januari 2026" },
+    { "name": "Maria Jansen", "text": "Heel netjes gewerkt aan onze badkamer. Aanrader!", "stars": 5, "date": "februari 2026" },
+    { "name": "Peter Bakker", "text": "Goede communicatie en vakkundig werk. Komt afspraken na.", "stars": 4, "date": "maart 2026" }
   ],
   "faq": [
     { "question": "Hoe snel kunnen jullie er zijn?", "answer": "Bij spoed zijn we binnen 1-2 uur ter plaatse in Amsterdam en omgeving." },
@@ -30,7 +44,13 @@
   "contact": {
     "phone": "020-1234567",
     "city": "Amsterdam",
+    "address": "Prinsengracht 100, Amsterdam",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Loodgieter+Amsterdam"
+  },
+  "working_hours": {
+    "Ma - Vr": "08:00 - 18:00",
+    "Za": "09:00 - 15:00",
+    "Zo": "Alleen spoed"
   },
   "metadata": {
     "generated_at": "2026-03-26T10:00:00Z",

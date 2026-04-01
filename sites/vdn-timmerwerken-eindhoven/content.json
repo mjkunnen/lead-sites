@@ -1,0 +1,142 @@
+{
+  "slug": "vdn-timmerwerken-eindhoven",
+  "lang": "nl",
+  "business_name": "VDN Timmerwerken",
+  "niche": "timmerman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Vakmanschap op maat",
+  "about": "VDN Timmerwerken is gespecialiseerd in het bouwen van op maat gemaakte overkappingen, veranda's en buitenruimtes. Wij combineren ambachtelijk vakmanschap met oog voor detail. Van maatwerk meubels tot complete renovaties — elk project wordt met zorg en precisie uitgevoerd. Wij luisteren naar uw wensen en vertalen deze naar een resultaat waar u dagelijks van geniet.",
+  "trust_badges": ["4.8★ Google Reviews", "Gratis offerte", "Regio Eindhoven"],
+  "stats": {
+    "years": 5,
+    "projects": 86,
+    "reviews_count": 11
+  },
+  "hero": {
+    "headline": "Uw timmerman in Eindhoven",
+    "subheadline": "Vakkundig timmerwerk op maat. Van overkappingen tot complete renovaties — wij leveren kwaliteit die blijft.",
+    "cta_primary": "Offerte aanvragen",
+    "cta_secondary": "Bekijk projecten",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2GNNqQkbMY4o8qeSjNGTICPUIYhwb0R5D2R9AhifKhgWin1JNSsOigJ8cvQFNBUKQf3XUiPpKkGS_4y0IVbs3SM1vth82_XZGiUONrWm0PAW2kMMbyXb6qr-KLMjKqIzizrfZcvglfFg=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Overkappingen",
+      "text": "Op maat gemaakte douglas overkappingen met loftdeuren. Van ontwerp tot oplevering, geheel naar uw wensen.",
+      "icon": "hammer"
+    },
+    {
+      "title": "Veranda's",
+      "text": "Sfeervolle veranda's die naadloos aansluiten op uw woning. Met keuze uit diverse houtsoorten en afwerkingen.",
+      "icon": "ruler"
+    },
+    {
+      "title": "Renovaties",
+      "text": "Complete renovaties van begin tot eind. Wanden, vloeren en afwerking — wij denken mee over de beste oplossing.",
+      "icon": "drill"
+    },
+    {
+      "title": "Maatwerk meubels",
+      "text": "Kasten, tafels en interieurstukken op maat. Massief hout of plaatmateriaal, geheel naar wens.",
+      "icon": "saw"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2GNNqQkbMY4o8qeSjNGTICPUIYhwb0R5D2R9AhifKhgWin1JNSsOigJ8cvQFNBUKQf3XUiPpKkGS_4y0IVbs3SM1vth82_XZGiUONrWm0PAW2kMMbyXb6qr-KLMjKqIzizrfZcvglfFg=w800-h600-k-no",
+      "alt": "Douglas overkapping met loftdeuren"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2GNNqQkbMY4o8qeSjNGTICPUIYhwb0R5D2R9AhifKhgWin1JNSsOigJ8cvQFNBUKQf3XUiPpKkGS_4y0IVbs3SM1vth82_XZGiUONrWm0PAW2kMMbyXb6qr-KLMjKqIzizrfZcvglfFg=w600-h800-k-no",
+      "alt": "Maatwerk overkapping detail"
+    },
+    {
+      "url": "https://wp-content.vdntimmerwerken.nl/uploads/2023/06/300950494_1745396969135249_3673199758247286575_n.jpg",
+      "alt": "VDN Timmerwerken project"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2GNNqQkbMY4o8qeSjNGTICPUIYhwb0R5D2R9AhifKhgWin1JNSsOigJ8cvQFNBUKQf3XUiPpKkGS_4y0IVbs3SM1vth82_XZGiUONrWm0PAW2kMMbyXb6qr-KLMjKqIzizrfZcvglfFg=w1200-h800-k-no",
+      "alt": "Overkapping eindresultaat"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Rens van Schayik",
+      "text": "Waar vind je nog vakmensen die luisteren en direct reageren op vragen?! Heel flexibel en top afgewerkt! De uitvoering is echt boven verwachting!!",
+      "stars": 5,
+      "date": "januari 2025"
+    },
+    {
+      "name": "Simone Timmermans",
+      "text": "Wij zijn super blij met onze mooie overkapping! Er is goed gecommuniceerd, goed geluisterd naar onze wensen en er is mooi werk geleverd. Een aanrader!",
+      "stars": 5,
+      "date": "juli 2025"
+    },
+    {
+      "name": "Nick Smolders",
+      "text": "Sjack & co hebben bij ons een prachtige overkapping geplaatst. Vriendelijk, kundig, werken netjes en ze komen hun afspraken na. Communicatie vooraf en tijdens was top.",
+      "stars": 5,
+      "date": "februari 2025"
+    },
+    {
+      "name": "Tanja Lamain",
+      "text": "Wat zijn wij ongelofelijk blij met het resultaat. Een geweldig mooie overkapping met loftdeuren. Sjack heeft heel goed geluisterd naar onze wensen. Echt een aanrader!",
+      "stars": 5,
+      "date": "maart 2023"
+    },
+    {
+      "name": "Edje Plof",
+      "text": "Goed werk geleverd, heel erg aardig en doen wat ze beloven. Fijne gasten!",
+      "stars": 5,
+      "date": "maart 2025"
+    },
+    {
+      "name": "Paul van Beurden",
+      "text": "Harde werkers. Prima overkapping achter gezet. We zijn oprecht tevreden.",
+      "stars": 4,
+      "date": "oktober 2022"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoeveel kost een vrijblijvende offerte?",
+      "answer": "Een offerte is altijd gratis en vrijblijvend. We komen langs om de situatie te bekijken en maken een gedetailleerde offerte op maat."
+    },
+    {
+      "question": "In welke regio zijn jullie actief?",
+      "answer": "Wij werken voornamelijk in Eindhoven en directe omgeving, inclusief Veldhoven, Nuenen, Son en Breugel, en Best."
+    },
+    {
+      "question": "Wat voor hout gebruiken jullie?",
+      "answer": "Wij werken veel met douglas hout vanwege de duurzaamheid en mooie uitstraling. Afhankelijk van het project adviseren wij de beste houtsoort."
+    },
+    {
+      "question": "Hoe lang duurt het bouwen van een overkapping?",
+      "answer": "Afhankelijk van de grootte en complexiteit duurt dit gemiddeld 3 tot 5 werkdagen. Wij plannen alles zo efficiënt mogelijk in."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 27377277",
+    "email": null,
+    "city": "Eindhoven",
+    "address": "Narbonnehof 4, 5627 GX Eindhoven",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh5zDJK_exkcR3pR53Zlt0rU"
+  },
+  "working_hours": {
+    "Ma": "08:00 - 17:00",
+    "Di": "08:00 - 17:00",
+    "Wo": "08:00 - 17:00",
+    "Do": "08:00 - 17:00",
+    "Vr": "08:00 - 17:00",
+    "Za": "10:00 - 15:00",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-03-28T12:00:00Z",
+    "lead_id": "vdn-timmerwerken-001",
+    "source": "outscraper",
+    "place_id": "ChIJh5zDJK_exkcR3pR53Zlt0rU",
+    "version": 1
+  }
+}

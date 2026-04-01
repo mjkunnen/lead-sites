@@ -49,7 +49,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
             ? isVakman
-              ? "bg-white/90 backdrop-blur-2xl shadow-sm border-b border-slate-100/50"
+              ? "bg-white/90 backdrop-blur-2xl border-b border-slate-100/50"
               : "bg-white/90 backdrop-blur-xl shadow-sm border-b border-stone-100"
             : "bg-transparent"
         }`}
@@ -60,7 +60,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
             href="#"
             className={`text-xl font-bold transition-colors duration-300 ${
               isVakman
-                ? `font-heading ${scrolled ? "text-slate-900" : "text-white"}`
+                ? `font-heading text-slate-900`
                 : `font-[family-name:var(--font-playfair)] ${scrolled ? "text-stone-900" : "text-white"}`
             }`}
           >
@@ -75,7 +75,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
                 href={link.href}
                 className={`text-sm font-medium transition-colors duration-300 ${
                   isVakman
-                    ? `font-body ${scrolled ? "text-slate-600 hover:text-slate-900" : "text-white/70 hover:text-white"}`
+                    ? `font-body text-slate-600 hover:text-slate-900`
                     : `hover:text-amber-700 ${scrolled ? "text-stone-500" : "text-white/70"}`
                 }`}
               >
@@ -87,7 +87,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
             {isVakman && phoneDisplay && (
               <a
                 href={phoneHref}
-                className={`hidden font-subheading text-sm font-semibold transition-colors sm:inline-flex items-center gap-1.5 ${scrolled ? "text-slate-700 hover:text-slate-900" : "text-white/80 hover:text-white"}`}
+                className={`hidden font-subheading text-sm font-semibold transition-colors sm:inline-flex items-center gap-1.5 text-slate-700 hover:text-slate-900`}
               >
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -103,7 +103,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
               rel={ctaExternal ? "noopener noreferrer" : undefined}
               className={`relative overflow-hidden rounded-full px-6 py-2.5 text-sm font-semibold transition-all duration-300 hover:scale-105 active:scale-95 ${
                 isVakman
-                  ? `font-subheading ${scrolled ? "bg-[#b45309] text-white hover:bg-[#92400e]" : "bg-white/15 text-white backdrop-blur-sm border border-white/20 hover:bg-white/25"}`
+                  ? `font-subheading bg-[#2563eb] text-white hover:bg-[#1d4ed8]`
                   : scrolled
                     ? "bg-stone-900 text-white hover:bg-amber-800"
                     : "bg-white/15 text-white backdrop-blur-sm border border-white/20 hover:bg-white/25"
@@ -120,7 +120,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className={`md:hidden p-2 transition-colors ${
-              isVakman ? (scrolled ? "text-slate-900" : "text-white") : scrolled ? "text-stone-900" : "text-white"
+              isVakman ? "text-slate-900" : scrolled ? "text-stone-900" : "text-white"
             }`}
           >
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -182,7 +182,7 @@ export default function LeadNavbar({ content }: { content: SiteContent }) {
               onClick={() => setMenuOpen(false)}
               className={`relative overflow-hidden mt-4 rounded-full px-8 py-4 text-lg font-semibold ${
                 isVakman
-                  ? "bg-[#b45309] text-white font-subheading"
+                  ? "bg-[#2563eb] text-white font-subheading"
                   : "bg-stone-900 text-white"
               }`}
             >

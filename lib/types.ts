@@ -18,6 +18,14 @@ export interface SiteContent {
     projects?: number;
     reviews_count?: number;
   };
+  process_steps?: Array<{
+    title: string;
+    description: string;
+  }>;
+  availability?: {
+    slots: number;
+    month: "auto" | string;
+  };
   hero: {
     headline: string;
     subheadline: string;

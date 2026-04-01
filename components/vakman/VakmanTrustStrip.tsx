@@ -1,54 +1,43 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import AnimatedCounter from './AnimatedCounter';
-import type { SiteContent } from '@/lib/types';
+import { SiteContent } from '@/lib/types';
 
 export default function VakmanTrustStrip({ content }: { content: SiteContent }) {
-  const stats = content.stats;
-  if (!stats) return null;
+  const badges = content.trust_badges ?? [
+    `${content.stats?.reviews_count ?? content.reviews.length}x 5-sterren reviews`,
+    '10+ jaar ervaring',
+    'Gratis offerte',
+    'Binnen 24u reactie',
+  ];
+
+  const icons = [
+    <svg key="star" className="w-4 h-4 text-amber-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>,
+    <svg key="verified" className="w-4 h-4 text-[#004ac6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>,
+    <svg key="quote" className="w-4 h-4 text-[#004ac6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>,
+    <svg key="speed" className="w-4 h-4 text-[#004ac6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>,
+  ];
+
+  // Double the badges for infinite marquee
+  const allBadges = [...badges, ...badges];
 
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-50px' }}
-      transition={{ type: 'spring', stiffness: 100, damping: 15 }}
-      className="relative z-10 -mt-10 mb-16 px-4"
-    >
-      <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.08)] border border-slate-100 p-6 md:p-8">
-        <div className="grid grid-cols-3 divide-x divide-slate-100">
-          {stats.years && (
-            <div className="text-center px-4">
-              <div className="flex items-baseline justify-center gap-1">
-                <span className="font-heading text-2xl md:text-3xl text-slate-900">
-                  <AnimatedCounter target={stats.years} label="" suffix="+" />
-                </span>
-              </div>
-              <p className="font-body text-xs md:text-sm text-slate-500 mt-1">Jaar ervaring</p>
-            </div>
-          )}
-          {stats.projects && (
-            <div className="text-center px-4">
-              <div className="flex items-baseline justify-center gap-1">
-                <span className="font-heading text-2xl md:text-3xl text-slate-900">
-                  <AnimatedCounter target={stats.projects} label="" suffix="+" />
-                </span>
-              </div>
-              <p className="font-body text-xs md:text-sm text-slate-500 mt-1">Projecten</p>
-            </div>
-          )}
-          {stats.reviews_count && (
-            <div className="text-center px-4">
-              <div className="flex items-baseline justify-center gap-1">
-                <span className="font-heading text-2xl md:text-3xl text-slate-900">4.9</span>
-                <motion.span initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }} transition={{ delay: 2.1, type: 'spring' }} className="text-[#f59e0b] text-lg">★</motion.span>
-              </div>
-              <p className="font-body text-xs md:text-sm text-slate-500 mt-1">{stats.reviews_count} reviews</p>
-            </div>
-          )}
-        </div>
-      </div>
-    </motion.section>
+    <section className="bg-[#f2f4f6] py-6 overflow-hidden">
+      <motion.div
+        className="flex flex-nowrap gap-4 px-6"
+        animate={{ x: ['0%', '-50%'] }}
+        transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+      >
+        {allBadges.map((badge, i) => (
+          <div
+            key={i}
+            className="whitespace-nowrap bg-white px-4 py-2 rounded-full border border-slate-100 flex items-center gap-2 text-xs font-bold text-slate-700 shrink-0"
+          >
+            {icons[i % icons.length]}
+            {badge}
+          </div>
+        ))}
+      </motion.div>
+    </section>
   );
 }

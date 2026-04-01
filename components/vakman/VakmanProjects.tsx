@@ -1,84 +1,58 @@
 'use client';
 
-import { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
-import TiltImage from '@/components/lead/TiltImage';
-import BeforeAfter from './BeforeAfter';
-import type { SiteContent } from '@/lib/types';
-import { t } from '@/lib/i18n';
-
-function ParallaxColumn({ images, offset, side }: {
-  images: { url: string; alt: string }[];
-  offset: number;
-  side: 'left' | 'right';
-}) {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
-  const y = useTransform(scrollYProgress, [0, 1], [offset, -offset]);
-
-  return (
-    <motion.div ref={ref} style={{ y }} className="space-y-4">
-      {images.map((img, i) => (
-        <motion.div
-          key={i}
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: i * 0.15, duration: 0.5 }}
-          className="rounded-2xl overflow-hidden"
-        >
-          <TiltImage
-            src={img.url}
-            alt={img.alt}
-            className={`w-full object-cover ${side === 'left' ? 'aspect-[3/4]' : 'aspect-square'}`}
-            intensity={8}
-          />
-        </motion.div>
-      ))}
-    </motion.div>
-  );
-}
+import { motion } from 'framer-motion';
+import { SiteContent } from '@/lib/types';
 
 export default function VakmanProjects({ content }: { content: SiteContent }) {
-  const i = t(content.lang);
-  const gallery = content.gallery || [];
-  const beforeAfter = content.before_after || [];
-
-  if (gallery.length === 0 && beforeAfter.length === 0) return null;
-
-  const leftCol = gallery.filter((_, idx) => idx % 2 === 0);
-  const rightCol = gallery.filter((_, idx) => idx % 2 === 1);
+  const gallery = content.gallery;
+  if (!gallery || gallery.length === 0) return null;
 
   return (
-    <section id="projecten" className="py-20 px-4 bg-[#f8fafc]">
-      <div className="max-w-5xl mx-auto">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-12">
-          <span className="font-subheading text-xs font-semibold text-[#b45309] uppercase tracking-wider mb-3 block">{i.vakman.projectsLabel}</span>
-          <h2 className="font-heading text-3xl md:text-4xl text-slate-900">{i.vakman.projectsHeading}</h2>
-        </motion.div>
+    <section id="projecten" className="mt-20 px-6 scroll-mt-20">
+      <motion.div
+        className="mb-8"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-50px' }}
+        transition={{ duration: 0.5 }}
+      >
+        <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
+          Portfolio
+        </span>
+        <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
+          Recent werk
+        </h2>
+      </motion.div>
 
-        {beforeAfter.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            {beforeAfter.map((item, idx) => (
-              <motion.div key={idx} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: idx * 0.15 }} className="rounded-2xl overflow-hidden">
-                <BeforeAfter
-                  beforeUrl={item.before_url}
-                  afterUrl={item.after_url}
-                  label={item.label}
-                  beforeLabel={i.vakman.beforeLabel}
-                  afterLabel={i.vakman.afterLabel}
-                />
-              </motion.div>
-            ))}
-          </div>
-        )}
-
-        {gallery.length >= 2 && (
-          <div className="grid grid-cols-2 gap-4 md:gap-6">
-            <ParallaxColumn images={leftCol} offset={40} side="left" />
-            <ParallaxColumn images={rightCol} offset={-40} side="right" />
-          </div>
-        )}
+      <div className="grid grid-cols-2 gap-3">
+        {gallery.map((item, i) => {
+          const isLarge = i === 0;
+          return (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 25, scale: 0.95 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true, margin: '-20px' }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className={`relative rounded-xl overflow-hidden group ${
+                isLarge ? 'col-span-2 aspect-[16/9]' : 'aspect-square'
+              }`}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={item.url}
+                alt={item.alt}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
+                crossOrigin="anonymous"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <span className="text-white text-sm font-bold">{item.alt}</span>
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
     </section>
   );

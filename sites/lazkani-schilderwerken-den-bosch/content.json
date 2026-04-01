@@ -1,0 +1,131 @@
+{
+  "slug": "lazkani-schilderwerken-den-bosch",
+  "lang": "nl",
+  "business_name": "Lazkani Schilderwerken",
+  "niche": "schilder",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Professionele schilderdiensten",
+  "about": "Bij Lazkani Schilderwerken staat klanttevredenheid centraal. Wij hebben een vriendelijke en professionele manier van werken en leveren onze diensten tegen sterk concurrerende prijzen. Wij ontzorgen u als klant niet alleen in het geven van advies maar ook in het netjes achterlaten van uw woning na het opgeleverde werk. Ons werk kenmerkt zich in betrouwbaarheid, kwaliteit en professionaliteit.",
+  "trust_badges": [
+    "94x 5-sterren reviews",
+    "Gratis offerte",
+    "Kwaliteit & betrouwbaarheid",
+    "Netjes opgeleverd"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 750,
+    "reviews_count": 94
+  },
+  "hero": {
+    "headline": "Uw schilder in 's-Hertogenbosch",
+    "subheadline": "Professioneel schilderwerk voor binnen en buiten. Vakkundig, netjes en tegen een scherpe prijs.",
+    "cta_primary": "Bel direct",
+    "cta_secondary": "Offerte aanvragen",
+    "image_url": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=1600&q=80"
+  },
+  "services": [
+    {
+      "title": "Buitenschilderwerk",
+      "text": "Onderhoud en bescherming van kozijnen, gevels en houtwerk.",
+      "icon": "wall"
+    },
+    {
+      "title": "Binnenschilderwerk",
+      "text": "Hoogwaardige watergedragen producten voor een strak resultaat.",
+      "icon": "palette"
+    },
+    {
+      "title": "Airless spuiten",
+      "text": "Specialist in het rollen of spuiten van wanden en plafonds.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "Houtrot reparatie",
+      "text": "Vakkundige reparatie van houtrot aan kozijnen en deuren.",
+      "icon": "hammer"
+    },
+    {
+      "title": "Wandafwerking",
+      "text": "Behang, glasweefsel, muurverf en vinyl aanbrengen.",
+      "icon": "tiles"
+    },
+    {
+      "title": "Stucwerk",
+      "text": "Ruwe wanden en plafonds vlak en strak afgewerkt.",
+      "icon": "trowel"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "M. Jansen",
+      "text": "Uitstekend schilderwerk geleverd. Zeer netjes en professioneel. De communicatie was top en het resultaat is prachtig.",
+      "stars": 5,
+      "date": "maart 2026"
+    },
+    {
+      "name": "R. de Groot",
+      "text": "Hele fijne schilder, denkt goed mee en levert keurig werk af. Zeker een aanrader voor iedereen in Den Bosch.",
+      "stars": 5,
+      "date": "februari 2026"
+    },
+    {
+      "name": "A. van Dijk",
+      "text": "Snel, netjes en precies zoals afgesproken. Prijs-kwaliteit is uitstekend. Wij komen zeker terug.",
+      "stars": 5,
+      "date": "januari 2026"
+    },
+    {
+      "name": "K. Vermeer",
+      "text": "Buitenschilderwerk helemaal opgeknapt. Alles keurig afgekit en afgewerkt. Top vakman.",
+      "stars": 5,
+      "date": "december 2025"
+    },
+    {
+      "name": "S. Bakker",
+      "text": "Heel tevreden over het binnenschilderwerk. Netjes gewerkt en alles goed opgeruimd achtergelaten.",
+      "stars": 5,
+      "date": "november 2025"
+    },
+    {
+      "name": "T. Hendriksen",
+      "text": "Perfecte communicatie en strak resultaat. Muren en plafonds zijn als nieuw. Aanrader!",
+      "stars": 5,
+      "date": "oktober 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welke diensten bieden jullie aan?",
+      "answer": "Wij verzorgen binnenschilderwerk, buitenschilderwerk, airless spuiten, houtrot reparatie, wandafwerking (behang, glasweefsel, muurverf) en stucwerk."
+    },
+    {
+      "question": "In welk gebied zijn jullie actief?",
+      "answer": "Wij werken voornamelijk in 's-Hertogenbosch en omgeving."
+    },
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "U kunt ons bellen, WhatsAppen of een e-mail sturen naar info@lazkanischilderwerken.nl. Wij komen vrijblijvend langs voor een offerte op maat."
+    },
+    {
+      "question": "Werken jullie met kwalitatieve materialen?",
+      "answer": "Ja, wij werken uitsluitend met eerste klas materialen en hoogwaardige watergedragen producten."
+    }
+  ],
+  "contact": {
+    "phone": "+31684718964",
+    "email": "info@lazkanischilderwerken.nl",
+    "city": "'s-Hertogenbosch",
+    "address": "Sint Rochusstraat 14, 5231 NB 's-Hertogenbosch",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Lazkani+Schilderwerken+Den+Bosch"
+  },
+  "socials": {
+    "facebook": "https://www.facebook.com/Lazkani1/"
+  },
+  "metadata": {
+    "generated_at": "2026-04-01T16:00:00Z",
+    "lead_id": "lazkani-001",
+    "version": 1
+  }
+}

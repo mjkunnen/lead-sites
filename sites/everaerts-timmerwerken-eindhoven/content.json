@@ -1,0 +1,157 @@
+{
+  "slug": "everaerts-timmerwerken-eindhoven",
+  "lang": "nl",
+  "business_name": "Everaerts Timmerwerken",
+  "niche": "timmerman",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Kwaliteit in houtwerk",
+  "about": "Everaerts Timmerwerken biedt vakmanschap en aandacht voor detail in al zijn timmerprojecten. Klanten waarderen de nauwkeurigheid en de vriendelijke service van Cyriel.",
+  "trust_badges": [
+    "5★ Google Reviews",
+    "Gratis offerte",
+    "Regio Eindhoven"
+  ],
+  "stats": {
+    "years": 11,
+    "projects": 32,
+    "reviews_count": 4
+  },
+  "process_steps": [
+    {
+      "title": "Kennismaking",
+      "description": "Vrijblijvend gesprek bij u thuis. We bekijken de situatie en bespreken uw wensen voor het timmerwerk."
+    },
+    {
+      "title": "Offerte op maat",
+      "description": "Binnen een week een heldere offerte met materiaalspecificaties. Geen verrassingen achteraf."
+    },
+    {
+      "title": "Vakkundig uitvoeren",
+      "description": "Netjes, op tijd en met respect voor uw woning. Dagelijks overleg over de voortgang."
+    },
+    {
+      "title": "Oplevering & garantie",
+      "description": "Samen nalopen tot alles perfect is. Garantie op al ons timmerwerk."
+    }
+  ],
+  "availability": {
+    "slots": 2,
+    "month": "auto"
+  },
+  "hero": {
+    "headline": "Uw timmerman in Eindhoven",
+    "subheadline": "Professioneel timmerwerk met oog voor detail.",
+    "cta_primary": "Offerte aanvragen",
+    "cta_secondary": "Bekijk projecten",
+    "image_url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=1200&q=80"
+  },
+  "services": [
+    {
+      "title": "Zolder verduurzamen",
+      "text": "Wij bieden deskundige oplossingen om uw zolder te verduurzamen, met behoud van de originele stijl.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Deuren en ramen",
+      "text": "Onze timmerman helpt bij het plaatsen en repareren van deuren en ramen, zodat alles weer soepel functioneert.",
+      "icon": "door"
+    },
+    {
+      "title": "Nauwkeurige afwerking",
+      "text": "Met een scherp oog voor detail zorgen wij voor een perfecte afwerking van al uw timmerprojecten.",
+      "icon": "ruler"
+    },
+    {
+      "title": "Klantenservice",
+      "text": "We bieden altijd een luisterend oor en advies, zowel telefonisch als tijdens een bezoek aan uw project.",
+      "icon": "wrench"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1416339134316-0e91dc9ded92?w=600&q=80",
+      "alt": "Maatwerk kozijnen"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80",
+      "alt": "Houtbewerking detail"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "alt": "Renovatie project"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80",
+      "alt": "Dakkapel plaatsing"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+      "alt": "Interieur afwerking"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80",
+      "alt": "Timmerwerk op maat"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Stijn van Wolferen",
+      "text": "Fantastisch timmerwerk! Cyriel heeft onze zolder compleet verduurzaamd en in prachtige jaren 30 stijl terug gebouwd. Cyriel denkt mee, werkt zeer minutieus en heeft oog voor detail. Niet twijfelen, inschakelen!",
+      "stars": 5,
+      "date": "november 2025"
+    },
+    {
+      "name": "jitske knipping",
+      "text": "Ontzettend goed geholpen afgelopen weekend. De deur van onze enige wc ging niet open. Eerst telefonisch advies gekregen hoe we het zelf konden oppakken. Toen dit niet lukte, is hij langs gekomen om ons te helpen. Everaerts Timmerwerken heeft ons super vriendelijk en snel geholpen. En wij kunnen weer naar het toilet. :)",
+      "stars": 5,
+      "date": "februari 2020"
+    },
+    {
+      "name": "Eindhoven c",
+      "text": "Zeer goed bevallen!\nWerkt zeer nauwkeurig,\nKomt afspraken na,\nOfferte was een nette prijs,\nFijne gast en mag de volgende keer zeker terugkomen!\n\nEen aanrader! Gr ivo",
+      "stars": 5,
+      "date": "september 2015"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hoe kan ik een offerte aanvragen?",
+      "answer": "U kunt eenvoudig een offerte aanvragen via onze website of ons bellen voor meer informatie."
+    },
+    {
+      "question": "Wat zijn de kosten voor timmerwerk?",
+      "answer": "De kosten variëren afhankelijk van het project. We bieden altijd een nette prijs in onze offertes."
+    },
+    {
+      "question": "Komt Everaerts Timmerwerken ook voor kleine klussen?",
+      "answer": "Ja, wij staan ook klaar voor kleine klussen zoals het repareren van deuren of het plaatsen van plinten."
+    },
+    {
+      "question": "Is er garantie op het werk?",
+      "answer": "Ja, wij bieden garantie op ons timmerwerk, zodat u met vertrouwen kunt genieten van het resultaat."
+    }
+  ],
+  "contact": {
+    "phone": "+31 6 29232903",
+    "city": "Eindhoven",
+    "address": "Strobloemstraat 46, 5643 JR Eindhoven",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJE1T_gBbZxkcR9_2UVOQG8E0"
+  },
+  "working_hours": {
+    "Di": "07:00 - 18:00",
+    "Do": "07:00 - 18:00",
+    "Ma": "07:00 - 18:00",
+    "Vr": "07:00 - 18:00",
+    "Wo": "07:00 - 18:00",
+    "Za": "07:00 - 18:00",
+    "Zo": "Gesloten"
+  },
+  "metadata": {
+    "generated_at": "2026-03-28T05:11:25.197Z",
+    "lead_id": "everaerts-timmerwerken-eindhoven-001",
+    "source": "outscraper",
+    "place_id": "ChIJE1T_gBbZxkcR9_2UVOQG8E0",
+    "version": 1
+  }
+}

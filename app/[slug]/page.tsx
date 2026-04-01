@@ -11,16 +11,32 @@ import LeadFAQ from "@/components/lead/LeadFAQ";
 import LeadContact from "@/components/lead/LeadContact";
 import LeadFooter from "@/components/lead/LeadFooter";
 import MobileCTA from "@/components/lead/MobileCTA";
-import VakmanHero from "@/components/vakman/VakmanHero";
+// Vakman components
+import VakmanPreloader from "@/components/vakman/VakmanPreloader";
+import ScrollProgress from "@/components/vakman/ScrollProgress";
+import VakmanLiveTicker from "@/components/vakman/VakmanLiveTicker";
+import VakmanHeroRotating from "@/components/vakman/VakmanHeroRotating";
+import VakmanWaveDivider from "@/components/vakman/VakmanWaveDivider";
 import VakmanTrustStrip from "@/components/vakman/VakmanTrustStrip";
+import VakmanGoogleBadge from "@/components/vakman/VakmanGoogleBadge";
+import VakmanInlineStats from "@/components/vakman/VakmanInlineStats";
 import VakmanAbout from "@/components/vakman/VakmanAbout";
-import VakmanServices from "@/components/vakman/VakmanServices";
+import VakmanWhyUs from "@/components/vakman/VakmanWhyUs";
+import VakmanBentoServices from "@/components/vakman/VakmanBentoServices";
+import VakmanProcess from "@/components/vakman/VakmanProcess";
+import VakmanFeatureHighlight from "@/components/vakman/VakmanFeatureHighlight";
 import VakmanProjects from "@/components/vakman/VakmanProjects";
+import VakmanBeforeAfterShowcase from "@/components/vakman/VakmanBeforeAfterShowcase";
+import VakmanBrands from "@/components/vakman/VakmanBrands";
+import VakmanTrustBadges from "@/components/vakman/VakmanTrustBadges";
 import VakmanReviews from "@/components/vakman/VakmanReviews";
+import VakmanUrgentieCTA from "@/components/vakman/VakmanUrgentieCTA";
+import VakmanServiceArea from "@/components/vakman/VakmanServiceArea";
 import VakmanFAQ from "@/components/vakman/VakmanFAQ";
 import VakmanContact from "@/components/vakman/VakmanContact";
-import VakmanMobileCTA from "@/components/vakman/VakmanMobileCTA";
-import ScrollProgress from "@/components/vakman/ScrollProgress";
+import VakmanFinalCTA from "@/components/vakman/VakmanFinalCTA";
+import VakmanFooter from "@/components/vakman/VakmanFooter";
+import VakmanWhatsAppBubble from "@/components/vakman/VakmanWhatsAppBubble";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -45,21 +61,61 @@ export default async function SitePage({ params }: { params: Promise<{ slug: str
 
   if (isVakman) {
     return (
-      <div className={`palette-${content.palette}`}>
-        <LeadNavbar content={content} />
+      <div className="bg-[#f7f9fb] font-sans text-slate-900 antialiased">
+        <VakmanPreloader content={content} />
         <ScrollProgress />
-        <VakmanMobileCTA content={content} />
-        <main>
-          <VakmanHero content={content} />
+        <LeadNavbar content={content} />
+        <VakmanWhatsAppBubble content={content} />
+
+        {/* Live ticker bar */}
+        <div className="pt-16">
+          <VakmanLiveTicker content={content} />
+        </div>
+
+        <main className="pb-8">
+          {/* Hero */}
+          <VakmanHeroRotating content={content} />
+
+          {/* Wave transition from hero to content */}
+          <VakmanWaveDivider color="#f7f9fb" />
+
+          {/* Trust + Stats */}
           <VakmanTrustStrip content={content} />
+          <VakmanGoogleBadge content={content} />
+          <VakmanInlineStats content={content} />
+
+          {/* Story */}
           <VakmanAbout content={content} />
-          <VakmanServices content={content} />
+          <VakmanWhyUs content={content} />
+
+          {/* Services */}
+          <VakmanBentoServices content={content} />
+          <VakmanProcess content={content} />
+
+          {/* Feature highlight */}
+          <VakmanFeatureHighlight content={content} />
+
+          {/* Portfolio */}
           <VakmanProjects content={content} />
+          <VakmanBeforeAfterShowcase content={content} />
+
+          {/* Trust */}
+          <VakmanBrands content={content} />
+          <VakmanTrustBadges content={content} />
+
+          {/* Social proof */}
           <VakmanReviews content={content} />
+          <VakmanUrgentieCTA content={content} />
+
+          {/* Info */}
+          <VakmanServiceArea content={content} />
           <VakmanFAQ content={content} />
           <VakmanContact content={content} />
+
+          {/* Final CTA */}
+          <VakmanFinalCTA content={content} />
         </main>
-        <LeadFooter content={content} />
+        <VakmanFooter content={content} />
       </div>
     );
   }

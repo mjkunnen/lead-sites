@@ -23,11 +23,11 @@ export default function VakmanHeroImage({ content }: { content: SiteContent }) {
   return (
     <section ref={ref} className="relative px-4 -mt-8 mb-0">
       <div className="max-w-5xl mx-auto">
-        <motion.div style={{ clipPath }} className="relative rounded-[14px] overflow-hidden">
+        <motion.div style={{ clipPath }} className="relative rounded-[14px] overflow-hidden aspect-[16/9]">
           <TiltImage
             src={content.hero.image_url}
             alt={`${content.business_name} project`}
-            className="w-full aspect-[16/9]"
+            className="absolute inset-0 w-full h-full"
             intensity={8}
           />
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">

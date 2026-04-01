@@ -1,139 +1,88 @@
-"use client";
-import { useRef, useState, useEffect } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { SiteContent } from "@/lib/types";
-import { t } from "@/lib/i18n";
-import TiltImage from "@/components/lead/TiltImage";
-import AnimatedCounter from "./AnimatedCounter";
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+import { motion, useInView } from 'framer-motion';
+import { SiteContent } from '@/lib/types';
+
+function AnimatedNumber({ value, suffix = '', duration = 2 }: { value: number; suffix?: string; duration?: number }) {
+  const [display, setDisplay] = useState(0);
+  const ref = useRef<HTMLSpanElement>(null);
+  const inView = useInView(ref, { once: true, margin: '-50px' });
+
+  useEffect(() => {
+    if (!inView) return;
+    const start = performance.now();
+    const step = (now: number) => {
+      const elapsed = (now - start) / (duration * 1000);
+      const progress = Math.min(elapsed, 1);
+      // Ease out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setDisplay(Math.round(eased * value));
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }, [inView, value, duration]);
+
+  return <span ref={ref}>{display}{suffix}</span>;
+}
 
 export default function VakmanStats({ content }: { content: SiteContent }) {
-  const i = t(content.lang);
   const stats = content.stats;
-  const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-  const imgY = useTransform(scrollYProgress, [0, 1], [60, -60]);
-  const [isTouch, setIsTouch] = useState(false);
-  useEffect(() => { setIsTouch(window.matchMedia("(pointer: coarse)").matches); }, []);
+  const reviewCount = content.reviews?.length ?? 0;
+  const avgRating = reviewCount > 0
+    ? (content.reviews.reduce((sum, r) => sum + r.stars, 0) / reviewCount).toFixed(1)
+    : '5.0';
 
-  const firstImage = content.gallery?.[0];
-  const secondImage = content.gallery?.[1];
+  const items = [
+    { value: stats?.years ?? 10, suffix: '+', label: 'Jaar' },
+    { value: stats?.projects ?? 500, suffix: '+', label: 'Projecten' },
+  ];
 
   return (
-    <section id="over" ref={ref} className="relative bg-[#09090b] py-20 sm:py-32 overflow-hidden">
-      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
-        {/* Animated counters */}
-        {stats && (
+    <section className="px-6 mt-8 relative z-20">
+      <div className="grid grid-cols-3 gap-3">
+        {items.map((item, i) => (
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-20 grid grid-cols-3 gap-6"
+            key={i}
+            initial={{ opacity: 0, y: 20, scale: 0.9 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            viewport={{ once: true, margin: '-30px' }}
+            transition={{ duration: 0.5, delay: i * 0.1, ease: [0.25, 1, 0.5, 1] }}
+            className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center text-center"
           >
-            {stats.years && (
-              <div className="text-center text-white">
-                <AnimatedCounter target={stats.years} label={i.vakman.statsYears} suffix="+" />
-                <div className="mx-auto mt-4 h-px w-12 bg-white/10" />
-              </div>
-            )}
-            {stats.projects && (
-              <div className="text-center text-white">
-                <AnimatedCounter target={stats.projects} label={i.vakman.statsProjects} suffix="+" />
-                <div className="mx-auto mt-4 h-px w-12 bg-white/10" />
-              </div>
-            )}
-            {stats.reviews_count && (
-              <div className="text-center text-white">
-                <AnimatedCounter target={stats.reviews_count} label={i.vakman.statsReviews} />
-                <div className="mx-auto mt-4 h-px w-12 bg-white/10" />
-              </div>
-            )}
+            <span className="text-2xl font-black text-[#004ac6] leading-none">
+              <AnimatedNumber value={item.value} suffix={item.suffix} />
+            </span>
+            <span className="text-[10px] uppercase tracking-wider font-bold text-slate-500 mt-1">
+              {item.label}
+            </span>
           </motion.div>
-        )}
-
-        {/* About + 3D TiltImage stack */}
-        {content.about && (
-          <div className="grid items-center gap-12 sm:gap-20 lg:grid-cols-2">
-            {/* Image stack with parallax + 3D tilt */}
-            <div className="relative h-[350px] sm:h-[500px] lg:h-[600px]">
-              {firstImage && (
-                <motion.div style={isTouch ? undefined : { y: imgY }} className="absolute top-0 left-0 w-[75%] z-10">
-                  <TiltImage
-                    src={firstImage.url}
-                    alt={firstImage.alt}
-                    className="aspect-[4/5] rounded-2xl sm:rounded-3xl shadow-2xl shadow-black/60"
-                    intensity={10}
-                  />
-                </motion.div>
-              )}
-              {secondImage && (
-                <motion.div
-                  initial={{ opacity: 0, x: 30 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.3 }}
-                  className="absolute bottom-0 right-0 w-[55%] z-20"
-                >
-                  <TiltImage
-                    src={secondImage.url}
-                    alt={secondImage.alt}
-                    className="aspect-[3/4] rounded-2xl sm:rounded-3xl shadow-2xl shadow-black/60 border-2 border-white/5"
-                    intensity={12}
-                  />
-                </motion.div>
-              )}
-            </div>
-
-            {/* Text */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+        ))}
+        <motion.div
+          initial={{ opacity: 0, y: 20, scale: 0.9 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: '-30px' }}
+          transition={{ duration: 0.5, delay: 0.2, ease: [0.25, 1, 0.5, 1] }}
+          className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center text-center"
+        >
+          <div className="flex items-center gap-1">
+            <span className="text-2xl font-black text-[#004ac6] leading-none">{avgRating}</span>
+            <motion.svg
+              className="w-4 h-4 text-amber-500"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              initial={{ scale: 0, rotate: -180 }}
+              whileInView={{ scale: 1, rotate: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.6, delay: 0.4, type: 'spring', stiffness: 200 }}
             >
-              <div className="flex items-center gap-3 text-sm font-medium tracking-widest text-amber-500/50 uppercase mb-6">
-                <span className="h-px w-8 bg-amber-600/20" />
-                {i.about.label}
-              </div>
-              <h2
-                className="font-heading text-3xl font-bold text-white sm:text-4xl lg:text-5xl leading-tight"
-              >
-                {content.lang === "nl" ? "Vakwerk met" : "Craftsmanship with"}
-                <br />
-                <span className="text-amber-500">{content.lang === "nl" ? "aandacht voor detail" : "attention to detail"}</span>
-              </h2>
-              <p className="mt-8 text-lg text-zinc-400 leading-relaxed">
-                {content.about}
-              </p>
-
-              {/* Stats row */}
-              <div className="mt-8 sm:mt-12 grid grid-cols-2 gap-4 sm:gap-8 border-t border-white/5 pt-8 sm:pt-10">
-                <div>
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    className="text-2xl sm:text-4xl font-bold text-white"
-                  >
-                    {content.reviews.length}+
-                  </motion.div>
-                  <p className="mt-1 text-xs sm:text-sm text-zinc-500">{i.about.reviews}</p>
-                </div>
-                <div>
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.1 }}
-                    className="text-2xl sm:text-4xl font-bold text-white"
-                  >
-                    5.0
-                  </motion.div>
-                  <p className="mt-1 text-xs sm:text-sm text-zinc-500">{i.about.average}</p>
-                </div>
-              </div>
-            </motion.div>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </motion.svg>
           </div>
-        )}
+          <span className="text-[10px] uppercase tracking-wider font-bold text-slate-500 mt-1">
+            Rating
+          </span>
+        </motion.div>
       </div>
     </section>
   );
