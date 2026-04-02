@@ -1,34 +1,39 @@
 import Navbar from "@/components/agency/Navbar";
 import Hero from "@/components/agency/Hero";
-import AboutSection from "@/components/agency/AboutSection";
-import ProblemSection from "@/components/agency/ProblemSection";
+import IntegrationMarquee from "@/components/agency/IntegrationMarquee";
+import AIServicesSection from "@/components/agency/AIServicesSection";
 import StatsBar from "@/components/agency/StatsBar";
-import USPSection from "@/components/agency/USPSection";
+import AboutSection from "@/components/agency/AboutSection";
 import ProcessTimeline from "@/components/agency/ProcessTimeline";
-import Portfolio from "@/components/agency/Portfolio";
-import ReviewsMarquee from "@/components/agency/ReviewsMarquee";
+import TrustSection from "@/components/agency/TrustSection";
 import Pricing from "@/components/agency/Pricing";
 import FAQ from "@/components/agency/FAQ";
 import ContactSection from "@/components/agency/ContactSection";
 import AgencyFooter from "@/components/agency/AgencyFooter";
+
 export default function Home() {
   return (
-    <>
+    <div className="relative">
+      {/* Animated wave blobs */}
+      <div className="wave-blob wave-blob-1" />
+      <div className="wave-blob wave-blob-2" />
+      <div className="wave-blob wave-blob-3" />
+      <div className="relative z-10">
       <Navbar />
       <main>
         <Hero />
-        <AboutSection />
-        <ProblemSection />
+        <AIServicesSection />
+        <IntegrationMarquee />
         <StatsBar />
-        <USPSection />
+        <AboutSection />
         <ProcessTimeline />
-        <Portfolio />
-        <ReviewsMarquee />
+        <TrustSection />
         <Pricing />
         <FAQ />
         <ContactSection />
       </main>
       <AgencyFooter />
-    </>
+      </div>
+    </div>
   );
 }

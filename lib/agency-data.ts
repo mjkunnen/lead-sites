@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "NetjesOnline",
-  tagline: "Webdesign Bureau",
+  tagline: "AI & Automatisering",
   owner: "Max Kunnen",
   phone: "+31 6 21803896",
   email: "max@netjesonline.com",
@@ -9,15 +9,15 @@ export const siteConfig = {
 };
 
 export const heroContent = {
-  subtitle: "Webdesign Bureau",
-  headline: "Websites die klanten opleveren",
+  subtitle: "Automatisering & Webdesign",
+  headline: "Intelligente oplossingen die werken voor jou",
   description:
-    "Ik ben Max Kunnen, en ik help MKB-ondernemers aan een professionele website die écht klanten oplevert. Geen maandenlang wachten — binnen 5 werkdagen staat jouw site live.",
-  cta: "Bekijk wat wij voor u kunnen doen",
+    "Stop met handmatig werk. Wij bouwen AI-automatiseringen en professionele websites die jouw bedrijf laten groeien. Binnen weken operationeel.",
+  cta: "Neem contact op",
   badges: [
-    "50+ tevreden klanten",
-    "4.9 gemiddeld",
-    "5 dagen oplevering",
+    "50+ bedrijven geholpen",
+    "Binnen 2 weken live",
+    "600+ integraties",
   ],
 };
 
@@ -25,49 +25,85 @@ export const aboutContent = {
   tagline: "Even voorstellen",
   title: "Hé, ik ben Max",
   story: [
-    "Ik zag het keer op keer: hardwerkende ondernemers — loodgieters, schilders, aannemers — die fantastisch werk leveren, maar online compleet onzichtbaar zijn. Hun concurrent met een mooie website pikt de klanten weg, terwijl zij het beste werk leveren.",
-    "Dat frustreerde me. Niet iedereen heeft duizenden euro's of maanden de tijd voor een website. Daarom ben ik NetjesOnline gestart: professionele websites, snel opgeleverd, voor een eerlijke prijs. Geen wollig verhaal, geen eindeloze vergaderingen — gewoon resultaat.",
-    "Jij hebt één aanspreekpunt: mij. Van het eerste gesprek tot de dag dat je website live gaat. En daarna ben ik er nog steeds als je iets nodig hebt.",
+    "Ik zag het keer op keer: ondernemers die uren kwijt zijn aan handmatig werk — offerte-aanvragen verwerken, klanten opvolgen, data invoeren. Terwijl AI dat allemaal kan overnemen.",
+    "Tegelijk zijn er nog steeds duizenden bedrijven die onzichtbaar zijn online. Geen website, geen automatisering, geen groei. Dat frustreerde me.",
+    "Daarom heb ik NetjesOnline gestart: AI-automatiseringen en professionele websites, snel opgeleverd, voor een eerlijke prijs. Van het eerste gesprek tot de dag dat alles draait — ik ben je vaste aanspreekpunt.",
   ],
   values: [
-    { title: "Persoonlijk", text: "Geen callcenter of ticket-systeem. Je belt of appt gewoon met mij." },
-    { title: "Eerlijk", text: "Vaste prijzen, geen verborgen kosten. Wat ik zeg, dat doe ik." },
-    { title: "Resultaatgericht", text: "Een mooie website is leuk, maar het gaat om klanten binnenhalen." },
+    { title: "Slim automatiseren", text: "Wij zoeken uit wat geautomatiseerd kan worden en bouwen het voor je." },
+    { title: "100% Maatwerk", text: "Geen standaard templates. Elke oplossing wordt gebouwd voor jouw specifieke workflow." },
+    { title: "Resultaatgericht", text: "Het gaat niet om mooie tools — het gaat om meer klanten, minder handwerk, en hogere omzet." },
   ],
 };
 
 export const problemCards = [
   {
+    title: "Uren aan handmatig werk",
+    text: "Je team kopieert data tussen systemen, verstuurt berichten handmatig en doet werk dat AI kan overnemen.",
+    icon: "clock" as const,
+  },
+  {
     title: "Onzichtbaar online",
-    text: "Klanten zoeken op Google, maar vinden jouw concurrent in plaats van jou.",
+    text: "Klanten zoeken op Google, maar vinden jouw concurrent in plaats van jou. Geen website = geen klanten.",
     icon: "globe" as const,
   },
   {
-    title: "Verouderde website",
-    text: "Je huidige site schrikt klanten af in plaats van ze aan te trekken.",
+    title: "Leads die weglopen",
+    text: "Potentiële klanten nemen contact op, maar je reageert te laat of vergeet op te volgen.",
     icon: "broken" as const,
   },
+];
+
+export const aiServices = [
   {
-    title: "Geen tijd",
-    text: "Je runt een bedrijf. Wie heeft er tijd om ook nog een website te regelen?",
-    icon: "clock" as const,
+    title: "AI Automatiseringen",
+    text: "Van lead-intake tot klantopvolging — we automatiseren je complete workflow met AI. Geen code nodig, altijd op maat.",
+    icon: "bolt",
+    features: ["Workflow automatisering", "AI chatbots & assistenten", "Data processing", "Email & WhatsApp flows"],
   },
+  {
+    title: "Custom Development",
+    text: "Maatwerk software en integraties die perfect aansluiten op jouw bedrijfsprocessen. Van API-koppelingen tot complete dashboards.",
+    icon: "code",
+    features: ["API integraties", "Custom dashboards", "Database architectuur", "Real-time monitoring"],
+  },
+  {
+    title: "Professionele Websites",
+    text: "Websites die niet alleen mooi zijn, maar actief klanten binnenhalen. SEO-geoptimaliseerd en razendsnel.",
+    icon: "globe",
+    features: ["Responsive design", "SEO optimalisatie", "CMS beheer", "Analytics & tracking"],
+  },
+];
+
+export const integrations = [
+  "Make", "Zapier", "OpenAI", "Google Sheets", "WhatsApp", "Slack",
+  "HubSpot", "Notion", "Airtable", "Stripe", "Shopify", "Gmail",
+  "Google Calendar", "Twilio", "SendGrid", "PostgreSQL", "Vercel",
+  "GitHub", "Salesforce", "Mailchimp", "WordPress", "WooCommerce",
+  "Monday.com", "Asana", "Discord", "Telegram", "Claude AI", "Google Maps",
+];
+
+export const trustBadges = [
+  { label: "End-to-end versleuteld", icon: "lock" },
+  { label: "EU Data Hosting", icon: "shield" },
+  { label: "AVG/GDPR Compliant", icon: "check" },
+  { label: "99.9% Uptime", icon: "server" },
 ];
 
 export const uspItems = [
   {
-    title: "Razendsnel",
-    text: "Van eerste gesprek tot live website in 5 werkdagen. Geen maanden wachten.",
+    title: "Automatiseer",
+    text: "AI neemt repetitief werk over. Van prospectie tot deal-closing — volledig geautomatiseerd.",
     icon: "zap" as const,
   },
   {
-    title: "Professioneel design",
-    text: "Uniek ontwerp dat past bij jouw bedrijf. Geen standaard templates.",
+    title: "Versnel",
+    text: "Van idee naar live in weken, niet maanden. Snelle iteraties, directe resultaten.",
     icon: "palette" as const,
   },
   {
-    title: "Alles geregeld",
-    text: "Hosting, onderhoud, updates — ik neem het volledig uit handen.",
+    title: "Groei",
+    text: "Meer klanten, minder handwerk. Schaal je bedrijf zonder extra personeel.",
     icon: "shield" as const,
   },
 ];
@@ -75,49 +111,49 @@ export const uspItems = [
 export const processSteps = [
   {
     number: "01",
-    title: "Kennismaking",
-    text: "Even bellen of appen. Ik luister naar wat je nodig hebt en geef direct eerlijk advies.",
+    title: "Discovery",
+    text: "We analyseren je huidige processen en identificeren waar AI en automatisering de meeste impact maken.",
   },
   {
     number: "02",
     title: "Ontwerp",
-    text: "Ik maak een design op maat. Jij geeft feedback, ik pas het aan tot het perfect is.",
+    text: "We bouwen een blauwdruk van je geautomatiseerde workflow — inclusief alle koppelingen en triggers.",
   },
   {
     number: "03",
-    title: "Bouw & Review",
-    text: "Ik bouw je website en laat het je zien vóór livegang. Pas als jij tevreden bent, gaan we door.",
+    title: "Bouw & Test",
+    text: "We implementeren de oplossing, testen uitvoerig, en zorgen dat alles naadloos werkt met je bestaande tools.",
   },
   {
     number: "04",
-    title: "Live",
-    text: "Je website gaat live. Ik regel hosting, domein en blijf beschikbaar voor vragen.",
+    title: "Live & Monitor",
+    text: "Je automatisering gaat live. We monitoren alles en optimaliseren continu op basis van resultaten.",
   },
 ];
 
 export const portfolioItems = [
   {
-    title: "Van den Berg Loodgieters",
-    niche: "Loodgieter",
-    image: "/portfolio/loodgieter.jpg",
+    title: "AI Lead Pipeline",
+    niche: "Automatisering",
+    image: "/portfolio/pipeline.jpg",
     span: "col-span-2" as const,
   },
   {
-    title: "Klusservice Jansen",
-    niche: "Aannemer",
-    image: "/portfolio/aannemer.jpg",
+    title: "Van den Berg Loodgieters",
+    niche: "Website",
+    image: "/portfolio/loodgieter.jpg",
     span: "col-span-1" as const,
   },
   {
-    title: "Schildersbedrijf De Wit",
-    niche: "Schilder",
-    image: "/portfolio/schilder.jpg",
+    title: "Automated Outreach System",
+    niche: "AI Workflow",
+    image: "/portfolio/outreach.jpg",
     span: "col-span-1" as const,
   },
   {
-    title: "Bakkerij Het Broodhuys",
-    niche: "Horeca",
-    image: "/portfolio/bakkerij.jpg",
+    title: "Haarwerk Amsterdam",
+    niche: "Website",
+    image: "/portfolio/salon.jpg",
     span: "col-span-2" as const,
   },
 ];
@@ -134,21 +170,21 @@ export const reviews = [
     name: "Sandra Bakker",
     company: "Bakker Schilderwerken",
     city: "Rotterdam",
-    text: "Eindelijk een website die past bij de kwaliteit van ons werk. De reacties van klanten zijn geweldig.",
+    text: "De AI-automatisering bespaart ons 20 uur per week aan handmatig offertes versturen. Ongelooflijk.",
     stars: 5,
   },
   {
     name: "Mohammed El Amrani",
     company: "El Amrani Bouw",
     city: "Utrecht",
-    text: "Alles werd voor ons geregeld. Geen gedoe, gewoon een prachtige website die resultaat oplevert.",
+    text: "Alles werd voor ons geregeld. Geen gedoe, gewoon een prachtige website en een systeem dat klanten oplevert.",
     stars: 5,
   },
   {
     name: "Lisa van Dijk",
     company: "Schoonmaakbedrijf Van Dijk",
     city: "Den Haag",
-    text: "We hadden geen website en wisten niet waar te beginnen. NetjesOnline maakte het makkelijk.",
+    text: "Onze offertes gaan nu automatisch uit na een aanvraag. Klanten reageren sneller en we sluiten meer deals.",
     stars: 5,
   },
   {
@@ -162,52 +198,53 @@ export const reviews = [
     name: "Fatima Yilmaz",
     company: "Yilmaz Klussenbedrijf",
     city: "Tilburg",
-    text: "Onze omzet is met 30% gestegen sinds we de nieuwe website hebben. Beste investering dit jaar.",
+    text: "Onze omzet is met 30% gestegen sinds we de AI-opvolging en nieuwe website hebben. Beste investering dit jaar.",
     stars: 5,
   },
 ];
 
 export const pricingPlans = [
   {
-    name: "Starter",
-    price: "€499",
-    description: "Perfect voor startende ondernemers",
+    name: "Website",
+    price: "€999",
+    description: "Professionele website die klanten oplevert",
     features: [
-      "Professionele one-pager",
+      "Multi-page website op maat",
       "Mobielvriendelijk design",
-      "Basis SEO",
-      "1 revisieronde",
-      "Oplevering in 5 werkdagen",
+      "SEO optimalisatie",
+      "Contact formulier & WhatsApp",
+      "Oplevering in 2 weken",
+      "3 revisierondes",
     ],
     cta: "Start vandaag",
     highlighted: false,
   },
   {
-    name: "Professional",
-    price: "€999",
-    description: "Meest gekozen door MKB",
+    name: "AI Automatisering",
+    price: "Op maat",
+    description: "Volledige workflow automatisering",
     features: [
-      "Multi-page website (max 5)",
-      "Premium design op maat",
-      "SEO optimalisatie",
-      "3 revisierondes",
-      "Contact formulier",
-      "Google Maps integratie",
+      "AI-powered workflows",
+      "Alle integraties inbegrepen",
+      "Custom dashboards",
+      "Real-time monitoring",
+      "Onbeperkte revisies",
+      "Dedicated support",
     ],
-    cta: "Start vandaag",
+    cta: "Neem contact op",
     highlighted: true,
   },
   {
-    name: "Premium",
-    price: "€1.999",
-    description: "Voor maximale impact",
+    name: "Full Stack",
+    price: "€2.499",
+    description: "Website + AI automatisering",
     features: [
-      "Alles van Professional",
-      "E-commerce of booking",
-      "Custom animaties",
+      "Alles van Website",
+      "Alles van AI Automatisering",
       "Priority support",
-      "Onbeperkte revisies",
+      "Maandelijkse optimalisatie",
       "Analytics dashboard",
+      "Schaalbare architectuur",
     ],
     cta: "Start vandaag",
     highlighted: false,
@@ -216,38 +253,43 @@ export const pricingPlans = [
 
 export const faqItems = [
   {
-    question: "Hoe lang duurt het om een website te maken?",
+    question: "Wat voor AI-automatiseringen bouwen jullie?",
     answer:
-      "Gemiddeld 5 werkdagen vanaf het moment dat ik alle content heb. Bij complexere projecten kan het iets langer duren, maar ik geef altijd vooraf een duidelijke deadline.",
+      "Alles van geautomatiseerde lead-opvolging en offerte-generatie tot complete klantcommunicatie via WhatsApp en email. We koppelen alle tools die je al gebruikt en laten AI het repetitieve werk overnemen.",
   },
   {
-    question: "Wat heb ik nodig om te starten?",
+    question: "Hoe lang duurt het om een automatisering op te zetten?",
     answer:
-      "Alleen een logo en wat tekst over je bedrijf. Heb je dat nog niet? Geen probleem — ik help je met content en kan ook een logo laten ontwerpen.",
+      "De meeste automatiseringen zijn binnen 1-2 weken live. Complexere projecten kunnen 3-4 weken duren. We geven altijd vooraf een duidelijke planning.",
   },
   {
-    question: "Kan ik de website zelf aanpassen?",
+    question: "Moet ik technische kennis hebben?",
     answer:
-      "Ja, ik lever een eenvoudig beheersysteem mee waarmee je zelf teksten en afbeeldingen kunt wijzigen. Voor grotere aanpassingen kun je altijd bij mij terecht.",
+      "Nee. Wij bouwen alles op maat en leveren het gebruiksklaar op. Je hoeft geen code te schrijven of technische kennis te hebben.",
   },
   {
-    question: "Wat als ik niet tevreden ben?",
+    question: "Wat als ik al tools gebruik zoals Make of Zapier?",
     answer:
-      "Ik werk net zo lang door tot je 100% tevreden bent. Bij het Professional en Premium pakket heb je meerdere revisierondes inbegrepen.",
+      "Perfect — we bouwen verder op wat je al hebt. We integreren met 600+ tools en zorgen dat alles naadloos samenwerkt.",
   },
   {
-    question: "Is hosting inbegrepen?",
+    question: "Is mijn data veilig?",
     answer:
-      "Bij al mijn pakketten kun je hosting afnemen voor €29 per maand. Dit is inclusief SSL-certificaat, dagelijkse backups en technisch onderhoud.",
+      "Absoluut. Alle data wordt end-to-end versleuteld, gehost binnen de EU, en we zijn volledig AVG/GDPR compliant.",
+  },
+  {
+    question: "Wat kost het maandelijks?",
+    answer:
+      "Websites draaien op hosting van €29/maand. AI-automatiseringen hebben variabele kosten afhankelijk van gebruik — we bespreken dit altijd vooraf zodat je nooit voor verrassingen staat.",
   },
 ];
 
 export const navLinks = [
   { label: "Home", href: "#" },
-  { label: "Over mij", href: "#over" },
+  { label: "Over ons", href: "#over" },
   { label: "Diensten", href: "#diensten" },
   { label: "Werkwijze", href: "#werkwijze" },
-  { label: "Portfolio", href: "#portfolio" },
+  { label: "Cases", href: "#portfolio" },
   { label: "Prijzen", href: "#prijzen" },
   { label: "Contact", href: "#contact" },
 ];

@@ -287,6 +287,63 @@
   animation: mesh-shift 12s ease infinite;
 }
 
+/* === Animated wave blobs === */
+@keyframes blob-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(80px, -60px) scale(1.1); }
+  50% { transform: translate(-40px, 80px) scale(0.95); }
+  75% { transform: translate(60px, 40px) scale(1.05); }
+}
+@keyframes blob-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(-70px, 50px) scale(1.08); }
+  50% { transform: translate(50px, -70px) scale(0.92); }
+  75% { transform: translate(-40px, -30px) scale(1.03); }
+}
+@keyframes blob-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(50px, 60px) scale(1.06); }
+  50% { transform: translate(-60px, -40px) scale(0.97); }
+  75% { transform: translate(30px, -50px) scale(1.04); }
+}
+
+.wave-blob {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+.wave-blob-1 {
+  width: 800px;
+  height: 800px;
+  top: -200px;
+  left: -200px;
+  background: #C1D6F9;
+  opacity: 0.18;
+  filter: blur(120px);
+  animation: blob-1 18s ease-in-out infinite;
+}
+.wave-blob-2 {
+  width: 700px;
+  height: 700px;
+  bottom: -150px;
+  right: -150px;
+  background: #B9EACB;
+  opacity: 0.15;
+  filter: blur(120px);
+  animation: blob-2 22s ease-in-out infinite;
+}
+.wave-blob-3 {
+  width: 600px;
+  height: 600px;
+  top: 40%;
+  left: 40%;
+  background: #E8D5F5;
+  opacity: 0.13;
+  filter: blur(120px);
+  animation: blob-3 25s ease-in-out infinite;
+}
+
 html {
   scroll-behavior: smooth;
 }
