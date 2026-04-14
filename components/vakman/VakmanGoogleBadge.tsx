@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanGoogleBadge({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const totalReviews = content.stats?.reviews_count ?? content.reviews?.length ?? 0;
   const avgRating = content.reviews?.length > 0
     ? (content.reviews.reduce((sum, r) => sum + r.stars, 0) / content.reviews.length).toFixed(1)
@@ -46,7 +48,7 @@ export default function VakmanGoogleBadge({ content }: { content: SiteContent })
             </div>
           </div>
           <p className="text-xs text-slate-500">
-            Gebaseerd op <span className="font-bold text-slate-700">{totalReviews} Google reviews</span>
+            {tr.vakman.googleBadgeBasedOn} <span className="font-bold text-slate-700">{totalReviews} {tr.vakman.googleReviews}</span>
           </p>
         </div>
 

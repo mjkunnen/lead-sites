@@ -3,8 +3,10 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanFAQ({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -17,10 +19,10 @@ export default function VakmanFAQ({ content }: { content: SiteContent }) {
         transition={{ duration: 0.5 }}
       >
         <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-          FAQ
+          {tr.vakman.faqLabel}
         </span>
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
-          Veelgestelde vragen
+          {tr.vakman.faqHeading}
         </h2>
       </motion.div>
       <div className="space-y-4">

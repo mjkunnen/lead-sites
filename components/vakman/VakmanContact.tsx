@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanContact({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const phone = content.contact?.phone;
   const whatsapp = phone ? `https://wa.me/${phone.replace(/[\s\-\+]/g, '')}` : null;
   const address = content.contact.address ?? content.contact.city;
@@ -38,7 +40,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
         className="bg-slate-900 rounded-2xl p-8 text-white relative overflow-hidden"
       >
         <div className="relative z-10">
-          <h2 className="text-3xl font-bold tracking-tight mb-6">Neem contact op</h2>
+          <h2 className="text-3xl font-bold tracking-tight mb-6">{tr.vakman.contactHeadingFull}</h2>
 
           <div className="space-y-5 mb-8">
             {content.contact.address && (
@@ -50,7 +52,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-bold text-sm">Locatie</p>
+                  <p className="font-bold text-sm">{tr.vakman.locationLabel}</p>
                   <a href={mapsLink} target="_blank" rel="noopener noreferrer" className="text-slate-400 text-sm hover:text-white transition-colors underline underline-offset-2">
                     {content.contact.address}
                   </a>
@@ -66,7 +68,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-bold text-sm">Werktijden</p>
+                  <p className="font-bold text-sm">{tr.vakman.workingHoursLabel}</p>
                   {Object.entries(content.working_hours).map(([day, hours]) => (
                     <p key={day} className="text-slate-400 text-sm">{day}: {hours}</p>
                   ))}
@@ -85,7 +87,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                Bel direct
+                {tr.vakman.callDirect}
               </motion.a>
             )}
             {whatsapp && (
@@ -99,7 +101,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
                 </svg>
-                WhatsApp nu
+                {tr.vakman.whatsappNow}
               </motion.a>
             )}
             <a
@@ -111,7 +113,7 @@ export default function VakmanContact({ content }: { content: SiteContent }) {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
               </svg>
-              Routebeschrijving
+              {tr.vakman.directionsButton}
             </a>
           </div>
         </div>

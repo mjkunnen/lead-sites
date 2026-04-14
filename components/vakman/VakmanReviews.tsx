@@ -3,11 +3,13 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanReviews({ content }: { content: SiteContent }) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const { scrollXProgress } = useScroll({ container: scrollRef });
   const progressWidth = useTransform(scrollXProgress, [0, 1], ['0%', '100%']);
+  const tr = t(content.lang);
 
   return (
     <section id="reviews" className="mt-20 scroll-mt-20">
@@ -21,10 +23,10 @@ export default function VakmanReviews({ content }: { content: SiteContent }) {
         >
           <div>
             <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-              Referenties
+              {tr.vakman.reviewsLabel}
             </span>
             <h2 className="text-3xl font-bold tracking-tight text-slate-900">
-              Wat klanten zeggen
+              {tr.vakman.reviewsHeading}
             </h2>
           </div>
           <div className="text-right shrink-0 ml-4">
@@ -35,7 +37,7 @@ export default function VakmanReviews({ content }: { content: SiteContent }) {
                 </svg>
               ))}
             </div>
-            <span className="text-[10px] font-bold text-slate-400">{content.stats?.reviews_count ?? content.reviews.length} REVIEWS</span>
+            <span className="text-[10px] font-bold text-slate-400">{content.stats?.reviews_count ?? content.reviews.length} {tr.vakman.reviewsCount}</span>
           </div>
         </motion.div>
 

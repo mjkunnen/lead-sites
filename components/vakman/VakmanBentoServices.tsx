@@ -3,8 +3,10 @@
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
 import { VakmanIcon } from './VakmanIcons';
+import { t } from '@/lib/i18n';
 
 export default function VakmanBentoServices({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   return (
     <section id="diensten" className="mt-20 px-6 scroll-mt-20">
       <motion.div
@@ -14,8 +16,8 @@ export default function VakmanBentoServices({ content }: { content: SiteContent 
         viewport={{ once: true, margin: '-50px' }}
         transition={{ duration: 0.5 }}
       >
-        <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">Diensten</span>
-        <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">Wat wij doen</h2>
+        <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">{tr.vakman.servicesLabel}</span>
+        <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">{tr.vakman.servicesHeading}</h2>
       </motion.div>
 
       <div className="space-y-4">

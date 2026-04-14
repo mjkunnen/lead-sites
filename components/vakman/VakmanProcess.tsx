@@ -2,15 +2,16 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
-
-const defaultSteps = [
-  { title: 'Contact', description: 'U neemt contact op via telefoon of WhatsApp. We bespreken uw wensen.' },
-  { title: 'Offerte', description: 'We komen langs voor een vrijblijvende offerte op maat.' },
-  { title: 'Uitvoering', description: 'Op de afgesproken datum gaan we aan de slag. Vakkundig en volgens planning.' },
-  { title: 'Oplevering', description: 'Na een eindcontrole leveren we het werk netjes op.' },
-];
+import { t } from '@/lib/i18n';
 
 export default function VakmanProcess({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
+  const defaultSteps = [
+    { title: tr.vakman.processFallback1Title, description: tr.vakman.processFallback1Desc },
+    { title: tr.vakman.processFallback2Title, description: tr.vakman.processFallback2Desc },
+    { title: tr.vakman.processFallback3Title, description: tr.vakman.processFallback3Desc },
+    { title: tr.vakman.processFallback4Title, description: tr.vakman.processFallback4Desc },
+  ];
   const steps = content.process_steps ?? defaultSteps;
 
   return (
@@ -23,10 +24,10 @@ export default function VakmanProcess({ content }: { content: SiteContent }) {
         transition={{ duration: 0.5 }}
       >
         <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-          Werkwijze
+          {tr.vakman.processLabel}
         </span>
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
-          Hoe wij werken
+          {tr.vakman.processHeading}
         </h2>
       </motion.div>
 

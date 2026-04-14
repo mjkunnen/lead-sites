@@ -2,13 +2,15 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanTrustStrip({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const badges = content.trust_badges ?? [
-    `${content.stats?.reviews_count ?? content.reviews.length}x 5-sterren reviews`,
-    '10+ jaar ervaring',
-    'Gratis offerte',
-    'Binnen 24u reactie',
+    `${content.stats?.reviews_count ?? content.reviews.length}x ${tr.vakman.trustBadgeReviewsSuffix}`,
+    tr.vakman.trustBadgeExperience,
+    tr.vakman.trustBadgeFreeQuote,
+    tr.vakman.trustBadgeResponse,
   ];
 
   const icons = [

@@ -1,18 +1,20 @@
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanFooter({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const phone = content.contact?.phone;
   const whatsapp = phone ? `https://wa.me/${phone.replace(/[\s\-\+]/g, '')}` : null;
   const mapsLink = content.contact.maps_url || '#';
   const year = new Date().getFullYear();
 
   const navLinks = [
-    { label: 'Over ons', href: '#over' },
-    { label: 'Diensten', href: '#diensten' },
-    { label: 'Projecten', href: '#projecten' },
-    { label: 'Reviews', href: '#reviews' },
-    { label: 'FAQ', href: '#faq' },
-    { label: 'Contact', href: '#contact' },
+    { label: tr.vakman.footerAbout, href: '#over' },
+    { label: tr.vakman.footerServices, href: '#diensten' },
+    { label: tr.vakman.footerProjects, href: '#projecten' },
+    { label: tr.vakman.footerReviews, href: '#reviews' },
+    { label: tr.vakman.footerFaq, href: '#faq' },
+    { label: tr.vakman.footerContact, href: '#contact' },
   ];
 
   return (
@@ -49,7 +51,7 @@ export default function VakmanFooter({ content }: { content: SiteContent }) {
 
           {/* Navigation */}
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">Navigatie</h3>
+            <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">{tr.vakman.footerNav}</h3>
             <ul className="space-y-2.5">
               {navLinks.map((link) => (
                 <li key={link.label}>
@@ -63,7 +65,7 @@ export default function VakmanFooter({ content }: { content: SiteContent }) {
 
           {/* Contact info */}
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">Contact</h3>
+            <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">{tr.vakman.contactLabel}</h3>
             <ul className="space-y-3">
               {content.contact.address && (
                 <li>
@@ -111,12 +113,12 @@ export default function VakmanFooter({ content }: { content: SiteContent }) {
         {/* Divider */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-600">
-            &copy; {year} {content.business_name}. Alle rechten voorbehouden.
+            &copy; {year} {content.business_name}. {tr.vakman.footerRights}.
           </p>
           <div className="flex items-center gap-4 text-xs text-slate-600">
-            <span>KvK: op aanvraag</span>
+            <span>{tr.vakman.footerKvk}</span>
             <span>&middot;</span>
-            <span>BTW: op aanvraag</span>
+            <span>{tr.vakman.footerBtw}</span>
           </div>
         </div>
       </div>

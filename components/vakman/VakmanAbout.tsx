@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanAbout({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   if (!content.about) return null;
 
   const sentences = content.about.split('. ').filter(Boolean);
@@ -18,10 +20,10 @@ export default function VakmanAbout({ content }: { content: SiteContent }) {
         className="mb-8"
       >
         <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-          Over ons
+          {tr.vakman.aboutLabel}
         </span>
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
-          Vakmanschap als standaard
+          {tr.vakman.aboutHeading}
         </h2>
       </motion.div>
 

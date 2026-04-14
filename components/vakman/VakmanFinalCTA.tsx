@@ -3,8 +3,10 @@
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
 import { getHeroImage } from '@/lib/stock-images';
+import { t } from '@/lib/i18n';
 
 export default function VakmanFinalCTA({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const phone = content.contact?.phone;
   const whatsapp = phone ? `https://wa.me/${phone.replace(/[\s\-\+]/g, '')}` : null;
   const hasImage = content.gallery && content.gallery.length > 1;
@@ -43,7 +45,7 @@ export default function VakmanFinalCTA({ content }: { content: SiteContent }) {
             transition={{ delay: 0.1 }}
             className="text-2xl md:text-3xl font-bold text-white tracking-tight mb-3"
           >
-            Klaar om te beginnen?
+            {tr.vakman.finalCtaHeading}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -52,7 +54,7 @@ export default function VakmanFinalCTA({ content }: { content: SiteContent }) {
             transition={{ delay: 0.2 }}
             className="text-sm text-white/70 mb-6 max-w-sm mx-auto"
           >
-            Neem vandaag nog contact op voor een vrijblijvende offerte. Wij reageren binnen 24 uur.
+            {tr.vakman.finalCtaDesc}
           </motion.p>
 
           <motion.div
@@ -69,7 +71,7 @@ export default function VakmanFinalCTA({ content }: { content: SiteContent }) {
                 className="vakman-shimmer-btn flex-1 bg-white text-[#0f172a] py-4 px-6 rounded-xl font-bold text-sm flex items-center justify-center gap-2"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                Bel direct
+                {tr.vakman.callDirect}
               </motion.a>
             )}
             {whatsapp && (

@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanProjects({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const gallery = content.gallery;
   if (!gallery || gallery.length === 0) return null;
 
@@ -17,10 +19,10 @@ export default function VakmanProjects({ content }: { content: SiteContent }) {
         transition={{ duration: 0.5 }}
       >
         <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-          Portfolio
+          {tr.vakman.projectsPortfolio}
         </span>
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
-          Recent werk
+          {tr.vakman.projectsRecent}
         </h2>
       </motion.div>
 

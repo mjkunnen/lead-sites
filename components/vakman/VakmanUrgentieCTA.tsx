@@ -2,33 +2,38 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
+
+const localeMap = { en: 'en-GB', nl: 'nl-NL', fr: 'fr-FR' } as const;
 
 export default function VakmanUrgentieCTA({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const phone = content.contact?.phone;
   const whatsapp = phone ? `https://wa.me/${phone.replace(/[\s\-\+]/g, '')}` : null;
   const slots = content.availability?.slots ?? 3;
+  const locale = localeMap[content.lang ?? 'nl'] ?? 'nl-NL';
   const month = content.availability?.month === 'auto'
-    ? new Date().toLocaleString('nl-NL', { month: 'long' })
-    : content.availability?.month ?? new Date().toLocaleString('nl-NL', { month: 'long' });
+    ? new Date().toLocaleString(locale, { month: 'long' })
+    : content.availability?.month ?? new Date().toLocaleString(locale, { month: 'long' });
 
   // Dynamic headline based on niche
   const niche = content.niche?.toLowerCase() ?? '';
   const nicheAction: Record<string, string> = {
-    keuken: 'Keuken laten plaatsen?',
-    keukenmontage: 'Keuken laten plaatsen?',
-    schilder: 'Schilderwerk nodig?',
-    loodgieter: 'Loodgieter nodig?',
-    timmerman: 'Timmerwerk nodig?',
-    aannemer: 'Verbouwing gepland?',
-    tegelzetter: 'Tegels laten zetten?',
-    vloerlegger: 'Nieuwe vloer nodig?',
-    dakdekker: 'Dak laten repareren?',
-    elektricien: 'Elektricien nodig?',
-    hovenier: 'Tuin laten aanleggen?',
-    badkamer: 'Badkamer renoveren?',
-    installateur: 'Installatie nodig?',
+    keuken: tr.vakman.nicheKeuken,
+    keukenmontage: tr.vakman.nicheKeuken,
+    schilder: tr.vakman.nicheSchilder,
+    loodgieter: tr.vakman.nicheLoodgieter,
+    timmerman: tr.vakman.nicheTimmerman,
+    aannemer: tr.vakman.nicheAannemer,
+    tegelzetter: tr.vakman.nicheTegelzetter,
+    vloerlegger: tr.vakman.nicheVloerlegger,
+    dakdekker: tr.vakman.nicheDakdekker,
+    elektricien: tr.vakman.nicheElektricien,
+    hovenier: tr.vakman.nicheHovenier,
+    badkamer: tr.vakman.nicheBadkamer,
+    installateur: tr.vakman.nicheInstallateur,
   };
-  const headline = nicheAction[niche] || `${content.business_name} inschakelen?`;
+  const headline = nicheAction[niche] || `${content.business_name} ${tr.vakman.nicheFallback}?`;
 
   return (
     <section className="mt-20 px-6">
@@ -68,7 +73,7 @@ export default function VakmanUrgentieCTA({ content }: { content: SiteContent })
               transition={{ duration: 2, repeat: Infinity }}
             />
             <span className="text-xs font-bold uppercase tracking-wider">
-              Nog {slots} plekken in {month}
+              {tr.urgencyHeading1} {slots} {tr.vakman.urgencySpots} {tr.urgencyHeading3} {month}
             </span>
           </motion.div>
 
@@ -76,7 +81,7 @@ export default function VakmanUrgentieCTA({ content }: { content: SiteContent })
             {headline}
           </h2>
           <p className="text-blue-100 text-sm leading-relaxed mb-6 max-w-md">
-            Vraag vandaag nog een vrijblijvende offerte aan. Wij reageren binnen 24 uur met een voorstel op maat.
+            {tr.vakman.urgencyDesc}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3">
@@ -89,7 +94,7 @@ export default function VakmanUrgentieCTA({ content }: { content: SiteContent })
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                Bel voor offerte
+                {tr.vakman.urgencyCallQuote}
               </motion.a>
             )}
             {whatsapp && (

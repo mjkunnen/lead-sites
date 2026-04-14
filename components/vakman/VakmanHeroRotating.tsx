@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
 import { getHeroImage } from '@/lib/stock-images';
+import { t } from '@/lib/i18n';
 
 const nicheWords: Record<string, string[]> = {
   keuken: ['Strak', 'Vakkundig', 'Op maat'],
@@ -21,6 +22,7 @@ const nicheWords: Record<string, string[]> = {
 };
 
 export default function VakmanHeroRotating({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const words = nicheWords[content.niche?.toLowerCase() ?? ''] ?? ['Strak', 'Vakkundig', 'Betrouwbaar'];
   const [index, setIndex] = useState(0);
 
@@ -124,7 +126,7 @@ export default function VakmanHeroRotating({ content }: { content: SiteContent }
           {phone && (
             <a href={`tel:${phone}`} className="vakman-shimmer-btn flex-1 bg-[#004ac6] text-white py-4 px-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 active:scale-95 transition-transform" style={{ animation: 'cta-glow 2.5s ease-in-out infinite' }}>
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              Bel direct
+              {tr.vakman.callDirect}
             </a>
           )}
           {whatsapp && (

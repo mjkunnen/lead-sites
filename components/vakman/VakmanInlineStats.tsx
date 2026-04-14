@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 function Counter({ value, suffix = '' }: { value: number; suffix?: string }) {
   const [display, setDisplay] = useState(0);
@@ -24,13 +25,14 @@ function Counter({ value, suffix = '' }: { value: number; suffix?: string }) {
 }
 
 export default function VakmanInlineStats({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const stats = content.stats;
   const totalReviews = stats?.reviews_count ?? content.reviews?.length ?? 0;
 
   const items = [
-    { value: stats?.projects ?? 100, suffix: '+', label: 'projecten' },
-    { value: stats?.years ?? 5, suffix: '+', label: 'jaar ervaring' },
-    { value: totalReviews, suffix: '', label: '5-sterren reviews' },
+    { value: stats?.projects ?? 100, suffix: '+', label: tr.vakman.statsProjects },
+    { value: stats?.years ?? 5, suffix: '+', label: tr.vakman.statsYears },
+    { value: totalReviews, suffix: '', label: tr.vakman.statsReviews },
   ];
 
   return (

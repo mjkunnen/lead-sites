@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanFeatureHighlight({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const phone = content.contact?.phone;
   const topReview = content.reviews?.[0];
 
@@ -51,34 +53,34 @@ export default function VakmanFeatureHighlight({ content }: { content: SiteConte
           <div className="flex gap-6 mb-8">
             <div>
               <span className="text-3xl font-black text-white">{content.stats?.projects ?? '100'}+</span>
-              <p className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">Projecten</p>
+              <p className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">{tr.vakman.featureProjects}</p>
             </div>
             <div className="w-px bg-white/10" />
             <div>
               <span className="text-3xl font-black text-white">{content.stats?.years ?? '5'}+</span>
-              <p className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">Jaar actief</p>
+              <p className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">{tr.vakman.featureYears}</p>
             </div>
             <div className="w-px bg-white/10" />
             <div>
               <span className="text-3xl font-black text-white">24u</span>
-              <p className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">Reactietijd</p>
+              <p className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mt-0.5">{tr.vakman.featureResponse}</p>
             </div>
           </div>
 
           {/* Headline */}
           <h2 className="text-2xl font-bold text-white tracking-tight mb-3">
-            Vakwerk waar u op kunt vertrouwen
+            {tr.vakman.featureHeading}
           </h2>
           <p className="text-sm text-slate-400 leading-relaxed mb-6 max-w-md">
             {content.about
               ? content.about.split('.').slice(0, 2).join('.') + '.'
-              : `${content.business_name} staat voor kwaliteit en betrouwbaarheid.`
+              : `${content.business_name} ${tr.vakman.featureFallback}`
             }
           </p>
 
           {/* Steps */}
           <div className="grid grid-cols-2 gap-3 mb-8">
-            {['We komen langs', 'We bekijken de situatie', 'We gaan aan het werk', 'U geniet van het resultaat'].map((step, i) => (
+            {[tr.vakman.featureStep1, tr.vakman.featureStep2, tr.vakman.featureStep3, tr.vakman.featureStep4].map((step, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, x: -10 }}
@@ -126,7 +128,7 @@ export default function VakmanFeatureHighlight({ content }: { content: SiteConte
               className="vakman-shimmer-btn mt-6 w-full bg-[#004ac6] text-white py-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              Neem contact op
+              {tr.vakman.featureContactBtn}
             </motion.a>
           )}
         </div>
