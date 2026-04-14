@@ -70,14 +70,15 @@ function extractBusiness(result: any): OutscraperBusiness {
   return businesses[0];
 }
 
-export async function searchBusiness(query: string): Promise<OutscraperBusiness> {
+export async function searchBusiness(query: string, lang = "nl"): Promise<OutscraperBusiness> {
   console.log(`🔍 Zoeken: "${query}"`);
 
+  const regionMap: Record<string, string> = { nl: "NL", fr: "FR", en: "US" };
   const result = await apiRequest("/maps/search-v3", {
     query,
     limit: "1",
-    language: "nl",
-    region: "NL",
+    language: lang,
+    region: regionMap[lang] || "NL",
   });
 
   if (result.id) {
@@ -88,14 +89,15 @@ export async function searchBusiness(query: string): Promise<OutscraperBusiness>
 }
 
 /** Search and return multiple results (up to `limit`) for filtering */
-export async function searchMultiple(query: string, limit = 20): Promise<OutscraperBusiness[]> {
+export async function searchMultiple(query: string, limit = 20, lang = "nl"): Promise<OutscraperBusiness[]> {
   console.log(`🔍 Zoeken (${limit}x): "${query}"`);
 
+  const regionMap: Record<string, string> = { nl: "NL", fr: "FR", en: "US" };
   const result = await apiRequest("/maps/search-v3", {
     query,
     limit: String(limit),
-    language: "nl",
-    region: "NL",
+    language: lang,
+    region: regionMap[lang] || "NL",
   });
 
   let data: any;
@@ -110,14 +112,14 @@ export async function searchMultiple(query: string, limit = 20): Promise<Outscra
   return businesses;
 }
 
-export async function fetchReviews(placeId: string, limit = 10): Promise<OutscraperReview[]> {
+export async function fetchReviews(placeId: string, limit = 10, lang = "nl"): Promise<OutscraperReview[]> {
   console.log(`📝 Reviews ophalen (max ${limit})...`);
 
   try {
     const result = await apiRequest("/maps/reviews-v3", {
       query: placeId,
       reviewsLimit: String(limit),
-      language: "nl",
+      language: lang,
       sort: "newest",
     });
 

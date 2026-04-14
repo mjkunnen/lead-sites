@@ -63,7 +63,7 @@ async function main() {
   // Stap 1: Outscraper search → bedrijfsdata + main photo + street view
   console.log("\n━━━ Stap 1/4: Bedrijfsdata ophalen ━━━");
   const query = placeId || `${businessName}, ${city}`;
-  const business = await searchBusiness(query);
+  const business = await searchBusiness(query, lang);
 
   console.log(`  ✅ Gevonden: ${business.name}`);
   console.log(`  📍 ${business.address || "adres onbekend"}`);
@@ -85,7 +85,7 @@ async function main() {
 
   // Stap 2: Reviews ophalen (aparte call — geeft echte review tekst + foto's)
   console.log("\n━━━ Stap 2/4: Reviews + foto's ophalen ━━━");
-  const reviews = await fetchReviews(business.place_id, 10);
+  const reviews = await fetchReviews(business.place_id, 10, lang);
   console.log(`  ✅ ${reviews.length} reviews opgehaald`);
 
   // Foto's: main photo + street view + review photos
@@ -118,7 +118,7 @@ async function main() {
   // Stap 4: Assembleer + schrijf content.json
   console.log("\n━━━ Stap 4/4: content.json samenstellen ━━━");
   const stats = estimateStats(business, reviews);
-  const workingHours = formatWorkingHours(business.working_hours);
+  const workingHours = formatWorkingHours(business.working_hours, lang);
 
   const siteReviews = reviews.slice(0, 6).map((r) => {
     const date = r.review_datetime_utc ? formatReviewDate(r.review_datetime_utc) : undefined;

@@ -146,26 +146,32 @@ const DAY_MAP: Record<string, string> = {
   ve: "Ve",
 };
 
-export function formatWorkingHours(hours: Record<string, any> | null): Record<string, string> | undefined {
+export function formatWorkingHours(hours: Record<string, any> | null, lang = "nl"): Record<string, string> | undefined {
   if (!hours || typeof hours !== "object") return undefined;
+
+  const daysByLang: Record<string, string[]> = {
+    nl: ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"],
+    fr: ["Lu", "Ma", "Me", "Je", "Ve", "Sa", "Di"],
+    en: ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+  };
+  const closedLabel = lang === "fr" ? "Fermé" : lang === "en" ? "Closed" : "Gesloten";
+  const h24Label = lang === "fr" ? "24h/24" : "24 uur";
 
   const formatted: Record<string, string> = {};
 
   for (const [day, time] of Object.entries(hours)) {
     const shortDay = DAY_MAP[day.toLowerCase()] || day.substring(0, 2);
-    // Outscraper returns arrays like ["8 AM–5 PM"] or strings
     const timeStr = Array.isArray(time) ? time.join(", ") : String(time);
     const cleanTime = timeStr
       .replace(/\s*[–-]\s*/g, " - ")
-      .replace(/Closed|Gesloten|Fermé/i, "Gesloten")
-      .replace(/Open 24 hours|Ouvert 24h/i, "24 uur");
+      .replace(/Closed|Gesloten|Fermé/i, closedLabel)
+      .replace(/Open 24 hours|Ouvert 24h/i, h24Label);
     formatted[shortDay] = cleanTime;
   }
 
-  // Zorg voor alle dagen
-  const allDays = ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"];
+  const allDays = daysByLang[lang] || daysByLang.nl;
   for (const d of allDays) {
-    if (!formatted[d]) formatted[d] = "Gesloten";
+    if (!formatted[d]) formatted[d] = closedLabel;
   }
 
   return formatted;

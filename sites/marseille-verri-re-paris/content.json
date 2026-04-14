@@ -1,0 +1,84 @@
+{
+  "slug": "marseille-verri-re-paris",
+  "lang": "fr",
+  "business_name": "Marseille Verrière",
+  "niche": "dakdekker",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Expertise en couverture",
+  "about": "Marseille Verrière est votre partenaire de confiance pour tous vos besoins en toiture à Paris. Nous nous engageons à offrir des services de qualité supérieure, adaptés à vos exigences.",
+  "trust_badges": [
+    "Région Paris",
+    "Devis gratuit",
+    "4.5★ Avis Google"
+  ],
+  "stats": {
+    "reviews_count": 0
+  },
+  "hero": {
+    "headline": "Votre couvreur à Paris",
+    "subheadline": "Des toits solides pour un avenir serein.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=k_NoIgFCZTTbMkzgkXQzIA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=112.18252&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Réparation de toitures",
+      "text": "Nous offrons des services de réparation pour garantir l'intégrité de votre toiture.",
+      "icon": "hammer"
+    },
+    {
+      "title": "Installation de tuiles",
+      "text": "Notre équipe est spécialisée dans l'installation de tuiles de haute qualité pour une protection optimale.",
+      "icon": "tiles"
+    },
+    {
+      "title": "Entretien de toitures",
+      "text": "Assurez la longévité de votre toit grâce à nos services d'entretien réguliers.",
+      "icon": "saw"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=k_NoIgFCZTTbMkzgkXQzIA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=112.18252&pitch=0&thumbfov=100",
+      "alt": "Marseille Verrière project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=k_NoIgFCZTTbMkzgkXQzIA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=112.18252&pitch=0&thumbfov=100",
+      "alt": "Marseille Verrière project 2"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "Quels types de toitures pouvez-vous réparer ?",
+      "answer": "Nous réparons tous types de toitures, y compris les toits en tuiles et en ardoises."
+    },
+    {
+      "question": "Proposez-vous des devis gratuits ?",
+      "answer": "Oui, nous offrons des devis gratuits pour tous nos services."
+    },
+    {
+      "question": "Comment puis-je prendre rendez-vous ?",
+      "answer": "Vous pouvez nous contacter directement via notre site pour prendre rendez-vous."
+    },
+    {
+      "question": "Êtes-vous disponibles pour des urgences ?",
+      "answer": "Oui, nous intervenons rapidement pour des réparations d'urgence."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 30 81 80 11",
+    "city": "Paris",
+    "address": "10 Rue de la Paix, 75002 Paris",
+    "maps_url": "https://www.google.com/maps/place/Marseille+Verri%C3%A8re/@48.868944299999995,2.3312532999999998,14z/data=!4m8!1m2!2m1!1sMarseille+Verri%C3%A8re!3m4!1s0x47e66e31aa515bef:0x6ae5649381679b56!8m2!3d48.868944299999995!4d2.3312532999999998"
+  },
+  "metadata": {
+    "generated_at": "2026-04-14T10:29:13.243Z",
+    "lead_id": "marseille-verri-re-paris-001",
+    "source": "outscraper",
+    "place_id": "ChIJ71tRqjFu5kcRVptngZNk5Wo",
+    "version": 1
+  }
+}
