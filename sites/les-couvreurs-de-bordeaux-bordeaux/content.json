@@ -1,0 +1,127 @@
+{
+  "slug": "les-couvreurs-de-bordeaux-bordeaux",
+  "lang": "fr",
+  "business_name": "Les Couvreurs de Bordeaux",
+  "niche": "dakdekker",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Expertise et Fiabilité",
+  "about": "Les Couvreurs de Bordeaux sont reconnus pour leur professionnalisme et leur réactivité. Avec une équipe sympathique et compétente, nous nous engageons à réaliser un travail soigné et respectueux des délais.",
+  "trust_badges": [
+    "4.9★ Avis Google",
+    "Devis gratuit",
+    "Région Bordeaux"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 752,
+    "reviews_count": 94
+  },
+  "hero": {
+    "headline": "Votre couvreur à Bordeaux",
+    "subheadline": "Des services de qualité pour votre toiture.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFaFeWYZVWLIrUZRpso_0jmxNJQqLaARpuPzu3e8Un9rL2e6HdPqkOhLxQCyyRi775sj3DsxeDrJXxi5OQZCgHBvvpBO5XZCipjrCzGi2opcDQEkCQd1pLO1PpmD5wBsRltA_WdHw=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Devis en ligne",
+      "text": "Obtenez un devis rapide et précis directement en ligne.",
+      "icon": "ruler"
+    },
+    {
+      "title": "Services sur place",
+      "text": "Nos équipes se déplacent pour tous vos besoins de toiture.",
+      "icon": "drill"
+    },
+    {
+      "title": "Assistance multilingue",
+      "text": "Nous offrons une assistance dans plusieurs langues pour mieux vous servir.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Nettoyage après intervention",
+      "text": "Nous garantissons un chantier propre après chaque intervention.",
+      "icon": "sparkles"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFaFeWYZVWLIrUZRpso_0jmxNJQqLaARpuPzu3e8Un9rL2e6HdPqkOhLxQCyyRi775sj3DsxeDrJXxi5OQZCgHBvvpBO5XZCipjrCzGi2opcDQEkCQd1pLO1PpmD5wBsRltA_WdHw=w800-h600-k-no",
+      "alt": "Les Couvreurs de Bordeaux project 1"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Birgit BTF",
+      "text": "Equipe très professionnelle, ponctuelle, efficace, réactive. A recommander sans aucun problème",
+      "stars": 4,
+      "date": "septembre 2025"
+    },
+    {
+      "name": "Annie Toffe",
+      "text": "À éviter ABSOLUMENT 😡",
+      "stars": 1,
+      "date": "juin 2025"
+    },
+    {
+      "name": "Eric mvoyager",
+      "text": "Entreprise réactive pour la mise en place d'une visite et d'un devis. Avis professionnel.",
+      "stars": 5,
+      "date": "juin 2025"
+    },
+    {
+      "name": "Cécile Desportes",
+      "text": "Grande réactivité pour la transmission du devis et la planification du chantier, mais peu de communication.... Un petit appel ou mail pour confirmer les dates d'intervention aurait été sympa. Beaucoup de nettoyage après intervention...",
+      "stars": 4,
+      "date": "juin 2025"
+    },
+    {
+      "name": "camille coupet",
+      "text": "Un grand merci à Monsieur Badreau et ses équipes.\nIls sont sympathiques, compétents, et très disponibles.\nSe rendent disponibles très rapidement. Merci pour tout",
+      "stars": 5,
+      "date": "mars 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de services proposez-vous ?",
+      "answer": "Nous proposons des devis en ligne, des services sur place et une assistance multilingue."
+    },
+    {
+      "question": "Comment puis-je obtenir un devis ?",
+      "answer": "Vous pouvez demander un devis directement sur notre site en remplissant le formulaire en ligne."
+    },
+    {
+      "question": "Votre entreprise est-elle accessible aux personnes à mobilité réduite ?",
+      "answer": "Oui, notre entrée et notre parking sont accessibles en fauteuil roulant."
+    },
+    {
+      "question": "Quel est votre délai d'intervention ?",
+      "answer": "Nous nous engageons à respecter les délais convenus lors de la planification du chantier."
+    }
+  ],
+  "contact": {
+    "phone": "+33 7 70 07 87 75",
+    "city": "Bordeaux",
+    "address": "15 Rue Francis Garnier, 33300 Bordeaux",
+    "maps_url": "https://www.google.com/maps/place/Les+Couvreurs+de+Bordeaux/@44.8730883,-0.5645011999999999,14z/data=!4m8!1m2!2m1!1sLes+Couvreurs+de+Bordeaux!3m4!1s0xd552966c3ba4a99:0x30751cd3cae3be1c!8m2!3d44.8730883!4d-0.5645011999999999"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "07:00 - 20:00",
+    "Lu": "07:00 - 20:00",
+    "Ma": "07:00 - 20:00",
+    "Me": "07:00 - 20:00",
+    "Sa": "08:00 - 19:00",
+    "Ve": "07:00 - 20:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-14T11:38:44.117Z",
+    "lead_id": "les-couvreurs-de-bordeaux-bordeaux-001",
+    "source": "outscraper",
+    "place_id": "ChIJmUq6w2YpVQ0RHL7jytMcdTA",
+    "version": 1
+  }
+}

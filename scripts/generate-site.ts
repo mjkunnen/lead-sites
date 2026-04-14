@@ -62,7 +62,8 @@ async function main() {
 
   // Stap 1: Outscraper search → bedrijfsdata + main photo + street view
   console.log("\n━━━ Stap 1/4: Bedrijfsdata ophalen ━━━");
-  const query = placeId || `${businessName}, ${city}`;
+  const countrySuffix = lang === "fr" ? ", France" : lang === "nl" ? ", Nederland" : "";
+  const query = placeId || `${businessName}, ${city}${countrySuffix}`;
   const business = await searchBusiness(query, lang);
 
   console.log(`  ✅ Gevonden: ${business.name}`);

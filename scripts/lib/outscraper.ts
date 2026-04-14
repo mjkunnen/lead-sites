@@ -74,18 +74,48 @@ export async function searchBusiness(query: string, lang = "nl"): Promise<Outscr
   console.log(`🔍 Zoeken: "${query}"`);
 
   const regionMap: Record<string, string> = { nl: "NL", fr: "FR", en: "US" };
+
+  // For FR: fetch more results and filter by city (Outscraper defaults to Paris)
+  const limit = lang === "fr" ? "20" : "1";
+
   const result = await apiRequest("/maps/search-v3", {
     query,
-    limit: "1",
+    limit,
     language: lang,
     region: regionMap[lang] || "NL",
   });
 
+  let data: any;
   if (result.id) {
-    const polled = await pollResult(result.id);
-    return extractBusiness(polled);
+    data = await pollResult(result.id);
+  } else {
+    data = result;
   }
-  return extractBusiness(result);
+
+  const businesses = data.data?.[0];
+  if (!businesses?.length) throw new Error("Geen resultaten gevonden");
+
+  if (lang === "fr" && businesses.length > 1) {
+    // Extract target city from query (last part before ", France")
+    const parts = query.split(",").map((p: string) => p.trim().toLowerCase());
+    const targetCity = parts.find((p: string) => p !== "france" && p.length > 2 && !/^(plombier|électricien|electricien|maçon|macon|couvreur|chauffagiste|menuisier|carreleur|peintre|paysagiste|serrurier|plaquiste|ramoneur|coiffeur)/.test(p));
+
+    if (targetCity) {
+      // Find first business in the target city
+      const match = businesses.find((b: any) => {
+        const addr = (b.full_address || b.address || "").toLowerCase();
+        const city = (b.city || "").toLowerCase();
+        return city.includes(targetCity) || addr.includes(targetCity);
+      });
+      if (match) {
+        console.log(`  📍 Gefilterd op stad: ${targetCity} (${businesses.length} resultaten → 1 match)`);
+        return match;
+      }
+      console.log(`  ⚠️  Geen resultaat in "${targetCity}", gebruik eerste resultaat`);
+    }
+  }
+
+  return businesses[0];
 }
 
 /** Search and return multiple results (up to `limit`) for filtering */
