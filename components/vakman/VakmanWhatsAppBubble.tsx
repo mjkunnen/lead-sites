@@ -3,8 +3,10 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanWhatsAppBubble({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const phone = content.contact?.phone;
   if (!phone) return null;
 
@@ -37,8 +39,8 @@ export default function VakmanWhatsAppBubble({ content }: { content: SiteContent
                 exit={{ opacity: 0, x: 10 }}
                 className="absolute bottom-full right-0 mb-3 bg-white rounded-xl shadow-lg px-4 py-2.5 whitespace-nowrap border border-slate-100"
               >
-                <p className="text-sm font-semibold text-slate-900">Stel uw vraag via WhatsApp</p>
-                <p className="text-[11px] text-slate-400">Reactie binnen 24 uur</p>
+                <p className="text-sm font-semibold text-slate-900">{tr.vakman.whatsappTooltip}</p>
+                <p className="text-[11px] text-slate-400">{tr.vakman.whatsappTooltipSub}</p>
                 {/* Triangle */}
                 <div className="absolute -bottom-1.5 right-5 w-3 h-3 bg-white border-r border-b border-slate-100 rotate-45" />
               </motion.div>

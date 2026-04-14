@@ -4,8 +4,10 @@ import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { SiteContent } from '@/lib/types';
+import { t, type Lang } from '@/lib/i18n';
 
-function Slider({ beforeUrl, afterUrl, label }: { beforeUrl: string; afterUrl: string; label: string }) {
+function Slider({ beforeUrl, afterUrl, label, lang }: { beforeUrl: string; afterUrl: string; label: string; lang?: Lang }) {
+  const tr = t(lang);
   const [position, setPosition] = useState(50);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -33,9 +35,9 @@ function Slider({ beforeUrl, afterUrl, label }: { beforeUrl: string; afterUrl: s
           handleMove(e.clientX);
         }}
       >
-        <Image src={afterUrl} alt="Na" fill className="object-cover" />
+        <Image src={afterUrl} alt={tr.vakman.afterLabel} fill className="object-cover" />
         <div className="absolute inset-0" style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}>
-          <Image src={beforeUrl} alt="Voor" fill className="object-cover" />
+          <Image src={beforeUrl} alt={tr.vakman.beforeLabel} fill className="object-cover" />
         </div>
         <div
           className="absolute top-0 bottom-0 w-0.5 bg-white z-10 shadow-lg"
@@ -48,10 +50,10 @@ function Slider({ beforeUrl, afterUrl, label }: { beforeUrl: string; afterUrl: s
           </div>
         </div>
         <div className="absolute top-3 left-3 bg-black/50 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full z-20">
-          Voor
+          {tr.vakman.beforeLabel}
         </div>
         <div className="absolute top-3 right-3 bg-black/50 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full z-20">
-          Na
+          {tr.vakman.afterLabel}
         </div>
       </motion.div>
       <p className="text-xs text-slate-500 font-medium text-center">{label}</p>
@@ -60,6 +62,7 @@ function Slider({ beforeUrl, afterUrl, label }: { beforeUrl: string; afterUrl: s
 }
 
 export default function VakmanBeforeAfterShowcase({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const items = content.before_after;
   if (!items || items.length === 0) return null;
 
@@ -73,16 +76,16 @@ export default function VakmanBeforeAfterShowcase({ content }: { content: SiteCo
         transition={{ duration: 0.5 }}
       >
         <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-          Resultaat
+          {tr.vakman.beforeAfterResultLabel}
         </span>
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 mt-1">
-          Voor &amp; na
+          {tr.vakman.beforeAfterTitle}
         </h2>
       </motion.div>
 
       <div className="space-y-6">
         {items.map((item, i) => (
-          <Slider key={i} beforeUrl={item.before_url} afterUrl={item.after_url} label={item.label} />
+          <Slider key={i} beforeUrl={item.before_url} afterUrl={item.after_url} label={item.label} lang={content.lang} />
         ))}
       </div>
     </section>

@@ -3,15 +3,17 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanLiveTicker({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const totalReviews = content.stats?.reviews_count ?? content.reviews.length;
   const messages = [
-    `⭐ ${totalReviews} tevreden klanten in ${content.contact.city}`,
-    `📞 Reactie binnen 24 uur`,
-    `✅ Gratis en vrijblijvende offerte`,
-    `🔧 ${content.stats?.projects ?? 100}+ projecten afgerond`,
-    `📍 Actief in ${content.contact.city} en omgeving`,
+    `⭐ ${totalReviews} ${tr.vakman.tickerClients} ${content.contact.city}`,
+    `📞 ${tr.vakman.tickerResponse}`,
+    `✅ ${tr.vakman.tickerQuote}`,
+    `🔧 ${content.stats?.projects ?? 100}+ ${tr.vakman.tickerProjects}`,
+    `📍 ${tr.vakman.tickerActive} ${content.contact.city} ${tr.vakman.tickerArea}`,
   ];
 
   const [index, setIndex] = useState(0);

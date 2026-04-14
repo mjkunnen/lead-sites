@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanServiceArea({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const city = content.contact.city;
 
   return (
@@ -33,13 +35,13 @@ export default function VakmanServiceArea({ content }: { content: SiteContent })
 
         <div className="relative z-10 text-center">
           <span className="text-[#004ac6] font-bold tracking-widest uppercase text-[10px]">
-            Werkgebied
+            {tr.vakman.serviceAreaLabel}
           </span>
           <h2 className="text-2xl font-bold tracking-tight text-slate-900 mt-1 mb-3">
-            {city} en omgeving
+            {city} {tr.vakman.serviceAreaSuffix}
           </h2>
           <p className="text-sm text-slate-500 max-w-sm mx-auto">
-            Wij zijn actief in {city} en omliggende gemeenten. Woont u net buiten ons gebied? Neem gerust contact op.
+            {tr.vakman.serviceAreaDesc1} {city} {tr.vakman.serviceAreaDesc2}
           </p>
         </div>
       </motion.div>
