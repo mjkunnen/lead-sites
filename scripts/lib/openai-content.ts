@@ -40,31 +40,53 @@ export async function generateContent(input: ContentInput, lang = "nl"): Promise
 
   const reviewSample = input.reviewTexts.slice(0, 8).join("\n---\n");
 
+  const langLabel = lang === "fr" ? "Frans" : lang === "nl" ? "Nederlands" : "Engels";
+
+  const langExamples = lang === "fr"
+    ? {
+        headline: "Votre [niche] à [ville]",
+        ctaPrimary: "Demander un devis",
+        ctaSecondary: "Voir nos réalisations",
+        badges: `"${input.rating || 4.5}★ Avis Google", "Devis gratuit", "Région ${input.city}"`,
+        noReviews: "Pas d'avis disponibles",
+        unknown: "inconnu",
+        notAvailable: "non disponible",
+      }
+    : {
+        headline: "Uw [niche] in [stad]",
+        ctaPrimary: "Offerte aanvragen",
+        ctaSecondary: "Bekijk projecten",
+        badges: `"${input.rating || 4.5}★ Google Reviews", "Gratis offerte", "Regio ${input.city}"`,
+        noReviews: "Geen reviews beschikbaar",
+        unknown: "onbekend",
+        notAvailable: "niet beschikbaar",
+      };
+
   const prompt = `Je bent een copywriter voor een premium leadgeneratie website. Schrijf content voor het volgende bedrijf.
 
 BEDRIJF: ${input.businessName}
 NICHE: ${input.niche}
 STAD: ${input.city}
 CATEGORIE: ${input.category}
-RATING: ${input.rating || "onbekend"}
-BESCHRIJVING: ${input.description || "niet beschikbaar"}
+RATING: ${input.rating || langExamples.unknown}
+BESCHRIJVING: ${input.description || langExamples.notAvailable}
 
 ECHTE REVIEWS:
-${reviewSample || "Geen reviews beschikbaar"}
+${reviewSample || langExamples.noReviews}
 
 REGELS:
-- Schrijf in het ${lang === "nl" ? "Nederlands" : "Engels"}
+- Schrijf in het ${langLabel}${lang === "fr" ? ". Gebruik de u-vorm (vous), professioneel maar warm." : ""}
 - Noem ALLEEN services die in de reviews of beschrijving voorkomen. Verzin NIETS.
 - Tagline: max 4 woorden, krachtig
 - About: 2-3 zinnen over het bedrijf, gebaseerd op wat de reviews zeggen
-- Hero headline: "Uw [niche] in [stad]" formaat
+- Hero headline: "${langExamples.headline}" formaat
 - Hero subheadline: 1 zin die de kernbelofte samenvat
-- CTA primary: actiegericht (bijv. "Offerte aanvragen")
-- CTA secondary: laagdrempelig (bijv. "Bekijk projecten")
+- CTA primary: actiegericht (bijv. "${langExamples.ctaPrimary}")
+- CTA secondary: laagdrempelig (bijv. "${langExamples.ctaSecondary}")
 - Services: 3-4 items, elk met title, text (1-2 zinnen), en icon
 - Icons MOETEN uit deze lijst komen: hammer, saw, ruler, drill, bricks, trowel, wall, tiles, level, bathroom, floor, kitchen, wrench, scissors, palette, sparkles
 - FAQ: 4 vragen die een potentiële klant zou stellen, met concrete antwoorden
-- Trust badges: 3 items, CONCREET met echte data. Formaat voorbeelden: "${input.rating || 4.5}★ Google Reviews", "Gratis offerte", "Regio ${input.city}". Gebruik de echte rating en stad.
+- Trust badges: 3 items, CONCREET met echte data. Formaat voorbeelden: ${langExamples.badges}. Gebruik de echte rating en stad.
 
 Geef ALLEEN valid JSON terug in dit exacte formaat:
 {

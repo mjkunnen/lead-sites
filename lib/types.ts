@@ -5,7 +5,7 @@ export type IconName =
 
 export interface SiteContent {
   slug: string;
-  lang?: "en" | "nl";
+  lang?: "en" | "nl" | "fr";
   business_name: string;
   niche: string;
   theme: "bold";

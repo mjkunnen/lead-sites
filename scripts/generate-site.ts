@@ -24,8 +24,9 @@ function getFlagValue(flag: string): string | undefined {
 const dryRun = hasFlag("--dry-run");
 const force = hasFlag("--force");
 const placeId = getFlagValue("--place-id");
+const lang = (getFlagValue("--lang") || "nl") as "en" | "nl" | "fr";
 
-const flagsWithValues = new Set(["--place-id"]);
+const flagsWithValues = new Set(["--place-id", "--lang"]);
 const positional: string[] = [];
 for (let i = 0; i < args.length; i++) {
   if (args[i].startsWith("--")) {
@@ -40,11 +41,13 @@ if (!placeId && positional.length < 2) {
 Gebruik:
   npx tsx scripts/generate-site.ts "Bedrijfsnaam" "Stad"
   npx tsx scripts/generate-site.ts --place-id "ChIJ..."
+  npx tsx scripts/generate-site.ts --lang fr "Plomberie Dupont" "Lyon"
 
 Opties:
   --dry-run     Toon output zonder te schrijven
   --force       Overschrijf bestaande site
   --place-id    Zoek op Google Place ID (skip search)
+  --lang        Taal: nl (default), fr, en
 `);
   process.exit(1);
 }
@@ -108,7 +111,7 @@ async function main() {
     reviewTexts,
     description,
     category: business.category,
-  });
+  }, lang);
   console.log(`  ✅ Tagline: "${generated.tagline}"`);
   console.log(`  🔧 ${generated.services.length} services, ${generated.faq.length} FAQ's`);
 
@@ -120,7 +123,7 @@ async function main() {
   const siteReviews = reviews.slice(0, 6).map((r) => {
     const date = r.review_datetime_utc ? formatReviewDate(r.review_datetime_utc) : undefined;
     return {
-      name: r.author_title || "Anoniem",
+      name: r.author_title || (lang === "fr" ? "Anonyme" : "Anoniem"),
       text: r.review_text || "",
       stars: Math.min(5, Math.max(1, r.review_rating || 5)),
       ...(date ? { date } : {}),
@@ -129,7 +132,7 @@ async function main() {
 
   const content: SiteContent & { metadata: SiteContent["metadata"] & { source?: string; place_id?: string } } = {
     slug,
-    lang: "nl",
+    lang,
     business_name: resolvedName,
     niche,
     theme: "bold",
@@ -184,10 +187,12 @@ async function main() {
 }
 
 function formatReviewDate(utcDate: string): string {
-  const months = [
-    "januari", "februari", "maart", "april", "mei", "juni",
-    "juli", "augustus", "september", "oktober", "november", "december",
-  ];
+  const monthsByLang: Record<string, string[]> = {
+    nl: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    fr: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+    en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  };
+  const months = monthsByLang[lang] || monthsByLang.nl;
   const d = new Date(utcDate);
   if (isNaN(d.getTime())) return "";
   return `${months[d.getMonth()]} ${d.getFullYear()}`;

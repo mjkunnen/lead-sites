@@ -66,6 +66,32 @@ const NICHE_MAP: Record<string, string> = {
   kapper: "kapper",
   "hair salon": "kapper",
   barbershop: "kapper",
+
+  // ── Franse niches ──
+  plombier: "loodgieter",
+  plomberie: "loodgieter",
+  électricien: "elektricien",
+  electricien: "elektricien",
+  maçon: "metselaar",
+  macon: "metselaar",
+  maçonnerie: "metselaar",
+  couvreur: "dakdekker",
+  chauffagiste: "installateur",
+  menuisier: "timmerman",
+  menuiserie: "timmerman",
+  charpentier: "timmerman",
+  carreleur: "tegelzetter",
+  carrelage: "tegelzetter",
+  "peintre en bâtiment": "schilder",
+  "peintre en batiment": "schilder",
+  peintre: "schilder",
+  paysagiste: "hovenier",
+  jardinier: "hovenier",
+  serrurier: "slotenmaker",
+  plaquiste: "stukadoor",
+  ramoneur: "schoorsteenveger",
+  coiffeur: "kapper",
+  "salon de coiffure": "kapper",
 };
 
 export function detectNiche(category: string): string {
@@ -106,6 +132,18 @@ const DAY_MAP: Record<string, string> = {
   vr: "Vr",
   za: "Za",
   zo: "Zo",
+  // French days
+  lundi: "Lu",
+  mardi: "Ma",
+  mercredi: "Me",
+  jeudi: "Je",
+  vendredi: "Ve",
+  samedi: "Sa",
+  dimanche: "Di",
+  lu: "Lu",
+  me: "Me",
+  je: "Je",
+  ve: "Ve",
 };
 
 export function formatWorkingHours(hours: Record<string, any> | null): Record<string, string> | undefined {
@@ -119,8 +157,8 @@ export function formatWorkingHours(hours: Record<string, any> | null): Record<st
     const timeStr = Array.isArray(time) ? time.join(", ") : String(time);
     const cleanTime = timeStr
       .replace(/\s*[–-]\s*/g, " - ")
-      .replace(/Closed|Gesloten/i, "Gesloten")
-      .replace(/Open 24 hours/i, "24 uur");
+      .replace(/Closed|Gesloten|Fermé/i, "Gesloten")
+      .replace(/Open 24 hours|Ouvert 24h/i, "24 uur");
     formatted[shortDay] = cleanTime;
   }
 
