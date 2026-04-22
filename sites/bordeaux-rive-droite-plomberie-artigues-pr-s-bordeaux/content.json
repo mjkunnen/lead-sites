@@ -6,7 +6,7 @@
   "theme": "bold",
   "palette": "vakman",
   "tagline": "Plomberie de confiance",
-  "about": "Bordeaux Rive Droite Plomberie est votre partenaire de confiance pour tous vos besoins en plomberie à Artigues-près-Bordeaux. Avec une équipe professionnelle et à l'écoute, nous nous engageons à fournir des solutions efficaces et de qualité.",
+  "about": "Bordeaux Rive Droite Plomberie est votre partenaire de choix pour toutes vos réparations de plomberie à Artigues-près-Bordeaux. Avec un service professionnel et des conseils avisés, nous vous garantissons un travail soigné et efficace.",
   "trust_badges": [
     "5★ Avis Google",
     "Devis gratuit",
@@ -19,25 +19,25 @@
   },
   "hero": {
     "headline": "Votre plombier à Artigues-près-Bordeaux",
-    "subheadline": "Des réparations rapides et fiables pour votre tranquillité d'esprit.",
+    "subheadline": "Des réparations fiables et rapides pour votre tranquillité d'esprit.",
     "cta_primary": "Demander un devis",
     "cta_secondary": "Voir nos réalisations",
     "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oBmcvL1sH-TWzNmDL3BpFw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=125.4957&pitch=0&thumbfov=100"
   },
   "services": [
     {
-      "title": "Réparation de fuites",
-      "text": "Nous détectons et réparons rapidement les fuites d'eau, vous garantissant un retour à la normale sans tracas.",
+      "title": "Services de réparation",
+      "text": "Nous intervenons rapidement pour tous vos besoins de réparation de plomberie, garantissant un travail de qualité.",
       "icon": "wrench"
     },
     {
       "title": "Devis en ligne",
-      "text": "Obtenez un devis détaillé et gratuit directement en ligne, adapté à vos besoins spécifiques.",
+      "text": "Obtenez un devis clair et détaillé pour vos travaux de plomberie, sans engagement.",
       "icon": "ruler"
     },
     {
-      "title": "Conseils professionnels",
-      "text": "Bénéficiez de conseils d'experts pour tous vos projets de plomberie, assurant une installation conforme et efficace.",
+      "title": "Conseils personnalisés",
+      "text": "Profitez de notre expertise pour des conseils adaptés à vos projets de plomberie.",
       "icon": "sparkles"
     }
   ],
@@ -91,20 +91,20 @@
   ],
   "faq": [
     {
-      "question": "Comment puis-je obtenir un devis ?",
-      "answer": "Vous pouvez demander un devis en ligne via notre site web, et nous vous répondrons rapidement."
+      "question": "Quelles réparations proposez-vous ?",
+      "answer": "Nous proposons des services de réparation pour toutes les installations de plomberie, y compris la détection de fuites et les réparations de tuyaux."
     },
     {
-      "question": "Intervenez-vous pour des urgences ?",
-      "answer": "Oui, nous sommes disponibles pour des interventions urgentes, notamment pour des fuites d'eau."
+      "question": "Comment obtenir un devis ?",
+      "answer": "Vous pouvez demander un devis en ligne via notre site, et nous vous répondrons rapidement avec une estimation détaillée."
     },
     {
-      "question": "Quels types de paiements acceptez-vous ?",
-      "answer": "Nous acceptons les paiements mobiles NFC pour plus de commodité."
+      "question": "Intervenez-vous rapidement en cas d'urgence ?",
+      "answer": "Oui, nous nous efforçons de répondre rapidement à toutes les demandes d'intervention, surtout en cas d'urgence."
     },
     {
-      "question": "Offrez-vous des conseils pour des projets de plomberie ?",
-      "answer": "Oui, nous fournissons des conseils techniques précieux pour tous vos projets."
+      "question": "Quels modes de paiement acceptez-vous ?",
+      "answer": "Nous acceptons les paiements mobiles NFC pour votre commodité."
     }
   ],
   "contact": {
@@ -123,7 +123,7 @@
     "Ve": "08:00 - 17:00"
   },
   "metadata": {
-    "generated_at": "2026-04-22T07:09:37.231Z",
+    "generated_at": "2026-04-22T08:12:29.285Z",
     "lead_id": "bordeaux-rive-droite-plomberie-artigues-pr-s-bordeaux-001",
     "source": "outscraper",
     "place_id": "ChIJGTLMEFEvVQ0RKrOnz5Nptd0",

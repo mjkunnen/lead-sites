@@ -1,0 +1,137 @@
+{
+  "slug": "dc-plomberie-toulouse",
+  "lang": "fr",
+  "business_name": "Dc Plomberie",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Plomberie de confiance",
+  "about": "Dc Plomberie est votre partenaire de confiance pour tous vos besoins en plomberie à Toulouse. Avec un service rapide, efficace et une attention particulière à la satisfaction du client, nous sommes fiers de notre réputation d'excellence.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Toulouse"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 216,
+    "reviews_count": 27
+  },
+  "hero": {
+    "headline": "Votre plombier à Toulouse",
+    "subheadline": "Interventions rapides et efficaces pour tous vos problèmes de plomberie.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2bY5AJJvlHnCISlQoVCo-fKziFWLHhTGPiTX5tmZhbAjIymW1zyZ6cgNvDROVrGyfSdJx2toCLpxVazIBsPv_5rFCNCHaqLmcEZxIrBuSrpuYJZMxkNghIyQkq_5HgBIMnh-5=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Réparation de fuites",
+      "text": "Nous intervenons rapidement pour résoudre toutes vos fuites d'eau, même en cas d'urgence.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Régulateur de pression",
+      "text": "Nous analysons et réglons vos problèmes de pression d'eau pour un confort optimal.",
+      "icon": "level"
+    },
+    {
+      "title": "Service réactif",
+      "text": "Notre équipe est disponible et arrangeante, prête à répondre à vos besoins en plomberie.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "Tarifs honnêtes",
+      "text": "Nous offrons un service de qualité à des prix transparents et raisonnables.",
+      "icon": "bricks"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2bY5AJJvlHnCISlQoVCo-fKziFWLHhTGPiTX5tmZhbAjIymW1zyZ6cgNvDROVrGyfSdJx2toCLpxVazIBsPv_5rFCNCHaqLmcEZxIrBuSrpuYJZMxkNghIyQkq_5HgBIMnh-5=w800-h600-k-no",
+      "alt": "Dc Plomberie project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jYvbZbAwJsBga-0UUF2wkA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=331.7183&pitch=0&thumbfov=100",
+      "alt": "Dc Plomberie project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Anneclaire Cremoux",
+      "text": "Fiable et très réactif.\nGrand merci pour votre gentillesse et votre bienveillance. Je recommande grandement",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "jean luc playa",
+      "text": "Merci pour votre intervention rapide et efficace. Je vous ai appelé un dimanche après midi. Nous avons convenu d'un rendez-vous le lendemain et la réparation à été rapide et avec le sourire.  Je recommande cet artisan",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "Laurent BONNART",
+      "text": "Super plombier. Réactif, sérieux et très compétent ! Le top du top !",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "Anna",
+      "text": "Super efficace et réactif, disponible et arrangeant. Rien à redire niveau qualité du service. Au top, je recommande :)",
+      "stars": 5,
+      "date": "novembre 2025"
+    },
+    {
+      "name": "Antoine Sireyjol",
+      "text": "Intervention quasi immédiate suite à une grosse fuite d'eau alors que je n'étais pas encore un client, travail impeccable et tarifs honnêtes. Je recommande les yeux fermés.",
+      "stars": 5,
+      "date": "septembre 2025"
+    },
+    {
+      "name": "Eduardo Scarone",
+      "text": "Excellent. Rapide et efficace. La sympathie en plus.\nÀ recommander sans hésiter.  👍🏽",
+      "stars": 5,
+      "date": "juillet 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle est votre réactivité en cas d'urgence ?",
+      "answer": "Nous nous engageons à intervenir rapidement, souvent le jour même, pour résoudre vos problèmes urgents."
+    },
+    {
+      "question": "Comment puis-je demander un devis ?",
+      "answer": "Vous pouvez demander un devis en nous contactant directement via notre site ou par téléphone."
+    },
+    {
+      "question": "Quels types de services proposez-vous ?",
+      "answer": "Nous proposons des services de réparation de fuites, réglage de régulateurs de pression, et un service réactif pour tous vos besoins en plomberie."
+    },
+    {
+      "question": "Avez-vous des avis clients ?",
+      "answer": "Oui, nous avons une note de 5★ sur Google, ce qui témoigne de notre satisfaction client."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 81 44 80 38",
+    "city": "Toulouse",
+    "address": "87 Av. de Muret, 31300 Toulouse",
+    "maps_url": "https://www.google.com/maps/place/Dc+Plomberie/@43.583075699999995,1.4264824999999999,14z/data=!4m8!1m2!2m1!1sDc+Plomberie!3m4!1s0x12aebb98fff3532b:0x9b0d4e668db9f43a!8m2!3d43.583075699999995!4d1.4264824999999999"
+  },
+  "working_hours": {
+    "Di": "24h/24/24",
+    "Je": "24h/24/24",
+    "Lu": "24h/24/24",
+    "Ma": "24h/24/24",
+    "Me": "24h/24/24",
+    "Sa": "24h/24/24",
+    "Ve": "24h/24/24"
+  },
+  "metadata": {
+    "generated_at": "2026-04-22T08:13:14.789Z",
+    "lead_id": "dc-plomberie-toulouse-001",
+    "source": "outscraper",
+    "place_id": "ChIJK1Pz_5i7rhIROvS5jWZODZs",
+    "version": 1
+  }
+}

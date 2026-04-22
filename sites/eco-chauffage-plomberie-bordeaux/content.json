@@ -5,8 +5,8 @@
   "niche": "installateur",
   "theme": "bold",
   "palette": "vakman",
-  "tagline": "Chauffage et Plomberie Fiables",
-  "about": "Eco Chauffage Plomberie est votre partenaire de confiance à Bordeaux pour tous vos travaux de plomberie et d'installation de chauffage. Notre équipe, dirigée par Stéphane et Sami, est reconnue pour son professionnalisme et son attention aux détails.",
+  "tagline": "Confiance et compétence",
+  "about": "Eco Chauffage Plomberie est une entreprise de confiance basée à Bordeaux, spécialisée dans l'installation et la réparation de systèmes de chauffage et de plomberie. Notre équipe est reconnue pour son professionnalisme, sa réactivité et son souci du détail.",
   "trust_badges": [
     "5★ Avis Google",
     "Devis gratuit",
@@ -18,32 +18,32 @@
     "reviews_count": 36
   },
   "hero": {
-    "headline": "Votre Chauffagiste à Bordeaux",
-    "subheadline": "Qualité et réactivité au rendez-vous.",
+    "headline": "Votre chauffagiste à Bordeaux",
+    "subheadline": "Des services de qualité pour votre confort",
     "cta_primary": "Demander un devis",
     "cta_secondary": "Voir nos réalisations",
     "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcWMd-oq0-dHOZNybdUc10fhIPvr20Cw-TQtFrChfk5X9qf3AmoOrF-QPzq_MH96O5SZ4KnW42vyYuDapTXqeTuJLpaSM0uKk453tKn79go38XdNf38LLuW_Cci5ras52xSw=w1600-h1000-k-no"
   },
   "services": [
     {
-      "title": "Installation de Chauffage",
-      "text": "Nous installons des systèmes de chauffage performants et économes en énergie, adaptés à vos besoins.",
-      "icon": "fire"
+      "title": "Installation de Climatisation",
+      "text": "Nous installons des systèmes de climatisation réversibles, garantissant confort et efficacité énergétique dans votre maison.",
+      "icon": "sparkles"
     },
     {
-      "title": "Plomberie Générale",
-      "text": "Confiez-nous vos travaux de plomberie pour un service soigné et rapide, avec un devis détaillé.",
+      "title": "Dépannage de Plomberie",
+      "text": "Notre équipe est à votre service pour toute urgence de plomberie, avec une attention particulière aux détails et à la satisfaction client.",
       "icon": "wrench"
     },
     {
-      "title": "Climatisation",
-      "text": "Nous proposons des installations de climatisation réversible, silencieuses et efficaces pour votre confort.",
-      "icon": "snowflake"
+      "title": "Changement de Chaudière",
+      "text": "Nous proposons un service complet pour le changement de chaudières à gaz, avec un devis rapide et détaillé.",
+      "icon": "drill"
     },
     {
-      "title": "Dépannage Rapide",
-      "text": "Notre équipe est disponible pour des dépannages rapides, vous assurant un service réactif et efficace.",
-      "icon": "tools"
+      "title": "Installation de Chauffe-eau",
+      "text": "L'installation de chauffe-eau est réalisée avec soin, en assurant la qualité et la durabilité des équipements choisis.",
+      "icon": "bathroom"
     }
   ],
   "gallery": [
@@ -56,11 +56,11 @@
       "alt": "ECO CHAUFFAGE PLOMBERIE project 2"
     },
     {
-      "url": "https://lh3.googleusercontent.com/grass-cs/ANxoTn1r-1BTnoz8zsVllsqyAUKCemiu3BQr8n6-N3k4BNVfli0RowjU7xT8Z9zZ1AzvYBnQtUKSqqSOc2NWC66lKriyQhHLXtMrbKkxFhEknTP-Qmmiao_rEs_LdJCdm9Wp9VFz3w=w800-h600-k-no",
+      "url": "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQ32HjmPAbp-o37busCtGTwmp2rIARlBAo3PtCiN0P56ntJGo5JPDCCXXLT3QiL1Z87kwilaID6Vf4uCXyHXP7CpayPvaWIRUPnJ24IDVDEuxLZLsYt8NiRsIAbVxPfsbuniA=w800-h600-k-no",
       "alt": "ECO CHAUFFAGE PLOMBERIE project 3"
     },
     {
-      "url": "https://lh3.googleusercontent.com/grass-cs/ANxoTn31kMGhUynkLF_9DtcK0Np_SN9qDTwR4VMmiuHR30KaWF_L61RT6fFr7VcEcwDgy6tuxBI7tn1DNWwGRmMKYIOKQCkbeDGaIaClnHEOHW7VOUziHDc4IfGGaDHDyw5SnJOs0wte=w800-h600-k-no",
+      "url": "https://lh3.googleusercontent.com/geougc-cs/AMG9lETKmCUfN1PntwMMmwiEpxrf_VA-ueL9F-Cb9z3nezuk9NSIxPaf7JHxPpJ9bfKY31GkEAztkivPpKRYPQs23YncD0O03H6Selv0MzW7y6yJh3DqectsRbxUa8RqDdF1kwr00UFG=w800-h600-k-no",
       "alt": "ECO CHAUFFAGE PLOMBERIE project 4"
     }
   ],
@@ -98,20 +98,20 @@
   ],
   "faq": [
     {
-      "question": "Quels services proposez-vous?",
-      "answer": "Nous offrons des services d'installation de chauffage, de plomberie générale, de climatisation et de dépannage rapide."
+      "question": "Quels types de chaudières installez-vous ?",
+      "answer": "Nous installons principalement des chaudières à gaz, adaptées à vos besoins et à votre budget."
     },
     {
-      "question": "Comment puis-je obtenir un devis?",
-      "answer": "Vous pouvez demander un devis en remplissant notre formulaire en ligne ou en nous contactant directement."
+      "question": "Proposez-vous des devis gratuits ?",
+      "answer": "Oui, nous offrons des devis gratuits et détaillés pour tous nos services."
     },
     {
-      "question": "Offrez-vous des services d'urgence?",
-      "answer": "Oui, nous proposons des services de dépannage rapide pour répondre à vos urgences en plomberie et chauffage."
+      "question": "Comment garantissez-vous la qualité de votre travail ?",
+      "answer": "Nous nous engageons à fournir un travail soigné et professionnel, comme en témoignent les avis de nos clients."
     },
     {
-      "question": "Dans quelle région intervenez-vous?",
-      "answer": "Nous intervenons principalement à Bordeaux et ses environs."
+      "question": "Quelles sont vos zones d'intervention ?",
+      "answer": "Nous intervenons principalement dans la région de Bordeaux et ses environs."
     }
   ],
   "contact": {
@@ -130,7 +130,7 @@
     "Ve": "08:30 - 18:00"
   },
   "metadata": {
-    "generated_at": "2026-04-22T07:09:57.342Z",
+    "generated_at": "2026-04-22T08:15:05.143Z",
     "lead_id": "eco-chauffage-plomberie-bordeaux-001",
     "source": "outscraper",
     "place_id": "ChIJvbOImGQnVQ0RE_FTistY9Es",

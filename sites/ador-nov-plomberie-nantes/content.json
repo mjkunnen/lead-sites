@@ -6,7 +6,7 @@
   "theme": "bold",
   "palette": "vakman",
   "tagline": "Plomberie de confiance",
-  "about": "ADORÉNOV PLOMBERIE est votre partenaire de confiance à Nantes pour tous vos besoins en plomberie. Grâce à leur professionnalisme et leur réactivité, ils s'assurent de répondre à vos attentes avec un travail de qualité.",
+  "about": "ADORÉNOV PLOMBERIE est votre partenaire de confiance à Nantes pour tous vos besoins en plomberie. Notre équipe se distingue par son professionnalisme, sa réactivité et son engagement envers la satisfaction client.",
   "trust_badges": [
     "4.4★ Avis Google",
     "Devis gratuit",
@@ -26,13 +26,13 @@
   },
   "services": [
     {
-      "title": "Services de réparation",
-      "text": "Nous offrons des services de réparation de plomberie pour résoudre tous vos problèmes rapidement et efficacement.",
+      "title": "Réparation de plomberie",
+      "text": "Nous offrons des services de réparation de plomberie pour tous vos besoins, y compris les fuites et les problèmes de chauffe-eau.",
       "icon": "wrench"
     },
     {
       "title": "Devis en ligne",
-      "text": "Recevez un devis en ligne simple et rapide pour vos projets de plomberie, sans engagement.",
+      "text": "Obtenez un devis en ligne rapide et facile pour tous vos projets de plomberie. Nous vous répondons rapidement.",
       "icon": "palette"
     }
   ],
@@ -80,20 +80,20 @@
   ],
   "faq": [
     {
-      "question": "Quels types de réparations de plomberie proposez-vous ?",
-      "answer": "Nous proposons une gamme complète de services de réparation, y compris le remplacement de ballons d'eau chaude et la réparation de fuites."
+      "question": "Quels types de réparations réalisez-vous ?",
+      "answer": "Nous réalisons des réparations de plomberie variées, y compris celles liées aux fuites, aux chauffe-eaux et aux installations sanitaires."
     },
     {
       "question": "Comment puis-je obtenir un devis ?",
-      "answer": "Vous pouvez demander un devis en ligne via notre site. Nous vous répondrons rapidement."
+      "answer": "Vous pouvez demander un devis en ligne via notre site, et nous vous répondrons rapidement."
     },
     {
-      "question": "Êtes-vous disponible pour des interventions d'urgence ?",
+      "question": "Offrez-vous des services d'urgence ?",
       "answer": "Oui, nous sommes disponibles pour des interventions d'urgence afin de résoudre vos problèmes de plomberie le plus rapidement possible."
     },
     {
       "question": "Quelle est votre zone d'intervention ?",
-      "answer": "Nous intervenons principalement dans la région de Nantes et ses environs."
+      "answer": "Nous intervenons principalement dans la région de Nantes."
     }
   ],
   "contact": {
@@ -112,7 +112,7 @@
     "Ve": "07:30 - 20:00"
   },
   "metadata": {
-    "generated_at": "2026-04-22T07:10:23.376Z",
+    "generated_at": "2026-04-22T08:14:45.754Z",
     "lead_id": "ador-nov-plomberie-nantes-001",
     "source": "outscraper",
     "place_id": "ChIJr9yahaDuBUgR7Wj9OTrKmsA",

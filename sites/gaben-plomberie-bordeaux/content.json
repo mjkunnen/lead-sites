@@ -1,0 +1,137 @@
+{
+  "slug": "gaben-plomberie-bordeaux",
+  "lang": "fr",
+  "business_name": "GABEN PLOMBERIE",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Plomberie de confiance",
+  "about": "Gaben Plomberie est votre expert en plomberie à Bordeaux, reconnu pour son efficacité et son professionnalisme. Avec des interventions rapides et un service client irréprochable, nous avons gagné la confiance de nos clients.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Bordeaux"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 152,
+    "reviews_count": 19
+  },
+  "hero": {
+    "headline": "Votre plombier à Bordeaux",
+    "subheadline": "Solutions rapides et efficaces pour tous vos besoins en plomberie.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7K7rb2jQ24G1ncToCfnydxl_iHEkDQC5mhwbi0P8lTpCXjLeSDmt7nNT5MWkNJ7Ts5tWeHqU6zCFLhoPvB7plkw83-FLhK-R4eUKu5TDvT7mSCEkR90uVsN8GYLOoNJ-Px4pD=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Remplacement de robinet",
+      "text": "Nous réalisons le remplacement de robinet avec soin et efficacité, garantissant votre satisfaction.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Adaptation des tuyaux",
+      "text": "Nos services incluent l'adaptation de tuyaux d'eau et d'évacuation pour des installations de cuisine modernes.",
+      "icon": "pipes"
+    },
+    {
+      "title": "Résolution de problèmes",
+      "text": "Nous sommes spécialisés dans la résolution rapide de problèmes complexes, comme les bruits de bulle d'air dans les radiateurs.",
+      "icon": "level"
+    },
+    {
+      "title": "Débouchage de canalisations",
+      "text": "Nous intervenons pour déboucher vos canalisations, assurant un écoulement optimal et évitant les inondations.",
+      "icon": "drill"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7K7rb2jQ24G1ncToCfnydxl_iHEkDQC5mhwbi0P8lTpCXjLeSDmt7nNT5MWkNJ7Ts5tWeHqU6zCFLhoPvB7plkw83-FLhK-R4eUKu5TDvT7mSCEkR90uVsN8GYLOoNJ-Px4pD=w800-h600-k-no",
+      "alt": "GABEN PLOMBERIE project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YO7cr7dQpxvQZKD894PzHw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=330.91406&pitch=0&thumbfov=100",
+      "alt": "GABEN PLOMBERIE project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Mathias Miranda Ellis",
+      "text": "Intervention pour un remplacement d’un robinet de toilettes. Je recommande pour son efficacité et sa politesse !",
+      "stars": 5,
+      "date": "avril 2026"
+    },
+    {
+      "name": "STEPHANE D",
+      "text": "Devis rapide, intervention rapide, très bonne réalisation. Supression tuyaux en gaz et adaptation des tuyaux d'eau et d'évacuation pour nouvelle cuisine. Très bon rapport qualité-prix.\nNous sommes très satisfaits !",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "margaux bagur",
+      "text": "Un plombier / chauffagiste comme on aimerait en avoir tous les jours. Rapide, soigné et adorable, je recommande.",
+      "stars": 5,
+      "date": "décembre 2025"
+    },
+    {
+      "name": "Julian Fabia",
+      "text": "Travail très professionnel et soigné.\nMr Gaben a solutionné un problème d'entrée d'air dans notre chaudière en 5 minutes. Nous avions fait appel a 2 autres entreprises de plomberie avant lui et aucune n'avait réussi a régler ce problème qui avait pour conséquence des bruits de bulle d'air dans les radiateurs en pleine nuit😣\nJe recommande vraiment cet artisan.",
+      "stars": 5,
+      "date": "novembre 2025"
+    },
+    {
+      "name": "Audrey Séguy",
+      "text": "Réactif et hyper sympa! Nicolas nous a sauvé la vie suite à une douche bouchée plusieurs fois d’affilée qui nous empêchait de se doucher convenablement… (inondation à répétition, remontée via le lavabo…)\nNous avions pourtant fait venir plusieurs plombiers qui n’avaient jusqu’alors pas trouvé la solution. Quel soulagement ! Je recommande +++",
+      "stars": 5,
+      "date": "août 2025"
+    },
+    {
+      "name": "SV Diffusion",
+      "text": "Plombier réactif, agréable et professionnel. Explications claires.",
+      "stars": 5,
+      "date": "juin 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de services offrez-vous ?",
+      "answer": "Nous offrons des services de réparation, de remplacement de robinets, d'adaptation de tuyaux et de débouchage de canalisations."
+    },
+    {
+      "question": "Comment puis-je demander un devis ?",
+      "answer": "Vous pouvez demander un devis en cliquant sur le bouton 'Demander un devis' sur notre site."
+    },
+    {
+      "question": "Êtes-vous disponible pour des interventions d'urgence ?",
+      "answer": "Oui, nous proposons des interventions rapides, y compris pour les situations d'urgence."
+    },
+    {
+      "question": "Quel est votre zone d'intervention ?",
+      "answer": "Nous intervenons dans toute la région de Bordeaux."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 47 97 36 16",
+    "city": "Bordeaux",
+    "address": "25 Rue Fragonard, 33200 Bordeaux",
+    "maps_url": "https://www.google.com/maps/place/GABEN+PLOMBERIE/@44.8546495,-0.6346812,14z/data=!4m8!1m2!2m1!1sGABEN+PLOMBERIE!3m4!1s0xa9f799782a4c0ee7:0x4d981005d43b6a80!8m2!3d44.8546495!4d-0.6346812"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "08:00 - 18:00",
+    "Lu": "08:00 - 18:00",
+    "Ma": "08:00 - 18:00",
+    "Me": "08:00 - 18:00",
+    "Sa": "08:00 - 18:00",
+    "Ve": "08:00 - 18:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-22T08:14:25.813Z",
+    "lead_id": "gaben-plomberie-bordeaux-001",
+    "source": "outscraper",
+    "place_id": "ChIJ5w5MKniZ96kRgGo71AUQmE0",
+    "version": 1
+  }
+}

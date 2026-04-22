@@ -1,0 +1,132 @@
+{
+  "slug": "etcheverry-artisan-d-pannage-et-installation-bordeaux",
+  "lang": "fr",
+  "business_name": "Etcheverry Artisan - Dépannage et Installation",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "L'excellence en plomberie",
+  "about": "Etcheverry Artisan est un plombier de confiance à Bordeaux, reconnu pour son sérieux et sa réactivité. Nous nous engageons à offrir des services de dépannage et d'installation avec une attention particulière à la satisfaction de nos clients.",
+  "trust_badges": [
+    "4.5★ Avis Google",
+    "Devis gratuit",
+    "Région Bordeaux"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 528,
+    "reviews_count": 66
+  },
+  "hero": {
+    "headline": "Votre plombier à Bordeaux",
+    "subheadline": "Services de plomberie fiables et rapides.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYlA9vwbJfYmM-1RfCvYisnm3rTaMuPTxTFRMP10hfEK9UBt94TOo6pcEbVhqyvZR7oP9_biPTJU7wUbwpmL9XXjHiszifOQqOr1IUBE_twtME7lkS2odvHZ-MUF4u7RP-7HfYwwzZAPJW=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Dépannage rapide",
+      "text": "Nous intervenons rapidement pour résoudre tous vos problèmes de plomberie, garantissant un service efficace et professionnel.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Installation de plomberie",
+      "text": "Confiez-nous vos projets d'installation, nous assurons un travail soigné et conforme aux normes.",
+      "icon": "drill"
+    },
+    {
+      "title": "Devis en ligne",
+      "text": "Obtenez un devis précis et gratuit en ligne, pour une transparence totale sur nos tarifs.",
+      "icon": "palette"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYlA9vwbJfYmM-1RfCvYisnm3rTaMuPTxTFRMP10hfEK9UBt94TOo6pcEbVhqyvZR7oP9_biPTJU7wUbwpmL9XXjHiszifOQqOr1IUBE_twtME7lkS2odvHZ-MUF4u7RP-7HfYwwzZAPJW=w800-h600-k-no",
+      "alt": "Etcheverry Artisan - Dépannage et Installation project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=02nmay87YHU3KyEfZLoCZA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=340.8051&pitch=0&thumbfov=100",
+      "alt": "Etcheverry Artisan - Dépannage et Installation project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Lolo Lolo",
+      "text": "Dépannage rapide, très satisfait de cette entreprise.",
+      "stars": 5,
+      "date": "avril 2026"
+    },
+    {
+      "name": "multiserv 33 Cenon",
+      "text": "Tres bonne experience merci a vous",
+      "stars": 5,
+      "date": "mars 2026"
+    },
+    {
+      "name": "Ze Thib",
+      "text": "Je pense qu'on peux essaiment dire que ce personnage abuse de certaines situations pour faire payer le prix fort et le tout sans facture, on peut appeler cela de l'escroquerie ! Lisez bien les avis négatifs avant de contacter ce \"plombier\".",
+      "stars": 1,
+      "date": "décembre 2025"
+    },
+    {
+      "name": "Tom",
+      "text": "Rapide et sérieux merci d’avance",
+      "stars": 5,
+      "date": "octobre 2025"
+    },
+    {
+      "name": "Jessie DI JULIO",
+      "text": "A FUIR! Technique bien rodée!! Le \"technicien\" arrive en voiture avec comme outil un sac poubelle...pourtant est écrit sur leur facture \"produit pro de débouchage\"...j'ai tant bien que mal eu le \"patron\" au téléphone qui m'a dit s'être fait avoir par son employé qui lui vole ces clients et ensuite, l'employé nous menace au téléphone. Jamais eu de nouvelle du \"patron\"!! des voleurs tout simplement!!!",
+      "stars": 1,
+      "date": "septembre 2025"
+    },
+    {
+      "name": "LEBRUN SOPHIE",
+      "text": "Chantier laissé à l'abandon. Ils sous traitent les travaux, communication très chaotique avec l'entreprise,  même le sous traitant n'arrivait pas à joindre l'entreprise. Les travaux ont été très mal réalisés, ils n'ont pas été achevés, plus personne ne répond au téléphone et ils n'ont pas récupéré le recommandé adressé pour mise en demeure de terminer les travaux. Une escroquerie. 1 étoile parce qu'on ne peut mettre 0.",
+      "stars": 1,
+      "date": "août 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Comment puis-je obtenir un devis?",
+      "answer": "Vous pouvez demander un devis en ligne sur notre site, c'est rapide et gratuit."
+    },
+    {
+      "question": "Quels types de services proposez-vous?",
+      "answer": "Nous offrons des services de dépannage et d'installation en plomberie."
+    },
+    {
+      "question": "Acceptez-vous les paiements par carte?",
+      "answer": "Oui, nous acceptons les paiements par carte de crédit et paiements mobiles NFC."
+    },
+    {
+      "question": "Êtes-vous une entreprise LGBTQ+ friendly?",
+      "answer": "Absolument, nous sommes une entreprise ouverte et accueillante pour tous."
+    }
+  ],
+  "contact": {
+    "phone": "+33 7 44 77 40 09",
+    "city": "Bordeaux",
+    "address": "16 Pl. des Quinconces, 33000 Bordeaux",
+    "maps_url": "https://www.google.com/maps/place/Etcheverry+Artisan+-+D%C3%A9pannage+et+Installation/@44.8462043,-0.5755473,14z/data=!4m8!1m2!2m1!1sEtcheverry+Artisan+-+D%C3%A9pannage+et+Installation!3m4!1s0xa75619eab1171cc3:0x89f105e3a79158dd!8m2!3d44.8462043!4d-0.5755473"
+  },
+  "working_hours": {
+    "Di": "07:00 - 20:00",
+    "Je": "07:00 - 20:00",
+    "Lu": "07:00 - 20:00",
+    "Ma": "07:00 - 20:00",
+    "Me": "07:00 - 20:00",
+    "Sa": "07:00 - 20:00",
+    "Ve": "07:00 - 20:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-22T08:12:52.863Z",
+    "lead_id": "etcheverry-artisan-d-pannage-et-installation-bordeaux-001",
+    "source": "outscraper",
+    "place_id": "ChIJwxwXseoZVqcR3ViRp-MF8Yk",
+    "version": 1
+  }
+}
