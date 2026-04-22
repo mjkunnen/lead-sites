@@ -4,8 +4,10 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import TiltImage from '@/components/lead/TiltImage';
 import type { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 export default function VakmanHeroImage({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -36,7 +38,7 @@ export default function VakmanHeroImage({ content }: { content: SiteContent }) {
                 {content.business_name}
               </span>
               <a href="#projecten" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-white/20 backdrop-blur-md text-white text-xs font-subheading font-medium hover:bg-white/30 transition-colors">
-                Bekijk <span className="text-sm">↗</span>
+                {tr.vakman.ctaProjects} <span className="text-sm">↗</span>
               </a>
             </div>
           </div>

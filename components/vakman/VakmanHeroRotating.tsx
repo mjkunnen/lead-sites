@@ -6,24 +6,57 @@ import { SiteContent } from '@/lib/types';
 import { getHeroImage } from '@/lib/stock-images';
 import { t } from '@/lib/i18n';
 
-const nicheWords: Record<string, string[]> = {
-  keuken: ['Strak', 'Vakkundig', 'Op maat'],
-  keukenmontage: ['Strak', 'Vakkundig', 'Op maat'],
-  schilder: ['Strak', 'Kleurvast', 'Vakkundig'],
-  loodgieter: ['Snel', 'Betrouwbaar', 'Vakkundig'],
-  timmerman: ['Solide', 'Op maat', 'Duurzaam'],
-  tegelzetter: ['Strak', 'Nauwkeurig', 'Op maat'],
-  aannemer: ['Compleet', 'Betrouwbaar', 'Vakkundig'],
-  dakdekker: ['Waterdicht', 'Duurzaam', 'Vakkundig'],
-  elektricien: ['Veilig', 'Gecertificeerd', 'Betrouwbaar'],
-  hovenier: ['Groen', 'Creatief', 'Onderhoudsvriendelijk'],
-  badkamer: ['Luxe', 'Op maat', 'Strak'],
-  vloerlegger: ['Vlak', 'Nauwkeurig', 'Duurzaam'],
+const nicheWordsByLang: Record<string, Record<string, string[]>> = {
+  nl: {
+    keuken: ['Strak', 'Vakkundig', 'Op maat'],
+    keukenmontage: ['Strak', 'Vakkundig', 'Op maat'],
+    schilder: ['Strak', 'Kleurvast', 'Vakkundig'],
+    loodgieter: ['Snel', 'Betrouwbaar', 'Vakkundig'],
+    timmerman: ['Solide', 'Op maat', 'Duurzaam'],
+    tegelzetter: ['Strak', 'Nauwkeurig', 'Op maat'],
+    aannemer: ['Compleet', 'Betrouwbaar', 'Vakkundig'],
+    dakdekker: ['Waterdicht', 'Duurzaam', 'Vakkundig'],
+    elektricien: ['Veilig', 'Gecertificeerd', 'Betrouwbaar'],
+    hovenier: ['Groen', 'Creatief', 'Onderhoudsvriendelijk'],
+    badkamer: ['Luxe', 'Op maat', 'Strak'],
+    vloerlegger: ['Vlak', 'Nauwkeurig', 'Duurzaam'],
+    installateur: ['Snel', 'Betrouwbaar', 'Vakkundig'],
+    metselaar: ['Solide', 'Duurzaam', 'Vakkundig'],
+  },
+  fr: {
+    keuken: ['Soigné', 'Professionnel', 'Sur mesure'],
+    keukenmontage: ['Soigné', 'Professionnel', 'Sur mesure'],
+    schilder: ['Soigné', 'Durable', 'Professionnel'],
+    loodgieter: ['Rapide', 'Fiable', 'Professionnel'],
+    timmerman: ['Solide', 'Sur mesure', 'Durable'],
+    tegelzetter: ['Précis', 'Soigné', 'Sur mesure'],
+    aannemer: ['Complet', 'Fiable', 'Professionnel'],
+    dakdekker: ['Étanche', 'Durable', 'Professionnel'],
+    elektricien: ['Sécurisé', 'Certifié', 'Fiable'],
+    hovenier: ['Créatif', 'Durable', 'Sur mesure'],
+    badkamer: ['Luxueux', 'Sur mesure', 'Soigné'],
+    vloerlegger: ['Précis', 'Durable', 'Soigné'],
+    installateur: ['Rapide', 'Fiable', 'Professionnel'],
+    metselaar: ['Solide', 'Durable', 'Professionnel'],
+  },
+  en: {
+    loodgieter: ['Fast', 'Reliable', 'Professional'],
+    dakdekker: ['Watertight', 'Durable', 'Professional'],
+    metselaar: ['Solid', 'Durable', 'Professional'],
+    installateur: ['Fast', 'Reliable', 'Professional'],
+  },
 };
 
 export default function VakmanHeroRotating({ content }: { content: SiteContent }) {
   const tr = t(content.lang);
-  const words = nicheWords[content.niche?.toLowerCase() ?? ''] ?? ['Strak', 'Vakkundig', 'Betrouwbaar'];
+  const lang = content.lang || 'nl';
+  const langWords = nicheWordsByLang[lang] || nicheWordsByLang.nl;
+  const fallbacks: Record<string, string[]> = {
+    nl: ['Strak', 'Vakkundig', 'Betrouwbaar'],
+    fr: ['Soigné', 'Fiable', 'Professionnel'],
+    en: ['Quality', 'Reliable', 'Professional'],
+  };
+  const words = langWords[content.niche?.toLowerCase() ?? ''] ?? fallbacks[lang] ?? fallbacks.nl;
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

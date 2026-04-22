@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { SiteContent } from '@/lib/types';
+import { t } from '@/lib/i18n';
 
 function AnimatedNumber({ value, suffix = '', duration = 2 }: { value: number; suffix?: string; duration?: number }) {
   const [display, setDisplay] = useState(0);
@@ -27,6 +28,7 @@ function AnimatedNumber({ value, suffix = '', duration = 2 }: { value: number; s
 }
 
 export default function VakmanStats({ content }: { content: SiteContent }) {
+  const tr = t(content.lang);
   const stats = content.stats;
   const reviewCount = content.reviews?.length ?? 0;
   const avgRating = reviewCount > 0
@@ -34,8 +36,8 @@ export default function VakmanStats({ content }: { content: SiteContent }) {
     : '5.0';
 
   const items = [
-    { value: stats?.years ?? 10, suffix: '+', label: 'Jaar' },
-    { value: stats?.projects ?? 500, suffix: '+', label: 'Projecten' },
+    { value: stats?.years ?? 10, suffix: '+', label: tr.vakman.statsYears },
+    { value: stats?.projects ?? 500, suffix: '+', label: tr.vakman.statsProjects },
   ];
 
   return (
