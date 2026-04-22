@@ -1,0 +1,121 @@
+{
+  "slug": "ador-nov-plomberie-nantes",
+  "lang": "fr",
+  "business_name": "ADORÉNOV PLOMBERIE",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Plomberie de confiance",
+  "about": "ADORÉNOV PLOMBERIE est votre partenaire de confiance à Nantes pour tous vos besoins en plomberie. Grâce à leur professionnalisme et leur réactivité, ils s'assurent de répondre à vos attentes avec un travail de qualité.",
+  "trust_badges": [
+    "4.4★ Avis Google",
+    "Devis gratuit",
+    "Région Nantes"
+  ],
+  "stats": {
+    "years": 4,
+    "projects": 376,
+    "reviews_count": 47
+  },
+  "hero": {
+    "headline": "Votre plombier à Nantes",
+    "subheadline": "Services de plomberie rapides et fiables.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=p0ebMhWXWfKhObX96otx7A&cb_client=search.gws-prod.gps&w=800&h=500&yaw=39.38489&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Services de réparation",
+      "text": "Nous offrons des services de réparation de plomberie pour résoudre tous vos problèmes rapidement et efficacement.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Devis en ligne",
+      "text": "Recevez un devis en ligne simple et rapide pour vos projets de plomberie, sans engagement.",
+      "icon": "palette"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=p0ebMhWXWfKhObX96otx7A&cb_client=search.gws-prod.gps&w=800&h=500&yaw=39.38489&pitch=0&thumbfov=100",
+      "alt": "ADORÉNOV PLOMBERIE project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=p0ebMhWXWfKhObX96otx7A&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=39.38489&pitch=0&thumbfov=100",
+      "alt": "ADORÉNOV PLOMBERIE project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Amaury Poudray",
+      "text": "Très bon contact, disponible rapidement. Travail sérieux. Je recommande",
+      "stars": 5,
+      "date": "avril 2026"
+    },
+    {
+      "name": "Jordan MONIZ",
+      "text": "Réactivité, professionnalisme, flexibilité et sympathie, je recommande vivement Adorenov. Ballon d'eau chaude changé en moins de 24h avec évaluation des différentes options qui so'ffraient à moi. Professionnel de confiance. Merci Adorenov!",
+      "stars": 5,
+      "date": "mars 2026"
+    },
+    {
+      "name": "Gerard Saigault",
+      "text": "Il faut apprendre à répondre aux messages vocaux , aux SMS et lorsque l'on vous a en direct à expédier les devis promis. Après 3 semaines d'attente j'ai téléphoné à un plombier courtois qui m'a dépanné dès le lendemain pour un prix modeste",
+      "stars": 1,
+      "date": "juillet 2024"
+    },
+    {
+      "name": "Martin Bouvier",
+      "text": "Nous avons fait intervenir deux fois Adorenov pour notre appartement. Deux équipes différentes sont intervenues. Les deux fois, nous avons été très satisfait (travail de qualité, efficacité, propreté, à l'écoute).\nNous recommandons fortement.",
+      "stars": 5,
+      "date": "mars 2024"
+    },
+    {
+      "name": "Stéphanie Rodrigues Devesas - Avocate",
+      "text": "Pour la seconde fois, nous avons fait appel à ADORÉNOV PLOMBERIE, et une fois de plus, leur service a été exceptionnel. Leur travail se caractérise par une qualité irréprochable, une rapidité et une efficacité remarquables. Toujours disponibles, ils répondent à nos besoins avec une compétence et une réactivité impressionnantes.\n\nLeur relationnel est tout simplement extraordinaire. Chaque interaction est agréable, les explications sont claires et détaillées, et ils font preuve d'une grande patience et compréhension. Ce n'est pas seulement leur expertise technique qui nous impressionne, mais également leur capacité à établir une relation de confiance et de respect avec nous, leurs clients.\n\nNous recommandons vivement ADORÉNOV PLOMBERIE à tous ceux qui recherchent des services de plomberie.  Un grand merci à toute l'équipe d'ADORÉNOV PLOMBERIE pour leur travail remarquable et leur professionnalisme exceptionnel.",
+      "stars": 5,
+      "date": "janvier 2024"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de réparations de plomberie proposez-vous ?",
+      "answer": "Nous proposons une gamme complète de services de réparation, y compris le remplacement de ballons d'eau chaude et la réparation de fuites."
+    },
+    {
+      "question": "Comment puis-je obtenir un devis ?",
+      "answer": "Vous pouvez demander un devis en ligne via notre site. Nous vous répondrons rapidement."
+    },
+    {
+      "question": "Êtes-vous disponible pour des interventions d'urgence ?",
+      "answer": "Oui, nous sommes disponibles pour des interventions d'urgence afin de résoudre vos problèmes de plomberie le plus rapidement possible."
+    },
+    {
+      "question": "Quelle est votre zone d'intervention ?",
+      "answer": "Nous intervenons principalement dans la région de Nantes et ses environs."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 67 51 51 97",
+    "city": "Nantes",
+    "address": "2 Rue Sarrazin, 44000 Nantes",
+    "maps_url": "https://www.google.com/maps/place/ADOR%C3%89NOV+PLOMBERIE/@47.2203205,-1.5598436,14z/data=!4m8!1m2!2m1!1sADOR%C3%89NOV+PLOMBERIE!3m4!1s0x4805eea0859adcaf:0xc09aca3a39fd68ed!8m2!3d47.2203205!4d-1.5598436"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "07:30 - 20:00",
+    "Lu": "07:30 - 20:00",
+    "Ma": "07:30 - 20:00",
+    "Me": "07:30 - 20:00",
+    "Sa": "Fermé",
+    "Ve": "07:30 - 20:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-22T07:10:23.376Z",
+    "lead_id": "ador-nov-plomberie-nantes-001",
+    "source": "outscraper",
+    "place_id": "ChIJr9yahaDuBUgR7Wj9OTrKmsA",
+    "version": 1
+  }
+}

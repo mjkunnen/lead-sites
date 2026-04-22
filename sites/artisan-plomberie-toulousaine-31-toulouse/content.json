@@ -1,0 +1,131 @@
+{
+  "slug": "artisan-plomberie-toulousaine-31-toulouse",
+  "lang": "fr",
+  "business_name": "Artisan Plomberie Toulousaine 31",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "L'excellence en plomberie",
+  "about": "Artisan Plomberie Toulousaine 31 est votre partenaire de confiance à Toulouse pour tous vos besoins en plomberie. Avec une note de 4.9, notre équipe est reconnue pour son efficacité, sa courtoisie et la qualité de son travail.",
+  "trust_badges": [
+    "4.9★ Avis Google",
+    "Devis gratuit",
+    "Région Toulouse"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 1592,
+    "reviews_count": 199
+  },
+  "hero": {
+    "headline": "Votre plombier à Toulouse",
+    "subheadline": "Réparation rapide et soignée à votre service.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHObtMSD_ZUofW_sqQrSCGTNeeVcLlKNnhYw9kW76oK_49dC-k_LHG5fE45f96ME7hVdlyjTCMdfj_n4rBPsdLGH40_iQ-BiYfwiuc6wiRiFcZ6ACwRNxcKXeuZ_Hf0WThzRhO7=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Réparation de fuites",
+      "text": "Nous intervenons rapidement pour détecter et réparer toutes vos fuites d'eau.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Dépannage rapide",
+      "text": "Nos plombiers sont disponibles même le week-end pour un dépannage efficace.",
+      "icon": "hammer"
+    },
+    {
+      "title": "Pose de cuisines",
+      "text": "Nous respectons vos plans pour l'installation de votre nouvelle cuisine sans souci.",
+      "icon": "kitchen"
+    },
+    {
+      "title": "Assistance multilingue",
+      "text": "Notre équipe est à votre disposition dans plusieurs langues pour une meilleure communication.",
+      "icon": "tiles"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHObtMSD_ZUofW_sqQrSCGTNeeVcLlKNnhYw9kW76oK_49dC-k_LHG5fE45f96ME7hVdlyjTCMdfj_n4rBPsdLGH40_iQ-BiYfwiuc6wiRiFcZ6ACwRNxcKXeuZ_Hf0WThzRhO7=w800-h600-k-no",
+      "alt": "Artisan Plomberie Toulousaine 31 project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yS5ArRHCLyRESk2TAbS2CQ&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=262.48886&pitch=0&thumbfov=100",
+      "alt": "Artisan Plomberie Toulousaine 31 project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "corentin rebonato",
+      "text": "Service impeccable ! Je suis ravi(e) d'avoir fait appel à ce professionnel pour une fuite d'eau. En plus d'être extrêmement compétent et rapide, il est d'une courtoisie rare. Travail propre et soigné. Merci encore pour votre aide et votre sourire !",
+      "stars": 5,
+      "date": "mars 2026"
+    },
+    {
+      "name": "Delmas Remi",
+      "text": "Merci pour le dépannage\nC’était efficace",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "dominique castelle",
+      "text": "Je recommande se plombier, il est rapide pour venir se dimanche, travail bien fait attentionné et laisse le chantier propre.",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "romane roux",
+      "text": "Intervention rapide et travail soigné. Un vrai respect des plans qui a permis la pose de ma nouvelle cuisine sans aucun problème. Je recommande vivement !",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "Constantin des Longchamps",
+      "text": "J'ai eu affaire a Julien des mon appel qui a été d'une grande efficacité Et d,un grand réconfort  . Même le week-end,  il a pris le temps de venir avec son fils pour intervenir travaille fini dans les temps bref rien a dire a recommander Huguette\n(Ma grand Mère s'exprime a travers mon compte 🤣)",
+      "stars": 5,
+      "date": "février 2026"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels services proposez-vous ?",
+      "answer": "Nous offrons des services de réparation de fuites, de dépannage rapide et d'installation de cuisines."
+    },
+    {
+      "question": "Intervenez-vous le week-end ?",
+      "answer": "Oui, nous sommes disponibles même le week-end pour répondre à vos urgences."
+    },
+    {
+      "question": "Comment puis-je demander un devis ?",
+      "answer": "Vous pouvez demander un devis en cliquant sur le bouton 'Demander un devis' sur notre site."
+    },
+    {
+      "question": "Parlez-vous d'autres langues ?",
+      "answer": "Oui, nous proposons une assistance dans plusieurs langues pour faciliter la communication."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 43 02 43 89",
+    "city": "Toulouse",
+    "address": "1 Rue des Flamants, 31400 Toulouse",
+    "maps_url": "https://www.google.com/maps/place/Artisan+Plomberie+Toulousaine+31/@43.576367399999995,1.4394346,14z/data=!4m8!1m2!2m1!1sArtisan+Plomberie+Toulousaine+31!3m4!1s0x12aebb1f4aeb73af:0x24b8111a730f4074!8m2!3d43.576367399999995!4d1.4394346"
+  },
+  "working_hours": {
+    "Di": "24h/24/24",
+    "Je": "24h/24/24",
+    "Lu": "24h/24/24",
+    "Ma": "24h/24/24",
+    "Me": "24h/24/24",
+    "Sa": "24h/24/24",
+    "Ve": "24h/24/24"
+  },
+  "metadata": {
+    "generated_at": "2026-04-22T07:09:15.326Z",
+    "lead_id": "artisan-plomberie-toulousaine-31-toulouse-001",
+    "source": "outscraper",
+    "place_id": "ChIJr3PrSh-7rhIRdEAPcxoRuCQ",
+    "version": 1
+  }
+}

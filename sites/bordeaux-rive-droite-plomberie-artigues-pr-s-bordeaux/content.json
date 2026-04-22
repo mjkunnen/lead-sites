@@ -1,0 +1,132 @@
+{
+  "slug": "bordeaux-rive-droite-plomberie-artigues-pr-s-bordeaux",
+  "lang": "fr",
+  "business_name": "Bordeaux Rive Droite Plomberie",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Plomberie de confiance",
+  "about": "Bordeaux Rive Droite Plomberie est votre partenaire de confiance pour tous vos besoins en plomberie à Artigues-près-Bordeaux. Avec une équipe professionnelle et à l'écoute, nous nous engageons à fournir des solutions efficaces et de qualité.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Artigues-près-Bordeaux"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 720,
+    "reviews_count": 90
+  },
+  "hero": {
+    "headline": "Votre plombier à Artigues-près-Bordeaux",
+    "subheadline": "Des réparations rapides et fiables pour votre tranquillité d'esprit.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oBmcvL1sH-TWzNmDL3BpFw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=125.4957&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Réparation de fuites",
+      "text": "Nous détectons et réparons rapidement les fuites d'eau, vous garantissant un retour à la normale sans tracas.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Devis en ligne",
+      "text": "Obtenez un devis détaillé et gratuit directement en ligne, adapté à vos besoins spécifiques.",
+      "icon": "ruler"
+    },
+    {
+      "title": "Conseils professionnels",
+      "text": "Bénéficiez de conseils d'experts pour tous vos projets de plomberie, assurant une installation conforme et efficace.",
+      "icon": "sparkles"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oBmcvL1sH-TWzNmDL3BpFw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=125.4957&pitch=0&thumbfov=100",
+      "alt": "Bordeaux Rive Droite Plomberie project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oBmcvL1sH-TWzNmDL3BpFw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=125.4957&pitch=0&thumbfov=100",
+      "alt": "Bordeaux Rive Droite Plomberie project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Sandrine",
+      "text": "Sébastien est un plombier très sympa et qui travaille très bien. Les délais sont tenus. Je recommande.",
+      "stars": 5,
+      "date": "mars 2026"
+    },
+    {
+      "name": "thierry grenier",
+      "text": "quand on fait appel à un plombier c'est rarement pour le plaisir... Pour ma part une facture astronomique de Suez qui m'annonce une fuite, je n'ai rien remarqué dans la maison donc le problème vient de sous terre, j'ai donc fait appel à Sébastien Canonnier par hasard et je suis tombé sur un professionnel génial qui dans un premier temps écoute votre problème, il vous explique comment procéder avec méthode (appel assurance, société de recherche de fuite puis retour plombier) . Dans cette jungle où l'on risque de tomber sur des arnaqueurs, j'ai eu de la chance, j'ai suivi ses conseils et tout s'est bien imbriqué, une fois la fuite détectée, il a choisi la meilleure solution pour réparer après être venu sur place voir la configuration, avec son collègue, ils se sont rendus disponibles et ont réalisé les travaux rapidement. Une matinée leur a suffit pour exécuter un travail soigné et mettre fin à ma fuite et rétablir un usage normal. En résumé, vous pouvez l'appeler en toute confiance, je n'ai pas parlé de son sens de l'humour ni de sa bonne humeur car c'est offert par la maison.",
+      "stars": 5,
+      "date": "février 2026"
+    },
+    {
+      "name": "louisa kaci",
+      "text": "Plombier très aimable et professionnel. Ponctuel, efficace et travail soigné. Avec en prime de bons conseils. Mon mari et moi referons appel à vous sans hésiter",
+      "stars": 5,
+      "date": "janvier 2026"
+    },
+    {
+      "name": "hélène BOYER",
+      "text": "Efficace et aimable. Respecte ses rendez-vous.",
+      "stars": 5,
+      "date": "janvier 2026"
+    },
+    {
+      "name": "Sophie He",
+      "text": "Très professionnel\nTrès bonne expérience de bout en bout, avec un tarif en accord avec le travail fourni\nJe vous conseille les yeux fermés",
+      "stars": 5,
+      "date": "janvier 2026"
+    },
+    {
+      "name": "Dolores",
+      "text": "Expert en Plomberie, Professionnel et très bons conseils !\nJe tenais à les remercier pour leur excellent travail et leur grand professionnalisme dans l'établissement des devis pour mon projet de local commercial.\n\nMalgré l'annulation du projet (due à une réticence de dernière minute du propriétaire, indépendante de notre volonté), j'ai été très satisfaite de nos échanges.\n\nGrande réactivité, devis très détaillés et clairs. Leurs conseils techniques sur l'installation de plomberie et les normes en vigueur ont été extrêmement précieux et témoignent d'une solide expertise.\n\nJe n'hésiterai pas une seconde à faire appel à eux pour un futur projet et les recommande vivement pour leur sérieux et la qualité de leur approche.",
+      "stars": 5,
+      "date": "novembre 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Comment puis-je obtenir un devis ?",
+      "answer": "Vous pouvez demander un devis en ligne via notre site web, et nous vous répondrons rapidement."
+    },
+    {
+      "question": "Intervenez-vous pour des urgences ?",
+      "answer": "Oui, nous sommes disponibles pour des interventions urgentes, notamment pour des fuites d'eau."
+    },
+    {
+      "question": "Quels types de paiements acceptez-vous ?",
+      "answer": "Nous acceptons les paiements mobiles NFC pour plus de commodité."
+    },
+    {
+      "question": "Offrez-vous des conseils pour des projets de plomberie ?",
+      "answer": "Oui, nous fournissons des conseils techniques précieux pour tous vos projets."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 64 79 23 68",
+    "city": "Artigues-près-Bordeaux",
+    "address": "2 Rue de Belgique, 33370 Artigues-près-Bordeaux",
+    "maps_url": "https://www.google.com/maps/place/Bordeaux+Rive+Droite+Plomberie/@44.8533192,-0.47846049999999996,14z/data=!4m8!1m2!2m1!1sBordeaux+Rive+Droite+Plomberie!3m4!1s0xd552f5110cc3219:0xddb56993cfa7b32a!8m2!3d44.8533192!4d-0.47846049999999996"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "08:00 - 19:00",
+    "Lu": "08:00 - 19:00",
+    "Ma": "08:00 - 19:00",
+    "Me": "08:00 - 19:00",
+    "Sa": "Fermé",
+    "Ve": "08:00 - 17:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-22T07:09:37.231Z",
+    "lead_id": "bordeaux-rive-droite-plomberie-artigues-pr-s-bordeaux-001",
+    "source": "outscraper",
+    "place_id": "ChIJGTLMEFEvVQ0RKrOnz5Nptd0",
+    "version": 1
+  }
+}
