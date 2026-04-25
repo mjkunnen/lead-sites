@@ -1,0 +1,102 @@
+{
+  "slug": "ma-on-nantes-cpconsrtuction-nantes",
+  "lang": "fr",
+  "business_name": "Maçon Nantes - CPConsrtuction",
+  "niche": "metselaar",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Maçonnerie d'excellence",
+  "about": "Maçon Nantes - CPConstruction est votre partenaire de confiance pour tous vos travaux de maçonnerie à Nantes. Avec un service sérieux et respect des délais, nous nous engageons à réaliser vos projets avec soin.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Nantes"
+  ],
+  "stats": {
+    "years": 3,
+    "projects": 8,
+    "reviews_count": 1
+  },
+  "hero": {
+    "headline": "Votre maçon à Nantes",
+    "subheadline": "Un travail sérieux dans les délais convenus.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=g79RSDJKjnFakavpkYohhA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=103.63833&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Murs en briques",
+      "text": "Nous créons des murs en briques robustes et esthétiques, adaptés à vos besoins structurels.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Chantier dans les délais",
+      "text": "Nous garantissons la réalisation de vos projets dans les délais convenus, sans compromis sur la qualité.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Finitions soignées",
+      "text": "Nous veillons à ce que chaque détail soit parfait, offrant des finitions qui répondent à vos attentes.",
+      "icon": "level"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=g79RSDJKjnFakavpkYohhA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=103.63833&pitch=0&thumbfov=100",
+      "alt": "Maçon Nantes - CPConsrtuction project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=g79RSDJKjnFakavpkYohhA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=103.63833&pitch=0&thumbfov=100",
+      "alt": "Maçon Nantes - CPConsrtuction project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Léo Fouchard",
+      "text": "Un bon maçon à Nantes, travail sérieux et dans les délais convenus, rien a redire de mon côté.",
+      "stars": 5,
+      "date": "octobre 2023"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de projets réalisez-vous ?",
+      "answer": "Nous réalisons divers projets de maçonnerie, y compris la construction de murs et des travaux de finition."
+    },
+    {
+      "question": "Comment se déroule le processus de devis ?",
+      "answer": "Nous proposons un devis gratuit après une évaluation de votre projet et de vos besoins."
+    },
+    {
+      "question": "Respectez-vous les délais ?",
+      "answer": "Oui, nous nous engageons à respecter les délais convenus pour chaque projet."
+    },
+    {
+      "question": "Où êtes-vous situés ?",
+      "answer": "Nous sommes basés à Nantes et intervenons dans toute la région."
+    }
+  ],
+  "contact": {
+    "phone": "+33 7 44 29 35 72",
+    "city": "Nantes",
+    "address": "Rue Auguste Renoir, 44100 Nantes",
+    "maps_url": "https://www.google.com/maps/place/Ma%C3%A7on+Nantes+-+CPConsrtuction/@47.223386999999995,-1.5905654,14z/data=!4m8!1m2!2m1!1sMa%C3%A7on+Nantes+-+CPConsrtuction!3m4!1s0x4805ed0392c757ab:0x320e6c7995515946!8m2!3d47.223386999999995!4d-1.5905654"
+  },
+  "working_hours": {
+    "Di": "08:30 - 18:30",
+    "Je": "08:30 - 18:30",
+    "Lu": "08:30 - 18:30",
+    "Ma": "08:30 - 18:30",
+    "Me": "08:30 - 18:30",
+    "Sa": "08:30 - 18:30",
+    "Ve": "08:30 - 18:30"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:40:48.704Z",
+    "lead_id": "ma-on-nantes-cpconsrtuction-nantes-001",
+    "source": "outscraper",
+    "place_id": "ChIJq1fHkgPtBUgRRllRlXlsDjI",
+    "version": 1
+  }
+}

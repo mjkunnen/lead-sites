@@ -1,0 +1,98 @@
+{
+  "slug": "scc-33-bordeaux",
+  "lang": "fr",
+  "business_name": "SCC 33",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "L'excellence en plomberie",
+  "about": "SCC 33 est un plombier professionnel à Bordeaux, reconnu pour son travail soigné et sa réactivité. Nos clients apprécient notre ponctualité et la qualité de nos services.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Bordeaux"
+  ],
+  "stats": {
+    "years": 5,
+    "projects": 24,
+    "reviews_count": 3
+  },
+  "hero": {
+    "headline": "Votre plombier à Bordeaux",
+    "subheadline": "Des réparations fiables et soignées.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4tN2rEaes7O2GD6MvzD_eaZGLhFCF2xF_acskn0u-Mg-_FLS-4AuHyCUxE4vqJdI5NYpbQhos3zlYHTIxIdrIuf4i-ek8Kv2zTLZw74poPzJjzmIPywzZxSlHAyw72-5VzpfaOw=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Services de réparation",
+      "text": "Nous offrons des services de réparation de plomberie de haute qualité, adaptés à vos besoins spécifiques.",
+      "icon": "wrench"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4tN2rEaes7O2GD6MvzD_eaZGLhFCF2xF_acskn0u-Mg-_FLS-4AuHyCUxE4vqJdI5NYpbQhos3zlYHTIxIdrIuf4i-ek8Kv2zTLZw74poPzJjzmIPywzZxSlHAyw72-5VzpfaOw=w800-h600-k-no",
+      "alt": "SCC 33 project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wvUU9yvtuyXwaW_Eg2dMGw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=350.89197&pitch=0&thumbfov=100",
+      "alt": "SCC 33 project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Philippe GRATREAUD",
+      "text": "Très professionnel et réactif. Travail soigné.",
+      "stars": 5,
+      "date": "janvier 2022"
+    },
+    {
+      "name": "Frederic Lecompte",
+      "text": "Je recommande SCC33.:professionnel, ponctuel, disponible et travail réalisé avec soins.",
+      "stars": 5,
+      "date": "avril 2021"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de réparations effectuez-vous ?",
+      "answer": "Nous réalisons toutes sortes de réparations de plomberie, y compris les fuites et les problèmes de chauffe-eau."
+    },
+    {
+      "question": "Acceptez-vous les paiements par carte de crédit ?",
+      "answer": "Oui, nous acceptons les paiements par carte de crédit pour plus de commodité."
+    },
+    {
+      "question": "Êtes-vous disponible pour des urgences ?",
+      "answer": "Oui, nous sommes réactifs et disponibles pour des réparations d'urgence."
+    },
+    {
+      "question": "Comment puis-je demander un devis ?",
+      "answer": "Vous pouvez facilement demander un devis en cliquant sur le bouton 'Demander un devis' sur notre site."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 16 10 14 22",
+    "city": "Bordeaux",
+    "address": "7 Allées de Chartres, 33000 Bordeaux",
+    "maps_url": "https://www.google.com/maps/place/SCC+33/@44.847551499999994,-0.5717774999999999,14z/data=!4m8!1m2!2m1!1sSCC+33!3m4!1s0xd5527f5cfe5ec1b:0x83db36e06bc65752!8m2!3d44.847551499999994!4d-0.5717774999999999"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "08:00 - 21:00",
+    "Lu": "08:00 - 21:00",
+    "Ma": "08:00 - 21:00",
+    "Me": "08:00 - 21:00",
+    "Sa": "08:00 - 21:00",
+    "Ve": "08:00 - 21:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:37:32.641Z",
+    "lead_id": "scc-33-bordeaux-001",
+    "source": "outscraper",
+    "place_id": "ChIJG-zlz_UnVQ0RUlfGa-A224M",
+    "version": 1
+  }
+}

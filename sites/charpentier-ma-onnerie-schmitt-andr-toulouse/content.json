@@ -1,0 +1,114 @@
+{
+  "slug": "charpentier-ma-onnerie-schmitt-andr-toulouse",
+  "lang": "fr",
+  "business_name": "Charpentier maçonnerie Schmitt André",
+  "niche": "schilder",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Peinture de qualité",
+  "about": "Charpentier maçonnerie Schmitt André is een professioneel schildersbedrijf gevestigd in Toulouse, met een focus op zorgvuldigheid en klanttevredenheid. Wij bieden concurrerende prijzen en respecteren altijd de afgesproken normen en deadlines.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Toulouse"
+  ],
+  "stats": {
+    "years": 4,
+    "projects": 32,
+    "reviews_count": 4
+  },
+  "hero": {
+    "headline": "Votre peintre à Toulouse",
+    "subheadline": "Des travaux soignés et rapides à des prix compétitifs.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtul9oargirb123wqQQNL3AQy81kwnejJo1QVhgS6iajAqU_HR4Cdl_r9pQX8jaQrhHiZcVP-yM4CeY5JQpA6zVxW4rFgNs7UoD4_otl3Pi_CKI0czeTw-RiK55HwSKdajHXxdMw=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Peinture intérieure",
+      "text": "Wij verzorgen uw binnenverfwerk met oog voor detail en kwaliteit.",
+      "icon": "palette"
+    },
+    {
+      "title": "Peinture extérieure",
+      "text": "Onze experts zorgen voor een perfecte afwerking van uw buitenmuren.",
+      "icon": "wall"
+    },
+    {
+      "title": "Devis rapide",
+      "text": "Vraag snel en eenvoudig een vrijblijvende offerte aan.",
+      "icon": "ruler"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtul9oargirb123wqQQNL3AQy81kwnejJo1QVhgS6iajAqU_HR4Cdl_r9pQX8jaQrhHiZcVP-yM4CeY5JQpA6zVxW4rFgNs7UoD4_otl3Pi_CKI0czeTw-RiK55HwSKdajHXxdMw=w800-h600-k-no",
+      "alt": "Charpentier maçonnerie Schmitt André project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EUVtZromiDELCXfW3G55bw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=143.36305&pitch=0&thumbfov=100",
+      "alt": "Charpentier maçonnerie Schmitt André project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Cynthia Baptiste",
+      "text": "Travaille très soigné avec des prix très compétitifs je recommande les yeux fermés.",
+      "stars": 5,
+      "date": "novembre 2023"
+    },
+    {
+      "name": "Alexandra Lelaine",
+      "text": "Excellent professionnel ! Respect des normes et des délais. Entreprise sérieuse et réactive. Je vous conseille fortement.",
+      "stars": 5,
+      "date": "octobre 2023"
+    },
+    {
+      "name": "Henri Soules",
+      "text": "Je recommande les yeux fermés, travaille soigner , devis rapide",
+      "stars": 5,
+      "date": "août 2023"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de peinture proposez-vous ?",
+      "answer": "Nous proposons des services de peinture intérieure et extérieure, adaptés à vos besoins."
+    },
+    {
+      "question": "Comment puis-je demander un devis ?",
+      "answer": "Vous pouvez demander un devis en cliquant sur le bouton 'Demander un devis' sur notre site."
+    },
+    {
+      "question": "Respectez-vous les délais ?",
+      "answer": "Oui, nous nous engageons à respecter les normes et les délais convenus."
+    },
+    {
+      "question": "Avez-vous des avis clients ?",
+      "answer": "Oui, nous avons de nombreux avis positifs de clients satisfaits, attestant de la qualité de notre travail."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 11 60 69 58",
+    "city": "Toulouse",
+    "address": "Route de Fenouillet, 20 All. Django Reinhardt, 31200 Toulouse",
+    "maps_url": "https://www.google.com/maps/place/Charpentier+ma%C3%A7onnerie+Schmitt+Andr%C3%A9/@43.6473825,1.4116136,14z/data=!4m8!1m2!2m1!1sCharpentier+ma%C3%A7onnerie+Schmitt+Andr%C3%A9!3m4!1s0x12aea35868814f25:0xdd2ed641bfb68aee!8m2!3d43.6473825!4d1.4116136"
+  },
+  "working_hours": {
+    "Di": "24h/24/24",
+    "Je": "24h/24/24",
+    "Lu": "24h/24/24",
+    "Ma": "24h/24/24",
+    "Me": "24h/24/24",
+    "Sa": "24h/24/24",
+    "Ve": "24h/24/24"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:37:01.999Z",
+    "lead_id": "charpentier-ma-onnerie-schmitt-andr-toulouse-001",
+    "source": "outscraper",
+    "place_id": "ChIJJU-BaFijrhIR7oq2v0HWLt0",
+    "version": 1
+  }
+}

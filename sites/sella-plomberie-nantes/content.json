@@ -1,0 +1,126 @@
+{
+  "slug": "sella-plomberie-nantes",
+  "lang": "fr",
+  "business_name": "Sella'plomberie",
+  "niche": "loodgieter",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "L'excellence en plomberie",
+  "about": "Sella'plomberie est une entreprise de plomberie à Nantes, reconnue pour son sérieux et son professionnalisme. Nos clients apprécient notre ponctualité et la qualité de nos interventions.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Nantes"
+  ],
+  "stats": {
+    "years": 4,
+    "projects": 144,
+    "reviews_count": 18
+  },
+  "hero": {
+    "headline": "Votre plombier à Nantes",
+    "subheadline": "Services de plomberie rapides et efficaces.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGSlvLkMBmDvyVjRoKQWjOxbVCenlmFjvLvGfnf58bWvMkeyf2q6tpU3oy86pPEe7brNX1wuLxTDL8aqGoWki0Pg8vCUScVQRbrp-uA4W0_Fspt759UyGz-sCsJrydBY5BfSwq=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Réparation de plomberie",
+      "text": "Nous offrons des services de réparation de plomberie pour résoudre tous vos problèmes rapidement et efficacement.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Devis en ligne",
+      "text": "Obtenez un devis en ligne gratuit, transparent et détaillé pour vos travaux de plomberie.",
+      "icon": "palette"
+    },
+    {
+      "title": "Remplacement de chauffe-eau",
+      "text": "Nous remplaçons votre chauffe-eau avec professionnalisme et dans les meilleurs délais.",
+      "icon": "water"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGSlvLkMBmDvyVjRoKQWjOxbVCenlmFjvLvGfnf58bWvMkeyf2q6tpU3oy86pPEe7brNX1wuLxTDL8aqGoWki0Pg8vCUScVQRbrp-uA4W0_Fspt759UyGz-sCsJrydBY5BfSwq=w800-h600-k-no",
+      "alt": "Sella'plomberie project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=h6KPN34AMd11QEHevvea_w&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=117.9209&pitch=0&thumbfov=100",
+      "alt": "Sella'plomberie project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Kentissia Juillard",
+      "text": "Excellent artisan",
+      "stars": 5,
+      "date": "février 2024"
+    },
+    {
+      "name": "shaker ben rejab",
+      "text": "Très bon travail rapide et soigneux. Je recommande",
+      "stars": 5,
+      "date": "février 2024"
+    },
+    {
+      "name": "Adrien Leblanc",
+      "text": "Très satisfait de la prestation, rapide et efficace je recommande fortement Sella Plomberie",
+      "stars": 5,
+      "date": "février 2024"
+    },
+    {
+      "name": "Restaurant La Souris d'agneau",
+      "text": "Entreprises sérieuse à taille humaine.Travaux bien effectué correspondant au devis. J’ai bien apprécié la ponctualité et la réactivité du patron. Merci encore.",
+      "stars": 5,
+      "date": "février 2024"
+    },
+    {
+      "name": "Vototor Toto",
+      "text": "Suite à la casse de mon chauffe eau et réception du nouveau modèle, j'ai contacté cette entreprise en fin de matinée pour assurer la pause de mon nouveau chauffe eau de 300 litres, le RDV est fixé le jour même dans l’après midi. L'intervention a eu lieu à l'heure convenue, et après 3 heures de travail, il a remplacé le chauffe-eau et cela fonctionne sans problème. Donc merci à eux, ils ont été très réactifs, et en plus professionnels et discrets. Je recommande donc cet artisan.",
+      "stars": 5,
+      "date": "mars 2023"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de réparations offrez-vous ?",
+      "answer": "Nous proposons des services de réparation pour divers problèmes de plomberie, y compris les fuites et les installations."
+    },
+    {
+      "question": "Puis-je obtenir un devis en ligne ?",
+      "answer": "Oui, nous offrons un devis en ligne gratuit afin que vous puissiez connaître le coût de vos travaux."
+    },
+    {
+      "question": "Combien de temps prend une intervention ?",
+      "answer": "La durée d'une intervention dépend de la nature des travaux, mais nous nous efforçons d'être rapides et efficaces."
+    },
+    {
+      "question": "Êtes-vous disponible pour des urgences ?",
+      "answer": "Nous sommes réactifs et faisons de notre mieux pour intervenir rapidement, même en cas d'urgence."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 50 37 09 55",
+    "city": "Nantes",
+    "address": "8 Rue du Drac, 44100 Nantes",
+    "maps_url": "https://www.google.com/maps/place/Sella%27plomberie/@47.2037675,-1.6045265,14z/data=!4m8!1m2!2m1!1sSella%27plomberie!3m4!1s0x4805ed6d30e979af:0x4c018d0fb87d964f!8m2!3d47.2037675!4d-1.6045265"
+  },
+  "working_hours": {
+    "Di": "07:00 - 20:00",
+    "Je": "07:00 - 20:00",
+    "Lu": "07:00 - 20:00",
+    "Ma": "07:00 - 20:00",
+    "Me": "07:00 - 20:00",
+    "Sa": "07:00 - 20:00",
+    "Ve": "07:00 - 20:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:31:13.021Z",
+    "lead_id": "sella-plomberie-nantes-001",
+    "source": "outscraper",
+    "place_id": "ChIJr3npMG3tBUgRT5Z9uA-NAUw",
+    "version": 1
+  }
+}

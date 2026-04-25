@@ -1,0 +1,100 @@
+{
+  "slug": "nunez-aldo-ma-onnerie-g-n-rale-bordeaux-floirac",
+  "lang": "fr",
+  "business_name": "Nunez Aldo Maçonnerie générale Bordeaux",
+  "niche": "entreprise-de-construction",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Construction de qualité supérieure",
+  "about": "Nunez Aldo Maçonnerie générale est votre partenaire de choix pour tous vos projets de construction à Floirac. Avec une approche professionnelle et chaleureuse, nous nous engageons à réaliser vos rêves architecturaux.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Floirac"
+  ],
+  "stats": {
+    "years": 3,
+    "projects": 8,
+    "reviews_count": 1
+  },
+  "hero": {
+    "headline": "Votre entreprise de construction à Floirac",
+    "subheadline": "Transformez vos idées en réalité avec notre expertise.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAThyEtfSwzU97b7z_BgWZuM4RdLe8N0M4reOi1LMKvXZxjxX-QBp7W_HQLPbp-CCIDEf107UaIspF31urlDyP6h0mUSabWqeYSaeeNHa7VRODxlOLK45c8Fq0hXQjwBSajLbm=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Maçonnerie Générale",
+      "text": "Nous réalisons tous vos travaux de maçonnerie avec précision et soin.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Rénovation",
+      "text": "Transformez votre espace avec nos services de rénovation sur mesure.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Travaux de Gros Œuvre",
+      "text": "Nous prenons en charge tous vos travaux de gros œuvre, garantissant durabilité et solidité.",
+      "icon": "wall"
+    },
+    {
+      "title": "Aménagement Intérieur",
+      "text": "Optimisez votre intérieur avec nos solutions d'aménagement adaptées à vos besoins.",
+      "icon": "floor"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAThyEtfSwzU97b7z_BgWZuM4RdLe8N0M4reOi1LMKvXZxjxX-QBp7W_HQLPbp-CCIDEf107UaIspF31urlDyP6h0mUSabWqeYSaeeNHa7VRODxlOLK45c8Fq0hXQjwBSajLbm=w800-h600-k-no",
+      "alt": "Nunez Aldo Maçonnerie générale Bordeaux project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YbvUvx1npVCFBdcMYSaw3w&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=263.70755&pitch=0&thumbfov=100",
+      "alt": "Nunez Aldo Maçonnerie générale Bordeaux project 2"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "Quels types de projets réalisez-vous ?",
+      "answer": "Nous réalisons des projets de maçonnerie générale, rénovation, gros œuvre et aménagement intérieur."
+    },
+    {
+      "question": "Offrez-vous des devis gratuits ?",
+      "answer": "Oui, nous fournissons des devis gratuits pour tous vos projets de construction."
+    },
+    {
+      "question": "Quels matériaux utilisez-vous ?",
+      "answer": "Nous utilisons des matériaux de haute qualité pour garantir la durabilité de nos constructions."
+    },
+    {
+      "question": "Combien de temps prennent vos projets ?",
+      "answer": "La durée dépend de la taille et de la complexité du projet, mais nous nous engageons à respecter les délais convenus."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 73 50 83 53",
+    "city": "Floirac",
+    "address": "15 Av. Jean Jaurès, 33270 Floirac",
+    "maps_url": "https://www.google.com/maps/place/Nunez+Aldo+Ma%C3%A7onnerie+g%C3%A9n%C3%A9rale+Bordeaux/@44.841224499999996,-0.538615,14z/data=!4m8!1m2!2m1!1sNunez+Aldo+Ma%C3%A7onnerie+g%C3%A9n%C3%A9rale+Bordeaux!3m4!1s0xd55261a41782cdb:0x8991d7111e48cc12!8m2!3d44.841224499999996!4d-0.538615"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "09:00 - 18:00",
+    "Lu": "09:00 - 18:00",
+    "Ma": "09:00 - 18:00",
+    "Me": "09:00 - 18:00",
+    "Sa": "Fermé",
+    "Ve": "09:00 - 18:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:39:17.281Z",
+    "lead_id": "nunez-aldo-ma-onnerie-g-n-rale-bordeaux-floirac-001",
+    "source": "outscraper",
+    "place_id": "ChIJ2yx4QRomVQ0REsxIHhHXkYk",
+    "version": 1
+  }
+}

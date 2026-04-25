@@ -1,0 +1,91 @@
+{
+  "slug": "saint-sauveur-toulouse",
+  "lang": "fr",
+  "business_name": "Saint Sauveur",
+  "niche": "metselaar",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Murs solides, rêves réalisés",
+  "about": "Saint Sauveur est votre partenaire de confiance pour tous vos projets de maçonnerie à Toulouse. Avec une réputation solide et une approche professionnelle, nous nous engageons à fournir un service de qualité supérieure à chacun de nos clients.",
+  "trust_badges": [
+    "4★ Avis Google",
+    "Devis gratuit",
+    "Région Toulouse"
+  ],
+  "stats": {
+    "years": 7,
+    "projects": 24,
+    "reviews_count": 3
+  },
+  "hero": {
+    "headline": "Votre maçon à Toulouse",
+    "subheadline": "Des constructions durables et esthétiques pour votre espace.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtIKijw-U8T8l9lPn-xd_3Nw_sSA_0Kbx9O-am54u0xP7eNWCnzcNsbcZuV_mnRDZ3opxZgmiHOiaF7fRni-Gj1rHvAYbZjmqARtKXKvsTj4hMWXXkGxk967mzr6Qt1zd3UgMU=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Murs en briques",
+      "text": "Nous construisons des murs robustes en briques qui allient durabilité et esthétique.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Rénovation de murs",
+      "text": "Transformez vos espaces avec notre expertise en rénovation de maçonnerie.",
+      "icon": "wall"
+    },
+    {
+      "title": "Pose de carrelage",
+      "text": "Nous offrons un service professionnel pour la pose de carrelage dans toutes les pièces.",
+      "icon": "tiles"
+    },
+    {
+      "title": "Création de murs de soutènement",
+      "text": "Nos murs de soutènement sont conçus pour assurer la stabilité de votre terrain.",
+      "icon": "level"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtIKijw-U8T8l9lPn-xd_3Nw_sSA_0Kbx9O-am54u0xP7eNWCnzcNsbcZuV_mnRDZ3opxZgmiHOiaF7fRni-Gj1rHvAYbZjmqARtKXKvsTj4hMWXXkGxk967mzr6Qt1zd3UgMU=w800-h600-k-no",
+      "alt": "Saint Sauveur project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1CZiQEFmDWBviqxzwozFaQ&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=148.66142&pitch=0&thumbfov=100",
+      "alt": "Saint Sauveur project 2"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "Quels types de maçonnerie proposez-vous ?",
+      "answer": "Nous proposons des services de construction de murs en briques, de rénovation de maçonnerie, et de pose de carrelage."
+    },
+    {
+      "question": "Offrez-vous des devis gratuits ?",
+      "answer": "Oui, nous offrons des devis gratuits pour tous nos services."
+    },
+    {
+      "question": "Quelle est votre zone d'intervention ?",
+      "answer": "Nous intervenons principalement dans la région de Toulouse."
+    },
+    {
+      "question": "Avez-vous des références ou des avis clients ?",
+      "answer": "Actuellement, nous n'avons pas d'avis disponibles, mais nous sommes fiers de notre réputation dans la région."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 70 21 00 16",
+    "city": "Toulouse",
+    "address": "1 Chem. de Bagatelle, 31100 Toulouse",
+    "maps_url": "https://www.google.com/maps/place/Saint+Sauveur/@43.5852173,1.4116168,14z/data=!4m8!1m2!2m1!1sSaint+Sauveur!3m4!1s0x12aebbaec9ac4d51:0x614a6803815d518e!8m2!3d43.5852173!4d1.4116168"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:38:49.877Z",
+    "lead_id": "saint-sauveur-toulouse-001",
+    "source": "outscraper",
+    "place_id": "ChIJUU2sya67rhIRjlFdgQNoSmE",
+    "version": 1
+  }
+}

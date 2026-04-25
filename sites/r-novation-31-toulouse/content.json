@@ -1,0 +1,85 @@
+{
+  "slug": "r-novation-31-toulouse",
+  "lang": "fr",
+  "business_name": "Rénovation 31",
+  "niche": "metselaar",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Votre maçon à Toulouse",
+  "about": "Rénovation 31 est votre spécialiste en maçonnerie à Toulouse, reconnu pour son professionnalisme et son engagement envers la satisfaction client. Nous mettons un point d'honneur à offrir des services de qualité tout en garantissant un accès facile à nos chantiers.",
+  "trust_badges": [
+    "4.2★ Avis Google",
+    "Devis gratuit",
+    "Région Toulouse"
+  ],
+  "stats": {
+    "projects": 40,
+    "reviews_count": 5
+  },
+  "hero": {
+    "headline": "Votre maçon à Toulouse",
+    "subheadline": "Expertise et qualité à votre service.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2soS_wDpDchZsQl5YIRTCg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=270.40363&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Murs en briques",
+      "text": "Nous construisons des murs en briques solides et esthétiques, parfaits pour tout projet de rénovation ou de construction.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Finitions de qualité",
+      "text": "Nos finitions soignées garantissent un rendu impeccable pour tous vos travaux de maçonnerie.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Accessibilité",
+      "text": "Nous assurons l'accessibilité de nos chantiers, avec des solutions adaptées pour tous, y compris les personnes en fauteuil roulant.",
+      "icon": "level"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2soS_wDpDchZsQl5YIRTCg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=270.40363&pitch=0&thumbfov=100",
+      "alt": "Rénovation 31 project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2soS_wDpDchZsQl5YIRTCg&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=270.40363&pitch=0&thumbfov=100",
+      "alt": "Rénovation 31 project 2"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "Quels types de services proposez-vous ?",
+      "answer": "Nous proposons des services de maçonnerie, y compris la construction de murs en briques et des finitions de qualité."
+    },
+    {
+      "question": "Comment puis-je demander un devis ?",
+      "answer": "Vous pouvez demander un devis en cliquant sur le bouton 'Demander un devis' sur notre site."
+    },
+    {
+      "question": "Votre entreprise est-elle accessible ?",
+      "answer": "Oui, nous veillons à ce que nos chantiers soient accessibles, y compris pour les personnes en fauteuil roulant."
+    },
+    {
+      "question": "Où êtes-vous situés ?",
+      "answer": "Nous sommes basés à Toulouse et intervenons dans toute la région."
+    }
+  ],
+  "contact": {
+    "phone": "+33 5 61 70 72 21",
+    "city": "Toulouse",
+    "address": "319 Av. de Fronton, 31200 Toulouse",
+    "maps_url": "https://www.google.com/maps/place/R%C3%A9novation+31/@43.654623099999995,1.4320222,14z/data=!4m8!1m2!2m1!1sR%C3%A9novation+31!3m4!1s0x12aea468568866cf:0x2407232366dd802f!8m2!3d43.654623099999995!4d1.4320222"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:36:33.095Z",
+    "lead_id": "r-novation-31-toulouse-001",
+    "source": "outscraper",
+    "place_id": "ChIJz2aIVmikrhIRL4DdZiMjByQ",
+    "version": 1
+  }
+}

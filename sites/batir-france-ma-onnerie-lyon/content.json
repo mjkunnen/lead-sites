@@ -1,0 +1,120 @@
+{
+  "slug": "batir-france-ma-onnerie-lyon",
+  "lang": "fr",
+  "business_name": "Batir france maçonnerie",
+  "niche": "metselaar",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Maçonnerie de confiance",
+  "about": "Batir France Maçonnerie est une entreprise de maçonnerie basée à Lyon, reconnue pour son professionnalisme et son efficacité. Nos clients apprécient notre réactivité et notre disponibilité, ce qui nous permet de réaliser des travaux de qualité dans les meilleures conditions.",
+  "trust_badges": [
+    "4.8★ Avis Google",
+    "Devis gratuit",
+    "Région Lyon"
+  ],
+  "stats": {
+    "years": 3,
+    "projects": 40,
+    "reviews_count": 5
+  },
+  "hero": {
+    "headline": "Votre maçon à Lyon",
+    "subheadline": "Des services rapides et soignés pour vos projets de maçonnerie.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIO_nK7nVkwKxJYW9siQyv89H4jV1WOjhhLtLKJHTvfyndOPjwGpPHfbf2JsKOLg2TbRoQtqJkZLG3PLpAw-OgYRZ8a2zRKAIhr54giWnOThF3BFAQOpVe4LjmCGHw5vY6Y-Glhg=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Travail soigné",
+      "text": "Nous nous engageons à fournir un travail de qualité, rapide et efficace, pour satisfaire toutes vos attentes.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Professionnel réactif",
+      "text": "Notre équipe est toujours disponible pour répondre à vos besoins et s'adapter à vos demandes.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Accessibilité",
+      "text": "Nous disposons d'un parking accessible en fauteuil roulant pour accueillir tous nos clients.",
+      "icon": "level"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIO_nK7nVkwKxJYW9siQyv89H4jV1WOjhhLtLKJHTvfyndOPjwGpPHfbf2JsKOLg2TbRoQtqJkZLG3PLpAw-OgYRZ8a2zRKAIhr54giWnOThF3BFAQOpVe4LjmCGHw5vY6Y-Glhg=w800-h600-k-no",
+      "alt": "Batir france maçonnerie project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eeO-2-BIK8K_G4mpF6dY9A&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=289.828&pitch=0&thumbfov=100",
+      "alt": "Batir france maçonnerie project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "MULLER Jean-Louis",
+      "text": "'Jai eu à travailler avec l'entreprise Batir France maçonnerie .\nJ'en ai été très satisfait et Monsieur Choukry s'est montré aimable, compétent et disponible. Je le recommanderai volontiers à mes amis.",
+      "stars": 5,
+      "date": "juillet 2023"
+    },
+    {
+      "name": "Louisa Drid",
+      "text": "Un très bon professionnel, réactif, arrangeant, sympathique. Je recommande à 100%! N'hésitez pas",
+      "stars": 5,
+      "date": "mai 2023"
+    },
+    {
+      "name": "Haikel Fkiri",
+      "text": "Rapide efficace, travail soigné je recommande",
+      "stars": 5,
+      "date": "mai 2023"
+    },
+    {
+      "name": "Charles-Francois Chazit",
+      "text": "Travail rapide et efficace je recommander",
+      "stars": 5,
+      "date": "avril 2023"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de travaux réalisez-vous ?",
+      "answer": "Nous réalisons tous types de travaux de maçonnerie, allant de la construction à la rénovation."
+    },
+    {
+      "question": "Offrez-vous des devis gratuits ?",
+      "answer": "Oui, nous proposons des devis gratuits pour tous vos projets de maçonnerie."
+    },
+    {
+      "question": "Comment puis-je vous contacter ?",
+      "answer": "Vous pouvez nous contacter directement via notre site web ou par téléphone pour discuter de votre projet."
+    },
+    {
+      "question": "Où êtes-vous situés ?",
+      "answer": "Nous sommes basés à Lyon et intervenons dans toute la région."
+    }
+  ],
+  "contact": {
+    "phone": "+33 6 01 17 60 29",
+    "city": "Lyon",
+    "address": "122 Rue du Château de la Duchère, 69009 Lyon",
+    "maps_url": "https://www.google.com/maps/place/Batir+france+ma%C3%A7onnerie/@45.7804765,4.7929637,14z/data=!4m8!1m2!2m1!1sBatir+france+ma%C3%A7onnerie!3m4!1s0x47f4eb616f364c93:0x3165ef2d2db08d9b!8m2!3d45.7804765!4d4.7929637"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "08:00 - 18:00",
+    "Lu": "08:00 - 18:00",
+    "Ma": "08:00 - 18:00",
+    "Me": "08:00 - 18:00",
+    "Sa": "09:00 - 12:00",
+    "Ve": "08:00 - 18:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:36:10.985Z",
+    "lead_id": "batir-france-ma-onnerie-lyon-001",
+    "source": "outscraper",
+    "place_id": "ChIJk0w2b2Hr9EcRm42wLS3vZTE",
+    "version": 1
+  }
+}

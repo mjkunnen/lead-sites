@@ -12,23 +12,60 @@
     "image_url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80"
   },
   "services": [
-    { "title": "Lekkages verhelpen", "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand.", "icon": "wrench" },
-    { "title": "CV-ketel onderhoud", "text": "Jaarlijks onderhoud en storing verhelpen voor alle merken CV-ketels.", "icon": "fire" },
-    { "title": "Badkamer renovatie", "text": "Complete badkamerrenovaties van ontwerp tot oplevering.", "icon": "home" },
-    { "title": "Riool ontstopping", "text": "24/7 beschikbaar voor rioolverstopping en afvoerproblemen.", "icon": "shield" }
+    {
+      "title": "Lekkages verhelpen",
+      "text": "Snelle opsporing en reparatie van lekkages in uw woning of bedrijfspand.",
+      "icon": "wrench"
+    },
+    {
+      "title": "CV-ketel onderhoud",
+      "text": "Jaarlijks onderhoud en storing verhelpen voor alle merken CV-ketels.",
+      "icon": "fire"
+    },
+    {
+      "title": "Badkamer renovatie",
+      "text": "Complete badkamerrenovaties van ontwerp tot oplevering.",
+      "icon": "home"
+    },
+    {
+      "title": "Riool ontstopping",
+      "text": "24/7 beschikbaar voor rioolverstopping en afvoerproblemen.",
+      "icon": "shield"
+    }
   ],
   "reviews": [
-    { "name": "Jan de Vries", "text": "Snelle service, eerlijke prijs. Lekkage was binnen een uur verholpen.", "stars": 5 },
-    { "name": "Maria Jansen", "text": "Heel netjes gewerkt aan onze badkamer. Aanrader!", "stars": 5 },
-    { "name": "Peter Bakker", "text": "Goede communicatie en vakkundig werk. Komt afspraken na.", "stars": 4 }
+    {
+      "name": "Jan de Vries",
+      "text": "Snelle service, eerlijke prijs. Lekkage was binnen een uur verholpen.",
+      "stars": 5
+    },
+    {
+      "name": "Maria Jansen",
+      "text": "Heel netjes gewerkt aan onze badkamer. Aanrader!",
+      "stars": 5
+    },
+    {
+      "name": "Peter Bakker",
+      "text": "Goede communicatie en vakkundig werk. Komt afspraken na.",
+      "stars": 4
+    }
   ],
   "faq": [
-    { "question": "Hoe snel kunnen jullie er zijn?", "answer": "Bij spoed zijn we binnen 1-2 uur ter plaatse in Amsterdam en omgeving." },
-    { "question": "Wat kost een loodgieter per uur?", "answer": "Onze tarieven beginnen bij €55 per uur, inclusief voorrijkosten binnen Amsterdam." },
-    { "question": "Werken jullie ook in het weekend?", "answer": "Ja, wij zijn 7 dagen per week bereikbaar voor spoedgevallen." }
+    {
+      "question": "Hoe snel kunnen jullie er zijn?",
+      "answer": "Bij spoed zijn we binnen 1-2 uur ter plaatse in Amsterdam en omgeving."
+    },
+    {
+      "question": "Wat kost een loodgieter per uur?",
+      "answer": "Onze tarieven beginnen bij €55 per uur, inclusief voorrijkosten binnen Amsterdam."
+    },
+    {
+      "question": "Werken jullie ook in het weekend?",
+      "answer": "Ja, wij zijn 7 dagen per week bereikbaar voor spoedgevallen."
+    }
   ],
   "contact": {
-    "phone": "020-1234567",
+    "phone": "+31 20 123 4567",
     "city": "Amsterdam",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Loodgieter+Amsterdam"
   },

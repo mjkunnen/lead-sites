@@ -1,0 +1,90 @@
+{
+  "slug": "pierres-construction-lyon",
+  "lang": "fr",
+  "business_name": "Pierres Construction",
+  "niche": "metselaar",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Maçonnerie de confiance",
+  "about": "Pierres Construction est votre expert en maçonnerie à Lyon. Nous metten une attention particulière à l'accessibilité de nos services, garantissant un accès facile à tous nos clients.",
+  "trust_badges": [
+    "4★ Avis Google",
+    "Devis gratuit",
+    "Région Lyon"
+  ],
+  "stats": {
+    "projects": 48,
+    "reviews_count": 6
+  },
+  "hero": {
+    "headline": "Votre maçon à Lyon",
+    "subheadline": "Un service de maçonnerie accessible et professionnel.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OFEseIqdrkUxchYJdcvyQA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=350.94614&pitch=0&thumbfov=100"
+  },
+  "services": [
+    {
+      "title": "Murs en briques",
+      "text": "Nous construisons des murs solides et esthétiques en utilisant des briques de haute qualité.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Rénovation de bâtiments",
+      "text": "Spécialistes en rénovation, nous redonnons vie à vos structures tout en respectant leur charme d'origine.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Chantiers accessibles",
+      "text": "Nos chantiers sont conçus pour être accessibles, y compris le parking pour fauteuil roulant.",
+      "icon": "level"
+    },
+    {
+      "title": "Conseils personnalisés",
+      "text": "Nous offrons des conseils adaptés à vos besoins spécifiques en matière de maçonnerie.",
+      "icon": "palette"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OFEseIqdrkUxchYJdcvyQA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=350.94614&pitch=0&thumbfov=100",
+      "alt": "Pierres Construction project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OFEseIqdrkUxchYJdcvyQA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=350.94614&pitch=0&thumbfov=100",
+      "alt": "Pierres Construction project 2"
+    }
+  ],
+  "reviews": [],
+  "faq": [
+    {
+      "question": "Quels types de projets réalisez-vous ?",
+      "answer": "Nous réalisons des projets variés, de la construction de murs en briques à la rénovation de bâtiments."
+    },
+    {
+      "question": "Offrez-vous des devis ?",
+      "answer": "Oui, nous proposons des devis gratuits et personnalisés pour tous vos projets de maçonnerie."
+    },
+    {
+      "question": "Comment garantissez-vous l'accessibilité ?",
+      "answer": "Nos chantiers sont conçus avec un accès facile, y compris un parking accessible en fauteuil roulant."
+    },
+    {
+      "question": "Où êtes-vous situés ?",
+      "answer": "Nous sommes basés à Lyon et nous intervenons dans toute la région."
+    }
+  ],
+  "contact": {
+    "phone": "+33 4 78 83 07 07",
+    "city": "Lyon",
+    "address": "100 Rue Marietton, 69009 Lyon",
+    "maps_url": "https://www.google.com/maps/place/Pierres+Construction/@45.7767883,4.7961164,14z/data=!4m8!1m2!2m1!1sPierres+Construction!3m4!1s0x47f4eb64e45b0eeb:0x8b1e3434d4ad98e3!8m2!3d45.7767883!4d4.7961164"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:34:29.722Z",
+    "lead_id": "pierres-construction-lyon-001",
+    "source": "outscraper",
+    "place_id": "ChIJ6w5b5GTr9EcR45it1DQ0Hos",
+    "version": 1
+  }
+}

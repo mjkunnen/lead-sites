@@ -1,0 +1,137 @@
+{
+  "slug": "fontaines-maconnerie-fontaines-sur-sa-ne",
+  "lang": "fr",
+  "business_name": "Fontaines MACONNERIE",
+  "niche": "metselaar",
+  "theme": "bold",
+  "palette": "vakman",
+  "tagline": "Maçonnerie de qualité",
+  "about": "Fontaines Maçonnerie est une entreprise réputée à Fontaines-sur-Saône, spécialisée dans les travaux de maçonnerie. Avec une équipe professionnelle et attentive, nous nous engageons à fournir des résultats impeccables et à respecter les délais convenus.",
+  "trust_badges": [
+    "5★ Avis Google",
+    "Devis gratuit",
+    "Région Fontaines-sur-Saône"
+  ],
+  "stats": {
+    "years": 1,
+    "projects": 56,
+    "reviews_count": 7
+  },
+  "hero": {
+    "headline": "Votre maçon à Fontaines-sur-Saône",
+    "subheadline": "Des services de maçonnerie fiables et esthétiques.",
+    "cta_primary": "Demander un devis",
+    "cta_secondary": "Voir nos réalisations",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUQgYrD39yFlwtueJPw2iCQME_L5mCVkypR76ywtWTmQQZ8jZJ6i2GLQqFio41EfNNUDK0ZQhASoQYBz7eNUVjOUrgasUuM2jMG8uBySGrGcwDEs-j180i5ZJKpjg8oXXYQ3Wqouy3uPVn=w1600-h1000-k-no"
+  },
+  "services": [
+    {
+      "title": "Ravalement de façade",
+      "text": "Nous réalisons des ravalements de façade esthétiques et durables, adaptée à vos besoins spécifiques.",
+      "icon": "bricks"
+    },
+    {
+      "title": "Construction de murs",
+      "text": "Nos experts construisent des murs de soutènement solides, même dans des conditions d’accessibilité difficiles.",
+      "icon": "wall"
+    },
+    {
+      "title": "Rénovation de murs en pisé",
+      "text": "Nous effectuons des rénovations soignées de murs en pisé avec des finitions de qualité, comme la chaux.",
+      "icon": "trowel"
+    },
+    {
+      "title": "Enduits et étanchéité",
+      "text": "Nous proposons des travaux d'enduit et d'étanchéité fiables pour assurer la durabilité de vos structures.",
+      "icon": "palette"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUQgYrD39yFlwtueJPw2iCQME_L5mCVkypR76ywtWTmQQZ8jZJ6i2GLQqFio41EfNNUDK0ZQhASoQYBz7eNUVjOUrgasUuM2jMG8uBySGrGcwDEs-j180i5ZJKpjg8oXXYQ3Wqouy3uPVn=w800-h600-k-no",
+      "alt": "Fontaines MACONNERIE project 1"
+    },
+    {
+      "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=JRoUWWJ3QaHSyNvzBIE3cA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=32.186035&pitch=0&thumbfov=100",
+      "alt": "Fontaines MACONNERIE project 2"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Vasile Gheorghita",
+      "text": "Je recommande vivement Fontaines Maçonnerie. Ils ont réalisé un excellent travail de renouvellement de façade chez moi. L’équipe est professionnelle, sérieuse et à l’écoute, avec un souci du détail remarquable. Le chantier a été mené dans les délais et le résultat est impeccable. Je suis très satisfait du rendu final et je n’hésiterai pas à refaire appel à eux pour de futurs travaux.",
+      "stars": 5,
+      "date": "avril 2026"
+    },
+    {
+      "name": "Doudous Breuh",
+      "text": "Mr Koksal et ses ouvriers sont intervenus très rapidement pour construire un mur de soutènement au fond de notre jardin . Malgré les conditions d’accessibilité difficiles , Mr Koksal a accepté tout de suite notre chantier . Nous sommes ravis du résultat .Nous le recommandons chaudement . Merci à lui et à ses ouvriers  Agnès et Christian",
+      "stars": 5,
+      "date": "décembre 2025"
+    },
+    {
+      "name": "Thomas Bruel",
+      "text": "Rénovation d' un mur en pisé avec une jolie finition à la chaux, travail soigné et avec le sourire, à recommander",
+      "stars": 5,
+      "date": "décembre 2025"
+    },
+    {
+      "name": "Lise-Hélène Cortes",
+      "text": "Travail de qualité sur la réfection de murs en pisé. Nous recommandons.",
+      "stars": 5,
+      "date": "décembre 2025"
+    },
+    {
+      "name": "Benoist De Montaigut",
+      "text": "Je recommande cette entreprise les yeux fermés ! Équipe efficace et très sympa ! Ils ont fait un ravalement de façade de toute beauté chez nous a Rochetaillée-sur-Saône 😊",
+      "stars": 5,
+      "date": "novembre 2025"
+    },
+    {
+      "name": "Marie Fontaine",
+      "text": "M. Koksal est professionnel. Il travaille bien et est de bon conseil.\nIl a repris un muret extérieur en mauvais état,  qui est maintenant comme neuf , et renforcé pour que ça ne bouge plus.\nNous allons continuer à travailler avec lui pour d’autres travaux.",
+      "stars": 5,
+      "date": "octobre 2025"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels types de travaux réalisez-vous ?",
+      "answer": "Nous réalisons des ravalements de façade, des constructions de murs, des rénovations de murs en pisé, ainsi que des travaux d'enduit et d'étanchéité."
+    },
+    {
+      "question": "Offrez-vous des devis gratuits ?",
+      "answer": "Oui, nous proposons des devis gratuits pour tous nos services."
+    },
+    {
+      "question": "Quels sont vos délais d'exécution ?",
+      "answer": "Nous nous engageons à respecter les délais convenus lors de la signature du contrat."
+    },
+    {
+      "question": "Votre entreprise est-elle accessible ?",
+      "answer": "Oui, notre local dispose d'un parking accessible en fauteuil roulant."
+    }
+  ],
+  "contact": {
+    "phone": "+33 7 61 96 01 84",
+    "city": "Fontaines-sur-Saône",
+    "address": "2 PLACE DES RENDEZ VOUS, 69270 Fontaines-sur-Saône",
+    "maps_url": "https://www.google.com/maps/place/Fontaines+MACONNERIE/@45.8355313,4.845679,14z/data=!4m8!1m2!2m1!1sFontaines+MACONNERIE!3m4!1s0x83d611cda546e65d:0x95986f57c2c3810b!8m2!3d45.8355313!4d4.845679"
+  },
+  "working_hours": {
+    "Di": "Fermé",
+    "Je": "07:00 - 19:00",
+    "Lu": "07:00 - 19:00",
+    "Ma": "07:00 - 19:00",
+    "Me": "07:00 - 19:00",
+    "Sa": "07:00 - 13:30",
+    "Ve": "07:00 - 19:00"
+  },
+  "metadata": {
+    "generated_at": "2026-04-25T08:35:32.961Z",
+    "lead_id": "fontaines-maconnerie-fontaines-sur-sa-ne-001",
+    "source": "outscraper",
+    "place_id": "ChIJXeZGpc0R1oMRC4HDwldvmJU",
+    "version": 1
+  }
+}
