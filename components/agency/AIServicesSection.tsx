@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 
 function WorkflowVisual() {
   const steps = [
-    { label: "Lead komt binnen", icon: "inbox" },
-    { label: "AI kwalificeert", icon: "brain" },
-    { label: "Offerte verstuurd", icon: "send" },
-    { label: "Follow-up auto", icon: "repeat" },
-    { label: "Deal gesloten", icon: "check" },
+    { label: "Lead comes in", icon: "inbox" },
+    { label: "AI qualifies", icon: "brain" },
+    { label: "Quote sent", icon: "send" },
+    { label: "Auto follow-up", icon: "repeat" },
+    { label: "Deal closed", icon: "check" },
   ];
   return (
     <div className="mt-6 space-y-2">
@@ -60,7 +60,7 @@ function CodeVisual() {
           <span className="text-[#C1D6F9]">const</span> <span className="text-white">ai</span> <span className="text-[#52527A]">=</span> <span className="text-[#B9EACB]">connect</span><span className="text-white">(</span>
         </motion.div>
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.5 }}>
-          {"  "}<span className="text-[#FFBD2E]">&quot;jouw-crm&quot;</span><span className="text-[#52527A]">,</span>
+          {"  "}<span className="text-[#FFBD2E]">&quot;your-crm&quot;</span><span className="text-[#52527A]">,</span>
         </motion.div>
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.7 }}>
           {"  "}<span className="text-[#FFBD2E]">&quot;email&quot;</span><span className="text-[#52527A]">,</span>
@@ -91,7 +91,7 @@ function WebsiteVisual() {
         <div className="h-2 w-2 rounded-full bg-[#FF6057]" />
         <div className="h-2 w-2 rounded-full bg-[#FFBD2E]" />
         <div className="h-2 w-2 rounded-full bg-[#27C840]" />
-        <div className="ml-2 flex-1 rounded bg-gray-100 px-2 py-0.5 text-[9px] text-gray-400">jouwbedrijf.nl</div>
+        <div className="ml-2 flex-1 rounded bg-gray-100 px-2 py-0.5 text-[9px] text-gray-400">yourbusiness.com</div>
       </div>
       <div className="p-4">
         <motion.div className="space-y-2" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.3 }}>
@@ -122,7 +122,7 @@ function WebsiteVisual() {
           transition={{ delay: 1 }}
           className="mt-3 rounded-lg bg-[#B9EACB]/10 px-3 py-2 text-center text-xs font-medium text-[#2d7a4f]"
         >
-          Klant vindt jou → neemt contact op → deal
+          Client finds you → gets in touch → deal
         </motion.div>
       </div>
     </div>
@@ -133,23 +133,23 @@ function WebsiteVisual() {
 
 const services = [
   {
-    title: "AI Automatiseringen",
-    text: "Jouw hele klantproces op autopilot. Van het moment dat een lead binnenkomt tot de deal gesloten is — AI handelt alles af. Jij hoeft niks te doen.",
-    results: ["20+ uur per week bespaard", "Klanten sneller geholpen", "Niks meer vergeten"],
+    title: "AI Automations",
+    text: "Your entire client process on autopilot. From the moment a lead comes in until the deal is closed — AI handles everything. You don't have to do a thing.",
+    results: ["20+ hours per week saved", "Clients helped faster", "Nothing forgotten"],
     size: "lg:col-span-2",
     visual: <WorkflowVisual />,
   },
   {
     title: "Custom Development",
-    text: "Je tools praten niet met elkaar? Wij bouwen de brug. API-koppelingen, dashboards, en maatwerk software die alles verbindt.",
-    results: ["Al je tools gekoppeld", "Data op één plek", "Op maat gebouwd"],
+    text: "Your tools don't talk to each other? We build the bridge. API connections, dashboards, and custom software that connects everything.",
+    results: ["All your tools connected", "Data in one place", "Custom built"],
     size: "",
     visual: <CodeVisual />,
   },
   {
-    title: "Professionele Websites",
-    text: "Een website die klanten binnenhaalt, niet alleen mooi is. SEO-geoptimaliseerd, razendsnel, en gebouwd om te converteren.",
-    results: ["Meer klanten via Google", "Werkt perfect op mobiel", "Binnen 2 weken live"],
+    title: "Professional Websites",
+    text: "A website that brings in clients, not just looks good. SEO-optimized, lightning fast, and built to convert.",
+    results: ["More clients via Google", "Works perfectly on mobile", "Live within 2 weeks"],
     size: "",
     visual: <WebsiteVisual />,
   },
@@ -214,19 +214,19 @@ export default function AIServicesSection() {
           className="mx-auto max-w-3xl text-center"
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-[#52527A]/10 bg-white px-4 py-1.5 text-sm font-medium text-[#52527A] shadow-sm">
-            Wat wij doen
+            What we do
           </span>
           <h2 className="mt-6 text-4xl font-bold text-[#1a1a2e] sm:text-5xl">
-            Wij nemen het werk{" "}
+            We take the work{" "}
             <span className="relative">
-              uit handen
+              off your hands
               <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 10" preserveAspectRatio="none">
                 <path d="M0 8 Q50 0 100 5 Q150 10 200 2" fill="none" stroke="#B9EACB" strokeWidth="3" />
               </svg>
             </span>
           </h2>
           <p className="mt-6 font-[family-name:var(--font-urbanist)] text-lg text-[#52527A]">
-            AI-automatiseringen, maatwerk software en professionele websites. Alles wat jouw bedrijf nodig heeft om te groeien zonder extra personeel.
+            AI automations, custom software, and professional websites. Everything your business needs to grow without extra staff.
           </p>
         </motion.div>
 

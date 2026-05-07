@@ -32,10 +32,10 @@ export default function ContactSection() {
             Contact
           </span>
           <h2 className="mt-6 text-3xl font-bold text-[#1a1a2e] sm:text-4xl">
-            Klaar om te <span className="text-[#52527A]">starten?</span>
+            Ready to <span className="text-[#52527A]">get started?</span>
           </h2>
           <p className="mt-4 font-[family-name:var(--font-urbanist)] text-lg text-[#52527A]">
-            Plan een gratis discovery call en ontdek wat AI voor jouw bedrijf kan betekenen.
+            Schedule a free discovery call and find out what AI can do for your business.
           </p>
         </motion.div>
 
@@ -57,14 +57,14 @@ export default function ContactSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="mt-5 text-xl font-semibold text-[#1a1a2e]">Bericht verstuurd!</h3>
-                <p className="mt-2 text-[#52527A]">We nemen binnen 24 uur contact met je op.</p>
+                <h3 className="mt-5 text-xl font-semibold text-[#1a1a2e]">Message sent!</h3>
+                <p className="mt-2 text-[#52527A]">We&apos;ll get back to you within 24 hours.</p>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="rounded-2xl bg-[#FAFAFA] p-8">
                 <div className="grid gap-5 sm:grid-cols-2">
                   <div>
-                    <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-[#1a1a2e]">Naam</label>
+                    <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-[#1a1a2e]">Name</label>
                     <input id="name" type="text" name="name" required className="w-full rounded-xl border border-[#52527A]/10 bg-white px-4 py-3 text-[#1a1a2e] transition-all focus:border-[#52527A]/30 focus:outline-none focus:ring-2 focus:ring-[#52527A]/10" />
                   </div>
                   <div>
@@ -73,11 +73,11 @@ export default function ContactSection() {
                   </div>
                 </div>
                 <div className="mt-5">
-                  <label htmlFor="phone" className="mb-1.5 block text-sm font-medium text-[#1a1a2e]">Telefoon</label>
+                  <label htmlFor="phone" className="mb-1.5 block text-sm font-medium text-[#1a1a2e]">Phone</label>
                   <input id="phone" type="tel" name="phone" className="w-full rounded-xl border border-[#52527A]/10 bg-white px-4 py-3 text-[#1a1a2e] transition-all focus:border-[#52527A]/30 focus:outline-none focus:ring-2 focus:ring-[#52527A]/10" />
                 </div>
                 <div className="mt-5">
-                  <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-[#1a1a2e]">Bericht</label>
+                  <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-[#1a1a2e]">Message</label>
                   <textarea id="message" name="message" rows={4} required className="w-full resize-none rounded-xl border border-[#52527A]/10 bg-white px-4 py-3 text-[#1a1a2e] transition-all focus:border-[#52527A]/30 focus:outline-none focus:ring-2 focus:ring-[#52527A]/10" />
                 </div>
                 <button
@@ -85,7 +85,7 @@ export default function ContactSection() {
                   disabled={loading}
                   className="group relative mt-6 w-full overflow-hidden rounded-full bg-[#1a1a2e] py-3.5 font-semibold text-white shadow-lg shadow-[#1a1a2e]/10 transition-all hover:shadow-xl hover:shadow-[#1a1a2e]/15 disabled:opacity-60"
                 >
-                  <span className="relative z-10">{loading ? "Versturen..." : "Verstuur bericht"}</span>
+                  <span className="relative z-10">{loading ? "Sending..." : "Send message"}</span>
                   <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
                 </button>
               </form>
@@ -100,9 +100,9 @@ export default function ContactSection() {
             className="flex flex-col gap-5 lg:col-span-2"
           >
             {[
-              { icon: "phone", title: "Bel mij", value: siteConfig.phone, href: `tel:${siteConfig.phone}`, sub: "Ma-Vr 09:00-17:00", color: "bg-[#C1D6F9]/20 text-[#52527A]" },
-              { icon: "whatsapp", title: "WhatsApp", value: "Stuur een bericht", href: siteConfig.whatsapp, sub: "Direct antwoord", color: "bg-[#B9EACB]/20 text-[#2d7a4f]" },
-              { icon: "email", title: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}`, sub: "Reactie binnen 24 uur", color: "bg-[#E8D5F5]/20 text-[#52527A]" },
+              { icon: "phone", title: "Call me", value: siteConfig.phone, href: `tel:${siteConfig.phone}`, sub: "Mon-Fri 09:00-17:00", color: "bg-[#C1D6F9]/20 text-[#52527A]" },
+              { icon: "whatsapp", title: "WhatsApp", value: "Send a message", href: siteConfig.whatsapp, sub: "Instant reply", color: "bg-[#B9EACB]/20 text-[#2d7a4f]" },
+              { icon: "email", title: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}`, sub: "Reply within 24 hours", color: "bg-[#E8D5F5]/20 text-[#52527A]" },
             ].map((item, i) => (
               <div key={i} className="rounded-2xl bg-[#FAFAFA] p-6 transition-all hover:bg-white hover:shadow-md hover:shadow-[#52527A]/5">
                 <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${item.color}`}>

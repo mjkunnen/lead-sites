@@ -41,7 +41,7 @@ export default function Navbar() {
               href="#contact"
               className="rounded-full bg-[#1a1a2e] px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#2a2a4e] hover:shadow-lg hover:shadow-[#1a1a2e]/10"
             >
-              Gratis adviesgesprek
+              Free consultation
             </a>
           </div>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
 
       {menuOpen && (
         <div className="fixed inset-0 z-40 flex flex-col items-center justify-center gap-6 bg-white">
-          <button onClick={() => setMenuOpen(false)} className="absolute right-6 top-6 text-[#52527A]" aria-label="Sluiten">
+          <button onClick={() => setMenuOpen(false)} className="absolute right-6 top-6 text-[#52527A]" aria-label="Close">
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -70,7 +70,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href="#contact" onClick={() => setMenuOpen(false)} className="mt-4 rounded-full bg-[#1a1a2e] px-8 py-3 text-lg font-semibold text-white">
-            Gratis adviesgesprek
+            Free consultation
           </a>
         </div>
       )}

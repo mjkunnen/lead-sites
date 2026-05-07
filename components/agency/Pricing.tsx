@@ -16,10 +16,10 @@ export default function Pricing() {
           className="mx-auto max-w-2xl text-center"
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-[#52527A]/10 bg-[#FAFAFA] px-4 py-1.5 text-sm font-medium text-[#52527A]">
-            Prijzen
+            Pricing
           </span>
           <h2 className="mt-6 text-3xl font-bold text-[#1a1a2e] sm:text-4xl">
-            Transparante <span className="text-[#52527A]">prijzen</span>
+            Transparent <span className="text-[#52527A]">pricing</span>
           </h2>
         </motion.div>
 
@@ -40,7 +40,7 @@ export default function Pricing() {
               {plan.highlighted && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                   <span className="rounded-full bg-[#B9EACB] px-4 py-1 text-xs font-bold text-[#1a1a2e]">
-                    Meest gekozen
+                    Most popular
                   </span>
                 </div>
               )}
@@ -50,8 +50,8 @@ export default function Pricing() {
 
               <div className="mt-6">
                 <span className={`text-4xl font-bold ${plan.highlighted ? "text-white" : "text-[#1a1a2e]"}`}>{plan.price}</span>
-                {plan.price !== "Op maat" && (
-                  <span className={`ml-2 text-sm ${plan.highlighted ? "text-white/50" : "text-[#52527A]"}`}>eenmalig</span>
+                {plan.price !== "Custom" && (
+                  <span className={`ml-2 text-sm ${plan.highlighted ? "text-white/50" : "text-[#52527A]"}`}>one-time</span>
                 )}
               </div>
 

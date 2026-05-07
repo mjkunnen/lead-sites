@@ -37,13 +37,14 @@ export default function TrustSection() {
           className="text-center"
         >
           <h2 className="text-2xl font-bold text-[#1a1a2e] sm:text-3xl">
-            Jouw data is bij ons{" "}
+            Your data is{" "}
             <span className="relative">
-              veilig
+              safe
               <svg className="absolute -bottom-1 left-0 w-full" viewBox="0 0 100 8" preserveAspectRatio="none">
                 <path d="M0 7 Q25 0 50 4 Q75 8 100 1" fill="none" stroke="#B9EACB" strokeWidth="3" />
               </svg>
             </span>
+            {" "}with us
           </h2>
         </motion.div>
 

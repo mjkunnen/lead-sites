@@ -14,10 +14,10 @@ export default function ProcessTimeline() {
           className="mx-auto max-w-2xl text-center"
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-[#52527A]/10 bg-[#FAFAFA] px-4 py-1.5 text-sm font-medium text-[#52527A]">
-            Ons proces
+            Our process
           </span>
           <h2 className="mt-6 text-3xl font-bold text-[#1a1a2e] sm:text-4xl">
-            Van discovery naar <span className="text-[#52527A]">live</span> in 4 stappen
+            From discovery to <span className="text-[#52527A]">live</span> in 4 steps
           </h2>
         </motion.div>
 

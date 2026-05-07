@@ -50,7 +50,7 @@ export default function FAQ() {
           <span className="inline-flex items-center gap-2 rounded-full border border-[#52527A]/10 bg-white px-4 py-1.5 text-sm font-medium text-[#52527A] shadow-sm">
             FAQ
           </span>
-          <h2 className="mt-6 text-3xl font-bold text-[#1a1a2e] sm:text-4xl">Veelgestelde vragen</h2>
+          <h2 className="mt-6 text-3xl font-bold text-[#1a1a2e] sm:text-4xl">Frequently asked questions</h2>
         </motion.div>
 
         <div className="mt-12 rounded-2xl bg-white p-8 shadow-sm">

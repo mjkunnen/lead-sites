@@ -10,12 +10,12 @@ export default function AgencyFooter() {
               Netjes<span className="text-[#52527A]">Online</span>
             </span>
             <p className="mt-4 max-w-sm font-[family-name:var(--font-urbanist)] text-sm leading-relaxed text-[#52527A]">
-              AI-automatiseringen en professionele websites voor MKB-bedrijven. Persoonlijk, snel en resultaatgericht.
+              AI automations and professional websites for SMBs. Personal, fast, and results-driven.
             </p>
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[#52527A]/50">Navigatie</h4>
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[#52527A]/50">Navigation</h4>
             <ul className="flex flex-col gap-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -36,7 +36,7 @@ export default function AgencyFooter() {
         </div>
 
         <div className="mt-12 border-t border-[#52527A]/8 pt-8 text-center text-sm text-[#52527A]/50">
-          &copy; {new Date().getFullYear()} {siteConfig.name}. Alle rechten voorbehouden.
+          &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
         </div>
       </div>
     </footer>

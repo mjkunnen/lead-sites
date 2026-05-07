@@ -36,10 +36,10 @@ export default function Portfolio() {
             Cases
           </span>
           <h2 className="mt-6 text-3xl font-bold text-white sm:text-4xl">
-            Recent werk
+            Recent work
           </h2>
           <p className="mt-4 text-lg text-gray-400">
-            Een selectie van projecten die we recent hebben opgeleverd.
+            A selection of projects we recently delivered.
           </p>
         </motion.div>
 
@@ -73,7 +73,7 @@ export default function Portfolio() {
 
                   <div className="absolute inset-0 flex items-center justify-center bg-blue-600/80 opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
                     <span className="flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-blue-600 shadow-lg">
-                      Bekijk project
+                      View project
                       <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                       </svg>

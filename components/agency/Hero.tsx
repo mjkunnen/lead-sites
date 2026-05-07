@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const words = ["Automatiseren", "Versnellen", "Groeien"];
+const words = ["Automate", "Accelerate", "Grow"];
 
 function AnimatedWords() {
   return (
@@ -59,7 +59,7 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#B9EACB] opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[#52527A]" />
             </span>
-            Beschikbaar voor nieuwe projecten
+            Available for new projects
           </motion.div>
 
           <motion.h1
@@ -68,9 +68,9 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-[family-name:var(--font-urbanist)] text-5xl font-bold leading-[1.08] tracking-tight text-[#1a1a2e] sm:text-6xl lg:text-[4.5rem]"
           >
-            Moderne<sup className="text-[0.4em] text-[#52527A]/60">AI</sup> oplossingen
+            Modern<sup className="text-[0.4em] text-[#52527A]/60">AI</sup> solutions
             <br />
-            die werken voor{" "}
+            that work for{" "}
             <AnimatedWords />
           </motion.h1>
 
@@ -80,7 +80,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mx-auto mt-8 max-w-2xl font-[family-name:var(--font-urbanist)] text-lg leading-relaxed text-[#52527A] sm:text-xl"
           >
-            Stop met handmatig werk. Wij bouwen AI-automatiseringen en professionele websites die jouw bedrijf laten groeien. Binnen weken operationeel.
+            Stop doing manual work. We build AI automations and professional websites that grow your business. Operational within weeks.
           </motion.p>
 
           <motion.div
@@ -94,7 +94,7 @@ export default function Hero() {
               className="group relative overflow-hidden rounded-full bg-[#1a1a2e] px-8 py-4 text-center font-semibold text-white shadow-xl shadow-[#1a1a2e]/10 transition-all hover:shadow-2xl hover:shadow-[#1a1a2e]/20"
             >
               <span className="relative z-10 flex items-center gap-2">
-                Gratis adviesgesprek
+                Free consultation
                 <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -105,7 +105,7 @@ export default function Hero() {
               href="#diensten"
               className="group flex items-center gap-2 rounded-full border border-[#52527A]/15 bg-white px-8 py-4 font-semibold text-[#1a1a2e] shadow-sm transition-all hover:border-[#52527A]/25 hover:shadow-md"
             >
-              Bekijk mogelijkheden
+              View services
               <svg className="h-4 w-4 text-[#52527A] transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
@@ -139,9 +139,9 @@ export default function Hero() {
               <div className="grid grid-cols-3 gap-4">
                 {/* Stats cards */}
                 {[
-                  { label: "Bespaard per maand", value: "€4.200", change: "door automatisering", color: "#B9EACB" },
-                  { label: "Nieuwe klanten", value: "+18", change: "via website & AI", color: "#C1D6F9" },
-                  { label: "Uren vrijgemaakt", value: "86", change: "minder handwerk", color: "#E8D5F5" },
+                  { label: "Saved per month", value: "€4,200", change: "through automation", color: "#B9EACB" },
+                  { label: "New clients", value: "+18", change: "via website & AI", color: "#C1D6F9" },
+                  { label: "Hours freed up", value: "86", change: "less manual work", color: "#E8D5F5" },
                 ].map((stat, i) => (
                   <motion.div
                     key={i}
@@ -167,7 +167,7 @@ export default function Hero() {
                 transition={{ delay: 1.5 }}
                 className="mt-4 flex items-center justify-between rounded-xl bg-white p-4 shadow-sm"
               >
-                {["Klant zoekt", "Vindt jouw site", "AI reageert", "Offerte uit", "Deal binnen"].map((step, i) => (
+                {["Client searches", "Finds your site", "AI responds", "Quote sent", "Deal closed"].map((step, i) => (
                   <div key={i} className="flex items-center gap-2">
                     <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#52527A]/5 text-xs font-bold text-[#52527A]">
                       {i + 1}
@@ -205,8 +205,8 @@ export default function Hero() {
                 </svg>
               </div>
               <div>
-                <div className="text-xs font-semibold text-[#1a1a2e]">Kosten omlaag</div>
-                <div className="text-[10px] text-gray-400">-60% handmatig werk</div>
+                <div className="text-xs font-semibold text-[#1a1a2e]">Costs down</div>
+                <div className="text-[10px] text-gray-400">-60% manual work</div>
               </div>
             </div>
           </motion.div>
@@ -224,8 +224,8 @@ export default function Hero() {
                 </svg>
               </div>
               <div>
-                <div className="text-xs font-semibold text-[#1a1a2e]">Omzet omhoog</div>
-                <div className="text-[10px] text-gray-400">+40% meer klanten</div>
+                <div className="text-xs font-semibold text-[#1a1a2e]">Revenue up</div>
+                <div className="text-[10px] text-gray-400">+40% more clients</div>
               </div>
             </div>
           </motion.div>

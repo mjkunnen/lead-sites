@@ -45,9 +45,9 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "NetjesOnline — AI Automatiseringen & Websites voor MKB",
+  title: "NetjesOnline — AI Automations & Websites for SMBs",
   description:
-    "AI-automatiseringen en professionele websites voor MKB-bedrijven. Stop met handmatig werk — binnen weken operationeel.",
+    "AI automations and professional websites for small and medium businesses. Stop doing manual work — operational within weeks.",
   robots: { index: false, follow: false },
 };
 

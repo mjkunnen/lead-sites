@@ -26,10 +26,10 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
 }
 
 const stats = [
-  { value: 60, suffix: "%", label: "Minder handmatig werk" },
-  { value: 600, suffix: "+", label: "Tools te koppelen" },
-  { value: 2, suffix: " weken", label: "Van idee naar live" },
-  { value: 40, suffix: "%", label: "Meer klanten online" },
+  { value: 60, suffix: "%", label: "Less manual work" },
+  { value: 600, suffix: "+", label: "Tools to connect" },
+  { value: 2, suffix: " weeks", label: "From idea to live" },
+  { value: 40, suffix: "%", label: "More clients online" },
 ];
 
 export default function StatsBar() {
@@ -51,10 +51,10 @@ export default function StatsBar() {
           className="mb-12 text-center"
         >
           <h3 className="text-2xl font-bold text-white sm:text-3xl">
-            Direct AI implementeren
+            Implement AI today
           </h3>
           <p className="mt-2 font-[family-name:var(--font-urbanist)] text-white/60">
-            Onze cijfers spreken voor zich
+            Our numbers speak for themselves
           </p>
         </motion.div>
 

@@ -45,11 +45,11 @@ export default function USPSection() {
           className="mx-auto max-w-2xl text-center"
         >
           <span className="inline-block rounded-full bg-blue-50 px-4 py-1.5 text-sm font-medium text-blue-600">
-            Waarom NetjesOnline
+            Why NetjesOnline
           </span>
-          <WordReveal text="Wat ons anders maakt" className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl" />
+          <WordReveal text="What sets us apart" className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-bold text-gray-900 sm:text-4xl" />
           <p className="mt-4 text-lg text-gray-600">
-            Wij maken het makkelijk. Geen gedoe, geen verrassingen.
+            We make it easy. No hassle, no surprises.
           </p>
         </motion.div>
 
@@ -63,7 +63,7 @@ export default function USPSection() {
               <p className="mt-3 leading-relaxed text-gray-600">{item.text}</p>
               {/* Hover reveal arrow */}
               <div className="mt-6 flex items-center gap-2 text-sm font-medium text-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Meer info
+                Learn more
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

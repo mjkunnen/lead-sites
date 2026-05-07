@@ -37,13 +37,13 @@ export default function ProblemSection() {
           className="mx-auto max-w-2xl text-center"
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-red-500/20 bg-red-500/10 px-4 py-1.5 text-sm font-medium text-red-400">
-            Het probleem
+            The problem
           </span>
           <h2 className="mt-6 text-3xl font-bold text-white sm:text-4xl">
-            Herkenbaar?
+            Sound familiar?
           </h2>
           <p className="mt-4 text-lg text-gray-400">
-            Dit zijn de problemen die we dagelijks oplossen.
+            These are the problems we solve every day.
           </p>
         </motion.div>
 

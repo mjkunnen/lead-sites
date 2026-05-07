@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const sections = [
-  { id: "over", label: "Over mij" },
-  { id: "diensten", label: "Diensten" },
-  { id: "werkwijze", label: "Werkwijze" },
+  { id: "over", label: "About" },
+  { id: "diensten", label: "Services" },
+  { id: "werkwijze", label: "Process" },
   { id: "portfolio", label: "Portfolio" },
-  { id: "prijzen", label: "Prijzen" },
+  { id: "prijzen", label: "Pricing" },
   { id: "contact", label: "Contact" },
 ];
 
