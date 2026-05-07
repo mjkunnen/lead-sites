@@ -18,11 +18,11 @@ export default function IntegrationMarquee() {
         className="mb-10 text-center"
       >
         <h3 className="text-2xl font-bold text-[#1a1a2e] sm:text-3xl">
-          De integraties zijn{" "}
-          <span className="text-[#52527A]">eindeloos</span>
+          The integrations are{" "}
+          <span className="text-[#52527A]">endless</span>
         </h3>
         <p className="mt-2 font-[family-name:var(--font-urbanist)] text-[#52527A]">
-          Wij verbinden met <span className="font-semibold">600+</span> tools en platformen
+          We connect with <span className="font-semibold">600+</span> tools and platforms
         </p>
       </motion.div>
 

@@ -55,7 +55,7 @@ export default function ReviewsMarquee() {
             What clients say
           </h2>
           <p className="mt-4 text-lg text-gray-400">
-            More than 50 satisfied business owners came before you.
+            More than 50 satisfied business owners have gone before you.
           </p>
         </motion.div>
       </div>

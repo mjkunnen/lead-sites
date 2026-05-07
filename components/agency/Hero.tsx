@@ -70,7 +70,7 @@ export default function Hero() {
           >
             Modern<sup className="text-[0.4em] text-[#52527A]/60">AI</sup> solutions
             <br />
-            that work for{" "}
+            that help you{" "}
             <AnimatedWords />
           </motion.h1>
 

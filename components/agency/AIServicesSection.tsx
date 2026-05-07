@@ -148,7 +148,7 @@ const services = [
   },
   {
     title: "Professional Websites",
-    text: "A website that brings in clients, not just looks good. SEO-optimized, lightning fast, and built to convert.",
+    text: "A website that doesn't just look good — it brings in clients. SEO-optimized, lightning fast, and built to convert.",
     results: ["More clients via Google", "Works perfectly on mobile", "Live within 2 weeks"],
     size: "",
     visual: <WebsiteVisual />,
